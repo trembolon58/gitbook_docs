@@ -14,7 +14,7 @@
 
 Для этого заходите в группу, подключенную к проекту, там открываете раздел Управление - Работа с API:
 
-<div><figure><img src="../../../.gitbook/assets/unnamed.png" alt="" width="339"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/unnamed (1).png" alt="" width="322"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/unnamed.png" alt="" width="339"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/unnamed (1) (1).png" alt="" width="322"><figcaption></figcaption></figure></div>
 
 Далее нам нужна вкладка Callback API, нажимаем:
 

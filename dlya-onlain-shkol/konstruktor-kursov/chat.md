@@ -105,7 +105,7 @@ description: >-
 
 Например, для хедера можно выбрать градиентную заливку:
 
-<figure><img src="/broken/files/z2YyvXyhd4hWHs1TyaA9" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-03-07_10-40-56.png" alt=""><figcaption></figcaption></figure>
 
 #### Аватар онлайн-чата
 
@@ -131,51 +131,51 @@ description: >-
 
 Вы можете самостоятельно указать свое значение или оставить по умолчанию.
 
-<figure><img src="/broken/files/QdSs7oyEYzgY2heVinNk" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (310).png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### **Надпись в мобильной версии**&#x20;
 
 По умолчанию установлен текст "Выберите удобный способ связи"
 
-<figure><img src="/broken/files/uxnHnQrUNRkSvwKWrnd9" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (311).png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### **Сообщение при назначении ученику оператора**
 
 Если вставить в поле #{operatorName}, то будет показано имя оператора, указанное в разделе Сотрудники. Назначить оператора можно вручную: кликнуть в диалоге с клиентом кнопку "Взять клиента" или "Передать клиента". Или настроить автораспределение клиентов между операторами в разделе Сотрудники.&#x20;
 
-<figure><img src="/broken/files/EImK7emJSexTb6TWuTKg" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (312).png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### **Сообщение при отсутствии операторов в сети**
 
 По умолчанию будет высвечивать следующее сообщение: "На данный момент операторов нет в сети. Оставьте нам сообщение и мы обязательно вам ответим в ближайшее время"&#x20;
 
-<figure><img src="/broken/files/6LtGK1TVH2AA5F1svNMj" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (313).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Статус "В сети" бот получает из раздела "Сотрудники". Возможные статусы: В сети, Перерыв, Отсутствует.
 
-<figure><img src="/broken/files/qB7uHQjenHi5bYKiiB3e" alt="" width="401"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-03-11_11-20-38.png" alt="" width="401"><figcaption></figcaption></figure>
 
 Сменить свой статус также можно в верхней строке, находясь в любом разделе проекта.
 
 Пример данного сообщения в онлайн-чате:
 
-<figure><img src="/broken/files/sJQKWRoHPLI6Ivc6045F" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/spaces_-LxKl4rC_EcwBAz40Qn__uploads_Eg85LTOj4RJClMsbsbrQ_image.jpg" alt=""><figcaption></figcaption></figure>
 
 #### Язык в чате
 
 Можно выбрать русский или английский язык для служебных сообщений в чате, которые установлены по умолчанию
 
-<figure><img src="/broken/files/VIbicuLMMLiAMRN4fJDv" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (314).png" alt=""><figcaption></figcaption></figure>
 
 Пример сообщений по умолчанию из поля "Сообщение, когда операторов нет в сети" и "Сообщение, когда клиенту назначается оператор при включенном" при включенном английском языке в настройках онлайн-чата :
 
-<figure><img src="/broken/files/F84bficZfZ4izPaI4Q13" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (315).png" alt=""><figcaption></figcaption></figure>
 
 #### **Звуковые уведомления в чате.**&#x20;
 
 Данные настройки позволяют включить/выключить звуковые уведомления открытия чата и о новых сообщениях в онлайн-чате для клиентов на сайте:
 
-<figure><img src="/broken/files/f2rriaEZKnLQmCuyMRsK" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (316).png" alt=""><figcaption></figcaption></figure>
 
 #### **Отображение мессенджеров**&#x20;
 
@@ -211,13 +211,13 @@ description: >-
 
 По умолчанию "Написать в"&#x20;
 
-<figure><img src="/broken/files/vtF545tpGol8D68eZqkC" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (319).png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### **Начальное сообщение в Whatsapp**&#x20;
 
 Этот текст будет записан в поле ввода у пользователя в приложении Whatsapp при переходе по кнопке с сайта. Ему будет достаточно нажать "Отправить". Так же прописывайте этот текст в условии стартового блока цепочки сообщений.
 
-<figure><img src="/broken/files/jvPSM1JqVzIEpNjrb04f" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (320).png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### **Свои ссылки**
 
@@ -245,21 +245,21 @@ description: >-
 
 В первом сообщении можно получить согласие на обработку персональных данных и/или собрать данные пользователя, используя форму для сбора данных, а также задать или изменить почту через приветственное окно. Заполнение формы можно пропустить или сделать обязательной, включив ползунок _Сделать заполнение формы обязательным._
 
-<figure><img src="/broken/files/FNhsmvp9revy1GJUbAp9" alt="" width="499"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-04-18_15-38-51.png" alt="" width="499"><figcaption></figcaption></figure>
 
 Пример первого сообщения со сбором данных:
 
-<figure><img src="/broken/files/XpijrMAntnyyE3sB6TJI" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/6.webp" alt=""><figcaption></figcaption></figure>
 
 После настройки формы существует поле с выпадающим списком для выбора отображения настроек страны:
 
-<figure><img src="/broken/files/gwFYJ0a3DUqk3QiuCMIc" alt="" width="334"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-05-23 в 18.29.00.png" alt="" width="334"><figcaption></figcaption></figure>
 
 #### Запрос на звонок
 
 Чекбокс "Запрос на звонок" отображается в настройках онлайн-чата, если в проекте подключена Телефония.&#x20;
 
-<figure><img src="/broken/files/W97G0fUsqcvauxV9oC6I" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (321).png" alt=""><figcaption></figcaption></figure>
 
 _Принцип работы:_
 
@@ -278,38 +278,38 @@ _Принцип работы:_
 
 Данный параметр по умолчанию отключен. При включенном ползунке при первом запуске онлайн-чата появится сообщение Даю согласие на обработку персональных данных  и кнопка **`Подтвердить`**
 
-<div align="center"><figure><img src="/broken/files/kQa5DGphucIUgNxxqLIx" alt=""><figcaption><p>Настройка онлайн-чата</p></figcaption></figure></div>
+<div align="center"><figure><img src="../../.gitbook/assets/image (322).png" alt=""><figcaption><p>Настройка онлайн-чата</p></figcaption></figure></div>
 
 Пример первого сообщения для получения разрешения на обработку персональных данных:
 
-<figure><img src="/broken/files/VsHpD97VlD3He3AO1SB7" alt="" width="424"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-03-11_11-37-28.png" alt="" width="424"><figcaption></figcaption></figure>
 
 #### Настройка начальных кнопок
 
-<div align="center"><figure><img src="/broken/files/gomimMfETtEsoFTEumWn" alt=""><figcaption></figcaption></figure></div>
+<div align="center"><figure><img src="../../.gitbook/assets/image (323).png" alt=""><figcaption></figcaption></figure></div>
 
 При клике по кнопке _**Добавить кнопку**_ откроется форма создания начальной кнопки:&#x20;
 
-<div align="center"><figure><img src="/broken/files/qcaauq079yYqqf0yESJK" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="center"><figure><img src="../../.gitbook/assets/image (324).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Кнопка может иметь одну из функций:
 
 1. **Ссылка:** позволяет добавить ссылку для перехода на другую страницу сайта или сторонний веб-ресурс.
 
-<figure><img src="/broken/files/Z5XlRARllABZBAv5STQB" alt="" width="282"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-01-05_16-15-44.png" alt="" width="282"><figcaption></figcaption></figure>
 
 2. Почта: клиент будет перенаправлен на почтовый сервис, чтобы написать письмо на почту, указанную в настройках кнопки:
 
-<figure><img src="/broken/files/osJ0HXhr4uaO0KAGbPXW" alt="" width="206"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-01-05_16-16-00.png" alt="" width="206"><figcaption></figcaption></figure>
 
 3. Телефон: запустится приложение для звонков. Или будет предложено выбрать с помощью какого приложения позвонить. Зависит от устройства, на котором пользователь (клиент) переходит по этой кнопке. Вызов будет на номер, указанный в настройках кнопки
 
-<figure><img src="/broken/files/jOym80JjTxM2S0LGNZS3" alt="" width="209"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-01-05_16-16-14.png" alt="" width="209"><figcaption></figcaption></figure>
 
 4. Сообщение (от администратора / пользователя) данная функция позволяет делать быстрые ответы от бота при клике на кнопку. \
    Например, можно сделать кнопку с названием Адрес, а в поле Сообщение указать точный адрес и время работы офиса.
 
-<div><figure><img src="/broken/files/ByAPuuNKv0vXNK2ZPUcr" alt="" width="275"><figcaption></figcaption></figure> <figure><img src="/broken/files/Ob1A0NxeXLvX8Eg3PbHs" alt="" width="269"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/2024-01-05_16-16-29.png" alt="" width="275"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/2024-01-05_16-16-43.png" alt="" width="269"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Текст в поле "Сообщение" будет без переноса строк. Учитывайте этот момент в работе.
@@ -317,7 +317,7 @@ _Принцип работы:_
 
 **Обработка клиентов с разных доменов.** Эта настройка позволяет разделить диалоги, если один и тот же человек пишет в онлайн-чат, размещенный на разных доменах. По умолчанию это один и тот же диалог.
 
-<figure><img src="/broken/files/tBPn0J6dNGydi1LeqBxt" alt="" width="392"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-03-11_11-39-05.png" alt="" width="392"><figcaption></figcaption></figure>
 
 Данный переключатель необходим, если разные онлайн-чаты установлены на разных сайтах на одном домене, и нужно разделить диалоги, когда пишет один и тот же человек&#x20;
 
@@ -329,13 +329,13 @@ _Принцип работы:_
 
 **Кнопки в тексте будут отображаться в истории онлайн чата (Переключатель).** Включите его, чтобы кнопки в тексте из конструктора воронок отображались в истории онлайн -чата с клиентом
 
-<figure><img src="/broken/files/WkJN5dYlEGDVlszMaZ2w" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (325).png" alt=""><figcaption></figcaption></figure>
 
 #### **Скрыть онлайн-чат**
 
 Необязательно удалять онлайн чат с сайта. Емо можно просто скрыть с помощью соответствующего переключателя:
 
-<div align="center"><figure><img src="/broken/files/6zahWZpWuqnGoLsisXWw" alt=""><figcaption></figcaption></figure></div>
+<div align="center"><figure><img src="../../.gitbook/assets/image (326).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Автоматические действия
 
@@ -349,17 +349,17 @@ _Принцип работы:_
 
 1. **Время дня**. Выставьте автоматическое срабатывание онлайн-чата в зависимости от того, в какой промежуток клиент взаимодействует с онлайн-чатом (например, в счастливые часы после 16:00 при посещении вашего лендинга клиент может получить скидку).
 
-<figure><img src="/broken/files/gU62yKFe8YJZjDob88rb" alt="" width="563"><figcaption><p>Пример условия (время дня) и автоматического действия (сообщение от им. администратора)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-01-05_17-04-08.png" alt="" width="563"><figcaption><p>Пример условия (время дня) и автоматического действия (сообщение от им. администратора)</p></figcaption></figure>
 
 2. **Выполнить это действие только один раз за день для пользователя.** Данное условие может быть применено в различных случаях: например, для направления партнерских или иных ссылок в сообщении от имени администратора/пользователя (как доступ к новым материалам курса); для накопительной системы и т.п.:
 
-<figure><img src="/broken/files/e1M3CbgP0KlZDUgiYwJi" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-01-05_17-16-13.png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. **Город посетителя. Страна посетителя.** Выставив данное условие, можно установить необходимый круг пользователей, которым бы была полезна ваша предоставляемая услуга, если, например, необходимо для покупки товара (услуги) личное присутствие клиента.&#x20;
 
-<figure><img src="/broken/files/Yxqb8zktBvR9PAFLYsXA" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-01-05_17-17-49.png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="/broken/files/ept0COxEdg5SxZVOMfib" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-01-05_17-20-02.png" alt=""><figcaption></figcaption></figure>
 
 В данном случае можно установить соответствие как равно, так и не равно. Например, если вам необходимо установить город или страну (или список стран), для которых автоматическое действие воспроизводиться не будет, поставьте не равно.&#x20;
 
@@ -375,7 +375,7 @@ _Принцип работы:_
 
 5. **Сообщение пользователя**. Чтобы автоматическое действие сработало с таким условием, необходимо в поле вставить определенное слово от пользователя:
 
-<figure><img src="/broken/files/v9w6PwwIbetq0Qz550Ca" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-01-05_17-29-03.png" alt=""><figcaption></figcaption></figure>
 
 7. **Время на странице**. Данное условие схоже с временем дня, однако, например, если ваша клиентская база находится в разных часовых поясах и есть необходимость выполнения автоматического действия только в одно и то же время у каждого часового пояса, можно воспользоваться этим условием.&#x20;
 8. **Время от закрытия окна Salebot**. Такое условие выставляется аналогично времени дня или времени на странице, однако зависит от действия самого пользователя по закрытию соответственно окна Salebot.&#x20;
@@ -384,42 +384,42 @@ _Принцип работы:_
 
 При необходимости условия можно сочетать друг с другом и выставлять срабатывание автоматического действия исходя из нескольких условий:
 
-<figure><img src="/broken/files/6uIIos8zOkxZCZ2kvvI2" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-01-05_17-37-57.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Исходя из примера выше, автоматическое действие выполнится только для клиентов из Москвы после 16:00 часов в понедельник, вторник и среду.&#x20;
 
 Далее выбираем какое действие  для онлайн-чата должно выполниться автоматически:
 
-<figure><img src="/broken/files/JM3hkfM4zsjqHfeuyggw" alt="" width="339"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-01-05_16-22-34.png" alt="" width="339"><figcaption></figcaption></figure>
 
 1. **Автоматическое открытие чата**. Данное действие соответственно откроет онлайн-чат для пользователя. Для данного действия не требуется дополнительных настроек.
 2. **Автоматическое приглашение к диалогу**. Такое автоматическое действие направит пользователю любое прописанное в поле сообщение:
 
-<figure><img src="/broken/files/MEHogNSTlV45HzS1Ex5i" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-01-05_17-44-30.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Также при необходимости можно скрыть поле ввода сообщения с помощью одноименного чекбокса:
 
-<figure><img src="/broken/files/c0UPnNExq5R8dsqDQUSK" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-04-18_15-31-14.png" alt=""><figcaption></figcaption></figure>
 
 3. **Скрыть ярлык онлайн-чата с сайта**. Данное действие можно применить, например, по истечении рабочих часов ваших администраторов.&#x20;
 4. **Показать ярлык онлайн-чата**. Аналогично предыдущему действию, можно показать ярлык онлайн-чата для клиентов в определенный промежуток времени (или по иным другим необходимым условиям).
 5. **Отправить сообщение от имени администратора**. Данное действие направит соответственно сообщение в онлайн-чате от имени администратора.
 
-<figure><img src="/broken/files/nHOlxgi6PZNXUbetzLGx" alt="" width="500"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-01-05_17-46-17.png" alt="" width="500"><figcaption></figcaption></figure>
 
 6. **Отправить форму**. Данное действие служит для сбора данных (информации) клиента, где вы можете заполнить текст формы, выбрать необходимые поля сбора данных (имя, номер телефона, email, чекбокс или иное поле ввода, которое можно настроить самостоятельно).&#x20;
 
-<figure><img src="/broken/files/OMzEwfNDXwKCEMsUrCcT" alt="" width="523"><figcaption><p>Пример формы.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-01-05_17-49-53.png" alt="" width="523"><figcaption><p>Пример формы.</p></figcaption></figure>
 
 Иное поле ввода можно настроить, например, для сбора города проживания или для другой информации:
 
-<div><figure><img src="/broken/files/6aP0JD0oQgVDfrDNXyTa" alt="" width="563"><figcaption><p>Заполнение поля формы</p></figcaption></figure> <figure><img src="/broken/files/Ds0oTZds3pF0LOdzo4aD" alt=""><figcaption><p>Вид поля формы в отправке</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/2024-01-05_18-01-42.png" alt="" width="563"><figcaption><p>Заполнение поля формы</p></figcaption></figure> <figure><img src="../../.gitbook/assets/2024-01-05_18-01-23.png" alt=""><figcaption><p>Вид поля формы в отправке</p></figcaption></figure></div>
 
 ### Отправление формы для заполнения клиентами
 
 В онлайн-чат также представлена функция отправления формы клиентам для сбора информации о пользователе, добавления его в систему для дальнейшей работы с ним:
 
-<figure><img src="/broken/files/0p9LG53bVY2NVeQAKQ6b" alt="" width="377"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (329).png" alt="" width="377"><figcaption></figcaption></figure>
 
 Такая форма отправляется с помощью функции **online\_chat\_send\_form(),** где передаются параметры:
 
@@ -439,13 +439,13 @@ _Принцип работы:_
 _Пример записи в Калькуляторе:_ online\_chat\_send\_form("name,email,email\_group\_ID")
 {% endhint %}
 
-<figure><img src="/broken/files/0n4zYb3zXSikCJMKDhQu" alt="" width="563"><figcaption><p>уведомление, которое придет в диалог после заполнения формы</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (330).png" alt="" width="563"><figcaption><p>уведомление, которое придет в диалог после заполнения формы</p></figcaption></figure>
 
 {% hint style="info" %}
 В карточке онлайн-клиента из отправленной формы **значения сохраняются в переменных клиента** (см. ниже)
 {% endhint %}
 
-<figure><img src="/broken/files/tOx7R2cTCW5Co35wcAgA" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (331).png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### <mark style="color:red;">!</mark> online\_chat\_send\_form(arguments, texts)
 
@@ -457,23 +457,23 @@ texts - имя формы
 
 Например, в калькуляторе можно ввести таким образом: **online\_chat\_send\_form("name,phone", "Привет, Заполни форму")**
 
-<figure><img src="/broken/files/tz1mg8Kp42WTg4rcOsBf" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2023-11-13_14-37-15.png" alt=""><figcaption></figcaption></figure>
 
 Пример ответа Онлайн-чата:
 
-<figure><img src="/broken/files/zblWAFx9mXvgLNcVvV0W" alt="" width="503"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2023-11-13_14-34-16.png" alt="" width="503"><figcaption></figcaption></figure>
 
-<figure><img src="/broken/files/qmAWmkMFEKE1ft65jtpQ" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-18 в 15.52.27.png" alt=""><figcaption></figcaption></figure>
 
 В настройках виджета онлайн-чата во вкладке "Баннеры" можно добавить кликабельные изображения в стартовое окно онлайн-чата.
 
 Перейдем к настройкам. Нажмите на "Добавить баннер":
 
-<figure><img src="/broken/files/KHBQL34ZzngJV4VdPw0F" alt="" width="317"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-18 в 15.53.59.png" alt="" width="317"><figcaption></figcaption></figure>
 
 И загрузите изображение:
 
-<figure><img src="/broken/files/Sy27gtg6pAWoVAm2qmWe" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-18 в 15.54.28.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Размер изображения фиксированный.
@@ -485,53 +485,53 @@ texts - имя формы
 
 Чтобы баннер был кликабельным (то есть ваш клиент мог переходить по ссылке при клике на баннер), укажите ссылку в соответствующем поле:
 
-<figure><img src="/broken/files/l6mOuAZfQD9ez8p7HcrL" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-08-04 в 20.40.42.png" alt=""><figcaption></figcaption></figure>
 
 При необходимости пропишите заголовок и подзаголовок, а затем нажмите "Сохранить":
 
-<figure><img src="/broken/files/ekhKbfkaN4u5XMhq9gsD" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-08-04 в 20.41.22.png" alt=""><figcaption></figcaption></figure>
 
 После чего баннер отобразится в виджете онлайн-чата:
 
-<figure><img src="/broken/files/9frddALDqElMIMowPJyU" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-08-04 в 20.44.23.png" alt=""><figcaption></figcaption></figure>
 
 ### Оценка качества
 
-<figure><img src="/broken/files/Umg3DgXYpphwgCQjBfFn" alt="" width="467"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-03-07_11-19-16.png" alt="" width="467"><figcaption></figcaption></figure>
 
 Теперь в онлайн-чате существует еще один раздел настройки - Оценка качества. Чтобы добавить такой функционал, перейдите в соответствующую вкладку в настройках:
 
-<figure><img src="/broken/files/QBKaKwhZpT1yzvUlxxEe" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-03-07_11-34-54.png" alt="" width="563"><figcaption></figcaption></figure>
 
 На выбор в функционале присутствует пятибалльная, трехбалльная и двухбалльная шкала оценивания качества работы:
 
-<figure><img src="/broken/files/WRl06jAMNyFonjnmciLE" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/гифка-оценка.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 В поле с соответствующим названием вводится текст перед самой оценкой:&#x20;
 
-<figure><img src="/broken/files/6oPtUjQ6swc7yaPfOAcJ" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-03-07_11-48-46.png" alt=""><figcaption></figcaption></figure>
 
 В этом поле нет значения по умолчанию, если его пропустить, то в плашке с оценкой качества будет виден такой текст:
 
-<figure><img src="/broken/files/2x6nCM8IYk9MrgBZpLyj" alt="" width="377"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-03-07_12-02-28.png" alt="" width="377"><figcaption></figcaption></figure>
 
 Также можно самостоятельно обозначить название поля для отзыва клиентом:
 
-<figure><img src="/broken/files/vZk3RwdUng5jBxEsGk0K" alt="" width="377"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-04-11_18-03-09.png" alt="" width="377"><figcaption></figcaption></figure>
 
 Для этого достаточно прописать свой текст в названии поля, а также подсказку внутри поля (текст в поле для отзыва). По умолчанию (см. пример выше) назначение и текст каждого поля уже указаны для вашего удобства.&#x20;
 
 Можно активировать чекбокс с обязательным текстом отзыва клиента об оценке:
 
-<figure><img src="/broken/files/xZASCHG9tmB3yMzn0qIp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-03-07_12-03-34.png" alt=""><figcaption></figcaption></figure>
 
 Далее можно заполнить сообщение обратной связи клиенту при положительном или отрицательном отзыве. Чтобы проверить, как выглядит последнее сообщение онлайн-чата после отправки оценки, нажмите на кнопку в чате для отправки оценки:
 
-<div><figure><img src="/broken/files/me2g5b9qz0Kj6KJrDcRs" alt="" width="437"><figcaption></figcaption></figure> <figure><img src="/broken/files/NSXfv0EeAJQCNFSNULwF" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/2024-03-07_12-12-54.png" alt="" width="437"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/2024-03-07_12-13-58.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Чекбокс "Пользователь может оценивать диалог"&#x20;
 
-<figure><img src="/broken/files/T70FuGHXYpOF8fGuMLi3" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-03-07_13-03-30.png" alt=""><figcaption></figcaption></figure>
 
 В разделе "Клиенты" в диалоге с пользователем сам оператор может завершить диалог с клиентом и в тех случаях, если данный чекбокс активирован, то пользователь  сможет поставить оценку.&#x20;
 
@@ -541,11 +541,11 @@ texts - имя формы
 
 В диалоге с пользователем сам оператор может нажать на кнопку "Завершить диалог". Тогда откроется форма с подтверждением действия оператора:
 
-<div><figure><img src="/broken/files/15NnPIcdAXT2YWAUv2zv" alt=""><figcaption></figcaption></figure> <figure><img src="/broken/files/d1Uzbd8PQltCXqB9nksE" alt="" width="563"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/photo_2024-03-07_12-58-57.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/photo_2024-03-07_12-59-09.jpg" alt="" width="563"><figcaption></figcaption></figure></div>
 
 При этом если подключен в каналах почтовик, то появляются варианты отправить сообщения на почту:
 
-<figure><img src="/broken/files/O2fvNX12oxKxM3L64TD5" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/photo_2024-03-07_12-59-41.jpg" alt=""><figcaption></figcaption></figure>
 
 После того, как оператор завершил диалог, пользователю направляется форма оценки качества, где сама оценка приходит в Аналитику.&#x20;
 

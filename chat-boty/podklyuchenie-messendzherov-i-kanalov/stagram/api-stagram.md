@@ -76,7 +76,7 @@ response = ig_set_persistent_menu('login', buttons)
 
 **response = ig\_delete\_persistent\_menu('login')**, где login - имя аккаунта
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption><p>login</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption><p>login</p></figcaption></figure>
 
 В случае успешного исполнения функция возвращает:
 

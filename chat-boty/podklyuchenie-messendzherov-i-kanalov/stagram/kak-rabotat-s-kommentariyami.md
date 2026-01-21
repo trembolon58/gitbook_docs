@@ -45,7 +45,7 @@ Callback имеет вид:&#x20;
 
 где **link** - ссылка на пост, **id** — id записи, **text** — текст комментария
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 С комментариями мы можем работать в двух вариантах: отвечать своим комментарием или написать одно сообщение в Direct.
 
@@ -117,7 +117,7 @@ ID поста может содержать эти цифры. Бот может
 
 При этом если мы повторно напишем пользователю в Direct, второе сообщение не отправится, т.к при реакции на комментарии не открывают 24-часовое окно
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Ошибка, если в ответ на комментарий отправить больше одного сообщения</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Ошибка, если в ответ на комментарий отправить больше одного сообщения</p></figcaption></figure>
 
 ### Как настраивать реакции на комментарии (видеоинструкция):
 
@@ -265,7 +265,7 @@ ID поста может содержать эти цифры. Бот может
 
 Тогда конкретно под этой записью будет приходить автоматический ответ на любой комментарий:
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt="" width="375"><figcaption><p>Пример ответа на любое сообщение под конкретным постом</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt="" width="375"><figcaption><p>Пример ответа на любое сообщение под конкретным постом</p></figcaption></figure>
 
 #### _<mark style="color:green;">**Ответ бота на ЛЮБОЙ комментарий под ЛЮБЫМ постом.**</mark>_
 
@@ -307,7 +307,7 @@ _<mark style="color:green;">**Ответ бота на КОНКРЕТНУЮ ФР
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-05-30 в 17.25.41.png" alt="" width="375"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Как удалить комментарий
 
