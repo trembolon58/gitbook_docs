@@ -61,7 +61,7 @@
   * [Форматирование текста сообщений](chat-boty/kak-sozdat-chat-bot-dlya-biznesa/formatirovanie-teksta-soobshenii.md)
   * [Случайные ответы в боте](chat-boty/kak-sozdat-chat-bot-dlya-biznesa/sluchainye-otvety-v-bote.md)
   * [Резервирование и восстановление](chat-boty/kak-sozdat-chat-bot-dlya-biznesa/rezervirovanie-i-vosstanovlenie.md)
-* [AI-ассистент](chat-boty/ai-assistent/README.md)
+* [AI-ассистент](chat-boty/ai-assistent.md)
   * [Настройки AI-ассистента](chat-boty/ai-assistent/nastroiki-ai-assistenta.md)
   * [Чат-бот с AI для онлайн-записи](chat-boty/ai-assistent/chat-bot-s-ai-dlya-onlain-zapisi.md)
   * [AI-ассистент с Salebot-таблицами](chat-boty/ai-assistent/ai-assistent-s-salebot-tablicami.md)
@@ -146,8 +146,19 @@
       * [Для работы с массивами](chat-boty/peremennye-i-funkcii/kalkulyator/massivy-i-slovari/dlya-raboty-s-massivami.md)
       * [Для работы со словарями](chat-boty/peremennye-i-funkcii/kalkulyator/massivy-i-slovari/dlya-raboty-so-slovaryami.md)
   * [Список полезных регулярных выражений](chat-boty/peremennye-i-funkcii/spisok-poleznykh-regulyarnykh-vyrazhenii.md)
+  * [Шаблоны переменных](chat-boty/peremennye-i-funkcii/shablony-peremennykh.md)
 * [Онлайн-чат](chat-boty/onlain-chat.md)
 * [Файлы](chat-boty/faily.md)
+
+## CRM-система
+
+* [CRM для бизнеса](crm-sistema/crm-dlya-biznesa.md)
+* [Сделки в CRM](crm-sistema/sdelki-v-crm.md)
+* [Клиенты в одном окне](crm-sistema/klienty-v-odnom-okne/README.md)
+  * [Диалог с клиентом](crm-sistema/klienty-v-odnom-okne/dialog-s-klientom.md)
+* [Автораспределение (автоматизация)](crm-sistema/avtoraspredelenie-avtomatizaciya.md)
+* [Задачи](crm-sistema/zadachi.md)
+* [Списки и метки](crm-sistema/spiski-i-metki.md)
 
 ***
 
