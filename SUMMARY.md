@@ -305,6 +305,12 @@
 * [Таблицы в Salebot](tablicy/tablicy-v-salebot.md)
 * [Формулы для таблиц](tablicy/formuly-dlya-tablic.md)
 
+## Работа с API
+
+* [API конструктора](rabota-s-api/api-konstruktora.md)
+* [Интеграция со сторонними API](rabota-s-api/integraciya-so-storonnimi-api.md)
+* [Функции (API) в калькуляторе](chat-boty/peremennye-i-funkcii/kalkulyator/funkcii-api-v-kalkulyatore.md)
+
 ## Интеграции
 
 * [Прием платежей](platezhnye-sistemy/README.md)

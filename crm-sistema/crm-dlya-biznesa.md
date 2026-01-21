@@ -192,6 +192,18 @@ CRM в виде списка отображается таблицей со сд
 Как создавать и настраивать роли для сотрудников в проекте, смотрите в статье "[Настраиваемые роли](/broken/pages/SIUeJLHQq31693zHRNLY)".
 {% endhint %}
 
+## Настройка callback
+
+В настройках проекта в разделе "Callback" можно изменить вид колбека crm\_state\_changed — можно сделать его короче, убрав ID состояния.
+
+<figure><img src="../.gitbook/assets/IMAGE 2026-01-21 164122.jpg" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/IMAGE 2026-01-21 164123.jpg" alt="" width="563"><figcaption></figcaption></figure>
+
+Меняет вид коллбека "crm\_state\_changed " — это значит, что можно убрать или наоборот добавить ID состояния:
+
+<div><figure><img src="../.gitbook/assets/IMAGE 2026-01-21 164124.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/IMAGE 2026-01-21 164126.jpg" alt=""><figcaption></figcaption></figure></div>
+
 ## Функции API Salebot
 
 Для использования всех возможностей CRM через бота, ознакомьтесь со статьей:&#x20;
