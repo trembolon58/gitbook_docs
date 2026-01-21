@@ -264,11 +264,11 @@
 
 1. Перейдем к наполнению данных в заданной структуре:
 
-<figure><img src="../../../.gitbook/assets/unknown.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/unknown (3).png" alt=""><figcaption></figcaption></figure>
 
 2. Теперь перейдем в проект и и настроим заполнение переменной inline\_bot данными из таблицы. Для этого создаем отдельный блок, который будет запускаться только менеджером. Выполняем следующие настройки:
 
-<figure><img src="../../../.gitbook/assets/unknown (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/unknown (4).png" alt=""><figcaption></figcaption></figure>
 
 Пример кода для копирования
 
@@ -292,7 +292,7 @@ Plain textCopyMore options
 
 Исполняем блок и получаем заветные словари в общих переменных:
 
-<figure><img src="../../../.gitbook/assets/unknown (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/unknown (5).png" alt=""><figcaption></figcaption></figure>
 
 Настройки проекта - Общие переменные
 
@@ -309,4 +309,4 @@ Image options
 
 Пример отправки меню в чат с клиентом
 
-<figure><img src="../../../.gitbook/assets/unknown (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/unknown (6).png" alt=""><figcaption></figcaption></figure>

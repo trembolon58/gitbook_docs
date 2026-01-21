@@ -81,6 +81,6 @@ _Аккаунт должен быть именно бизнес аккаунто
 
 
 
-<figure><img src="../../../.gitbook/assets/image (110).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (182).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ff

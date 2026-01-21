@@ -16,17 +16,17 @@
 
 Рассмотрим простой пример с набором обязательных параметров:
 
-<figure><img src="../../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
 
 В качестве platform\_id указывается идентификатор конкретного клиента
 
 Тот  же пример, но с использованием переменных:
 
-<figure><img src="../../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
 
 В данном примере в переменной soob будет содержаться ответ сервера после отправки сообщения.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
 
 Если сохранить идентификатор сообщения message\_id из полученного ответа, то это позволит нам впоследствии работать с данным сообщением (редактировать, удалять, пересылать, комментировать).
 
@@ -55,16 +55,16 @@
     <mark style="color:green;">>Уведомление - это всплывающее окно с содержимым текста сообщения. Давайте включим</mark>
 * Далее собираем функцию. Не забывайте присваивать функцию переменной - это позволит отследить статус отправки сообщения
 
-<figure><img src="../../../../.gitbook/assets/image (19).png" alt=""><figcaption><p>Поле Калькулятор</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (91).png" alt=""><figcaption><p>Поле Калькулятор</p></figcaption></figure>
 
 Смотрим, что у нас получилось:\
 После того, как клиент написал нам ключевое слово test, мы отвечаем ему, цитируя его сообщение<br>
 
-<figure><img src="../../../../.gitbook/assets/image (20).png" alt=""><figcaption><p>Пример использования всех параметров функции отправки сообщения</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (92).png" alt=""><figcaption><p>Пример использования всех параметров функции отправки сообщения</p></figcaption></figure>
 
 При этом в переменной soob видим следующий ответ сервера:<br>
 
-<figure><img src="../../../../.gitbook/assets/image (21).png" alt=""><figcaption><p>Ответ сервера после отправки сообщения функцией API</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (93).png" alt=""><figcaption><p>Ответ сервера после отправки сообщения функцией API</p></figcaption></figure>
 
 В ok мы как раз видим статус отправки, далее содержится информация о данном сообщении - его id, данные отправителя, содержимое отправления.\
 \
@@ -270,23 +270,23 @@ soob=tg_send_message(id_group, text,client_message_id, opts, parse_mode, disable
 {% tab title="Пример настройки" %}
 Итак, отправим себе сообщение с инлайн-клавиатурой:
 
-<figure><img src="../../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
 
 далее отредактируем текст сообщения:
 
-<figure><img src="../../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
 
 теперь отредактируем кнопки:
 
-<figure><img src="../../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
 
 Попробуем отредактирвать сообщение с картинкой. Для этого отправим сообщение с картинкой и сохраним идентификатор отправленного сообщения. О том как получить ссылку на картинку подробно описано [тут](funkcii-dlya-otpravki-i-redaktirovaniya-soobshenii.md#kak-pri-pomoshi-tg_request-poluchit-ssylku-na-kartinku-foto-animaciyu-video):
 
-<figure><img src="../../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (97).png" alt=""><figcaption></figcaption></figure>
 
 Редактируем картинку и описание:
 
-<figure><img src="../../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
@@ -328,11 +328,11 @@ tg_edit_message_caption(platform_id, soob_id, 'Вот он Я!')
 {% tab title="Пример" %}
 Отправим сообщение и сохраним его идентификатор:
 
-<figure><img src="../../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
 
 Скопируем ранее отправленное сообщение:
 
-<figure><img src="../../../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}

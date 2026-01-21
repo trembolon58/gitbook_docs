@@ -155,7 +155,7 @@ p = \[{"title":"заголовок", "description": "ОПИСАНИЕ КАРТО
 {% tab title="Примеры" %}
 Пример вызова функции:
 
-<figure><img src="../../../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (174).png" alt=""><figcaption></figcaption></figure>
 
 Примеры вызова функции: \
 result = vk\_add\_to\_target\_group('example@example.com', '1606728577', '38572961')
@@ -249,7 +249,7 @@ result = vk_remove_from_target_group('example@example.com', '1606728577', '38572
 {% endtab %}
 
 {% tab title="Примеры" %}
-<figure><img src="../../../.gitbook/assets/image (103).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (175).png" alt=""><figcaption></figcaption></figure>
 
 result = vk\_add\_new\_target\_group('example@example.com', '1606728577', 'Новая аудитория', 120)
 

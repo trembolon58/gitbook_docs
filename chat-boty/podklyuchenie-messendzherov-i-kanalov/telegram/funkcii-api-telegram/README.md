@@ -52,7 +52,7 @@ tg\_send\_message(platform\_id, "Какой то текст", 61818138, None, No
 
 2. Если Вам необходимо использовать функцию в определенном чате, канале, группе, то понадобится передать platform\_id с числовым значением:
 
-<figure><img src="../../../../.gitbook/assets/image (11).png" alt="" width="496"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (83).png" alt="" width="496"><figcaption></figcaption></figure>
 
 В функции tg\_send\_message(!platform\_id, !text) на примере выше параметр platform\_id передан с помощью кавычек, в которых вложено числовое значение:&#x20;
 
@@ -62,9 +62,9 @@ tg\_send\_message(platform\_id, "Какой то текст", 61818138, None, No
 
 
 
-<figure><img src="../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 

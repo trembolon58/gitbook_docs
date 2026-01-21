@@ -675,10 +675,10 @@ parse\_mode — Режим анализа сущностей в заголовк
 1. Для начала получите ссылку на Ваш документ. [Как это сделать подробно описано тут](/broken/pages/YVEk70VIBhfL7aUZFo9F#kak-poluchit-ssylku-na-media-s-pomoshyu-peremennoi).&#x20;
 2.  Создаем блок, задаем переменные, как на скрине:<br>
 
-    <figure><img src="../../../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
 3. Отправляем блок себе и видим результат нашей работы:
 
-<figure><img src="../../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
 
 Теперь разберем отправку нескольких документов
 
@@ -686,11 +686,11 @@ parse\_mode — Режим анализа сущностей в заголовк
    lnkdoc='\[\["BQACAgIAAxkBAAIQA2O8oEMNYPTgjLvglZ63HIYYOBwFAALvHwACtjXoSXFhhNvRN6MGLQQ", "Документ1"],\["BQACAgIAAxkBAAIQA2O8oEMNYPTgjLvglZ63HIYYOBwFAALvHwACtjXoSXFhhNvRN6MGLQQ", "Документ2"]]'
 2. В окончании собираем функцию отправки документов:
 
-<figure><img src="../../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (103).png" alt=""><figcaption></figcaption></figure>
 
 3\. Любуемся результатом нашего труда:
 
-<figure><img src="../../../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (104).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
@@ -726,7 +726,7 @@ soob=tg_send_some_document(platform_id, lnkdoc)
 
 Собираем функцию:
 
-<figure><img src="../../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure>
 
 Отлично! Мы молодцы!
 {% endtab %}
@@ -771,15 +771,15 @@ tg_send_voice(platform_id, "CQACAgIAAxkBAAER70Bi8VkgNhegB-msqDWXm2qHi3n9-AAC-iAA
 
 Итак, работа как всегда начинается с получения внутренний ссылки Telegram на выбранную нами анимацию ([подробно тут](/broken/pages/YVEk70VIBhfL7aUZFo9F#kak-poluchit-ssylku-na-media-s-pomoshyu-peremennoi))
 
-<figure><img src="../../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
 
 Собираем функцию:
 
-<figure><img src="../../../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure>
 
 И проверяем нашу работу:
 
-<figure><img src="../../../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
@@ -801,13 +801,13 @@ soob=tg_send_animation(platform_id, animation, caption, None, None, None, True,T
 {% tab title="Пример" %}
 Итак,  начинаем работу с получения ссылки на отправляемый файл ([как получить ссылку, рассказали здесь](/broken/pages/YVEk70VIBhfL7aUZFo9F#kak-poluchit-ssylku-na-media-s-pomoshyu-peremennoi)) и после заполняем необходимые параметры функции:
 
-<figure><img src="../../../../.gitbook/assets/image (37).png" alt=""><figcaption><p>Получение ссылки на видео через tg_request</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (109).png" alt=""><figcaption><p>Получение ссылки на видео через tg_request</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (38).png" alt=""><figcaption><p>Функция отправки видео</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (110).png" alt=""><figcaption><p>Функция отправки видео</p></figcaption></figure>
 
 При проверке получим наше видео:
 
-<figure><img src="../../../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
@@ -828,19 +828,19 @@ soob=tg_send_video(platform_id, video
 {% tab title="Пример" %}
 Итак, начнем с определения координат места. Получить их можно через [Google.Карты ](https://www.google.com/maps)
 
-<figure><img src="../../../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
 
 Далее преобразовать полученные координаты из десятичных градусов в географические в любом [онлайн-конвертере](http://the-mostly.ru/konverter_geograficheskikh_koordinat.html):
 
-<figure><img src="../../../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
 
 Итак, приступим к заполнению параметров функции и получению желаемого результата:
 
-<figure><img src="../../../../.gitbook/assets/image (42).png" alt=""><figcaption><p>Заполнение параметров функции в поле Калькулятор</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (114).png" alt=""><figcaption><p>Заполнение параметров функции в поле Калькулятор</p></figcaption></figure>
 
 
 
-<figure><img src="../../../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
@@ -858,11 +858,11 @@ soob=tg_send_venue(platform_id, "48°52′", "2°4′", "Мечта осущес
 {% tab title="Пример" %}
 Заполняем параметры телефон, имя и фамилия:
 
-<figure><img src="../../../../.gitbook/assets/image (44).png" alt=""><figcaption><p>Пример заполнения параметров функции отправки контакта</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (116).png" alt=""><figcaption><p>Пример заполнения параметров функции отправки контакта</p></figcaption></figure>
 
 Результат выполнения:
 
-<figure><img src="../../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
@@ -883,11 +883,11 @@ soob=tg_send_contact(platform_id, "+79999999999", "Анна", "Тест", 1)
 2\. Заполняем параметры функции\
 3\. Отправляем блок себе и смотрим результат
 
-<figure><img src="../../../../.gitbook/assets/image (46).png" alt=""><figcaption><p>Отправка стикера</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (118).png" alt=""><figcaption><p>Отправка стикера</p></figcaption></figure>
 
 Результат:
 
-<figure><img src="../../../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
@@ -907,11 +907,11 @@ soob=tg_send_sticker(platform_id, 'CAACAgIAAxkBAAEawJ5jmNeyat8uPGBMP3JzubRNXGjH3
 {% tab title="Пример" %}
 Если у Вас квадратное видео, то получить круглое можно при помощи бота [https://t.me/roundNoteBot](https://t.me/roundNoteBot) :&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (48).png" alt=""><figcaption><p>Получение круглого видео при помощи бота @roundNoteBot (https://t.me/roundNoteBot)</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (120).png" alt=""><figcaption><p>Получение круглого видео при помощи бота @roundNoteBot (https://t.me/roundNoteBot)</p></figcaption></figure>
 
 Получив круглое видео, отправьте его себе в бот для получения ссылки (подробнее  [тут](funkcii-otpravki-vlozhenii-v-soobshenii.md#kak-pri-pomoshi-tg_request-poluchit-ssylku-na-kartinku-foto-animaciyu-video)) и далее настройте функцию отправки круглого видео:
 
-<figure><img src="../../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
@@ -936,13 +936,13 @@ tg_send_video_note(platform_id, 'DQACAgIAAxkBAAER6cVi6OzIezJo9FWu6WyZPzDgQX8B3QA
 
 *   для начала сформируйте массив фото<br>
 
-    <figure><img src="../../../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
 *   далее заполните параметры функции<br>
 
-    <figure><img src="../../../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure>
 *   отправьте блок себе и любуйтесь результатом<br>
 
-    <figure><img src="../../../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
@@ -963,25 +963,25 @@ soob=tg_send_some_photo(platform_id, image_list)
 {% tab title="Пример" %}
 Самый простой вариант - отправка функции только с одним обязательным параметром:
 
-<figure><img src="../../../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
 
 В этом случае клиент получит кубик:
 
-<figure><img src="../../../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
 
 Если клиент скинет кубик (клик по полученному эмодзи), то в бот прилетит колбек о выпавшем количестве очков:
 
-<figure><img src="../../../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
 
 Можно поэкспериментировать в использовании данной функции. Например, давайте используем слот-машину, добавим кнопку Очки. При нажатии на кнопку будем получать общее колиество очков у клиента:
 
-<figure><img src="../../../../.gitbook/assets/image (56).png" alt=""><figcaption><p>1е сообщение: предлагаем сыграть</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (128).png" alt=""><figcaption><p>1е сообщение: предлагаем сыграть</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (57).png" alt=""><figcaption><p>2е сообщение: ловим выпавшие очки</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (129).png" alt=""><figcaption><p>2е сообщение: ловим выпавшие очки</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (58).png" alt=""><figcaption><p>3е сообщение: выдаем общее количество очков</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (130).png" alt=""><figcaption><p>3е сообщение: выдаем общее количество очков</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (59).png" alt=""><figcaption><p>Пример работы бота</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (131).png" alt=""><figcaption><p>Пример работы бота</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
