@@ -37,45 +37,45 @@
 {% tab title="Описание" %}
 Разберем простой пример:
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
 
 Мы создали две прокси-ссылки и вывели их в кнопках и в тексте сообщения. Поскольку мы тестируемся в Telegram, то грех не напомнить как следует работать со ссылками в тексте с использованием Markdown. Поэтому понадобилось использовать функцию экранирования tg\_escape()
 
 Так созданные нами ссылки выглядят в карточке клиента:
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
 Так клиент их видит, например, в Telegram:
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt="" width="180"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (73).png" alt="" width="180"><figcaption></figcaption></figure>
 
 При переходе клиента по ссылке мы получаем коллбэк:&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt="" width="428"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (74).png" alt="" width="428"><figcaption></figcaption></figure>
 
 Давайте настроим реакцию на данное событие:
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (75).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Теперь проверим функции удаления ссылок:
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 
 После выполнения функции удаления всех одноразовых ссылок, отправленных клиенту, видим:
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
 
 Таким образом, при попытке клиента перейти после удаления по одноразовой ссылке он получит ошибку, так как такой ссылки уже не существует:
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (78).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Удалим ссылку, ограниченную временем:&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
 
 По итогу исполнения функции в карточке клиента не осталось прокси-ссылок и попытка перехода по ссылке возвращает всё ту же ошибку:
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (80).png" alt="" width="563"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}

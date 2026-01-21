@@ -32,17 +32,17 @@
 {% tab title="Примеры" %}
 Рассмотрим пример поиска строки по заданному регулярному выражению:
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Пример использования findall()</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (81).png" alt=""><figcaption><p>Пример использования findall()</p></figcaption></figure>
 
 Результат:
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption><p>Результат вычисления функции findall()</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (82).png" alt=""><figcaption><p>Результат вычисления функции findall()</p></figcaption></figure>
 
 Пример использования функции сравнения строк с учетом описок: &#x20;
 
-<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Простой пример применения similar()</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (83).png" alt=""><figcaption><p>Простой пример применения similar()</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}

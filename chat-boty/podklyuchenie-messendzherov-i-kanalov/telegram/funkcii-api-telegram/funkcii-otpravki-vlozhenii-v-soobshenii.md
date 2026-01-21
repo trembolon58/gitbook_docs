@@ -675,7 +675,7 @@ parse\_mode — Режим анализа сущностей в заголовк
 1. Для начала получите ссылку на Ваш документ. [Как это сделать подробно описано тут](/broken/pages/YVEk70VIBhfL7aUZFo9F#kak-poluchit-ssylku-na-media-s-pomoshyu-peremennoi).&#x20;
 2.  Создаем блок, задаем переменные, как на скрине:<br>
 
-    <figure><img src="../../../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (101) (1).png" alt=""><figcaption></figcaption></figure>
 3. Отправляем блок себе и видим результат нашей работы:
 
 <figure><img src="../../../../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>

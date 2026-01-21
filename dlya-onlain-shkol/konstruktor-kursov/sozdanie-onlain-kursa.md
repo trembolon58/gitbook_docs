@@ -137,7 +137,7 @@ _<mark style="color:green;">**При окончании курса:**</mark>_ \
 
 Превью курса будет также отображаться, например, на сайте при добавлении секции карточки курса:
 
-<figure><img src="/broken/files/OKliT7Lf1ZdTgdY4AWmW" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-11-01 в 13.57.41.png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Подробнее о секциях сайта для онлайн-курса рассказали в статье "[Секции для онлайн-курса](/broken/pages/FBlzIJMArVfogHlHjSGo)"

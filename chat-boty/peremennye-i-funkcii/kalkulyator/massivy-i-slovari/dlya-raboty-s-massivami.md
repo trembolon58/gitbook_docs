@@ -629,9 +629,9 @@ checker\_with\_numbers - добавлять ли номера кнопок в м
 
 Значения словаря в дальнейшем можно подставлять в поля в конструкторе:
 
-<figure><img src="../../../../.gitbook/assets/image (51) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (51) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (52) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (52) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 

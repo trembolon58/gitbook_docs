@@ -64,7 +64,7 @@ _**Тариф на Услуги (Тариф)**_ - перечень, включа
 
 Заполните **Название проекта**. Это название видите только вы и сотрудники, которым будет выдан доступ для работы. &#x20;
 
-<figure><img src="../../.gitbook/assets/image (81).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (81) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 При необходимости смените часовой пояс. По умолчанию установлено время GTM +03:00 Москва.&#x20;
 

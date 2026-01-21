@@ -66,7 +66,7 @@
 
 **Создание ссылки на вступление в чат:**
 
-<figure><img src="../../../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (84) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="background-color:blue;">**Как удалить ссылку на вступление в чат в Telegram**</mark>
 

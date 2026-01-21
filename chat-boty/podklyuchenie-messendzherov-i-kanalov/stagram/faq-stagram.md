@@ -19,11 +19,11 @@
 
 Если бот не реагирует на сообщения в директ, а при установке вводных фраз вы видите следующую ошибку
 
-![](<../../../.gitbook/assets/image (65).png>)
+![](<../../../.gitbook/assets/image (65) (1).png>)
 
 то вам нужно зайти в приложение Instagram<mark style="color:red;">\*</mark>, там открыть Настройки Конфиденциальность Сообщения и там переключить ползунок “Разрешить доступ к сообщениям”
 
-![](<../../../.gitbook/assets/image (66).png>)
+![](<../../../.gitbook/assets/image (66) (1).png>)
 
 Если доступ к сообщениям разрешен, а ошибка 200 еще возникает, необходимо зайти на бизнес страницу в Facebook<mark style="color:red;">\*</mark> и подключить инстаграм к папке "Входящие"
 
@@ -31,17 +31,17 @@
 
 ### **Ошибка #10 The user is not an Instagram**<mark style="color:red;">\*</mark> **Business / Уведомление "НЕ БИЗНЕС-АККАУНТ"**
 
-![](<../../../.gitbook/assets/image (67).png>)
+![](<../../../.gitbook/assets/image (67) (1).png>)
 
 Проверьте настройки в самом приложении, скорее всего, у вас выставлен Аккаунт автора или Личный аккаунт, а не Бизнес. Для этого зайдите в Настройки / Аккаунт / Сменить тип аккаунта
 
-![](<../../../.gitbook/assets/image (68).png>)
+![](<../../../.gitbook/assets/image (68) (1).png>)
 
 ### Ошибка Any of the pages... permission(s) must be granted  before impersonating a user's page
 
 В данном случае не выданы все необходимые разрешения.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (69) (1).png" alt=""><figcaption></figcaption></figure>
 
 Проверьте все ли верно выполнено при подключении.&#x20;
 
@@ -55,9 +55,9 @@
 
 Для этого у вас должна быть подключена Instagram<mark style="color:red;">\*</mark> Direct API, в подключенном мессенджере увидите “Установка вводных фраз”
 
-![](<../../../.gitbook/assets/image (70).png>)
+![](<../../../.gitbook/assets/image (70) (1).png>)
 
-![](<../../../.gitbook/assets/image (71).png>)
+![](<../../../.gitbook/assets/image (71) (1).png>)
 
 Заполняете вводные фразы, в схеме ставите их в условие блока "Первостепенная проверка условия" для запуска нужной цепочки.
 

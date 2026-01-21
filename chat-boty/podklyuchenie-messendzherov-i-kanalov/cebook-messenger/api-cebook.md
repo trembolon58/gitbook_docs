@@ -15,7 +15,7 @@
 
 ### Что такое постоянное меню
 
-<figure><img src="../../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (55) (1).png" alt=""><figcaption></figcaption></figure>
 
 Постоянное меню позволяет создавать и отправлять меню основных функций вашего бизнеса, таких, как часы работы, расположение магазинов и продукты, которые всегда отображаются в разговоре человека с вашей компанией в Messenger.
 
@@ -59,7 +59,7 @@ buttons = {"default": \[\["postback", "Button 1", "callback\_text 1"], \["postba
 **Список всех доступных локалей**:\
 af\_ZA, ar\_AR, as\_IN, az\_AZ, be\_BY, bg\_BG, bn\_IN, br\_FR, bs\_BA, ca\_ES, cb\_IQ, co\_FR, cs\_CZ, cx\_PH, cy\_GB, da\_DK, de\_DE, el\_GR, en\_GB, en\_UD, en\_US, es\_ES, es\_LA, et\_EE, eu\_ES, fa\_IR, ff\_NG, fi\_FI, fo\_FO, fr\_CA, fr\_FR, fy\_NL, ga\_IE, gl\_ES, gn\_PY, gu\_IN, ha\_NG, he\_IL, hi\_IN, hr\_HR, hu\_HU, hy\_AM, id\_ID, is\_IS, it\_IT, ja\_JP, ja\_KS, jv\_ID, ka\_GE, kk\_KZ, km\_KH, kn\_IN, ko\_KR, ku\_TR, lt\_LT, lv\_LV, mg\_MG, mk\_MK, ml\_IN, mn\_MN, mr\_IN, ms\_MY, mt\_MT, my\_MM, nb\_NO, ne\_NP, nl\_BE, nl\_NL, nn\_NO, or\_IN, pa\_IN, pl\_PL, ps\_AF, pt\_BR, pt\_PT, qz\_MM, ro\_RO, ru\_RU, rw\_RW, sc\_IT, si\_LK, sk\_SK, sl\_SI, so\_SO, sq\_AL, sr\_RS, sv\_SE, sw\_KE, sz\_PL, ta\_IN, te\_IN, tg\_TJ, th\_TH, tl\_PH, tr\_TR, tz\_MA, uk\_UA, ur\_PK, uz\_UZ, vi\_VN, zh\_CN, zh\_HK, zh\_TW
 
-<figure><img src="../../../.gitbook/assets/image (56).png" alt=""><figcaption><p>Перечень локалей, применяемы в Facebook</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (56) (1).png" alt=""><figcaption><p>Перечень локалей, применяемы в Facebook</p></figcaption></figure>
 
 ## Как добавить меню, постоянное на уровне пользователя
 
@@ -88,7 +88,7 @@ af\_ZA, ar\_AR, as\_IN, az\_AZ, be\_BY, bg\_BG, bn\_IN, br\_FR, bs\_BA, ca\_ES, 
 **group\_id** - идентификатор бота в Facebook<mark style="color:red;">\*</mark>\
 **buttons** - словарь с кнопками
 
-<figure><img src="../../../.gitbook/assets/image (57).png" alt=""><figcaption><p>Меню в Facebook</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (57) (1).png" alt=""><figcaption><p>Меню в Facebook</p></figcaption></figure>
 
 В случае успешного исполнения функция возвращает: \
 {"result":"success"}

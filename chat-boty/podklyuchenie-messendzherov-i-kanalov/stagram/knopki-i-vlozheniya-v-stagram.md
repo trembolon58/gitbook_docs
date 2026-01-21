@@ -105,7 +105,7 @@ Instagram<mark style="color:red;">\*</mark> поддерживает не бол
 
 Как сделать такую карусель в Direct:
 
-&#x20;                                     <img src="../../../.gitbook/assets/image (36).png" alt="" data-size="original">
+&#x20;                                     <img src="../../../.gitbook/assets/image (101).png" alt="" data-size="original">
 
 {% hint style="success" %}
 В карусели может быть от 2 до 10 карточек(слайдов).

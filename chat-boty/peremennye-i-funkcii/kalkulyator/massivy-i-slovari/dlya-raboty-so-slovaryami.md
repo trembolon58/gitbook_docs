@@ -391,9 +391,9 @@ sort() | sort\_by\_value()
 
 Значения словаря в дальнейшем можно подставлять в поля в конструкторе:
 
-<figure><img src="../../../../.gitbook/assets/image (51) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (51) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (52) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (52) (2).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="background-color:blue;">**Получение значения словаря на основе выбора клиента**</mark>&#x20;
 

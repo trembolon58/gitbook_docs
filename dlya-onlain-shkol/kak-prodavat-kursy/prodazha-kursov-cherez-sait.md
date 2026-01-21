@@ -86,17 +86,17 @@ description: В статье расскажем, как создавать за�
 
 3\) О нас.&#x20;
 
-<figure><img src="/broken/files/skPbCoW2EEscMWxKo9F9" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-16 в 10.35.01.png" alt=""><figcaption></figcaption></figure>
 
 При этом генерируется шапка сайта и футер (подвал), в котором можно указать необходимую информацию о вашей компании. И шапка, и футер отображаются на каждой странице сайта для того, чтобы не создавать одинаковые блоки на каждой отдельной странице.
 
 Чтобы перейти в режим редактирования любой страницы сайта, кликните по строке с нужной страницей:
 
-<figure><img src="/broken/files/6Gw8LkyborrpC4G3C6Mz" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-16 в 11.21.56.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Дополнительно можно создать еще страницы сайта. Для этого необходимо кликнуть одноименную кнопку и выбрать шаблон страницы, либо форму, либо загрузить страницу из файла:
 
-<figure><img src="/broken/files/kPPhAOQ0Ny7CCnON78fq" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-16 в 11.16.16.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Загрузка страницы из файла поможет перенести страницы сайта из другого проекта.&#x20;
@@ -106,13 +106,13 @@ description: В статье расскажем, как создавать за�
 
 При клике на "Создать шаблон" откроется окно с выбором любого (в том числе пустого) шаблона страницы сайта:
 
-<figure><img src="/broken/files/mjYx9Ir8AUzTH0LlTtw2" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-16 в 11.19.41.png" alt=""><figcaption></figcaption></figure>
 
 ### Лендинг (форма, опросы и квизы)
 
 При клике на создать "Лендинг" откроется форма с выбором шаблонов сайта:
 
-<figure><img src="/broken/files/AjOyldSVsgcstyrcQzi7" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-16 в 10.55.28.png" alt=""><figcaption></figcaption></figure>
 
 Вы можете выбрать любой понравившийся шаблон сайта, при этом в режиме редактирования изменить его различные настройки: шрифты, фон, изображения, добавить свои нужные блоки (секции) сайта и многое другое.
 
@@ -120,19 +120,19 @@ description: В статье расскажем, как создавать за�
 
 В последующем при клике на плашку лендинга
 
-<figure><img src="/broken/files/EXiJTyf1Hd2TICGj3nW5" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-16 в 13.56.46.png" alt="" width="563"><figcaption></figcaption></figure>
 
 вас будет переносить в раздел заявок, основной информации и настроек лендинга, при этом не будет отображаться множество страниц, как в многостраничном сайте, поскольку у лендинга страница только одна:
 
-<figure><img src="/broken/files/vYAgVKUP098WlEDPs4yx" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-16 в 14.01.11.png" alt=""><figcaption></figcaption></figure>
 
 Если вдруг вам понадобится добавить еще несколько страниц в лендинг, сделав его тем самым многостраничным сайтом, то перейдите в настройки сайта и поменяйте тип сайта на "Многостраничный сайт" и сохраните настройки:
 
-<figure><img src="/broken/files/sHW9ipMuBzlBAiPXBP71" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-16 в 14.02.54.png" alt=""><figcaption></figcaption></figure>
 
 Аналогично отображается сайт в виде формы, опроса и квиза, однако при создании таких сайтов, вам не предлагается шаблон, поскольку в страницу сразу вставляется блок "Форма" или "Квиз" (в зависимости от выбранного типа сайта":
 
-<figure><img src="/broken/files/QQ9O7mNgjqi0hErUB0fj" alt=""><figcaption><p>Создание типа сайта "Форма"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Запись экрана 2025-06-16 в 14.07.43.gif" alt=""><figcaption><p>Создание типа сайта "Форма"</p></figcaption></figure>
 
 Как видно из примера, чтобы перейти в настройки сайта типа "Форма", необходимо кликнуть на кнопку "Редактировать".
 
@@ -154,7 +154,7 @@ description: В статье расскажем, как создавать за�
 
 Чтобы создать секцию "Форма" для записи на курсы (как и любую другую секцию в конструкторе сайтов), необходимо навести на секцию, после которой вы расположите форму оплаты, чтобы появилась кнопка "+" для открытия меню с секциями:
 
-<figure><img src="/broken/files/RHRqXu5jFT8a3t98p1BZ" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Запись-экрана-2024-07-04-в-15.27.46.gif" alt="" width="563"><figcaption></figcaption></figure>
 
 Далее в открывшемся меню найдите секцию "Форма:
 
@@ -268,19 +268,19 @@ description: В статье расскажем, как создавать за�
 
 С помощью секции "Карточки курсов" вы сможете оставлять на сайте информацию о доступных в вашей школе курсах:
 
-<figure><img src="/broken/files/8g3PIlDu1slOXWRDDmY1" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-11-01 в 10.43.48.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Чтобы добавить секцию "Карточки курса", нажмите на "+" в режиме редактирования вашего сайта:
 
-<figure><img src="/broken/files/teTsWmyu45TbYsAQ51dS" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-11-01 в 10.48.49.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Далее найдите в открывшемся меню секцию "Карточки курса" и кликните на него, чтобы секция добавилась на сайт:&#x20;
 
-<figure><img src="/broken/files/izDjBb5nRxyizZbQkHtH" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-11-01 в 10.50.43.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Секция будет добавлена на сайт, а для вас откроется меню настроек контента:
 
-<figure><img src="/broken/files/CbjeQb2hkbxBA8qNHbeK" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-11-01 в 10.54.34.png" alt=""><figcaption></figcaption></figure>
 
 ### Контент блока
 
@@ -294,11 +294,11 @@ description: В статье расскажем, как создавать за�
 
 Выберите курсы, которые бы вы хотели продемонстрировать на своем сайте:
 
-<figure><img src="/broken/files/lm2E2D8SkrbPU8ScnUbk" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-11-01 в 13.41.24.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Для этого проставьте галочки на строке с названием необходимого курса:
 
-<figure><img src="/broken/files/BpswJJ2YGpOMxhxnPsqt" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-11-01 в 13.43.11.png" alt="" width="563"><figcaption></figcaption></figure>
 
 В свою очередь, выбранные курсы тут же отобразятся на странице вашего сайта с обложкой, которую вы установили в настройках курса.&#x20;
 
@@ -306,57 +306,57 @@ description: В статье расскажем, как создавать за�
 
 После того как вы выбрали необходимые курсы, переходите к кастомизации элементов карточки:
 
-<figure><img src="/broken/files/l8p5MrSRuq5TPAQFVknV" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-11-01 в 13.55.35.png" alt="" width="563"><figcaption></figcaption></figure>
 
 1. **Тень**
 
-<figure><img src="/broken/files/pKjbPLfY543RpVjV0Xsm" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-11-01 в 13.57.02.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Для карточек курса в секции можно настроить интенсивность тени:
 
 а) без тени:
 
-<figure><img src="/broken/files/OKliT7Lf1ZdTgdY4AWmW" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-11-01 в 13.57.41.png" alt=""><figcaption></figcaption></figure>
 
 б) легкая тень:
 
-<figure><img src="/broken/files/kLNRCVPKkEDTddwvioZY" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-11-01 в 13.58.03.png" alt=""><figcaption></figcaption></figure>
 
 в) сильная тень:&#x20;
 
-<figure><img src="/broken/files/VPG1PwHGL0sZ10vixTyO" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-11-01 в 13.58.14.png" alt=""><figcaption></figcaption></figure>
 
 2. **Цветовая палитра для элементов карточки**
 
-<figure><img src="/broken/files/wetFiHXBJN63hQjcius6" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-11-01 в 14.08.27.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Изменить цвета в карточке можно для фона, текста (как на самой карточке, так и в кнопках), а также добавить интерактивности карточкам, изменив цвета элементов при наведении на них курсором:&#x20;
 
-<figure><img src="/broken/files/LsBMchHawtjwy3xdXIUp" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Запись-экрана-2024-11-01-в-14.06.35.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 а) цвет текста: поможет изменить основной цвет текста в карточке (кроме кнопки):
 
-<figure><img src="/broken/files/XrlpwSe2yzpSukoG6VAC" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-11-01 в 14.10.29.png" alt=""><figcaption></figcaption></figure>
 
 б) фон карточки: для изменения цветового решения фона для карточки:
 
-<figure><img src="/broken/files/AzLJOYzY2oFIcmUzAm2f" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-11-01 в 14.12.52.png" alt=""><figcaption></figcaption></figure>
 
 в) цвет обводки: для изменения цветового решения рамок карточек:
 
-<figure><img src="/broken/files/7S9L3Jcrx4gAq3wOfq0z" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-11-01 в 14.13.30.png" alt=""><figcaption></figcaption></figure>
 
 г) текст кнопки: для изменения цвета только текста кнопки в статичном состоянии:
 
-<figure><img src="/broken/files/w7A0jthP0B9fDIeyclOh" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-11-01 в 14.15.36.png" alt=""><figcaption></figcaption></figure>
 
 д) фон кнопки: поможет изменить фоновый цвет для кнопки карточки курса:
 
-<figure><img src="/broken/files/OTx6AH91NAPhjtaoGQLB" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-11-01 в 14.17.18.png" alt=""><figcaption></figcaption></figure>
 
 Для динамичности сайта также можно изменить цвета кнопки при наведении курсора. Для этого можно воспользоваться настройками цвета при наведении:
 
-<figure><img src="/broken/files/dxyUAipKeAVDu0WfwWhl" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-11-01 в 14.20.43.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Теперь вы знаете, как отображать имеющиеся курсы в Сейлбот на вашем сайте с помощью секции "Карточки курса".&#x20;
@@ -370,55 +370,55 @@ description: В статье расскажем, как создавать за�
 
 Вместе с карточками онлайн-курса вы можете добавить на страницу сайта и списки уроков: достаточно выбрать в секции необходимый курс и все уроки отобразятся:
 
-<figure><img src="/broken/files/9oXCRv9pm7jUE1tVw4Me" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-19 в 12.24.17.png" alt=""><figcaption></figcaption></figure>
 
 
 
 Чтобы добавить блок для отображения списка уроков курса, перейдите в режим редактирования сайта и наведите на рабочее пространство, а затем нажмите на "+":
 
-<figure><img src="/broken/files/QIwJcqSSKqLvERAweIyD" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-19 в 12.25.26.png" alt=""><figcaption></figcaption></figure>
 
 Справа откроется меню с доступными секциями сайта, где необходимо найти блок "Списки уроков":
 
-<figure><img src="/broken/files/zcyCd9BCRPl1fB6WV2wK" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-19 в 12.35.38.png" alt=""><figcaption></figcaption></figure>
 
 Кликните по "Карточкам курсов", после чего откроется меню для настройки контента блока:
 
-<figure><img src="/broken/files/3vQS5Qk5HWowyVLhI2n2" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-19 в 12.36.33.png" alt=""><figcaption></figcaption></figure>
 
 Вам достаточно выбрать необходимый курс, который уже создан в Сейлботе, в выпадающем меню и кликнуть на "Сохранить".&#x20;
 
 Далее перейдите в настройки для кастомизации контента блока:
 
-<figure><img src="/broken/files/u1WwRxzv0BMvykXtHdp8" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-19 в 12.39.37.png" alt=""><figcaption></figcaption></figure>
 
 ### Кастомизация
 
 При клике по кнопке "Настройки" при наведении на секцию, открываются настройки для кастомизации контента и самого блока:
 
-<figure><img src="/broken/files/XNjMPwegzBX3X4ZYgqVX" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-19 в 12.42.18.png" alt=""><figcaption></figcaption></figure>
 
 #### Какие настройки доступны:
 
 1. Стиль списка уроков
 
-<figure><img src="/broken/files/RTVGbyBILIGbQxtIwGi7" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-19 в 12.50.04.png" alt="" width="563"><figcaption></figcaption></figure>
 
 По умолчанию стиль списка уроков отображается в новом формате, при необходимости можно установить более лаконичный вариант классического формата:
 
-<div><figure><img src="/broken/files/khbiP2rtw4s1CPSWKuuo" alt="" width="563"><figcaption><p>Новый стиль</p></figcaption></figure> <figure><img src="/broken/files/xrarfIKvS9q9tcknuaqq" alt="" width="563"><figcaption><p>Классический стиль</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-19 в 13.13.14.png" alt="" width="563"><figcaption><p>Новый стиль</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-19 в 13.13.28.png" alt="" width="563"><figcaption><p>Классический стиль</p></figcaption></figure></div>
 
 2. Стиль нумерации
 
-<figure><img src="/broken/files/ToX92xLWf6LoqqIocgtR" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-19 в 13.14.41.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Стиль нумерации доступен для нового стиля отображения уроков курса, нумерация изменяется в самой карточке урока:
 
-<figure><img src="/broken/files/8DiVkTOHRpmled9uHTvn" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-19 в 13.15.00.png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Иконки урока
 
-<figure><img src="/broken/files/CW0Y5whWmfu9gguFpLir" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-19 в 13.16.09.png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 **Отображаются, если вы добавили превью внутри самого урока в настройках курса.**&#x20;
@@ -430,67 +430,67 @@ description: В статье расскажем, как создавать за�
 
 Для этого зайдите в режим настройки курса и найдите вкладку "Уроки":
 
-<figure><img src="/broken/files/mAhUUZvzI5qwv6Bxol9K" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-19 в 13.23.41.png" alt=""><figcaption></figcaption></figure>
 
 Далее нажмите на "Редактировать", после чего откроется страница урока для редактирования.
 
 Шаг 2. Откройте настройки страницы урока.&#x20;
 
-<figure><img src="/broken/files/2shymnevjQlwVmhOqe2N" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-19 в 13.25.59.png" alt=""><figcaption></figcaption></figure>
 
 Перейдите в настройках страницы урока в раздел "Основная информация":
 
-<figure><img src="/broken/files/W81n3TDOqIVH6RAvNxyr" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-19 в 13.27.48.png" alt=""><figcaption></figcaption></figure>
 
 Шаг 3. Загрузка превью урока
 
 Раскройте в настройках основной информации список с настройкой изображений:
 
-<figure><img src="/broken/files/uP2K375r0WCcnsdxLMMi" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-19 в 13.29.12.png" alt=""><figcaption></figcaption></figure>
 
 Загрузите изображение для превью урока:
 
-<figure><img src="/broken/files/5qymz2psFfhoX96aDC3g" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-19 в 13.30.00.png" alt=""><figcaption></figcaption></figure>
 
 Сохраните настройки:
 
-<figure><img src="/broken/files/13vs4zi5Q4U6SQDFloH2" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-19 в 13.31.02.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Готово! Теперь превью урока будут отображаться в виде иконок в секции "Списки уроков" на сайте.
 {% endhint %}
 
-<figure><img src="/broken/files/mCSM0g9BDF5NprZOdLUN" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-19 в 13.37.57.png" alt=""><figcaption></figcaption></figure>
 
 4. Фоновый узор
 
-<figure><img src="/broken/files/JDxTtI0GzqYlvyrkoTsR" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-19 в 13.39.19.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Добавит объема и уникальности для карточек ваших уроков:
 
-<figure><img src="/broken/files/84lXR01W2Y46kCgrFKAH" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-19 в 13.40.51.png" alt="" width="375"><figcaption></figcaption></figure>
 
 5. Скругление элементов
 
-<figure><img src="/broken/files/24Ymp5YDiS12a5ruKeyb" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-19 в 13.42.08.png" alt=""><figcaption></figcaption></figure>
 
 Значение задается в пикселях, скругляет углы карточек уроков:
 
-<figure><img src="/broken/files/g4oYpNXZQ0ycMDXmhb1W" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Запись-экрана-2025-03-19-в-13.48.48.gif" alt="" width="563"><figcaption></figcaption></figure>
 
 6. Стиль карточек уроков
 
-<figure><img src="/broken/files/CsBoXL7Fwij7p7D5MJMe" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-19 в 13.52.25.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Помогает расположить карточки уроков в одну строку или в ряд с переносом или без.&#x20;
 
 7. Цвет фона и текста
 
-<figure><img src="/broken/files/7JgBZKnE3CflxjxibMhg" alt="" width="440"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-19 в 13.53.03.png" alt="" width="440"><figcaption></figcaption></figure>
 
 В распоряжении обширная цветовая палитра, чтобы задать цвет фона карточки и цвет шрифта на карточке урока:
 
-<figure><img src="/broken/files/nEl4xP9vFKnzXWJp1Ae1" alt="" width="450"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-19 в 13.53.55.png" alt="" width="450"><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Теперь вы знаете, как добавить списки уроков на свой сайт и кастомизировать контент секции.&#x20;

@@ -31,9 +31,9 @@
 
 Для подключения Facebook<mark style="color:red;">\*</mark>к Salebot перейдите в раздел "Каналы" и выберите Facebook<mark style="color:red;">\*</mark>
 
-<figure><img src="../../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (41) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (42) (1).png" alt=""><figcaption></figcaption></figure>
 
 В появившемся окне пройдите авторизацию для доступа к аккаунту. После авторизации, у вас появится список созданных вами бизнес страниц для подключения. Выберите нужную вам.
 
@@ -41,27 +41,27 @@
 Вам могут предложить подключить сразу Бизнес аккаунты Instagram<mark style="color:red;">\*</mark>, но это по желанию
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (43) (1).png" alt=""><figcaption></figcaption></figure>
 
 Далее необходимо выбрать страницу, к которой необходимо подключить бота.
 
-<figure><img src="../../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (44) (1).png" alt=""><figcaption></figcaption></figure>
 
 Далее выберите разрешения для бота. Обязательно проверьте, чтобы все бегунки были включены.
 
-<figure><img src="../../../.gitbook/assets/image (45).png" alt="" width="518"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (45) (1).png" alt="" width="518"><figcaption></figcaption></figure>
 
 Если все прошло успешно, то вы увидите следующее окно
 
-<figure><img src="../../../.gitbook/assets/image (46).png" alt="" width="497"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (46) (1).png" alt="" width="497"><figcaption></figcaption></figure>
 
 В раздел "Каналы", у вас появится возможность выбрать страницу для привязки бота.
 
-<figure><img src="../../../.gitbook/assets/image (47).png" alt="" width="543"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (47) (1).png" alt="" width="543"><figcaption></figcaption></figure>
 
 После нажатия кнопки "Готово", вы должны увидеть успешно подключенный Facebook<mark style="color:red;">\*</mark>
 
-<figure><img src="../../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (48) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 У страницы должны быть подключены сообщения.
@@ -69,13 +69,13 @@
 
 После перехода в группу, у вас по умолчанию будет стартовая кнопка "Начать"
 
-<figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (49) (1).png" alt=""><figcaption></figcaption></figure>
 
 Не забудьте прописать это слово в условиях стартового блока.
 
 Приветственное сообщение, которое увидит пользователь перед тем как нажать на кнопку "Начать", настраивается в настройках страницы Facebook<mark style="color:red;">\*</mark>
 
-![](<../../../.gitbook/assets/image (50).png>)
+![](<../../../.gitbook/assets/image (50) (1).png>)
 
 ### **Что делать если в списке страниц нет необходимой**
 
@@ -85,15 +85,15 @@
 
 Выйдите из системы, в правом верхнем углу
 
-&#x20;                                                                    <img src="../../../.gitbook/assets/image (51).png" alt="" data-size="original">
+&#x20;                                                                    <img src="../../../.gitbook/assets/image (51) (1).png" alt="" data-size="original">
 
 Нажмите войти через Facebook<mark style="color:red;">\*</mark>&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (52) (1).png" alt=""><figcaption></figcaption></figure>
 
 Нажмите **Изменить настройки**
 
-<figure><img src="../../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (53) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -139,7 +139,7 @@
 
 ## Как создать карусель
 
-<figure><img src="../../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (54) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 В карусели может быть от 2 до 10 карточек(слайдов).
