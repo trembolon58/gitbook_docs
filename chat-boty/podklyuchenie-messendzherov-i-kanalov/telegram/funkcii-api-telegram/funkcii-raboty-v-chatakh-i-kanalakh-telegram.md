@@ -102,7 +102,7 @@
 
 Прием заявки:
 
-<figure><img src="../../../../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (132) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="background-color:blue;">**Как отклонить заявку в канал/чат**</mark> <mark style="background-color:blue;">**в Telegram**</mark>
 

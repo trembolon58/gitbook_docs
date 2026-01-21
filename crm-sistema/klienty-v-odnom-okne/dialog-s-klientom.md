@@ -54,6 +54,32 @@ ID клиента - это идентификатор клиента в salebot,
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 14.57.55.png" alt="" width="375"><figcaption></figcaption></figure>
 
+Во вкладке "О клиенте" можно увидеть карточку "Контакты":
+
+<figure><img src="https://docs.salebot.pro/~gitbook/image?url=https%3A%2F%2F4216716816-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-LxKl4rC_EcwBAz40Qn_%252Fuploads%252FY8W0lqOPwBgtzYXgJqga%252FScreenshot%25202025-12-30%2520at%252012.10.51.png%3Falt%3Dmedia%26token%3D0bcadaa3-5a8a-46f2-8a91-a62ce9b78ad4&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=352ffbb6&#x26;sv=2" alt="" width="563"><figcaption></figcaption></figure>
+
+В данной карточке отображается номер телефона и / или электронная почта, полученные:
+
+1. Если клиент написал в бот, а бот собирал данные клиента с помощью переменных phone / email:
+
+Пример схемы со сбором данных номера телефона (email) в переменные phone (email):
+
+<figure><img src="https://docs.salebot.pro/~gitbook/image?url=https%3A%2F%2F4216716816-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-LxKl4rC_EcwBAz40Qn_%252Fuploads%252FW3MLCnansq53rSvz7Wu7%252FScreenshot%25202025-12-30%2520at%252012.17.44.png%3Falt%3Dmedia%26token%3D93338913-1b44-4193-91a4-18c6915f5540&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=d7c191ba&#x26;sv=2" alt="" width="563"><figcaption></figcaption></figure>
+
+[Подробнее, как работать со стрелкой со сбором данных, рассказали здесь.](../../chat-boty/kak-sozdat-chat-bot-dlya-biznesa/strelki-soedineniya/tipy-soedinenii-strelok.md#strelka-so-sborom-dannykh)
+
+1. Можно заполнить данные вручную в разделе "О клиенте":
+
+<figure><img src="https://docs.salebot.pro/~gitbook/image?url=https%3A%2F%2F4216716816-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-LxKl4rC_EcwBAz40Qn_%252Fuploads%252FHxt18G13RdXLzo1v9y4E%252FScreenshot%25202025-12-30%2520at%252012.19.56.png%3Falt%3Dmedia%26token%3D2d57ea0e-770f-4c76-beb4-80e06de8ac3a&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=416c0dc3&#x26;sv=2" alt="" width="563"><figcaption></figcaption></figure>
+
+2. При создании сделки в боте со сбором данных клиента или при ручном создании сделки (нужно заполнить поля телефон и почта):
+
+<figure><img src="https://docs.salebot.pro/~gitbook/image?url=https%3A%2F%2F4216716816-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-LxKl4rC_EcwBAz40Qn_%252Fuploads%252FpdgO0QBVOIiktwvuIVLE%252FScreenshot%25202025-12-30%2520at%252012.24.32.png%3Falt%3Dmedia%26token%3D172d0b25-5491-498d-9a76-880cdb5f97e5&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=b31e167d&#x26;sv=2" alt="" width="375"><figcaption></figcaption></figure>
+
+3. При заполнении клиентом формы сбора данных ([при включении переключателя в настройках "Создать сделку в CRM](https://docs.salebot.pro/~/changes/5570/saity-dlya-biznesa/konstruktor-saitov/minilendingi-v-socialnykh-setyakh/sekcii-bloki/sekciya-forma#kak-dobavit-sdelku-v-salebotcrm-s-saita)")
+
+<figure><img src="https://docs.salebot.pro/~gitbook/image?url=https%3A%2F%2F4216716816-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-LxKl4rC_EcwBAz40Qn_%252Fuploads%252FE0z8i8UXU9c1yDa3udPy%252F%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2520%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%25202024-04-25%2520%25D0%25B2%252012.59.55.png%3Falt%3Dmedia%26token%3D1f99ea2d-df02-4036-865e-3e36bc724df9&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=59788087&#x26;sv=2" alt="" width="563"><figcaption></figcaption></figure>
+
 В карточке клиента отображаются данные по этапу воронки, в которой находится клиент на текущий момент и реализована возможность перемещения клиента:
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 14.59.37.png" alt="" width="563"><figcaption></figcaption></figure>

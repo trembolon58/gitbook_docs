@@ -105,7 +105,7 @@ Instagram<mark style="color:red;">\*</mark> поддерживает не бол
 
 Как сделать такую карусель в Direct:
 
-&#x20;                                     <img src="../../../.gitbook/assets/image (101).png" alt="" data-size="original">
+&#x20;                                     <img src="../../../.gitbook/assets/image (132).png" alt="" data-size="original">
 
 {% hint style="success" %}
 В карусели может быть от 2 до 10 карточек(слайдов).
@@ -137,7 +137,7 @@ r = send\_carousel(p, '')                                        &#x20;
 
 p = \[{"title":"заголовок", "description": "ОПИСАНИЕ КАРТОЧКИ 1", "image": "ССЫЛКА НА КАРТИНКУ 1", "buttons":\[{"text":"ТЕКСТ КНОПКИ 1", "url":"ССЫЛКА ДЛЯ КНОПКИ" }]}]
 
-&#x20;                                      ![](<../../../.gitbook/assets/image (1) (1).png>)
+&#x20;                                      ![](<../../../.gitbook/assets/image (1) (2).png>)
 
 &#x20;                                     <img src="../../../.gitbook/assets/image (2) (1).png" alt="" data-size="original">
 

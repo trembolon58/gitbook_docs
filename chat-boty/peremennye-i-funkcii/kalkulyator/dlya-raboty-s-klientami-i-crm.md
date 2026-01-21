@@ -203,7 +203,7 @@ status=delete_task(task_id)
 {% tab title="Описание" %}
 <mark style="background-color:blue;">**Получение идентификатора текущей сделки**</mark>
 
-**get\_order\_id()** - вернет состояние сделки
+**get\_order\_id()** - вернет идентификатор текущей сделки
 
 <mark style="background-color:blue;">**Создание новой сделки**</mark>
 

@@ -65,7 +65,7 @@
 <figure><img src="/broken/files/fKlA5cguM47Wos9oQIkn" alt=""><figcaption><p>Рис. 8. Подключенные платежные системы в проекте отображаются на рис. 7</p></figcaption></figure>
 
 {% hint style="info" %}
-Как подключить любую платежную систему, читайте в разделе "[Эквайринг](../../integracii/platezhnye-sistemy/)".
+Как подключить любую платежную систему, читайте в разделе "[Эквайринг](../../platezhnye-sistemy/)".
 {% endhint %}
 
 ### Политика конфиденциальности

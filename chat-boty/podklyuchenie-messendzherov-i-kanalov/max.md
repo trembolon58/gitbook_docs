@@ -139,4 +139,36 @@ chat\_member\_id - id пользователя
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcayIDrqacWVl_jDsnno0J51KkSGhOeI2VidLf1g2mo5SZjCN1raRljOcxcU9Vn4kBZ1CI4q7m70yPylwBTfwOOO_Rcif0D7vrz8EoMHzse2fPFaqCuTBNj6o8ahcq_DVknscWnqQ?key=lOib_VIcXHaMAcJLN34KW0zJ" alt=""><figcaption></figcaption></figure>
 
-d
+### Форматирование сообщений <a href="#formatirovanie-soobshenii" id="formatirovanie-soobshenii"></a>
+
+#### Markdown <a href="#markdown" id="markdown"></a>
+
+\*Курсив\* или \_курсив\_
+
+\*\*Жирный\*\* или \_\_Жирный\_\_
+
+\~\~Зачеркнутый\~\~
+
+++Подчеркнутый++
+
+\`Моноширинный\`
+
+<figure><img src="https://docs.salebot.pro/~gitbook/image?url=https%3A%2F%2F4216716816-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-LxKl4rC_EcwBAz40Qn_%252Fuploads%252FE0sQVcLuODi0XSr5k8zb%252F%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2520%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%25202026-01-05%2520%25D0%25B2%252010.27.57.png%3Falt%3Dmedia%26token%3D31a84f7b-98b9-4d43-9d6c-822ce8c56030&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=8670001d&#x26;sv=2" alt="" width="375"><figcaption></figcaption></figure>
+
+<figure><img src="https://docs.salebot.pro/~gitbook/image?url=https%3A%2F%2F4216716816-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-LxKl4rC_EcwBAz40Qn_%252Fuploads%252FOP3kBsfJNFP8ATB5WXmC%252F%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2520%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%25202026-01-05%2520%25D0%25B2%252010.16.22.png%3Falt%3Dmedia%26token%3D3bfad43a-a62e-4369-aae0-309bf2e0b3b1&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=160a1748&#x26;sv=2" alt="" width="375"><figcaption></figcaption></figure>
+
+#### HTML <a href="#html" id="html"></a>
+
+\<i>курсив\</i> или \<em>курсив\</em>
+
+\<b>жирный\</b> или \<strong>жирный\</strong>
+
+\<del>зачёркнутый\</del> или \<s>зачёркнутый\</s>
+
+\<ins>подчёркнутый\</ins> или \<u>подчёркнутый\</u>
+
+\<pre>моноширинный\</pre> или \<code>моноширинный\</code>
+
+ссылка \<a href="https://dev.max.ru">Docs\</a>
+
+<div><figure><img src="../../.gitbook/assets/Снимок экрана 2026-01-21 в 14.54.37.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Снимок экрана 2026-01-21 в 14.54.47.png" alt=""><figcaption></figcaption></figure></div>

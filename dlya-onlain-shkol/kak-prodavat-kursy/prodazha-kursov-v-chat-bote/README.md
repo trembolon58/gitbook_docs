@@ -32,7 +32,7 @@ description: >-
 
 Чтобы найти статью по выбранной платежной системе:
 
-а) либо перейдите в раздел "[Эквайринг](../../../integracii/platezhnye-sistemy/)" и изучите необходимую инструкцию для подключения:
+а) либо перейдите в раздел "[Эквайринг](../../../platezhnye-sistemy/)" и изучите необходимую инструкцию для подключения:
 
 <figure><img src="/broken/files/z4uS1vsZvPMxYOVNLtcS" alt="" width="355"><figcaption></figcaption></figure>
 

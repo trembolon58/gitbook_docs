@@ -2,7 +2,7 @@
 
 В разделе Контент в каждой секции добавлено поле ID секции:
 
-<figure><img src="../../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 ID секции задаётся самостоятельно! \

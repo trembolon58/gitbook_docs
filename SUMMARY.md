@@ -98,6 +98,7 @@
       * [Функции для отправки и редактирования сообщений](chat-boty/podklyuchenie-messendzherov-i-kanalov/vk/api-vkontakte/funkcii-dlya-otpravki-i-redaktirovaniya-soobshenii.md)
     * [Как настроить виджет ВКонтакте с помощью приложения Salebot](chat-boty/podklyuchenie-messendzherov-i-kanalov/vk/kak-nastroit-vidzhet-vkontakte-s-pomoshyu-prilozheniya-salebot.md)
     * [FAQ ВКонтакте](chat-boty/podklyuchenie-messendzherov-i-kanalov/vk/faq-vkontakte.md)
+  * [Email](rassylki/email-rassylki/README.md)
   * [\*\*\*stagram](chat-boty/podklyuchenie-messendzherov-i-kanalov/stagram/README.md)
     * [Как создать чат-бота для \*\*stagram\*](chat-boty/podklyuchenie-messendzherov-i-kanalov/stagram/kak-sozdat-chat-bota-dlya-stagram.md)
     * [Кнопки и вложения в \*\*\*stagram\*](chat-boty/podklyuchenie-messendzherov-i-kanalov/stagram/knopki-i-vlozheniya-v-stagram.md)
@@ -205,6 +206,7 @@
     * [Иные секции сайта](saity-dlya-biznesa/konstruktor-saitov/sekcii-bloki/inye-sekcii-saita.md)
     * [Секция "Онлайн-запись"](onlain-zapis/vidzhet-onlain-zapisi-dlya-saita/README.md)
   * [Персонализированный сайт](saity-dlya-biznesa/konstruktor-saitov/personalizirovannyi-sait.md)
+  * [Как передать параметры и UTM-метки](saity-dlya-biznesa/konstruktor-saitov/kak-peredat-parametry-i-utm-metki.md)
   * [Переменные для сайта](saity-dlya-biznesa/konstruktor-saitov/peremennye-dlya-saita.md)
 * [Интернет-магазин](saity-dlya-biznesa/internet-magazin/README.md)
   * [Как создать интернет-магазин](saity-dlya-biznesa/internet-magazin/kak-sozdat-internet-magazin.md)
@@ -243,6 +245,33 @@
 * [Часто задаваемые вопросы](dlya-onlain-shkol/chasto-zadavaemye-voprosy.md)
 * [Трансляции](dlya-onlain-shkol/translyacii.md)
 
+## Рассылки
+
+* [Email-рассылки](rassylki/email-rassylki/README.md)
+  * [Привязка домена и создание почтовых ящиков](rassylki/email-rassylki/privyazka-domena-i-sozdanie-pochtovykh-yashikov.md)
+  * [Подключение email-бота](rassylki/email-rassylki/podklyuchenie-email-bota.md)
+  * [Создание email-рассылки](rassylki/email-rassylki/sozdanie-email-rassylki.md)
+  * [Конструктор email-письма](rassylki/email-rassylki/konstruktor-email-pisma.md)
+* [Рассылки в мессенджеры](rassylki/rassylki-v-messendzhery.md)
+* [Автоворонки](rassylki/avtovoronki.md)
+* [Отписка клиента от бота](rassylki/otpiska-klienta-ot-bota.md)
+* [Как отфильтровать клиентов для рассылки](rassylki/kak-otfiltrovat-klientov-dlya-rassylki.md)
+* [Перенос клиентской базы. Загрузка номеров Whatsapp](rassylki/perenos-klientskoi-bazy.-zagruzka-nomerov-whatsapp.md)
+
+## Аналитика для бизнеса
+
+* [Аналитика Salebot](analitika-dlya-biznesa/analitika-salebot/README.md)
+  * [Дашборды](analitika-dlya-biznesa/analitika-salebot/dashbordy.md)
+  * [Аналитика клиентов](analitika-dlya-biznesa/analitika-salebot/analitika-klientov.md)
+  * [Аналитика рекламы](analitika-dlya-biznesa/analitika-salebot/analitika-reklamy.md)
+  * [Аналитика курсов](analitika-dlya-biznesa/analitika-salebot/analitika-kursov.md)
+  * [Аналитика сайта](analitika-dlya-biznesa/analitika-salebot/analitika-saita.md)
+  * [UTM-метки](analitika-dlya-biznesa/analitika-salebot/utm-metki.md)
+  * [Аналитика для онлайн-чата](analitika-dlya-biznesa/analitika-salebot/analitika-dlya-onlain-chata.md)
+  * [Аналитика CRM](analitika-dlya-biznesa/analitika-salebot/analitika-crm.md)
+  * [Операторы](analitika-dlya-biznesa/analitika-salebot/operatory.md)
+* [Как удалить виджет в аналитике](analitika-dlya-biznesa/kak-udalit-vidzhet-v-analitike.md)
+
 ## Онлайн-запись
 
 * [Онлайн-запись для услуг](onlain-zapis/onlain-zapis-dlya-uslug/README.md)
@@ -270,20 +299,6 @@
   * [Как встроить виджет на сайт](onlain-zapis/vidzhet-onlain-zapisi-dlya-saita/kak-vstroit-vidzhet-na-sait.md)
   * [Виджет для Telegram](onlain-zapis/vidzhet-onlain-zapisi-dlya-saita/vidzhet-dlya-telegram.md)
 
-## Аналитика для бизнеса
-
-* [Аналитика Salebot](analitika-dlya-biznesa/analitika-salebot/README.md)
-  * [Дашборды](analitika-dlya-biznesa/analitika-salebot/dashbordy.md)
-  * [Аналитика клиентов](analitika-dlya-biznesa/analitika-salebot/analitika-klientov.md)
-  * [Аналитика рекламы](analitika-dlya-biznesa/analitika-salebot/analitika-reklamy.md)
-  * [Аналитика курсов](analitika-dlya-biznesa/analitika-salebot/analitika-kursov.md)
-  * [Аналитика сайта](analitika-dlya-biznesa/analitika-salebot/analitika-saita.md)
-  * [UTM-метки](analitika-dlya-biznesa/analitika-salebot/utm-metki.md)
-  * [Аналитика для онлайн-чата](analitika-dlya-biznesa/analitika-salebot/analitika-dlya-onlain-chata.md)
-  * [Аналитика CRM](analitika-dlya-biznesa/analitika-salebot/analitika-crm.md)
-  * [Операторы](analitika-dlya-biznesa/analitika-salebot/operatory.md)
-* [Как удалить виджет в аналитике](analitika-dlya-biznesa/kak-udalit-vidzhet-v-analitike.md)
-
 ## Таблицы
 
 * [Таблицы в Salebot](tablicy/tablicy-v-salebot.md)
@@ -291,31 +306,59 @@
 
 ## Интеграции
 
-* [Page 1](integracii/page-1.md)
-* [Прием платежей](integracii/platezhnye-sistemy/README.md)
-  * [Продамус (Prodamus)](integracii/platezhnye-sistemy/platezhnaya-sistema-prodamus-prodamus.md)
-  * [Robokassa](integracii/platezhnye-sistemy/priem-platezhei-cherez-robokassu.md)
-  * [Сбербанк Эквайринг](integracii/platezhnye-sistemy/sberbank-ekvairing.md)
-  * [Т-банк](integracii/platezhnye-sistemy/tinkoff.md)
-  * [Т-банк Кредитование/Рассрочка](integracii/platezhnye-sistemy/t-bank-kreditovanie-rassrochka.md)
-  * [ЮKassa](integracii/platezhnye-sistemy/priem-platezhei-v-bote-cherez-yandeks.kassu.md)
-  * [ЮMoney](integracii/platezhnye-sistemy/priem-platezhei-cherez-yandeks.dengi.md)
-  * [Bepaid](integracii/platezhnye-sistemy/bepaid.md)
-  * [Coinpayments](integracii/platezhnye-sistemy/coinpayments.md)
-  * [Cloudpayments](integracii/platezhnye-sistemy/cloudpayments.md)
-  * [INXY Payments](integracii/platezhnye-sistemy/inxy-payments.md)
-  * [Life Pay](integracii/platezhnye-sistemy/life-pay.md)
-  * [Paypal](integracii/platezhnye-sistemy/paypal.md)
-  * [Payeer.trade](integracii/platezhnye-sistemy/payeer.trade.md)
-  * [Payonline](integracii/platezhnye-sistemy/payonline.md)
-  * [Paybox.money](integracii/platezhnye-sistemy/paybox.money.md)
-  * [Payselection](integracii/platezhnye-sistemy/payselection.md)
-  * [Stripe](integracii/platezhnye-sistemy/stripe.md)
-  * [Copy of Stripe](integracii/platezhnye-sistemy/stripe-1.md)
-  * [Webpay](integracii/platezhnye-sistemy/webpay.md)
-  * [Wayforpay](integracii/platezhnye-sistemy/wayforpay.md)
-  * [WalletOne(Единая касса)](integracii/platezhnye-sistemy/priem-platezhei-cherez-walletone-edinaya-kassa.md)
-  * [Allpay](integracii/platezhnye-sistemy/allpay.md)
-  * [Wallet pay](integracii/platezhnye-sistemy/wallet-pay.md)
-  * [Paykeeper](integracii/platezhnye-sistemy/paykeeper.md)
-  * [Mandarin](integracii/platezhnye-sistemy/mandarin.md)
+* [Прием платежей](platezhnye-sistemy/README.md)
+  * [Продамус (Prodamus)](platezhnye-sistemy/platezhnaya-sistema-prodamus-prodamus.md)
+  * [Robokassa](platezhnye-sistemy/priem-platezhei-cherez-robokassu.md)
+  * [Сбербанк Эквайринг](platezhnye-sistemy/sberbank-ekvairing.md)
+  * [Т-банк](platezhnye-sistemy/tinkoff.md)
+  * [Т-банк Кредитование/Рассрочка](platezhnye-sistemy/t-bank-kreditovanie-rassrochka.md)
+  * [ЮKassa](platezhnye-sistemy/priem-platezhei-v-bote-cherez-yandeks.kassu.md)
+  * [ЮMoney](platezhnye-sistemy/priem-platezhei-cherez-yandeks.dengi.md)
+  * [Bepaid](platezhnye-sistemy/bepaid.md)
+  * [Coinpayments](platezhnye-sistemy/coinpayments.md)
+  * [Cloudpayments](platezhnye-sistemy/cloudpayments.md)
+  * [INXY Payments](platezhnye-sistemy/inxy-payments.md)
+  * [Life Pay](platezhnye-sistemy/life-pay.md)
+  * [Paypal](platezhnye-sistemy/paypal.md)
+  * [Payeer.trade](platezhnye-sistemy/payeer.trade.md)
+  * [Payonline](platezhnye-sistemy/payonline.md)
+  * [Paybox.money](platezhnye-sistemy/paybox.money.md)
+  * [Payselection](platezhnye-sistemy/payselection.md)
+  * [Stripe](platezhnye-sistemy/stripe.md)
+  * [Copy of Stripe](platezhnye-sistemy/stripe-1.md)
+  * [Webpay](platezhnye-sistemy/webpay.md)
+  * [Wayforpay](platezhnye-sistemy/wayforpay.md)
+  * [WalletOne(Единая касса)](platezhnye-sistemy/priem-platezhei-cherez-walletone-edinaya-kassa.md)
+  * [Allpay](platezhnye-sistemy/allpay.md)
+  * [Wallet pay](platezhnye-sistemy/wallet-pay.md)
+  * [Paykeeper](platezhnye-sistemy/paykeeper.md)
+  * [Mandarin](platezhnye-sistemy/mandarin.md)
+
+## Наши услуги
+
+* [Тарифы и оплата](nashi-uslugi/tarify-i-oplata.md)
+* [Мобильное приложение](nashi-uslugi/mobilnoe-prilozhenie.md)
+* [Партнерская программа](nashi-uslugi/partnerskaya-programma/README.md)
+  * [Как передать проект заказчику](nashi-uslugi/partnerskaya-programma/kak-peredat-proekt-zakazchiku.md)
+
+## Часто задаваемые вопросы
+
+* [FAQ](chasto-zadavaemye-voprosy/faq.md)
+* [Как сделать](chasto-zadavaemye-voprosy/kak-sdelat/README.md)
+  * [Простого чат-бота](chasto-zadavaemye-voprosy/kak-sdelat/prostogo-chat-bota.md)
+  * [Опрос в чат-боте с баллами](chasto-zadavaemye-voprosy/kak-sdelat/opros-v-chat-bote-s-ballami.md)
+  * [Реферальная программа](chasto-zadavaemye-voprosy/kak-sdelat/referalnaya-programma.md)
+  * [Временно доступный контент](chasto-zadavaemye-voprosy/kak-sdelat/vremenno-dostupnyi-kontent.md)
+  * [Перемещение клиентов в другой блок](chasto-zadavaemye-voprosy/kak-sdelat/peremeshenie-klientov-v-drugoi-blok.md)
+  * [Персонализированные изображения](chasto-zadavaemye-voprosy/kak-sdelat/personalizirovannye-izobrazheniya.md)
+  * [Перевод клиента при без действии и работа с кнопками](chasto-zadavaemye-voprosy/kak-sdelat/perevod-klienta-pri-bez-deistvii-i-rabota-s-knopkami.md)
+  * [Как передать параметры и UTM-метки](saity-dlya-biznesa/konstruktor-saitov/kak-peredat-parametry-i-utm-metki.md)
+* [Особые возможности](chasto-zadavaemye-voprosy/osobye-vozmozhnosti/README.md)
+  * [Программирование на Python](chasto-zadavaemye-voprosy/osobye-vozmozhnosti/programmirovanie-na-python.md)
+  * [QR-код и штрихкод](chasto-zadavaemye-voprosy/osobye-vozmozhnosti/qr-kod-i-shtrikhkod.md)
+  * [Отправка заявок в мессенджеры и на электронную почту](chasto-zadavaemye-voprosy/osobye-vozmozhnosti/otpravka-zayavok-v-messendzhery-i-na-elektronnuyu-pochtu.md)
+  * [Работа с промокодами](chasto-zadavaemye-voprosy/osobye-vozmozhnosti/rabota-s-promokodami.md)
+
+## Что нового
+
+* [Список последних обновлений](chto-novogo/spisok-poslednikh-obnovlenii.md)

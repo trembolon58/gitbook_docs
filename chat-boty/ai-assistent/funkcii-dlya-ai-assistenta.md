@@ -42,7 +42,7 @@ ai\_context\_answer(replica, prompt, ai\_assistant\_id, use\_history, send\_answ
 
 В калькуляторе пропишем непосредственно две функции:&#x20;
 
-<figure><img src="../../.gitbook/assets/unnamed (1).png" alt="" width="545"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unnamed (1) (3).png" alt="" width="545"><figcaption></figcaption></figure>
 
 В расширенных настройках кнопок (см. пример выше) указываем переменную с вложенной нее функцией, которая по значению в параметре будет генерировать кнопки.&#x20;
 
@@ -52,7 +52,7 @@ ai\_context\_answer(replica, prompt, ai\_assistant\_id, use\_history, send\_answ
 
 Результат работы:
 
-<figure><img src="../../.gitbook/assets/unnamed (3).png" alt="" width="422"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unnamed (3) (2).png" alt="" width="422"><figcaption></figcaption></figure>
 
 **Пример кода**:
 
