@@ -263,7 +263,7 @@
 * [Аналитика Salebot](analitika-dlya-biznesa/analitika-salebot/README.md)
   * [Дашборды](analitika-dlya-biznesa/analitika-salebot/dashbordy.md)
   * [Аналитика клиентов](analitika-dlya-biznesa/analitika-salebot/analitika-klientov.md)
-  * [Аналитика рекламы](analitika-dlya-biznesa/analitika-salebot/analitika-reklamy/README.md)
+  * [Аналитика рекламы](analitika-dlya-biznesa/analitika-salebot/analitika-reklamy.md)
     * [Подключение рекламного кабинета ВКонтакте к Salebot](integracii/integraciya-s-servisami-analitiki/podklyuchenie-reklamnogo-kabineta-vkontakte-k-salebot.md)
   * [Аналитика курсов](analitika-dlya-biznesa/analitika-salebot/analitika-kursov.md)
   * [Аналитика сайта](analitika-dlya-biznesa/analitika-salebot/analitika-saita.md)
@@ -377,6 +377,7 @@
   * [Tilda](integracii/inye-servisy/tilda.md)
   * [Linkrr](integracii/inye-servisy/linkrr.md)
   * [Vakas-Tools](integracii/inye-servisy/vakas-tools.md)
+* [Партнер - онлайн-школа StepUp](integracii/partner-onlain-shkola-stepup.md)
 
 ## Наши услуги
 
