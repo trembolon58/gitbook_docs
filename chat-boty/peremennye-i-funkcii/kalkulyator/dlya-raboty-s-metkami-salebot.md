@@ -60,27 +60,27 @@
 
 Достаточно единожды выполнить функцию создания в сером блоке (блоке не состояние), например:
 
-<figure><img src="../../../.gitbook/assets/image (208).png" alt=""><figcaption><p>Создание метки через функцию Калькулятора</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (208) (1).png" alt=""><figcaption><p>Создание метки через функцию Калькулятора</p></figcaption></figure>
 
 При этом в переменной _**a**_ можно проанализировать успех выполнения функции создания метки:
 
-<figure><img src="../../../.gitbook/assets/image (209).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (209) (1).png" alt=""><figcaption></figcaption></figure>
 
 Далее метку можно **назначить любому из клиентов**, для этого пропишите функцию add\_label() в нужном блоке Вашей воронки:
 
-<figure><img src="../../../.gitbook/assets/image (210).png" alt=""><figcaption><p>Добавление метки клиенту</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (210) (1).png" alt=""><figcaption><p>Добавление метки клиенту</p></figcaption></figure>
 
 Проверить наличие метки у клиента можно при помощи функции has\_label():
 
-<figure><img src="../../../.gitbook/assets/image (211).png" alt=""><figcaption><p>Проверка наличия метки у клиента</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (211) (1).png" alt=""><figcaption><p>Проверка наличия метки у клиента</p></figcaption></figure>
 
-Функция возвращает логическое значение True или False ![](<../../../.gitbook/assets/image (212).png>)
+Функция возвращает логическое значение True или False ![](<../../../.gitbook/assets/image (212) (1).png>)
 
 Аналогичным методом выполняются и другие действия над метками - удаление метки у конкретного клиента, удаление метки в целом у всех клиентов.
 
 Можно посчитать **количество клиентов с заданной меткой** - воспользуйтесь функцией count\_of\_clients\_with\_label()&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (213).png" alt=""><figcaption><p>Подсчет количества клиентов по заданной метке</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (213) (1).png" alt=""><figcaption><p>Подсчет количества клиентов по заданной метке</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
@@ -169,7 +169,7 @@ _**Параметры:**_
 {% endtab %}
 
 {% tab title="Пример" %}
-<figure><img src="../../../.gitbook/assets/image (214).png" alt=""><figcaption><p>Получить все метки текущего клиента</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (214) (1).png" alt=""><figcaption><p>Получить все метки текущего клиента</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -203,7 +203,7 @@ remove\_multiple\_client\_labels()
 
 В переменную запишется результат выполнения функции: или вернет текст ошибки, или число, сколько было удалено меток.
 
-<figure><img src="../../../.gitbook/assets/image (215).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (215) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -243,7 +243,7 @@ find\_clients\_by\_multiple\_labels()&#x20;
 
 `r2 = find_clients_by_multiple_labels('["newTestTag","metka2"]', 1)`
 
-<figure><img src="../../../.gitbook/assets/image (216).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (216) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -281,6 +281,6 @@ has\_client\_multiple\_labels()
 
 &#x20;`r2 = has_client_multiple_labels('["newTestTag","metka2"]', 1)`
 
-<figure><img src="../../../.gitbook/assets/image (217).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (217) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}

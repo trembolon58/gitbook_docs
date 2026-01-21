@@ -36,11 +36,11 @@
 
 Очень удобно использовать списки при выводе статистических данных:
 
-<figure><img src="../../../.gitbook/assets/image (202).png" alt=""><figcaption><p>Подсчет общего количества клиентов в списке</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (202) (1).png" alt=""><figcaption><p>Подсчет общего количества клиентов в списке</p></figcaption></figure>
 
 Часто возникает необходимость получить общее количество уникальных записей в наборе списков - это легко достичь применением функции  `lists_joint_count()`
 
-<figure><img src="../../../.gitbook/assets/image (203).png" alt=""><figcaption><p>Получение общего количества уникальных записей в списках</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (203) (1).png" alt=""><figcaption><p>Получение общего количества уникальных записей в списках</p></figcaption></figure>
 
 **аа**
 
@@ -64,7 +64,7 @@
 {% tab title="Пример" %}
 `list_id = create_list("зарегистрировались")`
 
-<figure><img src="../../../.gitbook/assets/image (204).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (204) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -82,7 +82,7 @@
 {% endtab %}
 
 {% tab title="Пример" %}
-<figure><img src="../../../.gitbook/assets/image (205).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (205) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```
 new_list = create_list_if_not_exist('Список участников')
@@ -269,9 +269,9 @@ k=lists_joint_count('[144636,144634]')
 {% endtab %}
 
 {% tab title="Пример" %}
-<figure><img src="../../../.gitbook/assets/image (206).png" alt=""><figcaption><p>Проверка наличия в списке при вступлении в канал</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (206) (1).png" alt=""><figcaption><p>Проверка наличия в списке при вступлении в канал</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (207).png" alt=""><figcaption><p>Проверка наличия в списке по ID  в мессенджере</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (207) (1).png" alt=""><figcaption><p>Проверка наличия в списке по ID  в мессенджере</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}

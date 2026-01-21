@@ -105,7 +105,7 @@ Instagram<mark style="color:red;">\*</mark> поддерживает не бол
 
 Как сделать такую карусель в Direct:
 
-&#x20;                                     <img src="../../../.gitbook/assets/image (132).png" alt="" data-size="original">
+&#x20;                                     <img src="../../../.gitbook/assets/image (132) (1).png" alt="" data-size="original">
 
 {% hint style="success" %}
 В карусели может быть от 2 до 10 карточек(слайдов).
@@ -137,9 +137,9 @@ r = send\_carousel(p, '')                                        &#x20;
 
 p = \[{"title":"заголовок", "description": "ОПИСАНИЕ КАРТОЧКИ 1", "image": "ССЫЛКА НА КАРТИНКУ 1", "buttons":\[{"text":"ТЕКСТ КНОПКИ 1", "url":"ССЫЛКА ДЛЯ КНОПКИ" }]}]
 
-&#x20;                                      ![](<../../../.gitbook/assets/image (1) (2).png>)
+&#x20;                                      ![](<../../../.gitbook/assets/image (1) (2) (1).png>)
 
-&#x20;                                     <img src="../../../.gitbook/assets/image (2) (1).png" alt="" data-size="original">
+&#x20;                                     <img src="../../../.gitbook/assets/image (2) (1) (1).png" alt="" data-size="original">
 
 {% hint style="info" %}
 В кнопки карточек карусели добавлен еще один необязательный параметр payload, который не будет отображаться клиенту, но позволит проанализировать сделанный клиентом выбор&#x20;
@@ -147,9 +147,9 @@ p = \[{"title":"заголовок", "description": "ОПИСАНИЕ КАРТО
 
 Поскольку часто требуется размещение карточек карусели с одинаковым текстом кнопки, то был добавлен еще один параметр **payload**, который не будет отображаться клиенту, но позволит проанализировать сделанный им выбор:
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Обратите внимание на правильность его применения:\
 p = \[{"title":"заголовок", "description": "ОПИСАНИЕ КАРТОЧКИ 1", "image": "ССЫЛКА НА КАРТИНКУ 1", "buttons":\[{"text":"ТЕКСТ КНОПКИ 1"**,"payload":"1"**}]},{"title":"заголовок", "description": "ОПИСАНИЕ КАРТОЧКИ 2", "image": "ССЫЛКА НА КАРТИНКУ 2", "buttons":\[{"text":"ТЕКСТ КНОПКИ 1"**,"payload":"2"**}]}, {"title":"заголовок", "description": "ОПИСАНИЕ КАРТОЧКИ 3", "image": "ССЫЛКА НА КАРТИНКУ 3", "buttons":\[{"text":"ТЕКСТ КНОПКИ 1"}]}]&#x20;

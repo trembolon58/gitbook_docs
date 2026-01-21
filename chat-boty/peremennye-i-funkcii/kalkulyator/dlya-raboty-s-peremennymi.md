@@ -30,15 +30,15 @@
 {% tab title="Пример" %}
 Давайте менеджеру отправим сообщение с номером урока, который проходит один из участников нашего проекта:
 
-<figure><img src="../../../.gitbook/assets/image (232).png" alt=""><figcaption><p>Пример использования функции получения значения переменной</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (232) (1).png" alt=""><figcaption><p>Пример использования функции получения значения переменной</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (233).png" alt=""><figcaption><p>Результат работы функции</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (233) (1).png" alt=""><figcaption><p>Результат работы функции</p></figcaption></figure>
 
 Тот же вариант но с выводом, например, уровня и урока в нем:
 
-<figure><img src="../../../.gitbook/assets/image (234).png" alt=""><figcaption><p>Пример использования функции получения нескольких значений</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (234) (1).png" alt=""><figcaption><p>Пример использования функции получения нескольких значений</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (235).png" alt=""><figcaption><p>результат работы функции</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (235) (1).png" alt=""><figcaption><p>результат работы функции</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
@@ -86,9 +86,9 @@ probno=get_client_vars(64732310, names)
 
 set\_client\_var(client\_id, "novoe", "да")
 
-![](<../../../.gitbook/assets/image (236).png>)
+![](<../../../.gitbook/assets/image (236) (1).png>)
 
-![](<../../../.gitbook/assets/image (237).png>)
+![](<../../../.gitbook/assets/image (237) (1).png>)
 
 Пример2:
 

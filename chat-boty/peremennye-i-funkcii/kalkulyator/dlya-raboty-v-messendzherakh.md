@@ -20,7 +20,7 @@
 {% endtab %}
 
 {% tab title="Примеры" %}
-<figure><img src="../../../.gitbook/assets/image (218).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (218) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
@@ -58,7 +58,7 @@ r=check_insta_subscription()
 {% tab title="Примеры" %}
 Проверим есть подключенный Whatsapp к номеру телефона:
 
-<figure><img src="../../../.gitbook/assets/image (219).png" alt=""><figcaption><p>Пример применения функции check_whatsapp()</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (219) (1).png" alt=""><figcaption><p>Пример применения функции check_whatsapp()</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
@@ -126,7 +126,7 @@ rs=check_whatsapp(79999999999)
 {% endtab %}
 
 {% tab title="Примеры" %}
-<figure><img src="../../../.gitbook/assets/image (220).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (220) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}

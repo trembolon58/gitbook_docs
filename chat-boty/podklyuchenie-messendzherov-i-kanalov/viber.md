@@ -17,11 +17,11 @@
 
 Для начала, необходимо пройти по [ссылке ](https://partners.viber.com/account)и авторизоваться на сайте.
 
-<figure><img src="../../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Далее нужно создать паблик аккаунт для нашего бота. Выбираем фото и заполняем все поля:
 
-<figure><img src="../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Account name** - имя бота, можно будет потом поменять
 
@@ -47,23 +47,23 @@
 Иначе перед запуском бота у всех пользователей будет предупреждение, что бот содержит контент для взрослых.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Нужно принять условия лицензионного соглашения и нажать "Create".&#x20;
 
-<figure><img src="../../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Если все заполнено верно, вы получите токен бота, он будет нужен для следующего шага:
 
 &#x20;
 
-<figure><img src="../../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Бот готов. Осталось ввести его данные в Salebot. Для этого переходим в раздел "Каналы" и выбираем Viber.
 
 Вводим полученный токен:
 
-<figure><img src="../../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Бот будет подключен к Salebot после нажатия кнопки Готово. На мобильное устройство в приложение  Viber придет оповещение о созданном боте с его характеристиками, указанными нами в регистрационной форме.
 
@@ -115,7 +115,7 @@
 
 После получения одобрения специалисты предоставят вам индивидуальный токен для подключения на стороне Saleot:
 
-<figure><img src="../../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Обращаем внимание!\
@@ -126,7 +126,7 @@
 
 Ссылку на созданного бота можно увидеть сразу после подключения.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (26) (1).png" alt=""><figcaption><p>Подключенный бот Viber</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (26) (1) (1).png" alt=""><figcaption><p>Подключенный бот Viber</p></figcaption></figure>
 
 
 
@@ -159,7 +159,7 @@ r = send\_carousel(p, '')
 
 Для того, чтобы сделать кнопку цветной, добавьте в массив buttons дополнительный параметр **"color":"#4BB34B"**. Цвет задается в виде числа в шестнадцатеричном коде и начинается с #. Подобрать цвет, можно в специальном редакторе, например: [https://htmlcolorcodes.com/](https://htmlcolorcodes.com/)
 
-![](<../../.gitbook/assets/image (27) (1).png>)
+![](<../../.gitbook/assets/image (27) (1) (1).png>)
 
 {% hint style="info" %}
 В кнопки карточек карусели Вы можете вставлять ссылки, используя параметр **url**, тогда при нажатии на кнопку клиент перейдет по ссылке и  получит выбранную ссылку как сообщение
@@ -175,7 +175,7 @@ r = send\_carousel(p, '')
 
 В случае, когда Вы используете кнопки с одинаковым текстом, может быть применён параметр **payload**, который не будет отображаться клиенту, но позволит проанализировать сделанный им выбор:
 
-<figure><img src="../../.gitbook/assets/image (28) (1).png" alt=""><figcaption><p>Пример использования payload</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (28) (1) (1).png" alt=""><figcaption><p>Пример использования payload</p></figcaption></figure>
 
 ## Какие есть тонкости создания ботов для Viber
 
@@ -189,7 +189,7 @@ r = send\_carousel(p, '')
 
 Такой вдохновляющий на действие текст первого сообщения для Вайбер указывается в настройках проекта:
 
-<figure><img src="../../.gitbook/assets/image (29) (1).png" alt=""><figcaption><p>Пример первого сообщения с кнопкой</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29) (1) (1).png" alt=""><figcaption><p>Пример первого сообщения с кнопкой</p></figcaption></figure>
 
 {% hint style="warning" %}
 Кнопки в тексте не отправляются при переходе в бота, нужно отправлять ТОЛЬКО клавиатурные.  После первого действия можно отправлять уже контент без ограничений.
@@ -197,7 +197,7 @@ r = send\_carousel(p, '')
 
 Пример того, как выглядит это сообщение после перехода по ссылке:
 
-![](<../../.gitbook/assets/image (30) (1).png>)
+![](<../../.gitbook/assets/image (30) (1) (1).png>)
 
 ### Как повторно протестировать первое сообщение
 
@@ -216,7 +216,7 @@ r = send\_carousel(p, '')
 
 ### Возможные ошибки при работе с Вайбер:
 
-![](<../../.gitbook/assets/image (31) (1).png>)
+![](<../../.gitbook/assets/image (31) (1) (1).png>)
 
 Если вы увидели такую вот надпись в переписке с пользователем в разделе Клиенты, то она может означать одно из двух:
 
@@ -234,10 +234,10 @@ r = send\_carousel(p, '')
 
 Чтобы переход в нужный блок состоялся автоматически, надо поставить задержку в 0 секунд
 
-<figure><img src="../../.gitbook/assets/image (32) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (32) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Стрелка, которая пропускает тех, кто пришел из Вайбера выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/image (33) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (33) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 аа

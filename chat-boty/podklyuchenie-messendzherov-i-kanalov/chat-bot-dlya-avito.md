@@ -87,7 +87,7 @@ _<mark style="color:blue;">Client\_secret</mark>_ - секретный ключ 
 
 Для этого включите соответствующий переключатель:
 
-<figure><img src="../../.gitbook/assets/image (58) (1).png" alt=""><figcaption><p>Настройка "Сохранять сообщения от менеджеров"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (58) (1) (1).png" alt=""><figcaption><p>Настройка "Сохранять сообщения от менеджеров"</p></figcaption></figure>
 
 На этом подключение Авито к проекту закончено. Теперь ваш бот сможет отвечать на сообщения в мессенджере Авито.
 
@@ -97,7 +97,7 @@ _<mark style="color:blue;">Client\_secret</mark>_ - секретный ключ 
 
 Как это выглядит в чате Авито:
 
-![](<../../.gitbook/assets/image (59) (1).png>)
+![](<../../.gitbook/assets/image (59) (1) (1).png>)
 
 {% hint style="warning" %}
 Теперь пользователи могут отправлять картинки во вложениях, но ввиду ограниченных возможностей api Авито они будут приходить в чат Авито по одному отдельными сообщениями, остальные файлы всё также будут отправлены как ссылка.&#x20;
@@ -147,7 +147,7 @@ _<mark style="color:blue;">Client\_secret</mark>_ - секретный ключ 
 
 Для получения сведений об отклике на вакансию необходимо объявить общую переменную **save\_vacancy\_data** со значением **1** в настройках проекта:<br>
 
-<figure><img src="../../.gitbook/assets/image (60) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (60) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Сведения об отклике в виде json будут записаны в переменную **vacancy\_data**.
 

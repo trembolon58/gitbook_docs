@@ -25,7 +25,7 @@
 
 ## Начало работы с приложением Salebot
 
-<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption><p>Оставайтесь всегда на связи!</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (31) (1).png" alt=""><figcaption><p>Оставайтесь всегда на связи!</p></figcaption></figure>
 
 ## Авторизация в приложении
 

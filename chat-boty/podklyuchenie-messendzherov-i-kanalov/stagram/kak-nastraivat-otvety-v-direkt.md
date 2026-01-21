@@ -154,7 +154,7 @@
 
 Не так давно в[ Instagram ](#user-content-fn-1)[^1]появилась возможность в качестве реакции на сторис ставить не только смайлы, но и аватар:
 
-<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt="" width="308"><figcaption><p>Аватар в реакции сторис</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1) (1).png" alt="" width="308"><figcaption><p>Аватар в реакции сторис</p></figcaption></figure>
 
 В этом случае будет получен колбек instagram\_**reaction\_to\_story** <mark style="color:red;">\*</mark>
 
@@ -182,7 +182,7 @@
 
 И тогда при упоминании в сторис пользователь получит сообщение:
 
-![](<../../../.gitbook/assets/image (10) (1).png>)
+![](<../../../.gitbook/assets/image (10) (1) (1).png>)
 
 ## Как работать с упоминаниями аккаунта
 
@@ -194,7 +194,7 @@
 
 И появляются переменные:
 
-![](<../../../.gitbook/assets/image (11) (1).png>)
+![](<../../../.gitbook/assets/image (11) (1) (1).png>)
 
 **mention\_caption** — текст поста&#x20;
 
@@ -230,7 +230,7 @@
 
 Результат
 
-<figure><img src="../../../.gitbook/assets/image (12) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Упоминания вашего профиля в комментариях под постами  (mention\_in\_comment)
 

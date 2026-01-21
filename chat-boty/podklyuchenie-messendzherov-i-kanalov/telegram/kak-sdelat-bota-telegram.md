@@ -28,7 +28,7 @@
 
 Если адрес не занят, BotFather пришлет в ответ сообщение с токеном — «ключом» для доступа к созданному боту. Его нужно сохранить и никому не показывать:
 
-<figure><img src="../../../.gitbook/assets/unnamed.jpg" alt="" width="484"><figcaption><p>Создание бота</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/unnamed (2).jpg" alt="" width="484"><figcaption><p>Создание бота</p></figcaption></figure>
 
 После этого нужно зайти в раздел "Каналы", выбрать Telegram и ввести в форму токен вашего бота:
 

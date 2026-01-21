@@ -18,7 +18,7 @@ https://www.ozon.ru/product/jacobs-monarch-kofe-v-zernah-800-g-<mark style="colo
 name = "Виктор" \
 oz = ozon\_goods\_feedbacks(138218835, name)
 
-<figure><img src="../../../.gitbook/assets/image (238).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (238) (1).png" alt=""><figcaption></figcaption></figure>
 
 В результате выполнения функции придет ответ в виде массива со словарями: \[{"author":"Юлия Л.","comment":"","positive":"","negative":"","videos":\[],"photos":\[],"score":4},{"author":"Лилия К.","comment":"","positive":"","negative":"","videos":\[],"photos":\[],"score":5},{"author":"Кричевская Елена","comment":"мой любимый кофе. ","positive":"","negative":"","videos":\[],"photos":\[],"score":5},{"author":"Пользователь предпочёл скрыть свои данные","comment":"","positive":"","negative":"","videos":\[],"photos":\[],"score":5},{"author":"Ульяна Ш.","comment":"","positive":"","negative":"","videos":\[],"photos":\[],"score":5}]
 
@@ -38,7 +38,7 @@ oz = ozon\_goods\_feedbacks(138218835, name)
 
 **nm\_id** - Артикул товара Wildberries можно получить из ссылки на товар или скопировать в кабинете WB<br>
 
-<figure><img src="../../../.gitbook/assets/image (239).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (239) (1).png" alt=""><figcaption></figcaption></figure>
 
 **take** - Количество отзывов (max. 5 000), по умолчанию 20
 
@@ -104,7 +104,7 @@ wildberries_api_key = "h***************************************kl"
 request_WB = wildberries_goods_feedbacks(wildberries_api_key, True, nm_id, 20, 0, '25.05.2022', '26.05.2022')
 ```
 
-<figure><img src="../../../.gitbook/assets/image (240).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (240) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Отправить ответ на отзыв Wildberries
 

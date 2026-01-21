@@ -42,7 +42,7 @@
 
 ## Пример
 
-![](<../../.gitbook/assets/image (61) (1).png>)
+![](<../../.gitbook/assets/image (61) (1) (1).png>)
 
 Вот как это выглядит в Юле
 

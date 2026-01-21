@@ -24,19 +24,19 @@
 
 **Пример на получение элемента массива по его индексу**
 
-<figure><img src="../../../../.gitbook/assets/image (250).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (250) (1).png" alt=""><figcaption></figcaption></figure>
 
 Ответ:&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (251) (1).png" alt=""><figcaption></figcaption></figure>
 
-итак, в сообщении будет выведено:![](<../../../../.gitbook/assets/image (252).png>)&#x20;
+итак, в сообщении будет выведено:![](<../../../../.gitbook/assets/image (252) (1).png>)&#x20;
 
 #### **Пример на получение последнего элемента массива**
 
-<figure><img src="../../../../.gitbook/assets/image (253).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (253) (1).png" alt=""><figcaption></figcaption></figure>
 
-Ответ: ![](<../../../../.gitbook/assets/image (254).png>)
+Ответ: ![](<../../../../.gitbook/assets/image (254) (1).png>)
 
 
 {% endtab %}
@@ -70,11 +70,11 @@ last = array[-1]
 
 Для замены значения конкретного элемента массива пишем обращение к нему _имя\_массива\[индекс] = значение_&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (255).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (255) (1).png" alt=""><figcaption></figcaption></figure>
 
 Ответ:&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (256).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (256) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
@@ -112,11 +112,11 @@ dicts['a'] = int('555')
 {% tab title="Примеры" %}
 Пример:
 
-<figure><img src="../../../../.gitbook/assets/image (257).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (257) (1).png" alt=""><figcaption></figcaption></figure>
 
 Ответ:&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (258).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (258) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
@@ -146,11 +146,11 @@ q = if(in_array(s, 'Аня'), 'Найдено', 'Еще строка')
 {% tab title="Примеры" %}
 Пример использования
 
-<figure><img src="../../../../.gitbook/assets/image (259).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (259) (1).png" alt=""><figcaption></figcaption></figure>
 
 Результат:
 
-<figure><img src="../../../../.gitbook/assets/image (260).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (260) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
@@ -185,21 +185,21 @@ q = if(arr_len(s) > 5, 'Группа укомплектована', 'Присо�
 
 
 
-<figure><img src="../../../../.gitbook/assets/image (261).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (261) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (262).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (262) (1).png" alt=""><figcaption></figcaption></figure>
 
 Пример добавления в массив и удаления из него:
 
-<figure><img src="../../../../.gitbook/assets/image (263).png" alt=""><figcaption><p>В данном примере происходит добавление элемента массива project.vibpzdr и удаление из массива project.pzdr значения p</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (263) (1).png" alt=""><figcaption><p>В данном примере происходит добавление элемента массива project.vibpzdr и удаление из массива project.pzdr значения p</p></figcaption></figure>
 
 Пример создания массива с массивами внутри:
 
-<figure><img src="../../../../.gitbook/assets/image (264).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (264) (1).png" alt=""><figcaption></figcaption></figure>
 
 Результат выполнения функции:
 
-<figure><img src="../../../../.gitbook/assets/image (265).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (265) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
@@ -233,19 +233,19 @@ q = append(s, 'Никита')
 {% tab title="Примеры" %}
 Пример:
 
-<figure><img src="../../../../.gitbook/assets/image (266).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (266) (1).png" alt=""><figcaption></figcaption></figure>
 
 Результат:
 
-<figure><img src="../../../../.gitbook/assets/image (267).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (267) (1).png" alt=""><figcaption></figcaption></figure>
 
 Разберем более сложный пример - добавление словаря t в массив s:
 
-<figure><img src="../../../../.gitbook/assets/image (268).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (268) (1).png" alt=""><figcaption></figcaption></figure>
 
 В функции мы указали, что хотим добавить словарь на позицию 1. Смотрим результат:
 
-<figure><img src="../../../../.gitbook/assets/image (269).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (269) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}

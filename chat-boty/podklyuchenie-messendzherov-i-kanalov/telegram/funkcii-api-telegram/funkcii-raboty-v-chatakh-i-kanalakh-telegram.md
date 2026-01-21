@@ -66,7 +66,7 @@
 
 **Создание ссылки на вступление в чат:**
 
-<figure><img src="../../../../.gitbook/assets/image (84) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (84) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="background-color:blue;">**Как удалить ссылку на вступление в чат в Telegram**</mark>
 
@@ -102,7 +102,7 @@
 
 Прием заявки:
 
-<figure><img src="../../../../.gitbook/assets/image (132) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (132) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="background-color:blue;">**Как отклонить заявку в канал/чат**</mark> <mark style="background-color:blue;">**в Telegram**</mark>
 
@@ -114,7 +114,7 @@
 
 Отклонение заявки
 
-<figure><img src="../../../../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (133) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Как работать с подписчиками чата/канала **Telegram**
 
@@ -318,13 +318,13 @@ tg\_answer\_callback\_query('#{callback\_query\_id}', "Вы нажали кно�
 
 Разберем пример как повысить пользователя до администратора в супергруппе:
 
-<figure><img src="../../../../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (134) (1).png" alt=""><figcaption></figcaption></figure>
 
 В данном примере помимо перечисленных прав будут по умолчанию выданы права can\_manage\_chat.
 
-<figure><img src="../../../../.gitbook/assets/image (135).png" alt=""><figcaption><p>Назначение прав пользователю</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (135) (1).png" alt=""><figcaption><p>Назначение прав пользователю</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (136).png" alt=""><figcaption><p>Установка титула администратору</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (136) (1).png" alt=""><figcaption><p>Установка титула администратору</p></figcaption></figure>
 
 Пример кода для копирования
 
@@ -453,13 +453,13 @@ result=tg_set_administrator_title(platform_id, reply_from, "огоньтитул
 
 Пример применения функции, в котором пользователю запретили все на 3 минуты:
 
-<figure><img src="../../../../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (137) (1).png" alt=""><figcaption></figcaption></figure>
 
 При входе в чат пользователю будет показано уведомление о невозможности писать в чат и если ограничение по времени было выставлено, то он увидит срок действия данного ограничения.
 
 
 
-<figure><img src="../../../../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (138) (1).png" alt=""><figcaption></figcaption></figure>
 
 Код для копирования:
 
@@ -531,11 +531,11 @@ tg_restrict_chat_member(-1001607137668, 473737685, 3, permission)
 **poll\_added** - неизменная часть \
 **Вопрос** - текст вопроса из опроса
 
-<figure><img src="../../../../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (139) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (140).png" alt=""><figcaption><p>Пример колбека при добавлении опроса в канал</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (140) (1).png" alt=""><figcaption><p>Пример колбека при добавлении опроса в канал</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (141).png" alt=""><figcaption><p>Пример колбека при добавлении опроса в чат</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (141) (1).png" alt=""><figcaption><p>Пример колбека при добавлении опроса в чат</p></figcaption></figure>
 
 Второй колбек после poll\_added содержит цифры - это не что иное, как идентификатор  пользователя в Telegram, который добавил опрос.
 
@@ -566,9 +566,9 @@ tg_restrict_chat_member(-1001607137668, 473737685, 3, permission)
 opros1=tg_send_poll(platform_id, 'Ваш любимый цвет?', options, 1, '', '', 1, '')
 </code></pre>
 
-<figure><img src="../../../../.gitbook/assets/image (142).png" alt=""><figcaption><p>Функция создания опроса в Telegram</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (142) (1).png" alt=""><figcaption><p>Функция создания опроса в Telegram</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (143).png" alt=""><figcaption><p>Созданный нами опрос в Telegram</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (143) (1).png" alt=""><figcaption><p>Созданный нами опрос в Telegram</p></figcaption></figure>
 
 </details>
 
@@ -592,11 +592,11 @@ opros1=tg_send_poll(platform_id, 'Ваш любимый цвет?', options, 1, 
 **poll\_added** - неизменная часть \
 **Вопрос** - вопрос опроса
 
-<figure><img src="../../../../.gitbook/assets/image (144).png" alt=""><figcaption><p>Пример колбека в </p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (144) (1).png" alt=""><figcaption><p>Пример колбека в </p></figcaption></figure>
 
 Если опрос создан в чате, то колбек дополнительно будет содержать  цифры - это идентификатор пользователя в Telegram, который добавил опрос.
 
-<figure><img src="../../../../.gitbook/assets/image (145).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (145) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 При создании опроса ботом колбек не приходит.
@@ -614,7 +614,7 @@ opros1=tg_send_poll(platform_id, 'Ваш любимый цвет?', options, 1, 
 **5325838371359031648** - идентификатор викторины \
 &#xNAN;**\[3]** - ответ
 
-<figure><img src="../../../../.gitbook/assets/image (146).png" alt=""><figcaption><p>Колбек на выбор ответа в Викторине </p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (146) (1).png" alt=""><figcaption><p>Колбек на выбор ответа в Викторине </p></figcaption></figure>
 
 5\. Если неанонимный опрос был создан в группе (неважно функцией или пользователем), в которой состоит в качестве администратора бот, то на каждый голос будет отправлен вебхук, при получении которого в диалог бота с клиентом будет отправлен колбек из пункта&#x20;
 
@@ -682,9 +682,9 @@ r = tg_send_quiz_poll(platform_id, 'Какого цвета крокодил?', 
 
 Изменить Главную тему группы можно при помощи функции **tg\_edit\_general\_forum\_topic()**. Здесь 2 обязательных параметра - это идентификатор чата и новое наименование для Темы группы:&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (147).png" alt=""><figcaption><p>Изменение названия главной Темы</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (147) (1).png" alt=""><figcaption><p>Изменение названия главной Темы</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (148).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (148) (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -795,16 +795,16 @@ _переименовать чат главной Темы_/\
 
 Давайте создадим чат дополнительной темы:
 
-<figure><img src="../../../../.gitbook/assets/image (149).png" alt=""><figcaption><p>Создание новой темы</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (149) (1).png" alt=""><figcaption><p>Создание новой темы</p></figcaption></figure>
 
 Переменная answer будет содержать ответ следующего содержания: \
 {"ok":true,"result":{"message\_thread\_id":254,"name":"second\_bot\_topic","icon\_color":7322096\}}
 
 Здесь нам важно сохранить значение message\_thread\_id, оно нам понадобится в дальнейшем для работы с созданной темой:
 
-<figure><img src="../../../../.gitbook/assets/image (150).png" alt=""><figcaption><p>Сохраняем из ответа функции по созданию идентификатор дополнительной темы </p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (150) (1).png" alt=""><figcaption><p>Сохраняем из ответа функции по созданию идентификатор дополнительной темы </p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (151).png" alt=""><figcaption><p>Скрин Карточки клиента, раздел Переменные</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (151) (1).png" alt=""><figcaption><p>Скрин Карточки клиента, раздел Переменные</p></figcaption></figure>
 
 </details>
 
@@ -915,7 +915,7 @@ _переименовать чат главной Темы_/\
 
 Для получения списка эмодзи для чата Темы отправьте команду в необходимый чат:
 
-<figure><img src="../../../../.gitbook/assets/image (152).png" alt=""><figcaption><p>Получение списка эмодзи</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (152) (1).png" alt=""><figcaption><p>Получение списка эмодзи</p></figcaption></figure>
 
 В ответ функция вернет список эмодзи, т.е. переменная answer будет иметь в качестве значения словарь:
 

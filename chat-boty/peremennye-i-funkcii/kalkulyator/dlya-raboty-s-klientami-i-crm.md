@@ -70,24 +70,24 @@
 
 Параметр **count** можно не передавать или передать значение 1, тогда в диалоге с клиентом будет отметка +1 непрочитанное сообщение.
 
-![](<../../../.gitbook/assets/image (184).png>)![](<../../../.gitbook/assets/image (185).png>)
+![](<../../../.gitbook/assets/image (184) (1).png>)![](<../../../.gitbook/assets/image (185) (1).png>)
 
 Если передать любое другое число оно отобразиться в разделе Клиенты как количество непрочитанных сообщений от клиента:
 
-![](<../../../.gitbook/assets/image (186).png>)&#x20;
+![](<../../../.gitbook/assets/image (186) (1).png>)&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (187).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (187) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **clear\_unread()** — для пометки диалога прочитанным
 * **unsubscribe()** - функция для отмены подписки от сообщений бота.  [Пример рассмотрен в этой статье](https://docs.salebot.pro/rassylki-1/otpiska-klienta-ot-bota#kak-polnostyu-otpisat-ot-soobshenii) . У отписавшегося клиента появится символ -  красное сообщение с крестиком.
 
-<figure><img src="../../../.gitbook/assets/image (188).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (188) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **block\_client()** - заблокировать клиенту возможность писать в бота. Также будут отменены ранее запланированные сообщения от бота. Остается возможность писать клиенту из диалога в разделе Клиенты.
 
 У заблокированного клиента появится отметка - красный замочек.
 
-<figure><img src="../../../.gitbook/assets/image (189).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (189) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **unblock\_client()** - разблокировать клиента. Клиент снова сможет контактировать с ботом, двигаться по цепочкам сообщений.&#x20;
 * **set\_client\_name(name)** - изменить имя клиента. Передайте вместо name имя клиента, указав его в двойных кавычках. Можно использовать переменную, в которой записано имя клиента, следующим образом: \
@@ -166,25 +166,25 @@ Salebot работает с датами в формате **"dd.mm.yyyy"**, а 
 {% tab title="Примеры" %}
 Создадим задачу оператору:
 
-<figure><img src="../../../.gitbook/assets/image (190).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (190) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (191).png" alt=""><figcaption><p>Пункт меню Задачи</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (191) (1).png" alt=""><figcaption><p>Пункт меню Задачи</p></figcaption></figure>
 
 Обновим срок исполнения и описание
 
-<figure><img src="../../../.gitbook/assets/image (192).png" alt=""><figcaption><p>Обновление задачи</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (192) (1).png" alt=""><figcaption><p>Обновление задачи</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (193).png" alt=""><figcaption><p>Задача после обновления</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (193) (1).png" alt=""><figcaption><p>Задача после обновления</p></figcaption></figure>
 
 Отметим как выполненную задачу
 
-<figure><img src="../../../.gitbook/assets/image (194).png" alt=""><figcaption><p>Отмечаем задачу выполненной</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (194) (1).png" alt=""><figcaption><p>Отмечаем задачу выполненной</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (195).png" alt=""><figcaption><p>Задача выполнена</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (195) (1).png" alt=""><figcaption><p>Задача выполнена</p></figcaption></figure>
 
 Удаление задачи
 
-<figure><img src="../../../.gitbook/assets/image (196).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (196) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
@@ -456,19 +456,19 @@ order\_id - необязательный параметр. Нужно указа
 Все функции просты в своем применении.\
 Например, создадим новую сделку, отправим ее номер клиенту:<br>
 
-<figure><img src="../../../.gitbook/assets/image (197).png" alt=""><figcaption><p>Создание новой сделки</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (197) (1).png" alt=""><figcaption><p>Создание новой сделки</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (198).png" alt=""><figcaption><p>Регистрация обращения клиента</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (198) (1).png" alt=""><figcaption><p>Регистрация обращения клиента</p></figcaption></figure>
 
 Вы можете получить идентификатор текущей активной сделки клиента, используя функцию get\_order\_id(), или весь перечень сделок клиента, используя get\_active\_orders\_ids()
 
-<figure><img src="../../../.gitbook/assets/image (199).png" alt=""><figcaption><p>Получение идентификатора текущей активной сделки</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (199) (1).png" alt=""><figcaption><p>Получение идентификатора текущей активной сделки</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (200).png" alt=""><figcaption><p>Получение списка активных сделок</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (200) (1).png" alt=""><figcaption><p>Получение списка активных сделок</p></figcaption></figure>
 
 Зная идентификатор сделки, мы можем назначать, получать переменные:
 
-<figure><img src="../../../.gitbook/assets/image (201).png" alt=""><figcaption><p>Назначение и получение переменных</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (201) (1).png" alt=""><figcaption><p>Назначение и получение переменных</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}

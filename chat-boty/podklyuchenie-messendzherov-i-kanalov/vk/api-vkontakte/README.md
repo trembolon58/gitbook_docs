@@ -87,7 +87,7 @@
 \
 Найти ID своей страницы вы можете в разделе [Настройки](https://vk.com/settings) → Адрес страницы.
 
-<figure><img src="../../../../.gitbook/assets/image (177).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (177) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:red;">\*\*</mark> Как прописывать кнопки в параметре keyboard
 
@@ -462,7 +462,7 @@ test=vk_send_some_photo('257328430', '["https://pdds.ru/wp-content/uploads/2022/
 
 Можно отправлять клиента в блок и проверять результат:
 
-<figure><img src="../../../../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (178) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -676,7 +676,7 @@ repost=vk_send_message(platform_id, "Вы прокомментировали н�
 `<owner_id>` — идентификатор владельца медиа-вложения.\
 `<media_id>` — идентификатор медиа-вложения.
 
-<figure><img src="../../../../.gitbook/assets/image (179).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (179) (1).png" alt=""><figcaption></figcaption></figure>
 
 Если не передавать необязательные параметры, то функция будет выглядеть так: `vk_create_comment(post_id, message)`
 
@@ -1064,7 +1064,7 @@ vk_unpin_message(2000000001)
 
 Эффект действия бота длится не более 10 секунд:
 
-<figure><img src="../../../../.gitbook/assets/image (180).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (180) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Пример кода для копирования:**
 
@@ -1126,7 +1126,7 @@ _При ошибке_: {'error': {'error\_code': 100, 'error\_msg': 'One of the 
 
 Например '3611' или '118,117,116,115'
 
-<figure><img src="../../../../.gitbook/assets/image (181).png" alt=""><figcaption><p>Пример функции в Калькуляторе и получение количества, таких же реакций от других пользователей</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (181) (1).png" alt=""><figcaption><p>Пример функции в Калькуляторе и получение количества, таких же реакций от других пользователей</p></figcaption></figure>
 
 _Пример при успехе_: {'response': {'items': \[{'cmid': 118, 'counters': \[{'reaction\_id': 2, 'count': 1, 'user\_ids': \[620578000]}]}, {'cmid': 117, 'counters': \[{'reaction\_id': 12, 'count': 1, 'user\_ids': \[620578000]}]}]\}}
 

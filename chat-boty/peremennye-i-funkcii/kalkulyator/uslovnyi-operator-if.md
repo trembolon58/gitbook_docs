@@ -42,11 +42,11 @@
 Максимальная длина выражения: 2000 символов
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (230).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (230) (1).png" alt=""><figcaption></figcaption></figure>
 
 Тестируем:
 
-<figure><img src="../../../.gitbook/assets/image (231).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (231) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}

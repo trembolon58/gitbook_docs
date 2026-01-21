@@ -2,7 +2,7 @@
 
 Подписная страница ВКонтакте состоит из баннера, продающего описания и кнопки подписки (призыв к действию). Простой пример:
 
-<figure><img src="../../../.gitbook/assets/image (173).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (173) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 Если **указан** **тег**, то кнопка вк с обычного сайта **будет вести на вк сайт**, чтобы тег не потерялся.

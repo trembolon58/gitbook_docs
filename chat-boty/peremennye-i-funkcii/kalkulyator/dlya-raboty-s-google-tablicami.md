@@ -40,9 +40,9 @@
 {% endtab %}
 
 {% tab title="Примеры" %}
-<figure><img src="../../../.gitbook/assets/image (221).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (221) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (222).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (222) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}

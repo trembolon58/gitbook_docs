@@ -42,9 +42,9 @@
 
 &#x20;Собираем все вместе: **\["где"]\[0]** - вот адрес элемента “бирюзовый”
 
-<figure><img src="../../../../.gitbook/assets/image (247).png" alt=""><figcaption><p>Пример получения значения вложенного в словарь массива</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (247) (1).png" alt=""><figcaption><p>Пример получения значения вложенного в словарь массива</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (248).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (248) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Как работать с  адресацией (JSON)
 
@@ -62,7 +62,7 @@
 
 Самый длинный ключ в этом JSON: **suggestions|0|data|strcode** - ключ для значения BYN
 
-<figure><img src="../../../../.gitbook/assets/image (249).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (249) (1).png" alt=""><figcaption></figcaption></figure>
 
 {"suggestions": \[{"value": "Белорусский рубль", "unrestricted\_value": "Белорусский рубль", "data": {"code": "933", "<mark style="background-color:orange;">strcode</mark>": "<mark style="background-color:red;">BYN</mark>", "name": "Белорусский рубль", "country": "Беларусь"\}}]}
 

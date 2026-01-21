@@ -109,15 +109,15 @@ link = get\_merge\_link('1', 'сменил чат', 'testovbot') - ссылка 
 
 Как передать параметр с ссылкой:
 
-<figure><img src="../../.gitbook/assets/image (62) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (62) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 В диалоге Whatsapp ссылка выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/image (63) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (63) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 В диалог основного клиента (там, где выдана ссылка для перехода) при запуске бота в другом мессенджере придет колбэк, а в диалоге в новом мессенджере у клиента будут записаны переменные с теми значениями, что были указаны в ссылке:
 
-<figure><img src="../../.gitbook/assets/image (64) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (64) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Передать таким способом параметры можно только при первой связке двух контактов. Далее используйте переменную main\_client\_id  или [функцию для присвоения переменных](https://docs.salebot.pro/peremennye-1/peremennye#kak-prisvoit-peremennuyu-klienta).&#x20;
