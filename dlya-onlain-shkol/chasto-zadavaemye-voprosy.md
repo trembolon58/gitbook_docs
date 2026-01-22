@@ -4,19 +4,19 @@
 
 Чтобы зарегистрировать нового ученика и открыть ему доступ к курсу, перейдите в раздел "Ученики" и нажмите на дополнительное меню (три точки):
 
-<figure><img src="/broken/files/4ndpmg5krevCi3cZnAGZ" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-14 в 16.22.00.png" alt="" width="563"><figcaption></figcaption></figure>
 
 <p align="center"><em>Рис. 1. Раздел "Ученики"</em><br><em>p.s. Все данные вымышлены, совпадения случайны</em></p>
 
 Далее в меню нажмите "+ Зарегистрировать ученика на курс":
 
-<figure><img src="/broken/files/oRv51rop4X8NzJQTJNRd" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-14 в 16.22.31.png" alt="" width="563"><figcaption></figcaption></figure>
 
 <p align="center"><em>Рис. 2. Дополнительное меню</em><br><em>p.s. Все данные вымышлены, совпадения случайны</em></p>
 
 Далее откроется окно для заполнения данных ученика:
 
-<figure><img src="/broken/files/3JIUyYfdd97mhTYavQCr" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-14 в 16.28.27.png" alt=""><figcaption></figcaption></figure>
 
 <p align="center"><em>Рис. 3. Окно для добавления ученика</em><br><em>p.s. Все данные вымышлены, совпадения случайны</em></p>
 
@@ -27,7 +27,7 @@
 3. выбор тарифа;
 4. причина ручного добавления.
 
-<figure><img src="/broken/files/9PeNTa92RWUGVJljBg6U" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-14 в 16.31.57.png" alt="" width="375"><figcaption></figcaption></figure>
 
 <p align="center"><em>Рис. 4. Окно для добавления ученика с заполненными полями</em><br><em>p.s. Все данные вымышлены, совпадения случайны</em></p>
 
@@ -37,25 +37,25 @@
 
 Перейдите в раздел "Ученики" и найдите в списке ученика, которого необходимо добавить на ваш новый курс:
 
-<figure><img src="/broken/files/lofBFmcxmtuBErLZklWq" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-14 в 17.14.38.png" alt="" width="375"><figcaption></figcaption></figure>
 
 <p align="center"><em>Рис. 5. Поисковая строка в списке клиентов</em><br><em>p.s. Все данные вымышлены, совпадения случайны</em></p>
 
 Далее нажмите в списке на необходимого ученика, тогда откроется диалоговое окно с учеником и правое меню с информацией о нем:
 
-<figure><img src="/broken/files/ssh1T0SVO3jEV2vTE7KG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-14 в 17.21.26.png" alt=""><figcaption></figcaption></figure>
 
 <p align="center"><em>Рис. 6. Диалоговое окно с учеником и меню с информацией об ученике</em><br><em>p.s. Все данные вымышлены, совпадения случайны</em></p>
 
 Нажмите в правом меню "Добавить курс", тогда откроется окно с выбором курса и тарифа:
 
-<figure><img src="/broken/files/xPM4pU7I5WdcBEUHLBPo" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-14 в 17.22.59.png" alt=""><figcaption></figcaption></figure>
 
 <p align="center"><em>Рис. 7. Окно для добавления курса ученику</em><br><em>p.s. Все данные вымышлены, совпадения случайны</em></p>
 
 Затем нажмите "Сохранить". Тогда в правом меню ученику будет добавлен доступ к курсу:
 
-<figure><img src="/broken/files/EJsA0V06cObWQRyCh5Qg" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-14 в 17.24.01.png" alt="" width="375"><figcaption></figcaption></figure>
 
 <p align="center"><em>Рис. 8. Вкладка "Курсы ученика" в диалоговом окне с учеником</em><br><em>p.s. Все данные вымышлены, совпадения случайны</em></p>
 
@@ -63,13 +63,13 @@
 
 Перейдите в раздел "Ученики" и найдите в списке ученика, которому необходимо изменить тариф:
 
-<figure><img src="/broken/files/lofBFmcxmtuBErLZklWq" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2026-01-22 в 17.16.09.png" alt="" width="375"><figcaption></figcaption></figure>
 
 <p align="center"><em>Рис. 9. Поиск ученика в списке</em><br><em>p.s. Все данные вымышлены, совпадения случайны</em></p>
 
 Далее нажмите в списке на необходимого ученика, тогда откроется диалоговое окно с учеником и правое меню с информацией о нем:
 
-<figure><img src="/broken/files/aXPpRSiEyn9xNuw7tc9t" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-14 в 17.17.00.png" alt=""><figcaption></figcaption></figure>
 
 <p align="center"><em>Рис. 10. Кнопка для изменения тарифа ученику</em><br><em>p.s. Все данные вымышлены, совпадения случайны</em></p>
 
@@ -86,6 +86,6 @@
 
 Перейдите в настройки проекта и найдите переключатель"Получать email-уведомления". &#x20;
 
-<figure><img src="/broken/files/o0TM7UfkQ9xKvePKWiJF" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-14 в 17.59.02.png" alt=""><figcaption></figcaption></figure>
 
 Если вам не нужны уведомления из проекта на ваш email, поставьте переключатель в неактивное положение.

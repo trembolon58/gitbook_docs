@@ -14,15 +14,15 @@ description: >-
 
 Для подключения платежей через Life Pay нужно перейти на сайте [home.life-pay.ru](https://home.life-pay.ru/) в личный кабинет, во вкладку "Интеграция" → "Сервисы" и нажать на иконку ключа подключаемого сервиса
 
-<figure><img src="/broken/files/ONdwXgWtuQxjR9gItsFz" alt=""><figcaption><p>"Интеграция" → "Сервисы" → получение ключа</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>"Интеграция" → "Сервисы" → получение ключа</p></figcaption></figure>
 
 Далее необходимо получить ключ магазина и серверный ключ для подключения к Salebot и заполнения формы.
 
-<figure><img src="/broken/files/DAAhIRNPP7QLu5sjSdkR" alt=""><figcaption><p>Ключи для подключения Life Pay к Salebot</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Ключи для подключения Life Pay к Salebot</p></figcaption></figure>
 
 Далее возвращаемся во вкладку Сервисы → Интеграция на Life Pay и копируем идентификатор сервиса, его также нужно вставить в форму подключения платежной системы в Salebot.
 
-<figure><img src="/broken/files/640BnxcyigyWmpc80Hi7" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 Открываем нужный Сервис и вставляем в поле **“URL скрипта для получения веб-хуков”**, адрес:
 
@@ -31,9 +31,9 @@ description: >-
 \
 Также указываем ключ API, который получили на первом шаге и выбрать Версия подписи: <mark style="color:orange;">2.0</mark>
 
-<figure><img src="/broken/files/evcdN6OymEBV08eA1nEi" alt=""><figcaption><p>Пример правильного заполнения формы редактирования на стороне Life Pay</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p>Пример правильного заполнения формы редактирования на стороне Life Pay</p></figcaption></figure>
 
-<figure><img src="/broken/files/RIFxOJVBjDt6HbUCUp22" alt=""><figcaption><p>Указываем версию 2.0, как в примере</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>Указываем версию 2.0, как в примере</p></figcaption></figure>
 
 {% hint style="info" %}
 Не забудьте сохранить изменения!
@@ -41,11 +41,11 @@ description: >-
 
 Переходим в проект на Salebot, в разделе "Эквайринг" выбираем Life Pay.&#x20;
 
-<figure><img src="/broken/files/ap8yDXGM4m4xrmQB49y3" alt=""><figcaption><p>Раздел "Эквайринг" Salebot</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>Раздел "Эквайринг" Salebot</p></figcaption></figure>
 
 Заполняем поля данными, полученными ранее в личном кабинете Life Pay .&#x20;
 
-<figure><img src="/broken/files/R8M6mJzWYuF2oqY4nQw6" alt=""><figcaption><p>Настройка Life Pay в разделе "Эквайринг" Salebot</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>Настройка Life Pay в разделе "Эквайринг" Salebot</p></figcaption></figure>
 
 ## Как сформировать ссылку на оплату
 
@@ -72,9 +72,9 @@ description: >-
 {% tab title="Калькулятор" %}
 Пример верно заполненной функции:&#x20;
 
-<figure><img src="/broken/files/MZ1GI4TRsccEef8svsfZ" alt="" width="563"><figcaption><p>Функция указана в калькуляторе, ссылка для оплаты будет выведена в тексте сообщения клиенту</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15).png" alt="" width="563"><figcaption><p>Функция указана в калькуляторе, ссылка для оплаты будет выведена в тексте сообщения клиенту</p></figcaption></figure>
 
-<figure><img src="/broken/files/aT5EtCXKlyVjZwSNU4fv" alt=""><figcaption><p>Переменная, в которой будет записана ссылка на оплату, указана в кнопке</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption><p>Переменная, в которой будет записана ссылка на оплату, указана в кнопке</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Описание параметров" %}
@@ -94,13 +94,13 @@ description: >-
 
 Если ссылка на оплату не сформируется или каким-либо образом не получится ее создать, то причина будет отображена в переменной в карточке клиента:
 
-<figure><img src="/broken/files/s46n5QdzVQteK6OpXaW4" alt="" width="371"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17).png" alt="" width="371"><figcaption></figcaption></figure>
 
 ### Как обработать результат платежа.
 
 После успешной оплаты в диалог клиента поступит уведомление, при помощи которого вы сможете настроить дальнейшую логику схемы. &#x20;
 
-<figure><img src="/broken/files/KNb2cbSqWXTfrU5yaRMt" alt="" width="460"><figcaption><p>Пример уведомления</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18).png" alt="" width="460"><figcaption><p>Пример уведомления</p></figcaption></figure>
 
 Текст уведомления будет сформирован автоматически, первая его часть - 10 первых символов секретного ключа, далее  \
 \
@@ -111,13 +111,13 @@ description: >-
 
 &#x20;`032d2f2e60_success 100.0`
 
-<figure><img src="/broken/files/5z5sNS9NhhSKhS8p6UBO" alt=""><figcaption><p>Пример обработки платежа, блок настроен на успешный коллбэк от платежной системы</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption><p>Пример обработки платежа, блок настроен на успешный коллбэк от платежной системы</p></figcaption></figure>
 
 ### Рекуррентные платежи
 
 Пример функции с заполненными параметрами и передачей признака рекуррентного платежа в скриншоте.&#x20;
 
-<figure><img src="/broken/files/D2t9trLKrNy0OlAQrIKp" alt=""><figcaption><p>Функция для формирования ссылки с признаком рекуррентного платежа.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/lp.jpg" alt=""><figcaption><p>Функция для формирования ссылки с признаком рекуррентного платежа.</p></figcaption></figure>
 
 После успешной оплаты у клиента появится переменная **life\_pay\_recurrent\_order\_id**, которая автоматически передается при вызове функции **life\_pay\_recurrent\_payment**, при последующих списаниях.
 
@@ -164,7 +164,7 @@ description: >-
 
 Если планируется использовать платежную систему для оплаты в курсах, то нужно включить пункт в настройках магазина  "Обязательно заполнять поле Email для оплаты". Пример включенного окна в скриншоте ниже.&#x20;
 
-<figure><img src="/broken/files/FKdReGMDZRiOiJB3IgXw" alt=""><figcaption><p>При включении чекбокса вы сможете принимать оплату за курсы на странице курса</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption><p>При включении чекбокса вы сможете принимать оплату за курсы на странице курса</p></figcaption></figure>
 
 ## Для фискализации чеков
 
@@ -197,27 +197,27 @@ Salebot не предоставляет услуги фискализации и
 
 Для функции фискализации в Life.pay необходимо перейти [по ссылке](https://my.life-pay.ru/site/login):&#x20;
 
-<figure><img src="/broken/files/oBsxJhiezWZQH4oNn1nQ" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 Далее необходимо ввести данные собственного аккаунта и перейти к странице на стороне интеграции:
 
-<figure><img src="/broken/files/C2YYGCS70YZTa2MXfiem" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 Далее перейдите в Настройки → раздел "Разработчикам", где вам необходимо найти ключ API для интеграции:
 
-<figure><img src="/broken/files/TylI6WC4rXQ9D3jHjRCL" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 Теперь перейдите в настройки проекта Salebot → раздел "Эквайринг":
 
-<figure><img src="/broken/files/YSLnaFITX5JsPGdQCzn9" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 Далее найдите необходимый платежный сервис и кликните на "подключить" (если у вас уже подключена интеграция, то будет кнопка "подключено"), после чего откроется окно с полями для заполнения:
 
-<figure><img src="/broken/files/SRJY21U9HQ5syDcAPJnZ" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Для функции фискализации заполните следующие поля (если у вас еще не подключена интеграция, то необходимо заполнить ВСЕ поля при необходимости фискализации):
 
-<figure><img src="/broken/files/L1txk0xvWdC80nzYXJ0t" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (26).png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 Логин от LifePay должен начинаться с 7: например, "7937 300 30 30", без плюсов и восьмерок.&#x20;

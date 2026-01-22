@@ -24,7 +24,7 @@
 
 Ему будет достаточно нажать "Отправить":
 
-<div><figure><img src="../../.gitbook/assets/image (85) (1).png" alt="" width="242"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/2023-05-08_18-49-47.png" alt="" width="240"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (85) (1) (1).png" alt="" width="242"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/2023-05-08_18-49-47.png" alt="" width="240"><figcaption></figcaption></figure></div>
 
 Создайте в конструкторе блок "Стартовое условие" и пропишите текст из начального сообщения:
 
@@ -34,7 +34,7 @@
 
 ## Настройка кнопок Вконтакте
 
-<figure><img src="../../.gitbook/assets/image (86) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (86) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Ссылка на установку приложения Salebot в сообщество ВКонтакте**
 
@@ -54,19 +54,19 @@
 
 Включить кнопку "Начать" можно в настройках сообщества:
 
-<figure><img src="../../.gitbook/assets/image (87) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (87) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:green;">Пример диалога</mark> с сообществом при переходе со страницы сайта, в котором включен чекбокс "_**Кнопка ВКонтакте ведет на ref ссылку группы"**_ и в настройках сообщества включена **кнопка "Начать"**
 
-<figure><img src="../../.gitbook/assets/image (88) (1).png" alt="" width="527"><figcaption><p>Диалог в сообществе ВК</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (88) (1) (1).png" alt="" width="527"><figcaption><p>Диалог в сообществе ВК</p></figcaption></figure>
 
 При клике по кнопке Начать в сообщество приходит сообщение:
 
-<figure><img src="../../.gitbook/assets/image (89) (1).png" alt="" width="533"><figcaption><p>Диалог в сообществе ВК</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (89) (1) (1).png" alt="" width="533"><figcaption><p>Диалог в сообществе ВК</p></figcaption></figure>
 
 В разделе Клиенты появился новый клиент и тег из настроек страницы сайта передан в бота
 
-<figure><img src="../../.gitbook/assets/image (90) (1).png" alt=""><figcaption><p>Диалог в разделе "Клиенты"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (90) (1) (1).png" alt=""><figcaption><p>Диалог в разделе "Клиенты"</p></figcaption></figure>
 
 <mark style="color:green;">**Чекбокс Кнопка ВКонтакте ведет на подписную с автоподпиской.**</mark>&#x20;
 
@@ -80,11 +80,11 @@
 
 Если пользователь переходит в бота впервые, появляется контекстное меню с запросом на разрешение отправки сообщений от имени сообщества.
 
-<figure><img src="../../.gitbook/assets/image (91) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (91) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 После клика по кнопке "Разрешить" пользователь попадает в диалог с сообществом. От него автоматически приходит сообщение равное тегу страницы сайта. _Пользователь этого не видит, тег приходит только в диалоге Salebot._ Запускается цепочка сообщений, настроенная на получение тега.
 
-<figure><img src="../../.gitbook/assets/image (92) (1).png" alt=""><figcaption><p>приходит тег, указанный в настройках страницы сайта</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (92) (1) (1).png" alt=""><figcaption><p>приходит тег, указанный в настройках страницы сайта</p></figcaption></figure>
 
 #### **6. Подписная, на которую ведет кнопка ВКонтакте.**&#x20;
 
@@ -94,6 +94,6 @@
 
 На Подписной странице во ВКонтакте будет указано количество подписчиков сообщества, вы можете написать любую подпись к ВК подписчикам
 
-<figure><img src="../../.gitbook/assets/image (93) (1).png" alt=""><figcaption><p>Настройка страницы сайта</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (93) (1) (1).png" alt=""><figcaption><p>Настройка страницы сайта</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (94) (1).png" alt="" width="563"><figcaption><p>Пример Подписной страницы ВК</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (94) (1) (1).png" alt="" width="563"><figcaption><p>Пример Подписной страницы ВК</p></figcaption></figure>

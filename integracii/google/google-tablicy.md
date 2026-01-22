@@ -39,23 +39,23 @@
 
 ![](<../../.gitbook/assets/image (399).png>)
 
-![](<../../.gitbook/assets/image (41).png>)
+![](<../../.gitbook/assets/image (41) (1).png>)
 
-![](<../../.gitbook/assets/image (42).png>)
+![](<../../.gitbook/assets/image (42) (1).png>)
 
-![](<../../.gitbook/assets/image (43).png>)
+![](<../../.gitbook/assets/image (43) (1).png>)
 
 ### Как написать json-запрос
 
 Переходим в настройки блока, в котором у нас будет осуществляться запись данных таблицу.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (44) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. Добавляем раздел API-запрос.
 2. Выбираем тип запроса "POST-json"
 3. Переходим к заполнению полей запроса:
 
-<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (45) (1).png" alt=""><figcaption></figcaption></figure>
 
 **URL запроса** - путь к функции для выполнения запроса
 
@@ -74,13 +74,13 @@
 
 Для понимания в какой структуре запрос возвращает ответ, напишите в поле 'Сообщение' вывод значения переменной #{custom\_answer}. <br>
 
-<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption><p>Получение результата выполнения API-запроса в виде сообщения</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (46) (1).png" alt=""><figcaption><p>Получение результата выполнения API-запроса в виде сообщения</p></figcaption></figure>
 
 ### Где взять идентификатор id таблицы
 
 Идентификатор таблицы содержится в ссылке (выделено цветом, после d/ и до /edit):
 
-<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (47) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Где взять ключ доступа к данным таблицы **creds\_path**
 
@@ -135,7 +135,7 @@ list\_name - название вашего листа (например, "Лис
 
 **`{"id": "ид таблицы", "mapping":{"a":"#{переменная}", "b": "#{еще}", "c": "#{еще}", "d":"просто текст"},"creds_path": "путь к вашему файлу с данными для авторизации"}`**
 
-<figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (48) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **2. Запись данных в определенные ячейки**
 
@@ -159,7 +159,7 @@ list\_name - название вашего листа (например, "Лис
 
 `{"id": "ид таблицы", "write":{"a1":"#{переменная}", "b3": "#{еще}", "c1": "#{еще}", "d20":"просто текст"}, "list_name": "Название листа","creds_path": "путь к вашему файлу с данными для авторизации"}`
 
-<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (49) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **3. Запись в первую пустую ячейку строки**
 
@@ -194,7 +194,7 @@ https://docs.google.com/spreadsheets/d/<mark style="background-color:red;">**1aU
 Подробнее об этом [Работа через свой аккаунт](https://docs.salebot.pro/integracii/google#podgotovka-servisnogo-akkaunta): \
 &#xNAN;**`{"id": "ид таблицы", "mapping":{"a":"#{переменная}", "b": "#{еще}", "c": "#{еще}", "d":"просто текст"},"creds_path": "путь к вашему файлу с данными для авторизации"}`**
 
-<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption><p>Пример записи данных в первуюпустую ячейку 8 строки</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (50) (1).png" alt=""><figcaption><p>Пример записи данных в первуюпустую ячейку 8 строки</p></figcaption></figure>
 
 ### Как **осуществлять чтение данных из таблицы**
 
@@ -224,9 +224,9 @@ https://docs.google.com/spreadsheets/d/<mark style="background-color:red;">**1aU
 
 **{"id": "ид таблицы", "read":{"a1":"a3", "b3": "b6"}, "list\_name": "Название листа","creds\_path": "путь к вашему файлу с данными для авторизации"}**
 
-<figure><img src="../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (51) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption><p>Пример чтения из таблиц</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (52) (1).png" alt=""><figcaption><p>Пример чтения из таблиц</p></figcaption></figure>
 
 ### Как **удалить данные**
 
@@ -341,7 +341,7 @@ https://docs.google.com/spreadsheets/d/<mark style="background-color:red;">**1aU
 
 Параметр ответа "status":"1" означает, что найдено значение, а "status":"0" - не найдено. data - найденное значение, cell\_number - найденная ячейка.
 
-<figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (53) (1).png" alt=""><figcaption></figcaption></figure>
 
 По умолчанию поиск идет на полное совпадение, но вы можете использовать и другие алгоритмы поиска. Об этом читайте ниже в пункте [Другие алгоритмы поиска](google-tablicy.md#4.-drugie-algoritmy-poiska).
 
@@ -361,7 +361,7 @@ result = sheet\_search\_in\_all\_sheets('1oP8Ax4A7FKUY7Mv9eAYAM8q0J0ddlKaD8dOa07
 
 Результат:
 
-<figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (54) (1).png" alt=""><figcaption></figcaption></figure>
 
 Если проблем при выполнении запроса не возникло, то в ответ приходит результат поиска - список словарей, где каждый словарь имеет следующие ключи:
 
@@ -433,7 +433,7 @@ row - номер найденной строки&#x20;
 
 **Пример:**
 
-<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (55) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 4. Другие алгоритмы поиска
 
@@ -496,11 +496,11 @@ URL функции: [https://store.salebot.pro/function/sheetchoice](https://sto
 
 Сохраните ответ функции в нужную вам переменную, например, так vibor->vibor. Для ботов, поддерживающих кнопки, вставляйте ее в поле "Расширенные настройки кнопок"
 
-![](<../../.gitbook/assets/image (56).png>)
+![](<../../.gitbook/assets/image (56) (1).png>)
 
 Для мессенджеров без кнопок выводите ее в блоке с ответом&#x20;
 
-![](<../../.gitbook/assets/image (57).png>)
+![](<../../.gitbook/assets/image (57) (1).png>)
 
 
 
@@ -510,19 +510,19 @@ URL функции: [https://store.salebot.pro/function/sheetchoice](https://sto
 
 Пример:
 
-![](<../../.gitbook/assets/image (58).png>)
+![](<../../.gitbook/assets/image (58) (1).png>)
 
 Результат работы:
 
-![](<../../.gitbook/assets/image (59).png>)
+![](<../../.gitbook/assets/image (59) (1).png>)
 
 ## Как задать переменные в именах колонок
 
 Вы можете переменной указать адрес ячейки для считывания и по этой же переменной достать из ответа в переменную.
 
-![](<../../.gitbook/assets/image (60).png>)
+![](<../../.gitbook/assets/image (60) (1).png>)
 
-![](<../../.gitbook/assets/image (61).png>)
+![](<../../.gitbook/assets/image (61) (1).png>)
 
 ## Как добавить лист в таблицу
 
@@ -549,7 +549,7 @@ _{'code': 400, 'message': 'Invalid requests\[0].addSheet: This action would incr
 
 Если таблица в версии .XLSX, то интеграция работать не будет. Таблицу нужно конвертировать в формат Google-таблиц.
 
-![](<../../.gitbook/assets/image (62).png>)
+![](<../../.gitbook/assets/image (62) (1).png>)
 
 #### Видеоверсия:
 
@@ -720,7 +720,7 @@ result - сообщение об операции \
 
 deleted\_sfh = sheet\_delete\_worksheet('1oP8Ax4A7FKUY7Mv9eAYAM8q0J0ddlKaD8dOa076AtvQ', 'Лист14')
 
-<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption><p>Удаление листа из Google-таблицы</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (63) (1).png" alt=""><figcaption><p>Удаление листа из Google-таблицы</p></figcaption></figure>
 
 Функция вернет ответ по типу {"status":true,"result":"worksheet Лист14 is deleted"}. \
 В случае возникновения ошибки, функция вернет ее описание.
@@ -734,7 +734,7 @@ deleted\_sfh = sheet\_delete\_worksheet('1oP8Ax4A7FKUY7Mv9eAYAM8q0J0ddlKaD8dOa07
 
 worksheet\_indexes = sheet\_worksheet\_indexes('1oP8Ax4A7FKUY7Mv9eAYAM8q0J0ddlKaD8dOa076AtvQ')
 
-<figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption><p>Получение общего числа листов в Google-таблице</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (64) (1).png" alt=""><figcaption><p>Получение общего числа листов в Google-таблице</p></figcaption></figure>
 
 Функция вернет ответ по типу {"status":true,"worksheets\_count":10,"worksheet\_titles":{"1":"Лист1","2":"Лист2","3":"cvtyf","4":"Лист4","5":"о да","6":"Это новый лист","7":"вль и я","8":"таракан","9":"чемодан","10":"БАЗА ДАННЫХ"\}}.&#x20;
 
@@ -751,7 +751,7 @@ worksheet\_indexes = sheet\_worksheet\_indexes('1oP8Ax4A7FKUY7Mv9eAYAM8q0J0ddlKa
 
 worksheet\_title\_change = sheet\_rename\_worksheet('1oP8Ax4A7FKUY7Mv9eAYAM8q0J0ddlKaD8dOa076AtvQ','Лист5','о да')<br>
 
-<figure><img src="../../.gitbook/assets/image (65).png" alt=""><figcaption><p>Переименование листа в Google-таблице</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (65) (1).png" alt=""><figcaption><p>Переименование листа в Google-таблице</p></figcaption></figure>
 
 ### **Как осуществить построчную запись** в определенные столбцы&#x20;
 
@@ -1063,7 +1063,7 @@ result = sheet\_remove\_col('12sSVR3Wk-1kNb9CsjyJ2gjLb\_PiRl5DhbF4YcD1VzT', '6')
 
 `sheet_search_in_col_return_cell("#{sheet_id}", "поисковый запрос", 2, 5)`
 
-![Таблица для поиска](<../../.gitbook/assets/image (66).png>)
+![Таблица для поиска](<../../.gitbook/assets/image (66) (1).png>)
 
 Поиск фразы “Привет мир” в 1 листе во 2 колонке (колонка B). Запрашиваем содержимое ячейки этой же строки в 5 колонке (колонка E):
 
@@ -1109,7 +1109,7 @@ result = sheet\_remove\_col('12sSVR3Wk-1kNb9CsjyJ2gjLb\_PiRl5DhbF4YcD1VzT', '6')
 Обратите внимание, что само регулярное выражение передается вторым параметров, вместо фразы для поиска.
 {% endhint %}
 
-![](<../../.gitbook/assets/image (67).png>)
+![](<../../.gitbook/assets/image (67) (1).png>)
 
 Если проблем при выполнении запроса не возникло, то в ответ приходит словарь содержащий статус и результат поиска:
 
@@ -1153,7 +1153,7 @@ result = sheet\_search\_in\_col\_return\_row("#{sheet\_id}", "222", '1', 'F')
 
 поиск строки 222 в колонке 1 и возврат всей строки.
 
-![](<../../.gitbook/assets/image (68).png>)
+![](<../../.gitbook/assets/image (68) (1).png>)
 
 Если проблем при выполнении запроса не возникло, то в ответ приходит словарь содержащий статус и все ячейки со значениями
 
@@ -1507,19 +1507,19 @@ destinationSheet\_data - список с номерами ячеек диапа�
 
 ![](https://lh5.googleusercontent.com/9LwEdukntE-2dYQmjXJ9wLhWVuNsLmfG5QIEVpWKAVbOSOJFKqxj12S1Cb0yN4Nj29y-vZzJOWvNEzFeu56c5POcFQAyjaQ1fMZyfRcPqkKph_0sXhKixhf2fYIRakjc7a8pr2EZ7djNeO4EWE33JyI)
 
-![диапазон-источник данных sourseSheet\_data \[0,5,0,6\]](<../../.gitbook/assets/image (69).png>)
+![диапазон-источник данных sourseSheet\_data \[0,5,0,6\]](<../../.gitbook/assets/image (69) (1).png>)
 
-![диапазон-приемник данных destinationSheet\_data \[0,3,0,2\]](<../../.gitbook/assets/image (70).png>)
+![диапазон-приемник данных destinationSheet\_data \[0,3,0,2\]](<../../.gitbook/assets/image (70) (1).png>)
 
 2\) Если размер диапазона-приемника данных destinationSheet\_data больше размера диапазона-источника sourseSheet\_data:
 
 ![](https://lh3.googleusercontent.com/uYnJPVtc81Qyqt5-UBsngu-xe65dDIvNd7pT9LTN5OkA2cjgd2uDP4VhXSFJpt7RsiI00ulx0-kNMWMqRj3yHnxpKpzjWIW_69FAllpHmKxXTPviB7tZX2KyTrowPsBBFy12fEFjpW6S8L88jcoNnU0)
 
-![диапазон-приемник данных destinationSheet\_data \[1,10,1,7\]](<../../.gitbook/assets/image (71).png>)
+![диапазон-приемник данных destinationSheet\_data \[1,10,1,7\]](<../../.gitbook/assets/image (71) (1).png>)
 
-![](<../../.gitbook/assets/image (72).png>)
+![](<../../.gitbook/assets/image (72) (1).png>)
 
-![](<../../.gitbook/assets/image (73).png>)
+![](<../../.gitbook/assets/image (73) (1).png>)
 
 **Пример:**
 
@@ -1528,9 +1528,9 @@ data\_ag2 = \[0, 5, 0, 6] \
 data\_ag3 = \[1, 6, 1, 7] \
 result=sheet\_copy\_data\_block('1xeG0NcC5xaXVnXqgGY9z3uUkVlZX-vsx1xOTfK2Wnd4', 'Лист1', 'Лист2', '#{data\_ag2}', '#{data\_ag3}')
 
-![](<../../.gitbook/assets/image (74).png>)
+![](<../../.gitbook/assets/image (74) (1).png>)
 
-![диапазон-приемник данных destinationSheet\_data \[1,6,1,7\]](<../../.gitbook/assets/image (75).png>)
+![диапазон-приемник данных destinationSheet\_data \[1,6,1,7\]](<../../.gitbook/assets/image (75) (1).png>)
 
 Если проблем при выполнении запроса не возникло, то в ответ приходит словарь содержащий статус и уведомление:
 
@@ -1539,6 +1539,6 @@ status - результат копирования \
 result - сообщение об операции \
 Если возникла ошибка, то вернется статус false и описание ошибки.
 
-![](<../../.gitbook/assets/image (76).png>)
+![](<../../.gitbook/assets/image (76) (1).png>)
 
 </details>

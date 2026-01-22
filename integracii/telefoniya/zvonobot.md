@@ -4,9 +4,9 @@
 
 Для подключения Zvonobot к Salebot необходимо получить api-ключ. Для этого следует зайти в личный кабинет -> профиль. Внизу вы найдете кнопку **сгенерировать Api-ключ**.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Меню Звонобот</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (148).png" alt=""><figcaption><p>Меню Звонобот</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Форма получения API-ключа</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Форма получения API-ключа</p></figcaption></figure>
 
 Сохраните его в надежное место. Вы всегда можете использовать ранее полученный ключ или перегенерировать его
 
@@ -16,17 +16,17 @@
 
 Далее следует перейти в Salebot во вкладку телефония и ввести полученные данные в форму подключения Zvonobot.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Форма подключения Zvonobot в Salebot</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Форма подключения Zvonobot в Salebot</p></figcaption></figure>
 
 Zvonobot подключен!&#x20;
 
 Далее для успешной работы с телефонией нам понадобится номер сотрудника и идентификатор аудиозаписи, которая будет использоваться в рассылках. Для добавления номера следует зайти в **Другое-Номера телефонов** и установить номер, с которого будут рассылаться сообщения. Номеров может быть несколько, и они могут быть прикреплены ко всем вашим сотрудникам. Можете использовать системные номера сервиса либо добавить личный номер, чтобы абонентам приходили звонки с него. Если вы арендуете системный номер, то все, кто перезвонит по этому номеру, услышат ваш голосовой ролик.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Подключение номера телефона</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Подключение номера телефона</p></figcaption></figure>
 
 Для того чтобы добавить аудиозапись, следует пройти в меню аудиоролики и нажать создать видеоролик. Вам будут доступны несколько вариантов создания: загрузить аудиозапись заранее, надиктовать ее или же прописать текстом - после чего робот прочтет ее за вас. На выбор есть мужской и женский голос прочтения.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="563"><figcaption><p>Создание аудиоролика</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt="" width="563"><figcaption><p>Создание аудиоролика</p></figcaption></figure>
 
 После того как вы добавите ролик, его необходимо послать на модерацию.&#x20;
 
@@ -40,7 +40,7 @@ Zvonobot подключен!&#x20;
 
 После обработки модератором аудиозаписи будет присвоен идентификатор - например, 1484915.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Перечень аудиозаписей</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Перечень аудиозаписей</p></figcaption></figure>
 
 ## **Как происодит сопоставление клиента**
 
@@ -66,9 +66,9 @@ Zvonobot подключен!&#x20;
 
 **Пример реализации функции в боте:**<br>
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Пример сборки схемы в боте</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Пример сборки схемы в боте</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Пример сборки схемы в боте</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Пример сборки схемы в боте</p></figcaption></figure>
 
 ## Функция Salebot звонок на номер и последующее нажатие на кнопку&#x20;
 
@@ -98,13 +98,13 @@ payload может состоять из 10 словарей, каждый из 
 
 Пример реализации функции в боте:&#x20;
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Пример использования функции <strong>zvonobot_digits_call</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (2).png" alt=""><figcaption><p>Пример использования функции <strong>zvonobot_digits_call</strong></p></figcaption></figure>
 
 ## Настройка звонков из карточки клиента&#x20;
 
 Для настройки возможности осуществлять звонки непосредственно из карточки клиента введите сотрудников в систему Salebot. После регистрации сотрудника зайдите в редактирование его данных.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 В позиции “Способ совершения телефонных звонков” выберите звонки по API Zvonobot.&#x20;
 
@@ -116,16 +116,16 @@ payload может состоять из 10 словарей, каждый из 
 
 После выбора способа совершения телефонных звонков в “Звонки по API Zvonobot” появится дополнительное поле, в которое следует вписать номер, с которого будет идти звонок, и ид аудиозаписи.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Форма редактирования данных</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>Форма редактирования данных</p></figcaption></figure>
 
 Для осуществления звонка выбранным методом достаточно в карточке клиента нажать на иконку голубой телефонной трубки рядом с его номером телефона:
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Отображение данных в карточке клиента Salebot</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p>Отображение данных в карточке клиента Salebot</p></figcaption></figure>
 
 ## Настройка вебхуков
 
 После совершения звонка в карточку клиента будет доставлено уведомление о его завершении или отмене.
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>

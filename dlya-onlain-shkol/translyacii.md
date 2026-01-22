@@ -12,21 +12,21 @@ description: Проведение вебинара стало ещё проще
 
 Перейдите в раздел трансляции, выбрав пункт Создать трансляцию в меню слева:
 
-<figure><img src="/broken/files/R7MeTwOnayYHQkFVjRgf" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-18 в 13.58.09.png" alt=""><figcaption></figcaption></figure>
 
 Далее кликните на "Создать трансляцию":
 
-<figure><img src="/broken/files/wlNWmmJ6s9U4xXi8KeJ0" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-18 в 14.07.07.png" alt=""><figcaption></figcaption></figure>
 
 Откроется форма настройки трансляции:
 
-<figure><img src="/broken/files/JN9fsTfoTuvXNuzGR0VY" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-18 в 14.09.30.png" alt=""><figcaption></figcaption></figure>
 
 Разберём за что отвечает каждое из полей. Обязательные поля для ввода отмечены звездочками\*.
 
 ### Вкладка Настройки трансляции
 
-<figure><img src="/broken/files/HNepo4VJZ0QGKA7cYUcf" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-18 в 14.10.36.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Тип трансляции:&#x20;
 
@@ -46,13 +46,13 @@ URL - сгенерированная ссылка на вашу трансляц
 
 Повторять трансляцию - функция для осуществления автоповтора трансляции в выбранный период и время: для этого активируйте переключатель "Повторять трансляцию" и выберите необходимые дни недели.
 
-<figure><img src="/broken/files/0bgHRFUAUVyyH5KD3OUB" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-18 в 14.11.17.png" alt=""><figcaption></figcaption></figure>
 
 Время запуска трансляции будет совпадать со временем первой трансляции.
 
 RTMP сервер, Ключ трансляции и URL проигрывателя - поля для настройки потокового вещания, вы можете предоставить ссылку для просмотра трансляции в Zoom или других приложениях.
 
-<figure><img src="/broken/files/oVNrUm99ZQsKbfUKsSgl" alt=""><figcaption><p>Настройка потокового вещания</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption><p>Настройка потокового вещания</p></figcaption></figure>
 
 Фото перед началом вебинара - заставка для трансляции
 
@@ -62,7 +62,7 @@ RTMP сервер, Ключ трансляции и URL проигрывател
 
 Вы можете задать время, через которое будет появляться изображение после завершения трансляции.
 
-<figure><img src="/broken/files/vWYw6DzfE0Kgkz122Ol1" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-18 в 14.15.27.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Настройки автовебинара идентичны настройкам онлайн-трансляции, но у вас также есть возможность добавить ссылку на видео для запуска трансляции.
 
@@ -70,7 +70,7 @@ RTMP сервер, Ключ трансляции и URL проигрывател
 
 ### Вкладка Настройки комнаты
 
-<figure><img src="/broken/files/GIEkxGuJNJGSAh9CKz4R" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-18 в 14.23.01.png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **❗️Ведущий вебинара** - имя и фамилия ведущего или подпись под окном с трансляцией - обязательный параметр.
 * **Загрузить фото ведущего** - фото ведущего, рекомендуется использовать изображение квадратное. С соотношением сторон 1:1.
@@ -85,7 +85,7 @@ RTMP сервер, Ключ трансляции и URL проигрывател
 
 Можете выбрать расположение кнопки в мобильной версии:
 
-<figure><img src="/broken/files/O3uq30nlEP7RpE0gqKi1" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-18 в 14.21.15.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Непосредственно при проведении трансляции, вы можете отследить количество участников, кликнувших по кнопке, а также увидеть список:
 
@@ -93,7 +93,7 @@ RTMP сервер, Ключ трансляции и URL проигрывател
 
 ### Вкладка Баннеры
 
-<figure><img src="/broken/files/NKUbaUrB0a9a0Lu1w9LI" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-18 в 14.23.43.png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### Форма настройки трансляции - Баннеры
 
@@ -113,7 +113,7 @@ RTMP сервер, Ключ трансляции и URL проигрывател
 
 После выполненных настроек сохраните окно трансляций. В общем списке трансляций вы сможете легко получить ссылку или перейти на созданную трансляцию:
 
-<figure><img src="/broken/files/R7MeTwOnayYHQkFVjRgf" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-18 в 13.58.09.png" alt=""><figcaption></figcaption></figure>
 
 Во вкладке с созданной трансляцией вы можете отследить количество кликов по баннеру и увидеть список пользователей:
 
@@ -133,31 +133,31 @@ RTMP сервер, Ключ трансляции и URL проигрывател
 
 ### Настройки чата
 
-<figure><img src="/broken/files/M4EHJNiA6V9tuluP8tVN" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-18 в 14.40.39.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Сообщения со ссылками проходят предмодерацию - все сообщения, содержащие ссылки, будут перенаправлены на предварительную модерацию и не попадут в общий чат трансляции без проверки администратором. Модерация осуществляется администратором во вкладке настроек.
 
-<figure><img src="/broken/files/HC2TKKSHjJwrl9juRvXv" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-18 в 14.45.53.png" alt="" width="563"><figcaption></figcaption></figure>
 
 В случае если сообщение не было одобрено, вы можете удалить его, нажав на значок корзины, или отправить его в чат, поставив галочку в правой части сообщения.
 
-<figure><img src="/broken/files/NCxj7HKye6oq5V2zpUet" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-18 в 15.21.01.png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **Блокировать сообщения со ссылками** - все сообщения содержащие ссылки будут заблокированы.
 
 При отправке сообщения со ссылкой клиент увидит системное уведомление, о том, что сообщение отправлено не будет.&#x20;
 
-<figure><img src="/broken/files/gnylhyCshhqti7dN1jY1" alt="" width="563"><figcaption><p>Пример вида уведомлений: текст сообщения содержит причину, по которой сообщение <br>не будет отправлено в общий чат трансляции. </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-18 в 15.14.21.png" alt="" width="563"><figcaption><p>Пример вида уведомлений: текст сообщения содержит причину, по которой сообщение <br>не будет отправлено в общий чат трансляции. </p></figcaption></figure>
 
 Пример уведомления о невозможности отправки сообщения.
 
 **Установить таймер между сообщениями** - при отправке сообщения клиентом запустит обратный отсчет на кнопке отправки. До завершения отсчета отправка сообщения будет невозможной. Указывается задержка в секундах, число должно быть целым.
 
-<figure><img src="/broken/files/aVjsB85L3Am9EZbTg5xn" alt="" width="375"><figcaption><p>Пример таймера 5 секунд при отправке сообщения</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-18 в 14.42.32.png" alt="" width="375"><figcaption><p>Пример таймера 5 секунд при отправке сообщения</p></figcaption></figure>
 
 Если клиент уже отправил сообщение, но установлена задержка при отправке, то в поле ввода сообщения чата отобразится таймер с обратным отсчетом.&#x20;
 
-<figure><img src="/broken/files/PbwLm6rTfB0Sq2QRATpV" alt="" width="563"><figcaption><p>Обратный отсчет при активной задержке</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Запись экрана 2025-06-18 в 15.15.00.gif" alt="" width="563"><figcaption><p>Обратный отсчет при активной задержке</p></figcaption></figure>
 
 * **Запретить сообщения до начала трансляции** - соответственно данная функция ограничивает отправку сообщений в чате трансляции до ее начала.
 * **Предмодерация всех сообщений** - отправит сообщения во вкладку предмодерации в панели управления администратора.\
@@ -167,11 +167,11 @@ RTMP сервер, Ключ трансляции и URL проигрывател
 
 Вы можете самостоятельно добавить ключевые слова для отправки сообщений на модерацию или блокировку. Для этого просто введите нужное слово и нажмите клавишу Enter на клавиатуре. Также вы можете воспользоваться кнопкой «+ Добавить».
 
-<figure><img src="/broken/files/T8onGRhjfVQdUhaRdpDL" alt="" width="375"><figcaption><p>Также настройки чата можно поменять <br>прямо во время трансляции:</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-18 в 14.47.27.png" alt="" width="375"><figcaption><p>Также настройки чата можно поменять <br>прямо во время трансляции:</p></figcaption></figure>
 
 ### Сценарий чата
 
-<figure><img src="/broken/files/ruodWzepwvin5UIuhttf" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-18 в 15.49.21.png" alt=""><figcaption></figcaption></figure>
 
 Сценарий чата необходим для создания автовебинаров или трансляций с имитацией активности клиентов во время эфира.
 
@@ -222,7 +222,7 @@ RTMP сервер, Ключ трансляции и URL проигрывател
 
 Файл загружается во вкладке "Сценарий":
 
-<figure><img src="/broken/files/mqwZ5UDMqeHhuU3po2ht" alt=""><figcaption><p>Вкладка сценарий, загрузка сценария.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-18 в 16.15.00.png" alt=""><figcaption><p>Вкладка сценарий, загрузка сценария.</p></figcaption></figure>
 
 Для загрузки можно использовать сценарии выгруженные в файл из иной платформы. Редактировать сам файл перед загрузкой не надо. Вам необходимо просто загрузить его.&#x20;
 
@@ -316,7 +316,7 @@ RTMP сервер, Ключ трансляции и URL проигрывател
 
 В случаях, если вам необходимо создать вебинар быстро и просто, можно сделать копию любого из уже созданных вебинаров:
 
-<figure><img src="/broken/files/ZMeORfdCg6Dr0Sjda2MV" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-18 в 15.28.12.png" alt=""><figcaption></figcaption></figure>
 
 Для этого нажмите на кнопку "Дублировать", тогда вебинар с абсолютно идентичными настройками появится в списке ваших трансляций.
 
@@ -336,7 +336,7 @@ RTMP сервер, Ключ трансляции и URL проигрывател
 
 Перейдите в раздел “Конференции”, далее “Персональный зал” — “Потоковое вещание” . В настройках стороннего сервиса потоковой трансляции укажите URL трансляции, ключ трансляции и URL страницы потокового вещания.&#x20;
 
-<figure><img src="/broken/files/cBpTwBaFXoAZfpeskXg3" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-18 в 15.30.29.png" alt=""><figcaption></figcaption></figure>
 
 URL трансляции, ключ трансляции и URL страницы потокового вещания вы можете найти в настройках онлайн-трансляции:
 
@@ -382,19 +382,19 @@ URL трансляции, ключ трансляции и URL страницы 
 
 Чтобы добавить трансляцию на страницу урока, перейдите в настройки курса во вкладку "Уроки":
 
-<figure><img src="/broken/files/ZWTOpP8d9RRBqjbLvoTl" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-14 в 15.51.03.png" alt=""><figcaption></figcaption></figure>
 
 Далее в режиме редактирования урока, наведите на рабочую область и найдите кнопку "+", чтобы добавить секцию:
 
-<figure><img src="/broken/files/2PWfHBUGOOTdeM3Gv0G8" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-14 в 15.58.34.png" alt=""><figcaption></figcaption></figure>
 
 В правой части экрана откроется меню, чтобы добавить необходимую секцию в урок. Выберите секцию "Вебинар":
 
-<figure><img src="/broken/files/5TzkEquklMpDPic35Et9" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-14 в 15.59.57.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Тогда вам останется только выбрать вебинар из выпадающего списка, который будет транслироваться прямо в уроке:
 
-<figure><img src="/broken/files/mC5z2yQUoVcdDekLs3zf" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-14 в 16.01.51.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Готово!&#x20;
@@ -412,15 +412,15 @@ URL трансляции, ключ трансляции и URL страницы 
 
 Чтобы посмотреть статистику вебинара, перейдите в раздел "Аналитика" во вкладку "Трансляции"
 
-<figure><img src="/broken/files/af8LJm54SJC1KmY5OmRj" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-15 в 14.34.26.png" alt=""><figcaption></figcaption></figure>
 
 Во вкладке "Трансляции" в аналитике вы сможете выбрать трансляцию, по которой нужно просмотреть статистику:
 
-<figure><img src="/broken/files/utcMhYiKjz4eS8OdcwG0" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-15 в 14.36.30.png" alt=""><figcaption></figcaption></figure>
 
 Выбрать временной промежуток вебинара для просмотра статистики:
 
-<figure><img src="/broken/files/GnKpiD0TaZayxVSlwOBE" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-15 в 14.37.51.png" alt=""><figcaption></figcaption></figure>
 
 А также просмотреть:
 
@@ -431,8 +431,8 @@ URL трансляции, ключ трансляции и URL страницы 
 
 А также увидеть наглядный график:
 
-<figure><img src="/broken/files/HFSJxiRan9jxCl4MxgU8" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-15 в 14.39.31.png" alt=""><figcaption></figcaption></figure>
 
 Для отчетности, данные можно выгрузить в виде таблицы, кликнув по кнопке "Выгрузить cvs":
 
-<figure><img src="/broken/files/pNOj3a7H0mMX2eqH9Zn2" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-15 в 14.41.42.png" alt="" width="563"><figcaption></figcaption></figure>

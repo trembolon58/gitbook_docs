@@ -6,7 +6,7 @@ description: >-
 
 # Чат
 
-<figure><img src="/broken/files/mS95CYSGtizMXMY4X1QU" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/онлайн-чат для курса.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Важно!&#x20;
@@ -20,7 +20,7 @@ description: >-
 
 Чтобы создать чат с учениками зайдите в настройки курса и перейдите во вкладку Чат :
 
-<figure><img src="/broken/files/vaKdcu8YmrZ7yrB3Udgb" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 16.04.28.png" alt=""><figcaption></figcaption></figure>
 
 Нажмите на кнопку "Создать", чтобы создать онлайн-чат для учеников, который будет отображаться ученикам при прохождении курса.
 
@@ -28,43 +28,43 @@ description: >-
 
 ### Оформление
 
-<figure><img src="/broken/files/B1rfeD356ws9YcsOZ1y9" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 16.08.09.png" alt=""><figcaption></figcaption></figure>
 
 #### Заголовок чата
 
 В этом поле прописывается наименование для онлайн-чата - самое верхнее поле.&#x20;
 
-<figure><img src="/broken/files/h46uT0Z3pRyjAewevOVE" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 16.09.01.png" alt=""><figcaption></figcaption></figure>
 
 #### Подзаголовок чата
 
 Это поле находится ниже, чем заголовок чата, и позволяет Вам уточнить роль онлайн-чата на вашем ресурсе.&#x20;
 
-<figure><img src="/broken/files/UtElLZJ4R4NThKeey7CW" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 16.10.06.png" alt=""><figcaption></figcaption></figure>
 
 #### Надпись на кнопке виджета
 
-<figure><img src="/broken/files/6mEeKRgIwULlwpSDB8al" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 16.29.03.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Надпись на кнопке виджета отображается при свернутом состоянии онлайн-чата.&#x20;
 
-<figure><img src="/broken/files/fsws4NUeOyOuEVaFbgkr" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 16.28.23.png" alt=""><figcaption></figcaption></figure>
 
 По умолчанию отображается текст из полей заголовка и подзаголовка: можно установить другую надпись при необходимости.&#x20;
 
 #### Приветственное сообщение в чате
 
-<figure><img src="/broken/files/jITHFM7aCzK8o1Vwq6gQ" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 16.42.49.png" alt="" width="563"><figcaption></figcaption></figure>
 
 В этом поле заполняется текст предварительного сообщения в онлайн-чате:
 
-<figure><img src="/broken/files/0SqsP0yFZFzz9JFdQHQ5" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 16.42.11.png" alt="" width="375"><figcaption></figcaption></figure>
 
 #### Ориентация текста
 
 С помощью панели ориентации текста можно выравнивать заголовок и подзаголовок онлайн-чата относительно правого, левого края или центра по аналогии с любыми текстовыми редакторами:
 
-<figure><img src="/broken/files/G3qv7wmPJPele64AWibh" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 16.44.40.png" alt=""><figcaption></figcaption></figure>
 
 #### Кнопка чата
 
@@ -72,34 +72,34 @@ description: >-
 
 Можно выбрать, как будет выглядеть кнопка онлайн-чата на разных устройствах: веб-версия сайта и мобильная версия сайта (если использовать адаптивную версию кнопки).
 
-<figure><img src="/broken/files/ifGja9zWVeQYjkXzOIuI" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 16.46.00.png" alt="" width="563"><figcaption></figcaption></figure>
 
 1. Круглая кнопка
 
-<figure><img src="/broken/files/Mmfdv6JhYg2xeVS41hOm" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 16.47.45.png" alt=""><figcaption></figcaption></figure>
 
 2. Классическая:
 
-<figure><img src="/broken/files/fsws4NUeOyOuEVaFbgkr" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 16.28.23.png" alt=""><figcaption></figcaption></figure>
 
 3. **Адаптивная:** кнопка будет круглой на маленьких экранах (смартфоны, планшеты) и классической на больших экранах (пк и ноутбуки).
 4. Компактная:
 
-<figure><img src="/broken/files/3anxPZB32v3qY88DJr3m" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 16.49.24.png" alt=""><figcaption></figcaption></figure>
 
 Расположить кнопку можно по правому или левому краю:
 
-<figure><img src="/broken/files/D5suAEoJRnEiGBrU87A0" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 16.51.46.png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### Цветовая палитра
 
 Для оформления онлайн-чата по своему вкусу можно применить не только настройки цвета, но и также отобразить интересные узоры на фоне чата и хедера:
 
-<figure><img src="/broken/files/qKMjfA2IqZz2Ze0sc0pT" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 16.53.39.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Можно выбрать цвет и яркость узоров, а также иных элементов онлайн-чата. Для этого активируйте чекбокс "Расширенные настройки:
 
-<figure><img src="/broken/files/ScC7tBx5wF1qFRmN47Mb" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 16.56.22.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Также можно установить иные расширенные настройки цветового отображения для онлайн-чата.&#x20;
 
@@ -111,7 +111,7 @@ description: >-
 
 С помощью него можно поменять аватар помощника в онлайн-чате. Аватар может быть добавлен как ссылкой, так и загружен файлом.&#x20;
 
-<figure><img src="/broken/files/4CvCld1fxC9vFUPvkDn3" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 16.55.58.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Также в случае необходимости, можно не отображать аватар чата с помощью одноименного чекбокса
 
@@ -119,11 +119,11 @@ description: >-
 
 В настройках можно отображать логотип Salebot:
 
-<figure><img src="/broken/files/ZhcJ1Hjq4g9avmC3NCfT" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 16.57.43.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Настройки
 
-<figure><img src="/broken/files/gtDmCmBUEgriy1UNkQGz" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 16.58.10.png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### **Надпись внутри поля ввода**
 
@@ -185,27 +185,27 @@ description: >-
 Кнопки мессенджеров появятся только после того, как эти мессенджеры будут подключены к конструктору.
 {% endhint %}
 
-<figure><img src="/broken/files/Ezsb8W9IsbYlrZfxsLYl" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-27 в 12.57.54.png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### **Ползунок Отображать только мессенджеры.**&#x20;
 
 Если включить данный переключатель, то на сайте появятся только кнопки мессенджеров. Остальные функции онлайн-чата будут отключены.&#x20;
 
-<figure><img src="/broken/files/8fLothl0x3mxW7brSFpb" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-27 в 12.59.26.png" alt=""><figcaption></figcaption></figure>
 
 Пример отображения кнопок при включенном ползунке **Отображать только мессенджеры**
 
-<figure><img src="/broken/files/gySKztDbJKBhliomWUUi" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-27 в 12.58.47.png" alt="" width="375"><figcaption></figcaption></figure>
 
 При неактивном положении "Отображать только мессенджеры" вид онлайн-чата будет таким:
 
 1. При наведении на кнопку онлайн-чата будут всплывать кнопки на мессенджеры:
 
-<figure><img src="/broken/files/oBOUffwJQ6fuGlDad8j6" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-27 в 13.01.09.png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. При клике на кнопку онлайн-чата, откроется окно на странице урока, чтобы написать куратору, не переходя в другой мессенджер:
 
-<figure><img src="/broken/files/PAtTAfTNYQ0fGeEYB7BZ" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-27 в 13.00.55.png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### **Надпись к мессенджерам**
 
@@ -221,21 +221,21 @@ description: >-
 
 #### **Свои ссылки**
 
-<figure><img src="/broken/files/4N1P0GgINHOfG3unH57c" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-27 в 13.08.43.png" alt=""><figcaption></figcaption></figure>
 
 В онлайн-чате существует возможность, помимо кнопок мессенджеров, выводить свои кнопки с ссылками.
 
-<figure><img src="/broken/files/VZ7tVidjuh15r3YbRXYl" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-27 в 13.09.54.png" alt=""><figcaption></figcaption></figure>
 
 В настройках можно указать url ссылки и добавить изображение:
 
-<figure><img src="/broken/files/94xmEPVS6eo9QAwYlLc5" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 17.01.47.png" alt="" width="563"><figcaption></figcaption></figure>
 
 &#x20;**Загрузка файлов**
 
 Данная настройка даёт возможность получать вложения от клиентов сайта, например, изображения.&#x20;
 
-<figure><img src="/broken/files/rvXAbZ7ZeIeCPnvr1P03" alt="" width="367"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-27 в 13.10.34.png" alt="" width="367"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Ограничения на размер входящего файла через онлайн-чат : 20 МВ
@@ -341,7 +341,7 @@ _Принцип работы:_
 
 Принцип работы автоматических действий следующий: для того чтобы автоматическое действие сработало, необходимо установить определенный триггер для данного действия - условие.&#x20;
 
-<figure><img src="/broken/files/lbaFDTG8OTUzMr4KzArv" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-27 в 12.56.39.png" alt=""><figcaption></figcaption></figure>
 
 Сначала устанавливаем условия, в какой момент должно выполниться настраиваемое действие. Можно добавлять условия в зависимости от времени дня, страны посетителя, города, URL текущей страницы и т.п.&#x20;
 
@@ -369,7 +369,7 @@ _Принцип работы:_
 
 5. **URL текущей страницы**. Автоматическое действие будет срабатывать в зависимости от того, содержится/не содержится или равно/не равно URL ссылки.
 
-<figure><img src="/broken/files/hCUiGv1P0Qy34xzZPi4b" alt=""><figcaption><p>В данном случае, чат автоматически откроется, если url страницы будет содержать ссылку, которую<br>мы указали в поле для ссылки</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-27 в 13.12.11.png" alt=""><figcaption><p>В данном случае, чат автоматически откроется, если url страницы будет содержать ссылку, которую<br>мы указали в поле для ссылки</p></figcaption></figure>
 
 Например, данное действие можно использовать, если вы хотите скрыть значок онлайн-чата в вводных уроках и т.д.
 

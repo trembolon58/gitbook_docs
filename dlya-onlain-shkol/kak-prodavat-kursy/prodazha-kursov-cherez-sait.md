@@ -8,7 +8,7 @@ description: В статье расскажем, как создавать за�
 
 Создание простого и интуитивно понятного процесса оплаты позволяет вам предлагать курсы, не заботясь о технических аспектах внедрения платежной формы на ваш лендинг.
 
-<figure><img src="/broken/files/3CAkLo9T7XvA0qi1h5ta" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Запись-экрана-2025-07-14-в-13.12.33-_online-video-cutter.com_.gif" alt="" width="563"><figcaption></figcaption></figure>
 
 В этой статье мы расскажем, как быстро и без лишних сложностей настроить оплату по тарифу курса на вашем сайте.&#x20;
 
@@ -24,7 +24,7 @@ description: В статье расскажем, как создавать за�
 
 Для покупок учениками курсов в чат-боте можно выбрать любой платежный сервис:
 
-<figure><img src="/broken/files/7LVvpz0B0AVkRMDO4OfJ" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 12.15.04.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Интеграций с платежными серевисами в Salebot - большое количество.
@@ -36,15 +36,15 @@ description: В статье расскажем, как создавать за�
 
 а) либо перейдите в раздел "[Эквайринг](../../platezhnye-sistemy/)" и изучите необходимую инструкцию для подключения:
 
-<figure><img src="/broken/files/z4uS1vsZvPMxYOVNLtcS" alt="" width="355"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 12.16.57.png" alt="" width="355"><figcaption></figcaption></figure>
 
 б) либо кликните на "подключить" на плашке сервиса в разделе "Платежные системы" в настройках проекта:
 
-<figure><img src="/broken/files/UFSUN71E5m9EO1mKUVBI" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 12.07.25.png" alt=""><figcaption></figcaption></figure>
 
 После клика на необходимую кнопку, откроется окно модальной формы, где уже лежит ссылка на статью с выбранной вами платежной системой:
 
-<figure><img src="/broken/files/upSZuEM7xUntLv0LJrfx" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-03 в 12.51.44.png" alt="" width="563"><figcaption></figcaption></figure>
 
 После подключения платежного сервиса, переходите в настройки курса.&#x20;
 
@@ -58,15 +58,15 @@ description: В статье расскажем, как создавать за�
 
 Перед началом работы подготовьте ваш сайт: для этого перейдите в соответствующий раздел:
 
-<figure><img src="/broken/files/n8tBBpujSQNWxsTPMlbU" alt="" width="444"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-04 в 15.02.34.png" alt="" width="444"><figcaption></figcaption></figure>
 
 Далее нажмите на "+ Создать":
 
-<figure><img src="/broken/files/PrZAR8RLuyg5XcxzNnDf" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 12.44.20.png" alt=""><figcaption></figcaption></figure>
 
 Выберите тип сайта "Многостраничный сайт", "Лендинг" или "Форма":
 
-<figure><img src="/broken/files/LBKtOVBevqaY9JwVOYNi" alt="" width="358"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 12.47.13.png" alt="" width="358"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 О подробной настройке, как собрать сайт из секций в конструкторе, рассказано в разделе "[Сайты для бизнеса](/broken/pages/-M1L_fPpT9ptt_t1BNvt)".
@@ -74,7 +74,7 @@ description: В статье расскажем, как создавать за�
 
 Если у вас уже собран сайт на платформе Salebot, перейдите  в редктирование секций сайта, кликнув на карточку сайта:
 
-<figure><img src="/broken/files/8gem3I5V3qjaOAhHmq0z" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 12.44.40.png" alt=""><figcaption></figcaption></figure>
 
 ### Многостраничный сайт
 
@@ -150,7 +150,7 @@ description: В статье расскажем, как создавать за�
 
 Независимо от того, какой тип сайта вы создали "Многостраничный сайт", "Лендинг" или "Форма", режим редактирования страницы будет идентичен.
 
-<figure><img src="/broken/files/ID9rrc6hbc5yEuv89Caa" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 13.04.31.png" alt=""><figcaption></figcaption></figure>
 
 Чтобы создать секцию "Форма" для записи на курсы (как и любую другую секцию в конструкторе сайтов), необходимо навести на секцию, после которой вы расположите форму оплаты, чтобы появилась кнопка "+" для открытия меню с секциями:
 
@@ -158,43 +158,43 @@ description: В статье расскажем, как создавать за�
 
 Далее в открывшемся меню найдите секцию "Форма:
 
-<figure><img src="/broken/files/MiX4oZSVt7gJl7eaOVIf" alt="" width="297"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-04 в 15.32.29.png" alt="" width="297"><figcaption></figcaption></figure>
 
 И далее кликните по "Форме", чтобы секция добавилась на ваш сайт:
 
-<figure><img src="/broken/files/JZZ9sgOROmiJ9UyYj2E9" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Запись-экрана-2024-07-04-в-15.44.31.gif" alt="" width="563"><figcaption></figcaption></figure>
 
 Теперь перейдем к настройкам формы:
 
-<figure><img src="/broken/files/zJfQgQWTW03tk1tHFOCV" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-04 в 15.50.53.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Здесь необходимо активировать чекбокс "Форма для регистрации ученика на курс":
 
-<figure><img src="/broken/files/ML1U3QgCkMLjTzC8de6Y" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-04 в 15.52.50.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Именно данный чекбокс открывает дальнейшие настройки по оплатам для курса:
 
 1. Выберите курс, для которого необходимо создать форму на сайте:
 
-<figure><img src="/broken/files/rNjeISOLpJId1ptUoD9c" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-04 в 15.54.20.png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. Выбор тарифа:
 
-<figure><img src="/broken/files/tjo3AIV9A5r7jaHRH1jN" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-04 в 15.55.06.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Данное поле является одним из основных для оплат тарифов курса, поскольку здесь вы выбираете, для какого тарифа (или всех тарифов) будет работать форма на сайте.
 
 3. Подсказка в форме:
 
-<figure><img src="/broken/files/6J2z494SnVlcexq6kiOp" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-04 в 15.57.16.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Вы можете оставить текст подсказки, существующий по умолчанию, либо прописать собственный:
 
-<div><figure><img src="/broken/files/T1n1FFX535pPXp9iLNV7" alt=""><figcaption></figcaption></figure> <figure><img src="/broken/files/2YflBTKr2NE8CWzRSz6P" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-04 в 16.00.29.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-04 в 16.02.10.png" alt=""><figcaption></figcaption></figure></div>
 
 Также если вы не хотите, чтобы подсказка отображась в форме записи/оплаты на курс, то воспользуйтесь чекбоксом "Скрыть подсказку":
 
-<figure><img src="/broken/files/i802NwFK4tEdQsr6jStQ" alt="" width="362"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-04 в 16.04.04.png" alt="" width="362"><figcaption></figcaption></figure>
 
 ### Вопросы формы
 
@@ -202,35 +202,35 @@ description: В статье расскажем, как создавать за�
 
 Чтобы создать поле для ввода данных вашим пользователем, кликните по кнопке "Создать вопрос":
 
-<figure><img src="/broken/files/A2Jd8B3OfGKP5pFEeg2B" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-04 в 16.06.14.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Далее вам откроется следующая форма заполнения вопроса:
 
-<figure><img src="/broken/files/8aGxu6COExYnAoiBXEVq" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-04 в 16.10.14.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Необходимо выбрать в выпадающем списке тип поля "Имя":
 
-<figure><img src="/broken/files/1OZ6VrjqcI8nzYq15HRh" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-04 в 16.11.37.png" alt="" width="563"><figcaption></figcaption></figure>
 
 И активировать чекбокс "Обязательный вопрос":
 
-<figure><img src="/broken/files/hrRKV59uaABJQq3yHfw8" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-04 в 16.12.44.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Далее создайте второй вопрос:
 
-<figure><img src="/broken/files/L0oxB9A1lE2JdviSzQ4D" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-04 в 16.14.08.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Во втором вопросе укажите тип поля "Email":
 
-<figure><img src="/broken/files/sa1u9JD3zrqck5LlYBZM" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-04 в 16.15.15.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Данный вопрос также должен быть обязательным, иначе ученик не сможет получить доступ к вашему курсу и пройти автоматическую регистрацию:
 
-<figure><img src="/broken/files/GnKdHwo6x2NwBMiBDyRq" alt="" width="353"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-04 в 16.16.36.png" alt="" width="353"><figcaption></figcaption></figure>
 
 Аналогично добавьте следующий вопрос с типом поля "Номер телефона":
 
-<figure><img src="/broken/files/yhf4hJ7RWArur2px1Opn" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-04 в 16.17.41.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Теперь ваша основная настройка формы записи и оплаты на курс завершена.&#x20;
 
@@ -244,23 +244,23 @@ description: В статье расскажем, как создавать за�
 
 После настройки формы оплат и записи на курс, обязательно сохраните настройки сайта:
 
-<figure><img src="/broken/files/held1vZROzBeRhlCxzjZ" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-04 в 16.21.50.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Далее перейдите в предпросмотр сайта:
 
-<figure><img src="/broken/files/pOyeKv1eIiqSCu8LHg5e" alt="" width="407"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-04 в 16.26.48.png" alt="" width="407"><figcaption></figcaption></figure>
 
 И на сайте вы увидите форму записи/оплаты на курс:
 
-<figure><img src="/broken/files/Ys6j7OmJAsM5tWDsvcSt" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-04 в 16.35.35.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Протестируем форму, заполнив свои данные в пустых полях:
 
-<figure><img src="/broken/files/KfJjBQYwH9lRor84jzhA" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-04 в 16.37.17.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Теперь отправляем данные в систему и переходим в форму заявки и оплаты:
 
-<figure><img src="/broken/files/812DPcvSElPMDcsGG5NE" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Запись-экрана-2024-07-04-в-16.38.04.gif" alt=""><figcaption></figcaption></figure>
 
 Форма отработалась корректно: перенаправила клиента на страницу с обработкой заказа, а далее уже открылось окно с формой оплаты через выбранную платежный сервис.
 

@@ -99,8 +99,8 @@ description: >-
 5. **переменная, которая выводит результат:**\
    s = get(r,'result')&#x20;
 
-<figure><img src="/broken/files/qURbRNf8HUhM27yPpJWk" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 18.04.08.png" alt=""><figcaption></figcaption></figure>
 
 В тексте сообщения прописываем #{s}, и после запуска бота получаем список сведений о счете аккаунта.
 
-<figure><img src="/broken/files/Z4MzquyJHM6I8JibJEnq" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 18.05.50.png" alt=""><figcaption></figcaption></figure>

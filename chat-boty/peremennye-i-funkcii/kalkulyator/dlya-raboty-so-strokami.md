@@ -117,27 +117,27 @@
 {% tab title="Примеры" %}
 Разберем функцию обрезки строки:
 
-<figure><img src="../../../.gitbook/assets/image (116) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (116) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (117) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (117) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Определяем длину строки:
 
-<figure><img src="../../../.gitbook/assets/image (118) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (118) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (119) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (119) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Очень часто при работе с таблицами нужна функция деления строки на части:
 
-<figure><img src="../../../.gitbook/assets/image (120) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (120) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Обработка номера телефона:
 
-<figure><img src="../../../.gitbook/assets/image (121) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (121) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Замена подстроки в строке
 
-<figure><img src="../../../.gitbook/assets/image (122) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (122) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Использование**
 

@@ -14,19 +14,19 @@ description: >-
 
 Для начала необходимо добавить сотрудника в проект в разделе **Сотрудники (в разделе Настройки проекта слева на экране)**:
 
-<figure><img src="/broken/files/1rAZORpM8jE6MIoXNDVB" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 13.34.44.png" alt=""><figcaption></figcaption></figure>
 
 Откроется окно для добавления сотрудника по email:
 
-<figure><img src="/broken/files/ORSNuVpuQRH3mZye84Tb" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 13.35.29.png" alt=""><figcaption></figcaption></figure>
 
 Куратор добавляется в проект в качестве оператора:
 
-<figure><img src="/broken/files/AsWmQzcfMqrmRrhJgJ7h" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 13.56.17.png" alt=""><figcaption></figcaption></figure>
 
 Можно добавить того, кто уже зарегистрирован в salebot.pro, или зарегистрировать новый аккаунт на почту, которую указали в поле Email сотрудника (на указанную почту придет уведомление о том, что к проекту предоставлен доступ с ссылкой для перехода в проект):
 
-<figure><img src="/broken/files/LuQEONRHdG54isS0XAiY" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 13.58.04.png" alt=""><figcaption></figcaption></figure>
 
 Необходимо также заполнить поле "Имя сотрудника" (без заполнения этого поля добавить сотрудника не удастся).&#x20;
 
@@ -56,11 +56,11 @@ description: >-
 
 Во вкладке "Роли" можно создать новую роль, например, применительно только для работы с курсами и другими необходимыми разделами, не предоставляя доступ ко всему проекту в целом:
 
-<figure><img src="/broken/files/pqgfujnuYEUWlH5spZR3" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 14.01.17.png" alt=""><figcaption></figcaption></figure>
 
 Для этого перейдите во вкладку "Роли" и нажмите на кнопку "Создать роль", где откроются разделы для настройки доступов в проекте:
 
-<figure><img src="/broken/files/JkHwJQVXSVKUFJXM8HRw" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 14.02.54.png" alt=""><figcaption></figcaption></figure>
 
 Пропишите название роли, а затем укажите необходимые доступы по каждому разделу.
 
@@ -69,52 +69,52 @@ description: >-
 
 1. Недоступно — полный запрет на просмотр и редактирование раздела. Вкладка с типом "Недоступно" не отображается для добавленного сотрудника, которому назначена созданная роль:
 
-<img src="/broken/files/LMoqp0oEcKk4FdXCmu1d" alt="" data-size="original">
+<img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 14.07.48.png" alt="" data-size="original">
 
 
 
 2. Только просмотр — вкладка с разделом отображается в левом меню, но для редактирования недоступна.
 
-<img src="/broken/files/04sglGyefVymM2HQMW2A" alt="" data-size="original">
+<img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 14.07.52.png" alt="" data-size="original">
 
 
 
 3. Просмотр и редактирование — полный доступ с настройкой, просмотром и редактированием раздела.
 
-<img src="/broken/files/m6nWT8Hmz9Zx3g36xa4L" alt="" data-size="original">
+<img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 14.07.57.png" alt="" data-size="original">
 {% endhint %}
 
 Выберите вкладку "Курсы" и проставьте галочки напротив тех доступов, которые хотите дать сотруднику, добавляемого в проект:
 
-<figure><img src="/broken/files/NSjldxnbQrZePRw3xcFh" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 14.09.56.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Доступы для остальных вкладок можно добавить по необходимости. Например, для раздела "Аналитика" куратору могут быть доступны только вкладки "курсы", "трансляции":
 
-<figure><img src="/broken/files/GwL4kgJ5Ir3Ef8arZgOo" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 14.24.35.png" alt="" width="563"><figcaption></figcaption></figure>
 
 После настройки доступов, нажмите "Сохранить":
 
-<figure><img src="/broken/files/RXk4kHOPXkr6NvVbWUhw" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 14.31.10.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Созданная роль будет отображаться в списке "Роли сотрудника" при добавлении пользователя в проект:
 
-<figure><img src="/broken/files/0xr3x83trvRVS33e2Ul2" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 14.34.49.png" alt=""><figcaption></figcaption></figure>
 
 Пример:
 
 Для роли "Куратор курса" мы оставили доступ только к нескольким разделам. В усеченном варианте (для сотрудника с созданной нами ролью) левое меню отображается следующим образом:
 
-<figure><img src="/broken/files/0ca6aE7yiqSj5Sa8WllP" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 14.17.41.png" alt=""><figcaption></figcaption></figure>
 
 ## Как поменять роль сотруднику
 
 Найдите в карточке сотрудника кнопку дополнительных действий (три точки) и нажмите на нее:
 
-<figure><img src="/broken/files/L2Vh7tAkZjOf3YX0utFr" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 14.40.26.png" alt=""><figcaption></figcaption></figure>
 
 Вы увидите кнопку "Редактировать". При клике по кнопке откроется окно с полями для редактирования роли для сотрудника:
 
-<figure><img src="/broken/files/BeSYEy9R6nig5NdDIxgi" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 14.41.40.png" alt=""><figcaption></figcaption></figure>
 
 Здесь вы сможете поменять не только роль сотруднику, но и имя, описание и др.
 
@@ -122,11 +122,11 @@ description: >-
 
 Найдите в карточке сотрудника кнопку дополнительных действий (три точки) и нажмите на нее:
 
-<figure><img src="/broken/files/XhP3uBOhveK7pXP2qMXE" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 14.47.17.png" alt=""><figcaption></figcaption></figure>
 
 После нажатия на кнопку "Удалить" откроется окно, где необходимо в поле прописать слово "УДАЛИТЬ" для подтверждения своих действий:
 
-<figure><img src="/broken/files/Ymc1UcgcLrnSOqEMd9Bh" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 14.51.16.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Назначить сотрудника куратором в настройках курса
 
@@ -134,16 +134,16 @@ description: >-
 
 Для этого перейдите в настройки курса и перейдите во вкладку "Кураторы":
 
-<figure><img src="/broken/files/ZVakPrPO5sko6t9zav7l" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 14.52.37.png" alt="" width="563"><figcaption></figcaption></figure>
 
 В разделе добавьте необходимого сотрудника в качестве куратора курса:
 
-<figure><img src="/broken/files/IGWYNYkdHUSAXOL5QZxK" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 14.57.00.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Можно добавить всех сотрудников, добавленных в проект, в качестве куратора:
 
-<figure><img src="/broken/files/hcD4KeZHBwP6GTcnlsGX" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 15.00.20.png" alt=""><figcaption></figcaption></figure>
 
 А также удалить всех кураторов из курса (<mark style="color:red;">**сотрудники не удаляются с проекта**</mark>):
 
-<figure><img src="/broken/files/k5Flsp1cAodF2cC6DU2u" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 15.04.01.png" alt="" width="563"><figcaption></figcaption></figure>

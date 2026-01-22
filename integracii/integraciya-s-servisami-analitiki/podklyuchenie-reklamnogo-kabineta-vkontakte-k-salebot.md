@@ -2,7 +2,7 @@
 
 Зарегистрировать [рекламный кабинет](https://ads.vk.com/) или перейти в уже существующий
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="348"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="348"><figcaption></figcaption></figure>
 
 Перейти в раздел "Сайты" и создать пиксель
 

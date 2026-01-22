@@ -22,13 +22,13 @@
 
 Чтобы настроить скрытый параметр, добавьте на форму вопрос типа _Короткий текст_ с названием sb\_id.
 
-<figure><img src="../../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (100) (1).png" alt=""><figcaption></figcaption></figure>
 
 Для этого вопроса включите опцию Скрытый вопрос.
 
 В поле Идентификатор вопроса укажите sb\_id — это будет название GET-параметра.<br>
 
-<figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (101) (1).png" alt=""><figcaption></figcaption></figure>
 
 Получите ссылку на форму и добавьте в конец URL-адреса GET-параметр ?sb\_id=#{client\_id}
 
@@ -48,18 +48,18 @@
 
 По умолчанию после отправки формы клиенту придет колбэк **yandex\_form\_received**.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (68) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (68) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Как настроить колбек со своим текстом, читайте далее.\
 Для этого нужно создать еще одно скрытое поле с названием **callback\_text**, все делаете аналогично как и sb\_id.
 
-<figure><img src="../../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (102) (1).png" alt=""><figcaption></figcaption></figure>
 
 Есть 2 варианта использования этого поля\
 \
 Замените **стандартный колбек yandex\_form\_received для формы на ваш**, для этого нужно указать _Значение по умолчанию_ и не передавать параметр в ссылке (галочка _Скрытый вопрос_ - установлена ), иначе он будет взят из ссылки.
 
-<figure><img src="../../.gitbook/assets/image (103).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (103) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Для отправки уникального колбека** передавайте **callback\_text** в ссылке со своим значением так же, как и sb\_id, пример:\
 https://forms.yandex.ru/u/6191b18d99e21b1b45b9c82?sb\_id=#{client\_id}\&callback\_text=test
@@ -72,11 +72,11 @@ https://forms.yandex.ru/u/6191b18d99e21b1b45b9c82?sb\_id=#{client\_id}\&callback
 
 На странице нужной формы, перейдите во вкладку **Интеграции**
 
-<figure><img src="../../.gitbook/assets/image (104).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (104) (1).png" alt=""><figcaption></figcaption></figure>
 
 Далее внизу выбираем API -> Запрос JSON-RPC POST
 
-<figure><img src="../../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (105) (1).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:red;">**В поле URL**</mark> <mark style="color:red;">**указываем**</mark> ссылку **https://chatter.salebot.pro/yandex\_form/API\_KEY**\
 где **API\_KEY** - апи-ключ из настроек проекта в SaleBot&#x20;
@@ -85,15 +85,15 @@ https://forms.yandex.ru/u/6191b18d99e21b1b45b9c82?sb\_id=#{client\_id}\&callback
 
 В параметрах указываем **sb\_id** и значение выбираем _Ответ на вопрос_, указываем **sb\_id**
 
-<figure><img src="../../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (106) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (107) (1).png" alt=""><figcaption></figcaption></figure>
 
 Для **callback\_text** делаем тоже самое.
 
 Так же можно добавить другие параметры, которые будут записаны **в отдельные переменные клиента** в SaleBot с указанными названиями. Например:
 
-<figure><img src="../../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (108) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Будьте внимательны с названиями, чтобы не перетереть уже существующие переменные у клиента!
@@ -101,11 +101,11 @@ https://forms.yandex.ru/u/6191b18d99e21b1b45b9c82?sb\_id=#{client\_id}\&callback
 
 Чтоб сохранить все ответы в одну переменную, можно выбрать пункт _Ответы на вопросы_ и выбрать все или, те, которые нужны, а также указать формат JSON, чтоб с ними легче было работать:
 
-<figure><img src="../../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (109) (1).png" alt=""><figcaption></figcaption></figure>
 
 В итоге должна получиться такая настройка (параметры могут отличаться, если добавлены дополнительные):
 
-<figure><img src="../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (110) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Все переменные из формы будут записаны в переменные клиента Salebot.&#x20;
@@ -117,7 +117,7 @@ _Пример значения переменной answers в диалоге к
 
 В настройках  формы в эту переменную мы объединили ответы на все вопросы формы в формате Json&#x20;
 
-<figure><img src="../../.gitbook/assets/image (69) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (69) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Для каждого вопроса формы можно указать отдельную переменную в настройках вебхука формы.
@@ -127,11 +127,11 @@ _Пример значения переменной answers в диалоге к
 
 Пример 1
 
-<figure><img src="../../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (111) (1).png" alt=""><figcaption></figcaption></figure>
 
 Пример 2
 
-<figure><img src="../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (112) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Онлайн-запись Salebot на Яндекс Картах
 

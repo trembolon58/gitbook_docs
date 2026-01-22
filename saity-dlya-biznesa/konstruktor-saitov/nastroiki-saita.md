@@ -126,7 +126,7 @@ Alias-запись для сайта создается на ресурсе су
 
 Домен будет работать по защищенному протоколу https
 
-![](<../../.gitbook/assets/image (32) (1).png>)
+![](<../../.gitbook/assets/image (32) (1) (1).png>)
 
 {% hint style="success" %}
 SSL-сертификат создается автоматически
@@ -136,7 +136,7 @@ SSL-сертификат создается автоматически
 
 Если вы видите эту ошибку, то переподключите домен.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Действия
 

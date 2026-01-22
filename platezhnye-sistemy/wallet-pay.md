@@ -6,7 +6,7 @@ description: >-
 
 # Wallet pay
 
-<figure><img src="/broken/files/DX7JvRpGESDX1QAtoNqK" alt="" width="319"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 15.07.39.png" alt="" width="319"><figcaption></figcaption></figure>
 
 ## Подключение платежной системы
 
@@ -31,7 +31,7 @@ description: >-
 
 **Шаг 2.** _Пройдите небольшой опрос_
 
-<figure><img src="/broken/files/5UzIOoZqzA1piW88GGn2" alt=""><figcaption><p>Рис. 1. Заполнение информации о мерчанте</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 15.09.34.png" alt=""><figcaption><p>Рис. 1. Заполнение информации о мерчанте</p></figcaption></figure>
 
 Если вы входите в систему впервые или требуется какая-то дополнительная информация, Wallet Pay предлагает вам ответить на несколько вопросов для получения более подробных данных. Есть два шага:
 
@@ -89,11 +89,11 @@ description: >-
 
 Войдите в проект и в разделе “_Платежные системы_” нажмите кнопку “**Подключить**” для Wallet Pay.
 
-<figure><img src="/broken/files/yuZXsyxON9RfBTnDDv64" alt=""><figcaption><p>Рис. 2. Раздел "Эквайринг" для подключения сервиса к Сейлботу</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 15.14.50.png" alt=""><figcaption><p>Рис. 2. Раздел "Эквайринг" для подключения сервиса к Сейлботу</p></figcaption></figure>
 
 В открывшемся окне введите API ключ сгенерированный для вашего магазина Wallet Pay.
 
-<figure><img src="/broken/files/Wn3Q4QdplVO5NhipVST6" alt=""><figcaption><p>Рис. 3. Форма с полем для ввода API-ключа</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 15.15.56.png" alt=""><figcaption><p>Рис. 3. Форма с полем для ввода API-ключа</p></figcaption></figure>
 
 * [x] Готово! Теперь клиенты могут оплачивать покупки в вашем магазине в криптовалюте (USDT, Toncoin and Bitcoin) с помощью сервиса Wallet Pay.
 
@@ -108,7 +108,7 @@ description: >-
 | **description**      | краткое описание заказа от 5 до 100 символов.                                                      |
 | **timeout\_seconds** | срок действия ссылки в секундах, по умолчанию - 3600 секунд.                                       |
 
-<figure><img src="/broken/files/u0VJnAqAIIYUu78emKLl" alt=""><figcaption><p>Рис. 4. Пример передачи параметров</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 15.21.07.png" alt=""><figcaption><p>Рис. 4. Пример передачи параметров</p></figcaption></figure>
 
 При срабатывании блока в чате с ботом клиент получит ссылку для оплаты, а также будет создана переменная клиента **wallet\_pay\_payment\_completed** со значением <mark style="color:red;">**False**</mark>.
 
@@ -129,9 +129,9 @@ description: >-
 
 Колбек можно вложить в условие блока, чтобы направить клиенту сообщение об успешной оплате (или ошибке платежа):
 
-<figure><img src="/broken/files/L7SlhKkIVGwGFlnXWnJa" alt=""><figcaption><p>Рис. 5. Пример реакции на колбек в блоке "Стартовое условие"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 15.27.24.png" alt=""><figcaption><p>Рис. 5. Пример реакции на колбек в блоке "Стартовое условие"</p></figcaption></figure>
 
-<figure><img src="/broken/files/6nMzQOdKNqqbwa4LKxyp" alt=""><figcaption><p>Рис. 6. Пример реакции на колбек в блоке "Не состояние с условием"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 15.27.09.png" alt=""><figcaption><p>Рис. 6. Пример реакции на колбек в блоке "Не состояние с условием"</p></figcaption></figure>
 
 {% hint style="info" %}
 Если вы не хотите выбивать клиента из основной схемы чат-бота, воспользуйтесь блоком "Не состояние с условием" — в этот блок нельзя перейти, поэтому клиента после оплаты не выбьет из основной воронки и при этом он получит уведомление об успешной оплате.

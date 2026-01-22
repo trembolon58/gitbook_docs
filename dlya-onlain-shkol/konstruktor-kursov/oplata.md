@@ -2,15 +2,15 @@
 
 Страница оплаты курса%
 
-<figure><img src="/broken/files/t10L6tK8ex6EqVfJw2Vd" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 18.38.57.png" alt=""><figcaption></figcaption></figure>
 
 Для настройки оплат в курсах и выбора соответствующей платежной системы, необходимо найти раздел "Оплаты".&#x20;
 
-<figure><img src="/broken/files/B3azd2nJ5gt3eP30Q0Au" alt=""><figcaption><p>Рис. 1. Раздел оплата</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 18.06.16.png" alt=""><figcaption><p>Рис. 1. Раздел оплата</p></figcaption></figure>
 
 Раздел "Оплата" не подразумевает под собой сложные настройки:
 
-<figure><img src="/broken/files/KxynV4bmAnZayw9p4vbf" alt="" width="563"><figcaption><p>Рис. 2. Доступные настройки</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 18.16.09.png" alt="" width="563"><figcaption><p>Рис. 2. Доступные настройки</p></figcaption></figure>
 
 В данном случае для настройки предлагаются:
 
@@ -26,11 +26,11 @@
 
 После осуществления оплаты пользователем, вы можете перенаправить его на необходимую вам страницу с помощью данного поля:
 
-<figure><img src="/broken/files/NmQyzeAu1Z7Y7DPUnCx4" alt=""><figcaption><p>Рис. 3. Поле для выбора страницы, на которую перейдет ученик после оплаты</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-03 в 16.58.53.png" alt=""><figcaption><p>Рис. 3. Поле для выбора страницы, на которую перейдет ученик после оплаты</p></figcaption></figure>
 
 Это может быть любой необходимый сайт, собранный на платформе Salebot, а также страница урока:
 
-<figure><img src="/broken/files/egfkTmF3JCdAseGs2xo5" alt="" width="563"><figcaption><p>Рис. 4. Выбор страницы, на которую перейдет ученик после оплаты</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-03 в 17.01.50.png" alt="" width="563"><figcaption><p>Рис. 4. Выбор страницы, на которую перейдет ученик после оплаты</p></figcaption></figure>
 
 {% hint style="success" %}
 Теперь вашим ученикам не нужно будет искать ваш курс после оплаты или проходить этапы регистрации.&#x20;
@@ -42,11 +42,11 @@
 
 В настройках оплаты можно установить рассылку писем определенному сотруднику:&#x20;
 
-<figure><img src="/broken/files/IwCEinPGoCwBW44cxkLO" alt="" width="563"><figcaption><p>Рис. 5. Поле для выбора сотрудника, которому нужно направлять уведомление</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 18.23.16.png" alt="" width="563"><figcaption><p>Рис. 5. Поле для выбора сотрудника, которому нужно направлять уведомление</p></figcaption></figure>
 
 Выберите почту, на которую необходимо отправлять письма об успешных оплатах:
 
-<figure><img src="/broken/files/oIuoQXep5DPWzbTZyz98" alt="" width="563"><figcaption><p>Рис. 6. Выбор сотрудника, которому нужно направлять уведомление</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-10 в 20.10.29.png" alt="" width="563"><figcaption><p>Рис. 6. Выбор сотрудника, которому нужно направлять уведомление</p></figcaption></figure>
 
 {% hint style="info" %}
 Если вам не нужны письма об оплатах, то можете пропустить данную настройку.
@@ -56,13 +56,13 @@
 
 В онлайн-курсах можно выбрать, а также сразу подключить любую доступную в разделе платежную систему:
 
-<figure><img src="/broken/files/IMFBhds8DFhncoicz1cQ" alt=""><figcaption><p>Рис. 7. Выбор платежной системы</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 18.20.22.png" alt=""><figcaption><p>Рис. 7. Выбор платежной системы</p></figcaption></figure>
 
 {% hint style="success" %}
 Отображаться будут только те платежные системы, которые подключены в вашем проекте в разделе "Эквайринг":
 {% endhint %}
 
-<figure><img src="/broken/files/fKlA5cguM47Wos9oQIkn" alt=""><figcaption><p>Рис. 8. Подключенные платежные системы в проекте отображаются на рис. 7</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 18.24.04.png" alt=""><figcaption><p>Рис. 8. Подключенные платежные системы в проекте отображаются на рис. 7</p></figcaption></figure>
 
 {% hint style="info" %}
 Как подключить любую платежную систему, читайте в разделе "[Эквайринг](../../platezhnye-sistemy/)".
@@ -70,44 +70,44 @@
 
 ### Политика конфиденциальности
 
-<figure><img src="/broken/files/BrHajopWhjU0YAaBSXY7" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 18.30.53.png" alt=""><figcaption></figcaption></figure>
 
 В настройках оплат вы можете добавить в форму оплаты собственную политику обработки персональных данных (политику конфиденциальности).&#x20;
 
 Чтобы добавить политику в форму оплаты, достаточно поставить галочку в поле "Политика конфиденциальности" и оставить ссылку на документ:
 
-<figure><img src="/broken/files/C9VhAoeqQAi2MwEUnyoJ" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 18.38.37.png" alt=""><figcaption></figcaption></figure>
 
 ### Отобразить оферту
 
-<figure><img src="/broken/files/uHLTy79cJWH7rtf5JIjq" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 18.43.56.png" alt=""><figcaption></figcaption></figure>
 
 Чтобы отобразить публичную оферту в форме оплаты, также достаточно поставить галочку в поле "Оферта" и оставить ссылку на оферту:
 
-<figure><img src="/broken/files/Kk1MMPDn9Bd3gc9rTxKx" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 18.43.32.png" alt=""><figcaption></figcaption></figure>
 
 ### Согласие для рассылок
 
-<figure><img src="/broken/files/gGMujCzrZ4HOhyzDnq00" alt="" width="561"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 18.44.32.png" alt="" width="561"><figcaption></figcaption></figure>
 
 Чтобы соблюдать действующее законодательство, вы также можете получать согласия клиентов на получение рассылок.
 
 Для этого достаточно в разделе "Оплата" в настройках курса поставить галочку в поле "Согласие на получение рассылок":
 
-<figure><img src="/broken/files/YCmYUrubabemnigww103" alt="" width="543"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 18.46.04.png" alt="" width="543"><figcaption></figcaption></figure>
 
 ### Согласие на обработку персональных данных
 
-<figure><img src="/broken/files/2UxqwBfoCqljunOZYqpx" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 18.36.02.png" alt=""><figcaption></figcaption></figure>
 
 В форме оплаты можно добавить чекбокс (рекомендуем не упускать данную настройку из вида) для получения согласия на обработку персональных данных от субъекта персональных данных.&#x20;
 
 Поставьте галочку в поле "Согласие обработки персональных данных" и укажите ссылку на текст согласия:
 
-<figure><img src="/broken/files/gxIMlLZqr3QAWPn46KWT" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 18.37.40.png" alt=""><figcaption></figcaption></figure>
 
 ### Текст на странице оплаты&#x20;
 
 Чтобы добавить свой текст в уведомление после оплаты, поставьте галочку в поле "Свой текст на странице оплаты заказа" и пропишите текст:
 
-<figure><img src="/broken/files/ATSph5m7wVj6ZCsOChDO" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 18.49.18.png" alt="" width="563"><figcaption></figcaption></figure>

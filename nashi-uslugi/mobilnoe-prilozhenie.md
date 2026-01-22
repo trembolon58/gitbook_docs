@@ -25,13 +25,13 @@
 
 ## Начало работы с приложением Salebot
 
-<figure><img src="../.gitbook/assets/image (31) (1).png" alt=""><figcaption><p>Оставайтесь всегда на связи!</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (31) (1) (1).png" alt=""><figcaption><p>Оставайтесь всегда на связи!</p></figcaption></figure>
 
 ## Авторизация в приложении
 
 После установки приложения на мобильный телефон требуется авторизация: войдите в существующий аккаунт Salebot с помощью почты или с использованием аккаунта в социальных сетях (в случае использования приложения на iOS существует возможность использовать аккаунт iCloud Apple).
 
-<div><figure><img src="../.gitbook/assets/unnamed (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/unnamed (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (8).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="success" %}
 Ваши данные защищены двухфакторной аутентификацией.
@@ -39,7 +39,7 @@
 
 В приложении можно подключить двухфакторную аутентификацию. Если она подключена, следующим шагом приложение запросит ввести проверочный код из мессенджера, выбранного для двухфакторной аутентификации.  После успешной авторизации открывается раздел Профиль. После выбора проекта по умолчанию откроется вкладка Клиенты.
 
-<div><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfGLBh0ni88P4RE3HXWLeL5AosyNG4Z_rIxLYWf-VM-YgPdnfgoNOR1v0262JbENmtbBX-x4vPXGAvWFjWsfB3CQYW5M_gCG4Gb-gmWKAXqUBJeZFQphDTmKkHqh6CQhVFOSf1Egg?key=__8W36uwkQvOi2h-eABfFnQ_" alt="" width="375"><figcaption><p>В мессенджер приходит проверочный код</p></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (2).png" alt="" width="404"><figcaption></figcaption></figure></div>
+<div><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfGLBh0ni88P4RE3HXWLeL5AosyNG4Z_rIxLYWf-VM-YgPdnfgoNOR1v0262JbENmtbBX-x4vPXGAvWFjWsfB3CQYW5M_gCG4Gb-gmWKAXqUBJeZFQphDTmKkHqh6CQhVFOSf1Egg?key=__8W36uwkQvOi2h-eABfFnQ_" alt="" width="375"><figcaption><p>В мессенджер приходит проверочный код</p></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (2) (1).png" alt="" width="404"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 После успешной авторизации в мессенджер приходит уведомление с датой входа, местоположением и IP-адресом устройства.
@@ -101,7 +101,7 @@
 
 Для того чтобы отфильтровать клиентов по необходимым параметрам, откройте настройки фильтра. Для этого в разделе Клиенты в правом углу нажмите кнопку меню(три точки) и откроется форма фильтра.&#x20;
 
-<div><figure><img src="../.gitbook/assets/unnamed (3).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (4).png" alt="" width="503"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (5).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/unnamed (3) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (4) (1).png" alt="" width="503"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (5) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Настройте необходимый фильтр и нажмите "Фильтровать". Клиенты, попадающие под параметры фильтрации, отобразятся во вкладке Фильтр.&#x20;
 
@@ -294,11 +294,11 @@ _**Верхняя строка:**_\
 
 Чтобы открыть меню настроек списка/метки нажмите три точки в выбранном списке/метке.
 
-<div><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc3Eeu6HT24UXEiCKkdv8rJk3AZ1y15SLgou64Zzt5hWQakSyKXW08wmhLTewSZkxTO6UoBG2rfu4Wlydm028PjAhIPu3edFZC39RgyXAJmBir-TZWFMBcTwX8WzjdoT5sHdmE7?key=__8W36uwkQvOi2h-eABfFnQ_" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (6).png" alt="" width="294"><figcaption></figcaption></figure></div>
+<div><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc3Eeu6HT24UXEiCKkdv8rJk3AZ1y15SLgou64Zzt5hWQakSyKXW08wmhLTewSZkxTO6UoBG2rfu4Wlydm028PjAhIPu3edFZC39RgyXAJmBir-TZWFMBcTwX8WzjdoT5sHdmE7?key=__8W36uwkQvOi2h-eABfFnQ_" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (6) (1).png" alt="" width="294"><figcaption></figcaption></figure></div>
 
 Чтобы добавить новый список или метку нажмите на синий значок “+” в нижнем правом углу экрана.
 
-<div><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfH8ShfebUvoD_Sp5Mwt6E4BMczgenDNVGslZyL7qnh53zR5FT2AdN0W9dxb8kKlLko4ON7uLb1W9JXo_0VLhSsoOOGsI3_yuIdgOluL613m-hCj9pAmT6oudSLKcVvdv-FpjIMhQ?key=__8W36uwkQvOi2h-eABfFnQ_" alt="" width="375"><figcaption><p>Меню настроек списка</p></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (1) (1).png" alt="" width="375"><figcaption><p>Меню настроек метки</p></figcaption></figure></div>
+<div><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfH8ShfebUvoD_Sp5Mwt6E4BMczgenDNVGslZyL7qnh53zR5FT2AdN0W9dxb8kKlLko4ON7uLb1W9JXo_0VLhSsoOOGsI3_yuIdgOluL613m-hCj9pAmT6oudSLKcVvdv-FpjIMhQ?key=__8W36uwkQvOi2h-eABfFnQ_" alt="" width="375"><figcaption><p>Меню настроек списка</p></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (1) (1) (1).png" alt="" width="375"><figcaption><p>Меню настроек метки</p></figcaption></figure></div>
 
 ### Рассылки
 
@@ -406,7 +406,7 @@ _**Верхняя строка:**_\
 
 Также доступны настройки баннеров, чата и сценария.
 
-<div><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc4TFiW08ZL1McBOMgSRS0Xyt7YGk0gUtttxpfsEKGKnX1NwM89dp3m87fQb7hMS4gfV1ej3Tk7YDSUPRRbKHPErlpNUR2SiQJcUELeDInj8QnRFFKY-rvO_VRjAdRiYLcc8sNlEg?key=__8W36uwkQvOi2h-eABfFnQ_" alt="" width="375"><figcaption><p>Вкладка “Баннеры”</p></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (7).png" alt="" width="381"><figcaption><p>Вкладка “Настройки чата”</p></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (1) (2).png" alt="" width="385"><figcaption><p>Вкладка “Сценарий”</p></figcaption></figure></div>
+<div><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc4TFiW08ZL1McBOMgSRS0Xyt7YGk0gUtttxpfsEKGKnX1NwM89dp3m87fQb7hMS4gfV1ej3Tk7YDSUPRRbKHPErlpNUR2SiQJcUELeDInj8QnRFFKY-rvO_VRjAdRiYLcc8sNlEg?key=__8W36uwkQvOi2h-eABfFnQ_" alt="" width="375"><figcaption><p>Вкладка “Баннеры”</p></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (7) (1).png" alt="" width="381"><figcaption><p>Вкладка “Настройки чата”</p></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (1) (2).png" alt="" width="385"><figcaption><p>Вкладка “Сценарий”</p></figcaption></figure></div>
 
 С помощью переключателей выстройте удобные для онлайн-трансляции настройки, а также при необходимости отобразите тарифы вашего курса.
 
@@ -433,7 +433,7 @@ _**Верхняя строка:**_\
 \- Клиенты: количество клиентов по дням. Можно настроить фильтр по параметрам, чтобы получить аналитику по клиентам с заданными параметрами\
 \- Отслеживание переменной. Для выбранной переменной учитывается 3 параметра: всего клиентов с этой переменной; Из них: Подписанные на бота (количество) и Отписавшиеся (количество).
 
-<div><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfcoIvehKAVy2lZqPyKSQHQjrYnhPQvuYQ2SGz5y7TRibgRjE9IQqh72H3DEmhkuPiofj4mJXQn-GDUlyFZD2qQeVBWq0ObeVpbRXO7h-UU3ztYN4u-SP3wnFeFgrA1j9Op8xtN?key=__8W36uwkQvOi2h-eABfFnQ_" alt=""><figcaption><p>Вкладка Дашборд</p></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (2) (1).png" alt=""><figcaption><p>Вкладка клиенты</p></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (3) (1).png" alt=""><figcaption><p>Настройки фильтра</p></figcaption></figure></div>
+<div><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfcoIvehKAVy2lZqPyKSQHQjrYnhPQvuYQ2SGz5y7TRibgRjE9IQqh72H3DEmhkuPiofj4mJXQn-GDUlyFZD2qQeVBWq0ObeVpbRXO7h-UU3ztYN4u-SP3wnFeFgrA1j9Op8xtN?key=__8W36uwkQvOi2h-eABfFnQ_" alt=""><figcaption><p>Вкладка Дашборд</p></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (2) (1) (1).png" alt=""><figcaption><p>Вкладка клиенты</p></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (3) (1) (1).png" alt=""><figcaption><p>Настройки фильтра</p></figcaption></figure></div>
 
 {% hint style="success" %}
 Если Вы столкнетесь с какими-то проблемами, смело пишите в техподдержку личного кабинета! Мы стараемся устранять все возникшие неожиданности с максимально возможной скоростью.

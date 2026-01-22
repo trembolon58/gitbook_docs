@@ -1,22 +1,16 @@
 # Bepaid
 
-* [Как подключить](bepaid.md#kak-podklyuchit)
-* [Как сформировать ссылку на оплату](bepaid.md#kak-sformirovat-ssylku-na-oplatu)
-* [Как тестировать платежи](bepaid.md#kak-testirovat-platezhi)
-* [Пример формирования ссылки на оплату](bepaid.md#primer-formirovaniya-ssylki-na-oplatu)
-* [Как обработать результат](bepaid.md#undefined)
-
 ## Как подключить
 
 Для подключения платежной системы bePaid вам потребуется ID Магазина, секретный ключ и публичный ключ. После их получения переходим к настройкам в Salebot
 
 В Salebot открываем раздел "Эквайринг", выбираем bePaid. Нужно ввести полученные данные.
 
-<figure><img src="/broken/files/WhRivSFXZYXagEhxb5Yv" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Обратите внимание, что последнее поле является переключателем хостинга API в зависимости от страны пользования: Беларусь или Россия.
 
-<figure><img src="/broken/files/TaRFGd4PulFLwUQT3JNv" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Как сформировать ссылку на оплату
 

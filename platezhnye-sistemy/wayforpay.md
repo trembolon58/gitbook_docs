@@ -20,31 +20,31 @@
 
 Переходим в личный кабинет -> настройки магазина **https://m.wayforpay.com/mportal/merchant/list**
 
-<figure><img src="/broken/files/7L08FeUKwO1jZKr9o6K4" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 16.45.21.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Копируем данные и переходим к настройкам в Salebot.
 
 Открываем раздел "Эквайринг", выбираем wayforpay.&#x20;
 
-<figure><img src="/broken/files/UwXENiaosLbTuyJJ6mHG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 16.28.05.png" alt=""><figcaption></figcaption></figure>
 
 Нужно ввести полученные данные в открывшейся форме:
 
-<figure><img src="/broken/files/s4CJIuor5U1SBHFSihdf" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 16.29.00.png" alt=""><figcaption></figcaption></figure>
 
 Для генерации ссылки на оплату, вам необходимо установить значение переменной **payment\_sum** (например, 150 или 100.55, если сумма дробная, то сумма указывается через точку):
 
-<figure><img src="/broken/files/CA3UfA3fvSsunXcW0Xrg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 16.30.03.png" alt=""><figcaption></figcaption></figure>
 
 Сразу после этого появится переменная **wayforpay\_pay\_url**. Эту переменную можно вывести в сообщении ссылкой или разместить на кнопке с текстом "Оплатить":
 
 Вариант 1. Ссылка на оплату в кнопке:
 
-<figure><img src="/broken/files/e670XHdt6oAhpKIaLzVX" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 16.32.05.png" alt=""><figcaption></figcaption></figure>
 
 Вариант 2. Ссылка на оплату в поле url вложения:
 
-<figure><img src="/broken/files/077rYr1YDWAdh9xhj2Io" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 16.32.46.png" alt=""><figcaption></figcaption></figure>
 
 Ссылка имеет вид:&#x20;
 
@@ -78,7 +78,7 @@
 
 Создадим ссылку на оплату в размере 1 грн и временем жизни 2 часа:
 
-<figure><img src="/broken/files/CVHddwnwyk0UYe5zRnLx" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 16.35.37.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Обратите внимание:** \
@@ -90,17 +90,17 @@
 
 Далее в следующем блоке выводим переменную **wayforpay\_pay\_url**, в которой содержится ссылка (например, ссылка в тексте):
 
-<figure><img src="/broken/files/q2qAahmWucnXYzv30yHp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 16.37.05.png" alt=""><figcaption></figcaption></figure>
 
 Бот отработается следующим образом:
 
-<figure><img src="/broken/files/EbFnsmeGmpMRWpQR9t1N" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 16.38.51.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Как обработать результат
 
 После успешной оплаты в бот придут колбэки, по которым вы сможете понять, что была успешная оплата. Эти колбэки в системе вы видите как сообщения от пользователя, чтобы их не мог отправить пользователь, они состоят из 10 первых символов секретного ключа и приписки \_success, например: **flk3409ref\_success**
 
-<figure><img src="/broken/files/3Y9MKTRpBh42Qs2qkUJr" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 16.40.39.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Эти колбеки НЕ ВИДИТ пользователь, они отображаются только оператору
@@ -112,9 +112,9 @@
 
 Например, можно сделать обработку успешной оплаты блоком с условием и вывести соответствующее сообщение пользователю:
 
-<figure><img src="/broken/files/MI2JQsTQa6t9ewyXJbyH" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 16.47.19.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="/broken/files/b4mJABaVJfutZH5Q5r9Z" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 16.47.29.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Если вы не хотите выбивать клиента из основной схемы чат-бота, воспользуйтесь блоком "Не состояние с условием" — в этот блок нельзя перейти, поэтому клиента после оплаты не выбьет из основной воронки и при этом он получит уведомление об успешной оплате.
@@ -140,7 +140,7 @@ wayforpay\_recurrent\_payment(amount, currency, session\_timeout, product\_name,
 
 wayforpay\_delete\_recurrent() - отменяет последующие автоматические списания у клиента. При успешном выполнении возвращает "Ok"
 
-<figure><img src="/broken/files/39oaPOWmz7tEQp29SSSy" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-09-17 в 10.26.52.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Можно также использовать блоки "Стартовое условие" и "Состояние" (в примере использованы блоки "Не состояние с условием" и "Не состояние".

@@ -12,11 +12,11 @@ description: >-
 
 Зайдите в раздел "Эквайринг" - Mandarin и заполните форму в Salebot.pro:
 
-<figure><img src="/broken/files/xm6yCNRjXw51R1OjZWAD" alt=""><figcaption><p>Рис. 1. Раздел "Эквайринг" ("Платежи" - в сокр. виде меню) для подключения платежной системы</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 14.31.31.png" alt=""><figcaption><p>Рис. 1. Раздел "Эквайринг" ("Платежи" - в сокр. виде меню) для подключения платежной системы</p></figcaption></figure>
 
 API-ключ вы должны запросить у менеджера, контакты которого указаны в личном кабинете на сайте Mandarin.&#x20;
 
-<figure><img src="/broken/files/sqnttui43DYvMIyklErH" alt=""><figcaption><p>Рис. 2. Форма с полями ввода для подключения платежной системы</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 14.33.15.png" alt=""><figcaption><p>Рис. 2. Форма с полями ввода для подключения платежной системы</p></figcaption></figure>
 
 Для регистрации используйте [ссылку](https://admin.mandarin.io/user/register?pref_id=111964).&#x20;
 
@@ -90,7 +90,7 @@ get\_mandarin\_payment\_url(amount, email, phone, products\_for\_receipt)
 * phone - телефон клиента. Параметр необязательный, НО нужно указывать для МСС 4814 и МСС 6050. Уточнить МСС для ваших банковских терминалов можно у вашего менеджера или обратившись в службу технической поддержки
 * products\_for\_receipt - Параметры для формирования чеков. Необязательный параметр.
 
-<figure><img src="/broken/files/dq7JyhqlSwqg4Me7IoAD" alt=""><figcaption><p>Рис. 8. Ссылка на оплату</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 14.38.27.png" alt=""><figcaption><p>Рис. 8. Ссылка на оплату</p></figcaption></figure>
 
 После оплаты поступит коллбек вида - ABCDEFGH\_success 110, где&#x20;
 
@@ -102,11 +102,11 @@ get\_mandarin\_payment\_url(amount, email, phone, products\_for\_receipt)
 
 Можно указать колбек в условии блока "Стартовое условие":
 
-<figure><img src="/broken/files/NWMstVJwdpailXBsftHh" alt=""><figcaption><p>Рис. 9. Создаем блок "Стартовое условие" для реакции на успешную оплату</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 14.39.27.png" alt=""><figcaption><p>Рис. 9. Создаем блок "Стартовое условие" для реакции на успешную оплату</p></figcaption></figure>
 
 А также в блоке "Не состояние с условием":
 
-<figure><img src="/broken/files/8N4sxTJXF8Np6rsUIENr" alt=""><figcaption><p>Рис. 9. Создаем блок "Не состояние с условием" для реакции на успешную оплату</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 14.39.12.png" alt=""><figcaption><p>Рис. 9. Создаем блок "Не состояние с условием" для реакции на успешную оплату</p></figcaption></figure>
 
 {% hint style="info" %}
 Если вы не хотите выбивать клиента из основной схемы чат-бота, воспользуйтесь блоком "Не состояние с условием" — в этот блок нельзя перейти, поэтому клиента после оплаты не выбьет из основной воронки и при этом он получит уведомление об успешной оплате.

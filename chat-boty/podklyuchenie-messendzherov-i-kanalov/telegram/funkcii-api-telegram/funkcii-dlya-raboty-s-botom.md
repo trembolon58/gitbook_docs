@@ -16,11 +16,11 @@
 
 Пример установки приветсвенного сообщения и меню бота:
 
-<figure><img src="../../../../.gitbook/assets/image (85) (1) (1).png" alt=""><figcaption><p>Настройка блока в Salebot: используются функции для установки команды и описания</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (85) (1) (1) (1).png" alt=""><figcaption><p>Настройка блока в Salebot: используются функции для установки команды и описания</p></figcaption></figure>
 
 После запуска (проводите это единожды по команде администратора):
 
-<figure><img src="../../../../.gitbook/assets/image (86) (1) (1).png" alt=""><figcaption><p>Приветственное сообщение и меню бота</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (86) (1) (1) (1).png" alt=""><figcaption><p>Приветственное сообщение и меню бота</p></figcaption></figure>
 
 Пример кода для копирования:
 
@@ -60,7 +60,7 @@
 
 <summary>Пример</summary>
 
-<figure><img src="../../../../.gitbook/assets/image (87) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (87) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **command = \[\["count", "return count of user"],\["unpin", "unpin all message"]] tg\_set\_command(command, '', 'all\_chat\_administrators')**
 
@@ -128,7 +128,7 @@ _**command = tg\_get\_command()**_
 
 Удалить установленные команды можно, прописав функцию с параметрами в калькуляторе:
 
-<figure><img src="../../../../.gitbook/assets/image (88) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (88) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Пример кода для копирования:**
 

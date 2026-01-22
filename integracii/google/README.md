@@ -6,43 +6,43 @@
 
 1. Создаем проект&#x20;
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 2\. Придумайте название, но <mark style="color:red;">НЕ указывайте организацию.</mark> Нажмите Create
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 3\. Проверьте права доступа: должен быть уровень доступа “owner”
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 4\. Перейдите во вкладку Service Accounts и создайте сервисный аккаунт Create Service Account.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
 
 Укажите имя в первом пункте:
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;Выставьте права Owner во втором пункте и пропустите третий. Нажимаем Done.
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
 
 Сохраните имя полученного аккаунта - оно нам понадобится при предоставлении доступа к файлу (документу, таблице, форме... и тд)
 
 5\. После создания аккаунта перейдите в его настройки и подготовьте ключ. Выберите Manage keys.
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
 
 Создайте новый ключ. Выберите параметр JSON в качестве сохранения.
 
-<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
 
 Сохраните сервисный ключ в любом удобном месте - это “Ключ доступа”, с помощью которого будет предоставлен доступ к Google-документам.&#x20;
 
@@ -50,7 +50,7 @@
 Храните файл с ключом в надежном месте, потому что этот ключ невозможно восстановить в случае утери.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29) (1).png" alt=""><figcaption></figcaption></figure>
 
 6\. Далее переходите к подключению API-сервисов.&#x20;
 
@@ -60,17 +60,17 @@
 
 Для этого перейдите в главное меню:
 
-<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
 
 Необходимо выбрать “APIs & Services”, далее “Enabled Api’s and services” и нажать "enable Apis and services".
 
-<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (31) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (32) (1).png" alt=""><figcaption></figcaption></figure>
 
 Включите нужные нам сервисы APi - Google Drive Api и Google Docs API (не забудьте развернуть список)
 
-<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (33) (1).png" alt=""><figcaption></figcaption></figure>
 
 Подключаем. Если на этом этапе картинка будет не такая, как на скрине, то обновляем страницу “F5”. Жмём “Enable”
 
@@ -108,19 +108,19 @@
 
 1. Перейдите в Настройки доступа
 
-<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (34) (1).png" alt=""><figcaption></figcaption></figure>
 
 2\. Откройте доступ к файлу (документу, таблице, форме и тд) с правами редактора. Для этого укажите имя сервисного аккаунта, который вы сохраняли на 4-ом шаге создания сервисного аккаунта. Снимите выбор "Уведомление пользователей" и укажите права "Редактор". Нажмите Отправить
 
-<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (35) (1).png" alt=""><figcaption></figcaption></figure>
 
 Проверяем:
 
-<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (36) (1).png" alt=""><figcaption></figcaption></figure>
 
 В дальнейшей работе вам потребуется ID файла, который мы копируем из адресной строки
 
-<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (37) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -151,15 +151,15 @@
 1. Перейдите  в свой проект и создайте серый блок - "Не состояние"
 2. В настройках вложений прикрепите файл сервисного ключа, полученный при создании сервисного аккаунта. Сохраните блок.
 
-<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38) (1).png" alt=""><figcaption></figcaption></figure>
 
 Откройте вложенный документ: для этого щелкните на иконке документа. В открывшемся окне заберите ссылку из адресной строки:
 
-<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (39) (1).png" alt=""><figcaption></figcaption></figure>
 
 3\. Перейдите в настройки проекта и добавьте переменную docs\_json\_keys в константы. В качестве значения укажите скопированную из адресной строки ссылку в формате \[“ссылка”] - в нашем случае значение будет следующим: \["https://files.zmservice.ru/uploads/message/file/48/dynamic-mystery-367310-0377023 d3e26.json"]&#x20;
 
-<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (40) (1).png" alt=""><figcaption></figcaption></figure>
 
 Нажимаем “Готово”
 

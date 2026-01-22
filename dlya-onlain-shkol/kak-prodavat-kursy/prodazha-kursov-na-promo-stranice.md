@@ -11,7 +11,7 @@
 
 Промо-страница выглядит так:
 
-<img src="/broken/files/oSckUFtxvFFkBcerQtju" alt="" data-size="original">
+<img src="../../.gitbook/assets/Снимок экрана 2024-10-17 в 15.17.33.png" alt="" data-size="original">
 {% endhint %}
 
 В этой статье мы рассмотрим технические аспекты настройки продаж на странице курса, а именно:&#x20;
@@ -23,21 +23,21 @@
 
 Для подключения необходимого сервиса перейдите в соответствующий раздел "Платежные системы", находящийся в настройках проекта:
 
-<figure><img src="/broken/files/Ouq08e5XAwQhGpwKDyo0" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/template 790.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Далее подключите любую платежную систему, например, в которой у вас уже есть настроенный магазин:
 
-<figure><img src="/broken/files/AMb6X73oLAS3lYDaovng" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 09.23.43.png" alt=""><figcaption></figcaption></figure>
 
 Каждая платежная система имеет свои особенности подключения, описание и подробная инструкция которых существует [в документации Salebot. ](../../platezhnye-sistemy/)
 
 Например, можно перейти в документацию прямо из раздела "Эквайринг" в проекте. Для этого нажмите на любую необходимую платежную систему:
 
-<figure><img src="/broken/files/gtn9i76THjDMRRTyVc7g" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 09.24.46.png" alt=""><figcaption></figcaption></figure>
 
 После клика на необходимую кнопку, откроется окно модальной формы, где уже лежит ссылка на статью с выбранной вами платежной системой:
 
-<figure><img src="/broken/files/yT4ctfj2azPjyp2kDpAZ" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 09.25.35.png" alt=""><figcaption></figcaption></figure>
 
 После подключения платежного сервиса, переходите в настройки курса.&#x20;
 
@@ -55,17 +55,17 @@
 
 Чтобы получать оплаты в курсе, необходимо перейти в "Настройки курса" -> "Оплаты":
 
-<figure><img src="/broken/files/T5BVU5CC240mHqXPQIXW" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 12.09.07.png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="/broken/files/hQ7TvxHQ0n60jN6mUGHI" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 12.25.53.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Далее выберите необходимый платежный сервис и сохраните настройки:
 
-<figure><img src="/broken/files/7hCleOoGdAhAvJBt3hTZ" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 12.28.09.png" alt=""><figcaption></figcaption></figure>
 
 Также в разделе "Оплата" можно добавить галочки с полями на согласие клиентов об обработке персональных данных, на рекламные рассылки и т.п.:
 
-<figure><img src="/broken/files/yBq0ywiO6goJnrSXrrdy" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 12.30.24.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Оплата на странице курса
 
@@ -79,17 +79,17 @@
 
 Чтобы ученику вашего курса купить любой тариф, ему достаточно перейти на страницу курса:
 
-<figure><img src="/broken/files/tUGBgWuthAfQRVY4bXsq" alt=""><figcaption><p>Светлая тема (можно выбрать в настройках курса)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 18.04.17.png" alt=""><figcaption><p>Светлая тема (можно выбрать в настройках курса)</p></figcaption></figure>
 
 На странице ваш пользователь сможет ознакомиться с программой курса, с доступными на каждом тарифе уроками, а также с расценками на тарифы.&#x20;
 
 Чтобы купить ваш курс, пользователю достаточно кликнуть на кнопку "Купить курс" напротив выбранного им тарифа:
 
-<figure><img src="/broken/files/0FXM6FPqWfyfM5IiTTSi" alt=""><figcaption><p>Темная тема (можно выбрать в настройках курса)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-03 в 18.16.34.png" alt=""><figcaption><p>Темная тема (можно выбрать в настройках курса)</p></figcaption></figure>
 
 Далее клиент автоматически перейдет на страницу с формой оформления заказа, где ему необходимо будет указать свои данные:
 
-<figure><img src="/broken/files/WOoAhbDCuHCYl2KcYd8H" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-03 в 18.17.51.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Данная форма оформления заказа поможет зарегистрировать вашего пользователя после оплаты и направит ему на почту письмо с доступом к курсу.
@@ -97,15 +97,15 @@
 
 После заполнения формы оформления заказа, ваш клиент при клике на "Перейти к оплате" перейдет к странице заказа, где он сможет убедиться в правильности заполненных данных, а также исправить какие-либо опечатки при наличии:
 
-<figure><img src="/broken/files/43uvaXJid7dnt3BavSK9" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-03 в 18.22.30.png" alt=""><figcaption></figcaption></figure>
 
 Чтобы исправить опечатку в имени, email или номере телефона, пользователю достаточно нажать на карандашик, расположенный напротив соответствующего поля:
 
-<figure><img src="/broken/files/0hZkhyHVegJlHNxjwuAU" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-03 в 18.25.28.png" alt="" width="563"><figcaption></figcaption></figure>
 
 После того как пользователь убедится в правильности вводимых данных, ему останется оплатить свой заказ:
 
-<figure><img src="/broken/files/L6LtTrzMOOgRmIeoCZtm" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Запись-экрана-2024-07-03-в-18.27.06.gif" alt=""><figcaption></figcaption></figure>
 
 Клиент будет оплачивать заказ на официальной странице платежного сервиса, что значительно повысит доверие ваших клиентов при осуществлении платежей.&#x20;
 

@@ -164,13 +164,13 @@ https://chatter.salebot.pro /api/callback
 
 Переходим в настройки блока, в котором у нас будет осуществляться запись данных  таблицу.&#x20;
 
-<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (44) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. Добавляем раздел API-запрос.
 2. Выбираем тип запроса POST-json
 3. Переходим к заполнению полей запроса:
 
-<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (45) (1).png" alt=""><figcaption></figcaption></figure>
 
 **URL запроса** - путь к функции для выполнения запроса. Далее в документации всегда в первой строке, рядом с типом запроса:
 
@@ -196,7 +196,7 @@ https://chatter.salebot.pro /api/callback
 
 Для понимания в какой структуре запрос возвращает ответ,  напишите в поле Сообщение вывод значения переменной #{custom\_answer}. <br>
 
-<figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption><p>Получение результата выполнения API-запроса в виде сообщения</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (46) (1).png" alt=""><figcaption><p>Получение результата выполнения API-запроса в виде сообщения</p></figcaption></figure>
 
 Далее в документации допустимые параметры указаны в Body:&#x20;
 

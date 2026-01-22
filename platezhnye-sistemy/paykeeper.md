@@ -6,7 +6,7 @@ description: >-
 
 # Paykeeper
 
-<figure><img src="/broken/files/ecRp1vmHcRvMIIDUHJbp" alt="" width="252"><figcaption><p>Рис. 1. Кнопка подключения сервиса</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-09 в 17.12.26.png" alt="" width="252"><figcaption><p>Рис. 1. Кнопка подключения сервиса</p></figcaption></figure>
 
 Для подключения к платежной системе paykeeper нужны следующие данные:
 
@@ -16,27 +16,27 @@ description: >-
 
 Перейдите в раздел "Платежные системы" в проекте, найдите платежную систему PayKeeper и кликните на "Подключить":
 
-<figure><img src="/broken/files/Rharq6l4q2jQPB6dzjEI" alt=""><figcaption><p>Рис. 2. Подключение платежной системы в разделе "Эквайринг" в Сейлботе</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 14.50.31.png" alt=""><figcaption><p>Рис. 2. Подключение платежной системы в разделе "Эквайринг" в Сейлботе</p></figcaption></figure>
 
 Введите необходимые данные в настройках подключения:
 
-<figure><img src="/broken/files/Dv5nfBjyMaG4IHI7ULAS" alt=""><figcaption><p>Рис. 3. Настройки подключения</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-09 в 17.25.42.png" alt=""><figcaption><p>Рис. 3. Настройки подключения</p></figcaption></figure>
 
 ## Генерация ключа для верификации платежей
 
 Ключ для верификации платежей генерируется при настройке вебхука. Для этого перейдите в личный кабинет Paykeeper.
 
-<figure><img src="/broken/files/xtICOYsgSWFCo6BJMPBe" alt=""><figcaption><p>Рис. 4. Переход в настройки платежной системы</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-09 в 17.09.11.png" alt=""><figcaption><p>Рис. 4. Переход в настройки платежной системы</p></figcaption></figure>
 
 После входа в личный кабинет перейдите в настройки. Выберите пункт '**Получение информации о платежах**'.&#x20;
 
-<figure><img src="/broken/files/EPpPQGpkZFUloQT0yyg1" alt=""><figcaption><p>Рис. 5. Переход в раздел "Получение информации о платежах"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-09 в 17.06.00.png" alt=""><figcaption><p>Рис. 5. Переход в раздел "Получение информации о платежах"</p></figcaption></figure>
 
 В пункте '**Способ получения уведомления о платежа**х' выберите POST-оповещения.
 
 Далее укажите url для вебхуков: [https://chatter.salebot.pro/paykeeper\_callback/result](https://chatter.salebot.pro/paykeeper_callback/result)
 
-<figure><img src="/broken/files/Pq1pRpiRzksOwgPBciXu" alt=""><figcaption><p>Рис. 6. Указываем url вебхуков и способ получения уведомления</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-09 в 17.06.47.png" alt=""><figcaption><p>Рис. 6. Указываем url вебхуков и способ получения уведомления</p></figcaption></figure>
 
 После этого нажмите кнопку "Сгенерировать". Появится секретное слово, что необходимо для получения вебхуков.
 
@@ -73,11 +73,11 @@ description: >-
 
 Можно указать в условии блока "Стартовое условие":
 
-<figure><img src="/broken/files/ioAO7g50ydZClC8ukeqQ" alt=""><figcaption><p>Рис. 7. Реакция на успешную оплату: прописываем колбек в условии блока "Стартовое условие"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 14.54.01.png" alt=""><figcaption><p>Рис. 7. Реакция на успешную оплату: прописываем колбек в условии блока "Стартовое условие"</p></figcaption></figure>
 
 Также колбек можно указать в условии блока "Не состояние с условием":
 
-<figure><img src="/broken/files/gqp6P382mMjpFAz3aTrX" alt=""><figcaption><p>Рис. 8. Реакция на успешную оплату: прописываем колбек в условии блока "Не состояние с условием"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 14.54.21.png" alt=""><figcaption><p>Рис. 8. Реакция на успешную оплату: прописываем колбек в условии блока "Не состояние с условием"</p></figcaption></figure>
 
 {% hint style="info" %}
 Если вы не хотите выбивать клиента из основной схемы чат-бота, воспользуйтесь блоком "Не состояние с условием" — в этот блок нельзя перейти, поэтому клиента после оплаты не выбьет из основной воронки и при этом он получит уведомление об успешной оплате.

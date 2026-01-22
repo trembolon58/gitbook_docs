@@ -42,7 +42,7 @@ register\_customer\_on\_course(tariff\_id, email, email\_notification, period, r
 
 Результат выполнения функции:
 
-<figure><img src="/broken/files/a1rRyqvi0WVs8urgyfFF" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/доступ.jpg" alt=""><figcaption></figcaption></figure>
 
 По этой кнопке открывается страница с курсами/тарифами, которые есть у ученика.
 
@@ -50,7 +50,7 @@ register\_customer\_on\_course(tariff\_id, email, email\_notification, period, r
 >
 > Для создания такой связи просто нужно записать на курс через бота.
 
-<figure><img src="/broken/files/RStSkT54oHqcZ2a0K4UN" alt=""><figcaption><p><strong><code>access_course_from_webapp(text, button_label)</code></strong></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/тг.jpg" alt=""><figcaption><p><strong><code>access_course_from_webapp(text, button_label)</code></strong></p></figcaption></figure>
 
 ## Как выдать доступ к курсу через бот
 
@@ -83,9 +83,9 @@ register\_customer\_on\_course(tariff\_id, email, email\_notification, period, r
 
 Примеры:
 
-<figure><img src="/broken/files/WBEBV7q0VqznZ8yTVy3n" alt=""><figcaption><p>функция для выдачи доступа к курсу через бота</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/re.png" alt=""><figcaption><p>функция для выдачи доступа к курсу через бота</p></figcaption></figure>
 
-<figure><img src="/broken/files/DzJ9x9JEgCnBwyyzIBpf" alt="" width="531"><figcaption><p>Функция для выдачи доступа к курсу через бота с отправкой писем</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2023-12-13_11-12-28.png" alt="" width="531"><figcaption><p>Функция для выдачи доступа к курсу через бота с отправкой писем</p></figcaption></figure>
 
 ## Как проверить наличие доступа к курсу
 
@@ -99,7 +99,7 @@ register\_customer\_on\_course(tariff\_id, email, email\_notification, period, r
 
 После выполнения функция возвращает True или False.
 
-<figure><img src="/broken/files/g4DO58AWjNg4u2IvJ0DU" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 Возможные ответы функции при ошибках:
@@ -126,7 +126,7 @@ register\_customer\_on\_course(tariff\_id, email, email\_notification, period, r
 После успешного выполнения функции в переменной будет записан ответ:\
 **customer created**
 
-<figure><img src="/broken/files/kf7XMCn3vr43UQw3E6oC" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/аа.png" alt=""><figcaption></figcaption></figure>
 
 ## Как проверить наличие доступа к курсу и ограничения по времени?
 
@@ -138,7 +138,7 @@ register\_customer\_on\_course(tariff\_id, email, email\_notification, period, r
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
 | <mark style="color:red;">**!**</mark> **tariff\_id** - идентификатор id тарифа. Скопировать можно в браузерной строке в настройках тарифа или в разделе Тарифы. | **email** - необязательный параметр.  |
 
-<figure><img src="/broken/files/LKXt3eXU3kj3od6npPS2" alt="" width="396"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (32).png" alt="" width="396"><figcaption></figcaption></figure>
 
 В ответ придет:
 
@@ -167,7 +167,7 @@ register\_customer\_on\_course(tariff\_id, email, email\_notification, period, r
 
 Идентификатор находится на карточке тарифа:
 
-<figure><img src="/broken/files/Qt7nk5lVFpUs4Ig34pyg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2024-04-01_10-05-41.png" alt=""><figcaption></figcaption></figure>
 
 ## Как проверить, был ли ученик на вебинаре&#x20;
 
@@ -184,15 +184,15 @@ register\_customer\_on\_course(tariff\_id, email, email\_notification, period, r
 | <mark style="color:red;">**!**</mark> translation\_guid - идентификатор трансляции. Скопируйте значение поля _Название в ссылке_ _в настройках трансляции._ | after\_start\_time - время начала трансляции в формате: '2023-04-18 13:30:00'. |
 | <mark style="color:red;">**!**</mark> email - адрес электронной почты Ученика                                                                               |                                                                                |
 
-<figure><img src="/broken/files/xUS1KjieFE5noD4q1mER" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
 **Пример**: answer2 = customer\_was\_on\_translation('ad654f52be33d55008e31ba9792140ab', 'test@mail.ru', '2023-04-18 13:30:00')
 
-<figure><img src="/broken/files/BIbdU4YDPLVE4tVcfmfb" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
 В переменную answer2 запишется результат выполнения функции. По значению этой переменной можно настраивать дальнейшую логику работы бота. Пример успешной проверки посещения вебинара:
 
-<figure><img src="/broken/files/7dDATtjg5DJ4mTknwPDr" alt="" width="425"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (35).png" alt="" width="425"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **Важно!** _Название переменной может быть любое удобное и понятное вам._ В случае ошибки в написании параметров функции в переменную запишется сообщение: wrong translation\_guid
@@ -212,7 +212,7 @@ get\_customer\_name() - возвращает имя ученика, связан
 
 Функция без параметров.
 
-<figure><img src="/broken/files/0GgXOkQrqY1bALzcxXyU" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-05-28 в 18.11.14.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Возвращает имя ученика, которое ученик ввел при регистрации на курс, или имя ученика из его ЛК.
 
@@ -222,7 +222,7 @@ get\_customer\_name() - возвращает имя ученика, связан
 
 В этом случае на выбранные действия в диалог ученика в боте будут приходить уведомления (callback). Текст этих уведомлений можно использовать как условие в стрелках и/или в блоках с условием для дальнейшего движения ученика по боту.
 
-<figure><img src="/broken/files/GhACSDzI4vnPQlJ2PaoU" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (36).png" alt="" width="563"><figcaption></figcaption></figure>
 
 
 

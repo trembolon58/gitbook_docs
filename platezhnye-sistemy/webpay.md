@@ -29,11 +29,11 @@ description: Белорусская система электронных пла
 Сохраняем настройки, копируем введенный секретный ключ и переходим к настройкам в Salebot.\
 Открываем раздел "Эквайринг", выбираем Webpay:
 
-<figure><img src="/broken/files/6val4sfiz0MyMlU194vt" alt=""><figcaption><p>Рис. 3. Раздел "Эквайринг" в Сейлбот</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 17.25.06.png" alt=""><figcaption><p>Рис. 3. Раздел "Эквайринг" в Сейлбот</p></figcaption></figure>
 
 &#x20;Нужно ввести полученные данные:
 
-<figure><img src="/broken/files/lxBMKcMPprVjsO2HzIQO" alt=""><figcaption><p>Рис. 4. Подключение платежного сервиса</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 17.26.02.png" alt=""><figcaption><p>Рис. 4. Подключение платежного сервиса</p></figcaption></figure>
 
 Далее нажмите на "Сохранить настройки", тогда сервис будет подключен к вашему проекту.
 
@@ -43,7 +43,7 @@ description: Белорусская система электронных пла
 Для генерации ссылки на оплату вам необходимо установить значение переменной **payment\_sum** (например, 150 или 100.55 (**через точку!**))
 {% endhint %}
 
-<figure><img src="/broken/files/f4Tn0AJV98L2ne2Ps6Yz" alt=""><figcaption><p>Рис. 5. Указываем переменную payment_sum в калкуляторе </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 17.29.29.png" alt=""><figcaption><p>Рис. 5. Указываем переменную payment_sum в калкуляторе </p></figcaption></figure>
 
 Сразу после этого появится переменная **webpay\_pay\_url**.
 
@@ -54,17 +54,17 @@ description: Белорусская система электронных пла
 
 1. В настройках кнопки:
 
-<figure><img src="/broken/files/AJxd2w5GVrG4yn233xIH" alt=""><figcaption><p>Рис. 6. Указываем переменную #{<strong>webpay_pay_url</strong>}  в поле url кнопки</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 17.32.03.png" alt=""><figcaption><p>Рис. 6. Указываем переменную #{<strong>webpay_pay_url</strong>}  в поле url кнопки</p></figcaption></figure>
 
-<figure><img src="/broken/files/9K5Enr1U0DcQsSKClVio" alt=""><figcaption><p>Рис. 7. Настройки блока</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 17.32.30.png" alt=""><figcaption><p>Рис. 7. Настройки блока</p></figcaption></figure>
 
 2. В поле url в настройках вложения:
 
-<figure><img src="/broken/files/o1WtKVnk5mopF3cElc7S" alt=""><figcaption><p>Рис. 8. Указываем переменную #{<strong>webpay_pay_url</strong>}  в поле url вложения</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 17.34.41.png" alt=""><figcaption><p>Рис. 8. Указываем переменную #{<strong>webpay_pay_url</strong>}  в поле url вложения</p></figcaption></figure>
 
 3. В поле "Сообщение":
 
-<figure><img src="/broken/files/vuPEps8KhwDLTNQ3Bkn3" alt=""><figcaption><p>Рис. 9. Указываем переменную #{webpay_pay_url} в поле "Сообщение"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 17.37.52.png" alt=""><figcaption><p>Рис. 9. Указываем переменную #{webpay_pay_url} в поле "Сообщение"</p></figcaption></figure>
 
 Также до установки значения переменной **payment\_sum**, можно задать следующие **необязательные** переменные, для настройки платежа:
 
@@ -86,7 +86,7 @@ description: Белорусская система электронных пла
 
 Создадим ссылку на оплату в размере 10 бел. рублей (по умолчанию бел. рубль)
 
-<figure><img src="/broken/files/DnavYmx3UW0m5qgHdQJb" alt="" width="563"><figcaption><p>Рис. 11. Настройки калькулятора</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 17.43.44.png" alt="" width="563"><figcaption><p>Рис. 11. Настройки калькулятора</p></figcaption></figure>
 
 {% hint style="info" %}
 **Обратите внимание:** \
@@ -106,7 +106,7 @@ description: Белорусская система электронных пла
 Если секретный ключ менее 10 символов, то он будет использован полностью + приписка **\_success.**
 {% endhint %}
 
-<figure><img src="/broken/files/zBpjFTIDDUvw11nNyXjn" alt=""><figcaption><p>Рис. 12. Колбек об успешном платеже</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 17.46.08.png" alt=""><figcaption><p>Рис. 12. Колбек об успешном платеже</p></figcaption></figure>
 
 Эти колбэки НЕ ВИДИТ пользователь, они отображаются только оператору.\
 Тип сравнения должен быть **"Полное совпадение"**
@@ -117,11 +117,11 @@ description: Белорусская система электронных пла
 
 Пример 1:
 
-<figure><img src="/broken/files/xERi1BOQaXFLf1bC2mNf" alt=""><figcaption><p>Рис. 13. Указываем колбек в поле условие в блоке "Стартовое условие"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 17.47.38.png" alt=""><figcaption><p>Рис. 13. Указываем колбек в поле условие в блоке "Стартовое условие"</p></figcaption></figure>
 
 Пример 2:
 
-<figure><img src="/broken/files/NasqeeWPwnol6Guv13fM" alt=""><figcaption><p>Рис. 13. Указываем колбек в поле условие в блоке "Стартовое условие"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 17.47.20.png" alt=""><figcaption><p>Рис. 13. Указываем колбек в поле условие в блоке "Стартовое условие"</p></figcaption></figure>
 
 {% hint style="info" %}
 Если вы не хотите выбивать клиента из основной схемы чат-бота, воспользуйтесь блоком "Не состояние с условием" — в этот блок нельзя перейти, поэтому клиента после оплаты не выбьет из основной воронки и при этом он получит уведомление об успешной оплате.

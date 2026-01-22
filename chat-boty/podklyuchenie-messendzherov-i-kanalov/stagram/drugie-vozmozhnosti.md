@@ -63,9 +63,9 @@
 
 После 7 дней сообщения не будут доходить до адресата по причине следующей ошибки:
 
-![](<../../../.gitbook/assets/image (13) (1) (1).png>)
+![](<../../../.gitbook/assets/image (13) (1) (1) (1).png>)
 
-<figure><img src="../../../.gitbook/assets/image (14) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Разрешено
 

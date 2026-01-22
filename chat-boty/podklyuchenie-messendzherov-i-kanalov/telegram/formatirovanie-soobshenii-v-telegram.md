@@ -172,7 +172,7 @@
 
 Чтобы защитить контент от распространения можно включить защищенный режим для сообщений. Для этого в разделе "Сообщение" включите "Защитить контент":
 
-<figure><img src="../../../.gitbook/assets/image (82) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (82) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Защищенные сообщения нельзя переслать, на телефоне нельзя сделать скриншот.

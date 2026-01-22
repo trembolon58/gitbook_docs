@@ -77,17 +77,17 @@ abs() | ceil() | customizable\_round\_multiply() | customizable\_round\_division
 {% tab title="Пример" %}
 Здесь все предельно просто, как в математике - прописываем функцию, задаем ей параметры и получаем ответ:
 
-<figure><img src="../../../.gitbook/assets/image (98) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (98) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Результат:
 
-<figure><img src="../../../.gitbook/assets/image (99) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (99) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Пример использования int\_to\_string():
 
-<figure><img src="../../../.gitbook/assets/image (100) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (100) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (101) (1).png" alt=""><figcaption><p>Пример использования int_to_string()</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (101) (1) (1).png" alt=""><figcaption><p>Пример использования int_to_string()</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}

@@ -15,9 +15,9 @@ description: Описание работы с кредитованием и ра
 ❗️Если вы планируете работать именно с рассрочками от банка, то в личном кабинете руководителя вам необходимо включить данный функционал и получить промокод (параметр - **promo\_code**), передавая его в функции в банк поступит заявка именно на рассрочку, а не на кредит. \
 Где получить данный параметр показали в скриншотах: <br>
 
-<figure><img src="/broken/files/jABtvRH9fr4yJmCiz6Yv" alt=""><figcaption><p>Включите подходящий тип рассрочки в личном кабинете руководителя <br></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/07200cdf79.jpg" alt=""><figcaption><p>Включите подходящий тип рассрочки в личном кабинете руководителя <br></p></figcaption></figure>
 
-<figure><img src="/broken/files/UvgsKXK8EHjLZx5AFDqZ" alt=""><figcaption><p>Скопируйте промокод и используйте его в функции создания заявки. </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/ad9800adf0 (1).jpg" alt=""><figcaption><p>Скопируйте промокод и используйте его в функции создания заявки. </p></figcaption></figure>
 
 \
 Когда все необходимые данные вами получены, перейдите в раздел "Платежные системы" и  нажмите подключить под названием Tinkoff Credit\
@@ -25,16 +25,16 @@ description: Описание работы с кредитованием и ра
 
 
 
-<figure><img src="/broken/files/S2Gp4dKunDMtyHC2HKdV" alt=""><figcaption><p>расположение кнопки подключения Кредитования от Тинькофф</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/кредитов.jpg" alt=""><figcaption><p>расположение кнопки подключения Кредитования от Тинькофф</p></figcaption></figure>
 
 В открывшемся окне введите данные которые на шаге подключения Кредитования вы получили в банке: Shop\_id, Showcase\_id и Api\_password<br>
 
-<figure><img src="/broken/files/UoVC9kpKr0sHLoxYWSDN" alt=""><figcaption><p>форма ввода данных для подключения </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/вводполей.jpg" alt=""><figcaption><p>форма ввода данных для подключения </p></figcaption></figure>
 
 Если все сделано правильно то вид кнопки под названием интеграции сменит вид на такой:\
 <br>
 
-<figure><img src="/broken/files/aD8rWtZcLXSCpgTs5lEV" alt=""><figcaption><p>корректное подключение</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/готово.png" alt=""><figcaption><p>корректное подключение</p></figcaption></figure>
 
 После того как платежная система вами подключена, вы можете перейти к настройкам. В работе вы сможете использовать три функции, которые подробно описаны ниже.&#x20;
 
@@ -76,7 +76,7 @@ description: Описание работы с кредитованием и ра
 
 **tinkoff\_credit\_link** - содержит ссылку на заявку. Передайте ее клиенту для оформления кредита<br>
 
-<figure><img src="/broken/files/HvghI03RdGBDyuwtBQhJ" alt=""><figcaption><p>пример параметров функции и самой функции без рассрочки</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/расср.jpg" alt=""><figcaption><p>пример параметров функции и самой функции без рассрочки</p></figcaption></figure>
 
 {% hint style="danger" %}
 Если вы получили ошибку:\
@@ -103,7 +103,7 @@ description: Описание работы с кредитованием и ра
 **order\_id** - <mark style="color:orange;">необязательный параметр</mark>, но может быть полезен если активна не та сделка, в рамках которой создавалась заявка на кредит. \
 По умолчанию действие в функции применяется к кредиту, запрошенному в рамках текущей сделки, но если вы закрыли сделку, то придется взять переменную tinkoff\_credit\_order\_id и передать ее в этом поле, для действий с соответствующей заявкой.
 
-<figure><img src="/broken/files/ANhGCm8ohLzpEkOIZJc8" alt=""><figcaption><p>Пример работы с функцией. Параметры в функции указываются в кавычках. </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/сделкнов.jpg" alt=""><figcaption><p>Пример работы с функцией. Параметры в функции указываются в кавычках. </p></figcaption></figure>
 
 Пример для копирования: \
 для работы с заявкой, оформленной вне текущей сделки
@@ -139,7 +139,7 @@ description: Описание работы с кредитованием и ра
 
 <br>
 
-<figure><img src="/broken/files/Ia4uSjFspnKrmZnicCDW" alt=""><figcaption><p>пример сделки с заданным бюджетом</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/бюджет.png" alt=""><figcaption><p>пример сделки с заданным бюджетом</p></figcaption></figure>
 
 ### Настройка вебхука
 
@@ -149,7 +149,7 @@ description: Описание работы с кредитованием и ра
 
 Нажимаем кнопку **добавить.**<br>
 
-<figure><img src="/broken/files/jvUvOvPsdKmQ7xBwPTRN" alt=""><figcaption><p><br></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/unnamed.png" alt=""><figcaption><p><br></p></figcaption></figure>
 
 **Тип магазина** - Интернет магазин\
 **Название** - любое \
@@ -163,32 +163,32 @@ description: Описание работы с кредитованием и ра
 
 После добавления магазина нажимаем кнопку настройки API
 
-<figure><img src="/broken/files/VcSn38a6sP2k8TazYAKm" alt=""><figcaption><p><br></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/unnamed (1).png" alt=""><figcaption><p><br></p></figcaption></figure>
 
 Придумываем пароль и обязательно нажимаем кнопку установить пароль. Без установленного пароля **интеграция работать не будет это ВАЖНО.**<br>
 
-<figure><img src="/broken/files/4PTyMmv13KuKmG6y6aqa" alt=""><figcaption><p><br></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/unnamed (2).png" alt=""><figcaption><p><br></p></figcaption></figure>
 
 После установки пароля заходим в реквизиты, и нажимаем кнопку редактировать.\
 Ставим галочку Автоподтверждение интернет заказов.<br>
 
-<figure><img src="/broken/files/GrAdgTASFFqvUQJecN3a" alt=""><figcaption><p><br></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/unnamed (3).png" alt=""><figcaption><p><br></p></figcaption></figure>
 
 Далее в реквизитах копируем **shopId**
 
-<figure><img src="/broken/files/6uqw3b72wUV49z15P1uL" alt=""><figcaption><p><br></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/unnamed (4).png" alt=""><figcaption><p><br></p></figcaption></figure>
 
 В разделе магазины выбираем наш магазин. И копируем showcaseId<br>
 
-<figure><img src="/broken/files/urFbqvOLuq2tF5KzQkPh" alt=""><figcaption><p><br></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/unnamed (5).png" alt=""><figcaption><p><br></p></figcaption></figure>
 
 Далее переходим в конструктор, раздел платежные системы. Выбираем Tinkoff Credit и вводим скопированные данные и пароль. Настраиваем блок с созданием заявки с параметрами, указанными выше.
 
-<figure><img src="/broken/files/pQtMWKy7wGc8Fqb0ljp3" alt=""><figcaption><p><br></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/unnamed (6).png" alt=""><figcaption><p><br></p></figcaption></figure>
 
 Теперь вебхуки будут приходить автоматически. В диалоге клиента вебхук выглядит так как показано в скриншоте ниже:&#x20;
 
-<figure><img src="/broken/files/EMsaY7TjHfjuWiN6ISSa" alt=""><figcaption><p><br></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/unnamed (7).png" alt=""><figcaption><p><br></p></figcaption></figure>
 
 **Какие вебхуки приходят в диалог клиента:**&#x20;
 

@@ -92,11 +92,11 @@
 
 <div align="center"><figure><img src="../../.gitbook/assets/2023-03-20_17-35-37.png" alt=""><figcaption><p>Переменная сделки: присваиваем<br>в Калькуляторе блока </p></figcaption></figure></div>
 
-<div align="center"><figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption><p>Константы проекта</p></figcaption></figure></div>
+<div align="center"><figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption><p>Константы проекта</p></figcaption></figure></div>
 
 При этом ответ UISCOM будет записываться в переменную **`uiscom_request`**, которую вы найдете в карточке клиента среди переменных сделки.
 
-<div align="center"><figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Пример значения переменной <strong><code>uiscom_request</code></strong></p></figcaption></figure></div>
+<div align="center"><figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption><p>Пример значения переменной <strong><code>uiscom_request</code></strong></p></figcaption></figure></div>
 
 ## **Как происходит сопоставление клиента**
 

@@ -15,6 +15,6 @@ url:\
 &#xNAN;**#{phone}** - телефон пользователя, кому уходит смс\
 **msg** - сообщение
 
-<figure><img src="../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (125) (1).png" alt=""><figcaption></figcaption></figure>
 
 Ссылка для регистрации: [https://evlanalytics.sms.ru ](https://evlanalytics.sms.ru)

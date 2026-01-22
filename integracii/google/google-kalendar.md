@@ -79,11 +79,11 @@
 
 Переходим в проект и загружаем полученный файл в блок, наприме&#x440;**,** вот так:
 
-![](<../../.gitbook/assets/image (77).png>)
+![](<../../.gitbook/assets/image (77) (1).png>)
 
 Нажимаем "Готово" и переходим в тестового бота:
 
-![](<../../.gitbook/assets/image (78).png>)
+![](<../../.gitbook/assets/image (78) (1).png>)
 
 Вводим фразу, которую задали для входа в блок. В примере это 123. В ответ получаем ссылку на файл с ключами:<br>
 
@@ -95,7 +95,7 @@
 
 Не забудьте в дальнейшем блок схемы бота выставить как "**Не состояние**", чтобы в дальнейшем не возникла утечка ключа:&#x20;
 
-![](<../../.gitbook/assets/image (79).png>)
+![](<../../.gitbook/assets/image (79) (1).png>)
 
 Эту ссылку можно сохранить в переменную или передавать в параметре creds\_path как есть.
 
@@ -260,7 +260,7 @@ event\_name - название события
 
 `{'kind': 'calendar#event', 'etag': '"3253879667088000"', 'id': 'ljp7a3ocp8oorbov9u2cq221s0', 'status': 'confirmed', 'htmlLink': 'https://www.google.com/calendar/event?eid=bGpwN2Ezb2NwOG9vcmJvdjl1MmNxMjIxczAgaTlzdmVydHN0dm9vMmZxMW8waThjbjM5YThAZw', 'created': '2021-07-22T07:43:53.000Z', 'updated': '2021-07-22T07:43:53.544Z', 'creator': {'email': 'gsheets@gsheets-254713.iam.gserviceaccount.com'}, 'organizer': {'email': 'i9svertstvoo2fq1o0i8cn39a8@group.calendar.google.com', 'displayName': 'Testov', 'self': True}, 'start': {'dateTime': '2021-07-22T07:43:53Z', 'timeZone': 'UTC'}, 'end': {'dateTime': '2021-07-22T08:43:53Z', 'timeZone': 'UTC'}, 'iCalUID': 'ljp7a3ocp8oorbov9u2cq221s0@google.com', 'sequence': 0, 'reminders': {'useDefault': True}, 'eventType': 'default'}`<br>
 
-![](<../../.gitbook/assets/image (80).png>)
+![](<../../.gitbook/assets/image (80) (1).png>)
 
 ### **Как добавить событие (мероприятие)**
 
@@ -319,7 +319,7 @@ event\_name - название события
 
 `{ "creds_path": "https://files.salebot.pro/uploads/message/file/1/calendar-project-320517-c241d9ab0577.json", "calendar_id": "mail@gmail.com", "command": "add_event", "event_name": "Супер мероприятие 23", "start_datetime": "#{current_date} 07:00", "end_datetime": "#{current_date} 16:00", "recurrence_days": "MO,TU,TH,FR" }`
 
-<figure><img src="../../.gitbook/assets/image (48) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (48) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -333,7 +333,7 @@ id -> event\_id
 **Пример ответа функции:**\
 `{'kind': 'calendar#event', 'etag': '"3254057128970000"', 'id': 'ittr5291ppi7snapn8jbct5krs', 'status': 'confirmed', 'htmlLink': 'https://www.google.com/calendar/event?eid=aXR0cjUyOTFwcGk3c25hcG44amJjdDVrcnMgaTlzdmVydHN0dm9vMmZxMW8waThjbjM5YThAZw', 'created': '2021-07-23T08:22:35.000Z', 'updated': '2021-07-23T08:22:53.109Z', 'summary': 'Новое событие44', 'description': 'Descri xbb xhjxkv', 'location': 'city London', 'creator': {'email': 'gsheets@gsheets-254713.iam.gserviceaccount.com'}, 'organizer': {'email': 'i9svertstvoo2fq1o0i8cn39a8@group.calendar.google.com', 'displayName': 'Testov', 'self': True}, 'start': {'dateTime': '2021-07-23T13:30:00Z', 'timeZone': 'Europe/Moscow'}, 'end': {'dateTime': '2021-07-23T14:00:00Z', 'timeZone': 'Europe/Moscow'}, 'iCalUID': 'ittr5291ppi7snapn8jbct5krs@google.com', 'sequence': 0, 'attendees': [{'email': 'vasya@gmail.com', 'displayName': 'Vasya', 'responseStatus': 'needsAction'}], 'reminders': {'useDefault': False, 'overrides': [{'method': 'email', 'minutes': 10}, {'method': 'popup', 'minutes': 10}]}, 'eventType': 'default'}`<br>
 
-![](<../../.gitbook/assets/image (81).png>)
+![](<../../.gitbook/assets/image (81) (1).png>)
 
 ### Редактирование события (мероприятия)&#x20;
 
@@ -520,7 +520,7 @@ id -> event\_id
 `"comment": "Буду первым!"`\
 `}`<br>
 
-![](<../../.gitbook/assets/image (82).png>)
+![](<../../.gitbook/assets/image (82) (1).png>)
 
 ![](https://lh6.googleusercontent.com/CENtXVp95s2yZrE_EcGzrkYPbvke8n_hYhsofK47WkUZ2eheeJoFCWmKPsLW-4DUJq5x-SC-0eMDUyftWBs4aCRXKTolbI3RKilaHw-1rPQgxEBSdUwP_PrHZo67Zi1Jw2JPcQEY)
 

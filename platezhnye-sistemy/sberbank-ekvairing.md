@@ -19,15 +19,15 @@ description: Прием платежей через Сбербанк
 HTTP-метод: **GET https://chatter.salebot.pro/sberbank\_callback/result** \
 и просим включить <mark style="color:red;">симметричную криптографию</mark>
 
-После рассмотрения вашей заявки вам выдадут токен и секретный ключ для проверки callback-уведомлений, которые указываем в настройке формы подключения Сбербанк в проекте Salebot:&#x20;
+После рассмотрения вашей заявки вам выдадут токен и секретный ключ для проверки callback-уведомлений, которые указываем в настройке формы подключения Сбербанк в проекте Salebot:
 
-<figure><img src="/broken/files/nlAgIgQUZTFLBssPilBf" alt=""><figcaption><p>Рис. 2. Подключение Сбербанк эквайринга</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 12.32.45 (1) (1).png" alt=""><figcaption><p>Рис. 2. Подключение Сбербанк эквайринга</p></figcaption></figure>
 
 {% hint style="info" %}
 В личном кабинете сбербанка настоятельно рекомендуем включить сумму платежа в уведомления об оплате.
 {% endhint %}
 
-<figure><img src="/broken/files/UYizX7AsQnj4yt142Beo" alt=""><figcaption><p>Рис. 3.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (128).png" alt=""><figcaption><p>Рис. 3.</p></figcaption></figure>
 
 Для генерации ссылки на оплату, вам необходимо установить значение переменной **payment\_sum** (например 150 или 100.55 (<mark style="color:red;">через точку!</mark>)), сразу после этого появится переменная **sberbank\_pay\_url**. Эту переменную можно вывести на экран ссылкой или разместить на кнопке с текстом "Оплатить".&#x20;
 
@@ -56,7 +56,7 @@ https://3dsec.sberbank.ru/payment/merchants/test/payment\_ru.html?mdOrder=70906e
 `time = current_time + 30`\
 `expiration_date = "#{current_date} #{time}"`
 
-<figure><img src="/broken/files/wOBFOSFGUZ3wUjRYSkhv" alt="" width="563"><figcaption><p>Рис. 5. Пример в калькуляторе</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 12.30.26.png" alt="" width="563"><figcaption><p>Рис. 5. Пример в калькуляторе</p></figcaption></figure>
 
 **language** - Язык страницы оплаты в кодировке ISO 639-1 (например: en, ru, de). Если не указан, будет использован язык, указанный в настройках магазина как язык по умолчанию.
 
@@ -72,11 +72,11 @@ https://3dsec.sberbank.ru/payment/merchants/test/payment\_ru.html?mdOrder=70906e
 
 Создадим ссылку на оплату в размере 100р (в магазине по умолчанию рубль), для этого заполняем переменную **payment\_sum**
 
-<figure><img src="/broken/files/xf6vQJyHcYrKsoyIYrAL" alt=""><figcaption><p>Рис. 7. Пример настройки блока "Стартовое условие"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 12.48.06.png" alt=""><figcaption><p>Рис. 7. Пример настройки блока "Стартовое условие"</p></figcaption></figure>
 
 Далее в нужном месте выведем переменную _**#{**_**sberbank\_pay\_url}**, в которой содержится ссылка.
 
-<figure><img src="/broken/files/A5uDCPS0ZIkJO4HkgtVO" alt=""><figcaption><p>Рис. 8. Настройки ссылки с оплатой</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 12.50.12.png" alt=""><figcaption><p>Рис. 8. Настройки ссылки с оплатой</p></figcaption></figure>
 
 На примере выше видно, что для формирования ссылки на оплату необходимо нажать на "Вложения", выбрать тип вложения "Ссылка" и вставить переменную в поле для URL.&#x20;
 
@@ -97,7 +97,7 @@ https://3dsec.sberbank.ru/payment/merchants/test/payment\_ru.html?mdOrder=70906e
 
 Например, можно сделать обработку успешной оплаты блоком с условием и вывести соответствующее сообщение пользователю:
 
-<figure><img src="/broken/files/N0SXxyjv51J8qs5iQg1z" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 12.56.23.png" alt=""><figcaption></figcaption></figure>
 
 После завершения оплаты клиенту добавится переменная **sberbank\_callback\_data**, содержащая данные ответа платежной системы по совершенной операции. Из полученного словаря можно извлечь необходимые данные при помощи метода **get**.
 
@@ -105,4 +105,4 @@ https://3dsec.sberbank.ru/payment/merchants/test/payment\_ru.html?mdOrder=70906e
 
 Бывает, техподдержка открывает доступ:
 
-<figure><img src="/broken/files/4HJXzAmhoo7mF9Zm5H9k" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>

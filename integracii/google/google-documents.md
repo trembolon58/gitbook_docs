@@ -10,9 +10,9 @@ description: >-
 
 В нужном документе переходим в настройки доступа, где меняем общий доступ на “всех, у кого есть ссылка” и присваиваем право “редактор”.
 
-<figure><img src="../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (84) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (85) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Как работать через свой сервисный аккаунт
 
@@ -26,7 +26,7 @@ description: >-
 
 Подключайте сервис Google Docs API и переходите к настройке самого документа
 
-<figure><img src="../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (86) (1).png" alt=""><figcaption></figcaption></figure>
 
 После [предоставления доступа через сервисный аккаунт](/broken/pages/AJyv5ldV9fJS174YJDVA#predostavlenie-dostupa-k-dokumentu) [нашему боту](/broken/pages/AJyv5ldV9fJS174YJDVA#predostavlenie-dostupa-k-failu-dokumentu-tablice-forme-i-td-botu-iz-proekta-salebot) создаем и подготавливаем к работе[ шаблон документа.](https://support.google.com/a/users/answer/9308885?hl=ru)
 
@@ -45,11 +45,11 @@ description: >-
 
 **Пример:** gd\_create\_new\_doc('Новый документ. Да-да', 'googlemailtest@gmail.com')
 
-<figure><img src="../../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (87) (1).png" alt=""><figcaption></figcaption></figure>
 
 В случае успешного исполнения функции будет создан новый документ, который вы увидите авторизовавшись под указанным в функции google\_email.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (88) (1).png" alt=""><figcaption></figcaption></figure>
 
 Результат выполнения функции - словарь, содержащий статус исполнения функции, имя и ид вновь созданного документа
 
@@ -67,11 +67,11 @@ description: >-
 
 **Пример:** result\_copy = gd\_copy('1UfOZ5-AXb-QRAs7Gev9tv\_H3Cx5JuWbFeeHq48CEyAY', 'googlemailtest@gmail.com')
 
-<figure><img src="../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (89) (1).png" alt=""><figcaption></figcaption></figure>
 
 В случае успешного исполнения функции будет создана копия документа, id которого вы указали. Документ вы увидите авторизовавшись под указанным в функции google\_email.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (90) (1).png" alt=""><figcaption></figcaption></figure>
 
 Результат выполнения функции - словарь, содержащий статус исполнения функции и ид копии документа
 
@@ -87,14 +87,14 @@ description: >-
 
 **Пример:** result\_add\_text = gd\_add\_text('1UfOZ5-AXb-QRAs7Gev9tv\_H3Cx5JuWbFeeHq48CEyAY','Это же был чистый документ, верно? Ну вот, теперь здесь есть новая фраза!')
 
-<figure><img src="../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (91) (1).png" alt=""><figcaption></figcaption></figure>
 
 В случае успешного исполнения функции в ваш документ будет добавлен текст, указанный в функции.
 
 Результат выполнения функции - словарь, содержащий уведомление об успехе\
 {"status":true,"message":"document 1UfOZ5-AXb-QRAs7Gev9tv\_H3Cx5JuWbFeeHq48CEyAY successfully updated"}
 
-<figure><img src="../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (92) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Как заменить части текста Google-документа
 
@@ -111,7 +111,7 @@ description: >-
 
 **Пример:** У нас есть текст-заготовка для анкетирования.
 
-<figure><img src="../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (93) (1).png" alt=""><figcaption></figcaption></figure>
 
 name ='Одинсон Локи Лафейсон' \
 phone = 79004443322 \
@@ -121,13 +121,13 @@ array = {"company":"ООО АСГАРД","fio": "#{name}","phone\_number": "#{ph
 new\_doc = gd\_replace\_text('1UfOZ5-AXb-QRAs7Gev9tv\_H3Cx5JuWbFeeHq48CEyAY',array, 0) \
 new\_doc = gd\_replace\_text('1UfOZ5-AXb-QRAs7Gev9tv\_H3Cx5JuWbFeeHq48CEyAY',array, 0)&#x20;
 
-<figure><img src="../../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (94) (1).png" alt=""><figcaption></figcaption></figure>
 
 Результат выполнения функции - словарь, содержащий уведомление об успехе
 
 ({"status":true,"message":"document 1UfOZ5-AXb-QRAs7Gev9tv\_H3Cx5JuWbFeeHq48CEyAY successfully updated"}) и видим, как изменился документ.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (95) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Совет! Если используете шаблон, сначала копируйте, а затем вносите изменения в копию - правки, которые вносятся через Salebot, нельзя откатить обратно через документы.&#x20;
@@ -141,13 +141,13 @@ new\_doc = gd\_replace\_text('1UfOZ5-AXb-QRAs7Gev9tv\_H3Cx5JuWbFeeHq48CEyAY',arr
 
 **Пример:** add\_immage\_to\_doc= gd\_add\_image('1UfOZ5-AXb-QRAs7Gev9tv\_H3Cx5JuWbFeeHq48CEyAY','https://giknutye.r u/wp-content/uploads/2017/02/loki-6.jpg')&#x20;
 
-<figure><img src="../../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (96) (1).png" alt=""><figcaption></figcaption></figure>
 
 Результат выполнения функции - словарь, содержащий уведомление об успехе
 
 {"status":true,"message":"Image https://giknutye.ru/wp-content/uploads/2017/02/loki-6.jpg added to document 1UfOZ5-AXb-QRAs7Gev9tv\_H3Cx5JuWbFeeHq48CEyAY"}
 
-<figure><img src="../../.gitbook/assets/image (97).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (97) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Как получить ссылку для сохранения Google-документа
 
@@ -158,10 +158,10 @@ new\_doc = gd\_replace\_text('1UfOZ5-AXb-QRAs7Gev9tv\_H3Cx5JuWbFeeHq48CEyAY',arr
 
 **Пример:** save\_doc = save\_google\_doc('1UfOZ5-AXb-QRAs7Gev9tv\_H3Cx5JuWbFeeHq48CEyAY')
 
-<figure><img src="../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (98) (1).png" alt=""><figcaption></figcaption></figure>
 
 Результат выполнения функции - ссылка на документ
 
-<figure><img src="../../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (99) (1).png" alt=""><figcaption></figcaption></figure>
 
 Остается его скачать.
