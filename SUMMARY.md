@@ -319,6 +319,7 @@
   * [Сбербанк Эквайринг](platezhnye-sistemy/sberbank-ekvairing.md)
   * [Т-банк](platezhnye-sistemy/tinkoff.md)
   * [Т-банк Кредитование/Рассрочка](platezhnye-sistemy/t-bank-kreditovanie-rassrochka.md)
+  * [Точка Банк](integracii/platezhnye-sistemy/tochka-bank.md)
   * [ЮKassa](platezhnye-sistemy/priem-platezhei-v-bote-cherez-yandeks.kassu.md)
   * [ЮMoney](platezhnye-sistemy/priem-platezhei-cherez-yandeks.dengi.md)
   * [Bepaid](platezhnye-sistemy/bepaid.md)

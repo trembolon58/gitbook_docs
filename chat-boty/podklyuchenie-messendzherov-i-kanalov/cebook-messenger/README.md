@@ -213,11 +213,11 @@ p = \[{"title":"заголовок", "description": "ОПИСАНИЕ КАРТО
 
 Затем нажмите на иконку мессенджера:
 
-<figure><img src="../../../.gitbook/assets/unknown.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/unknown (6).png" alt=""><figcaption></figcaption></figure>
 
 И кликните по ссылке "Нажмите сюда":
 
-<figure><img src="../../../.gitbook/assets/unknown (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/unknown (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Вас направит на страницу с входом в аккаунта, далее необходимо авторизоваться и уже на стороне Сейлбота выбрать нужную страницу для подключения бота.
 
@@ -227,7 +227,7 @@ p = \[{"title":"заголовок", "description": "ОПИСАНИЕ КАРТО
 
 После подключения можно включить получение комментариев в разделе "Каналы"
 
-<figure><img src="../../../.gitbook/assets/unknown (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/unknown (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 При получении комментария под постом в информации о клиенте будут созданы следующие переменные:
 
