@@ -40,7 +40,7 @@
 <mark style="color:red;">**!**</mark>**&#x20;text** - сообщение, передаваемое в теле письма \
 **attachment\_url** - url с ссылкой на вложение&#x20;
 
-<mark style="background-color:blue;">**Для пересылки черновика или отправленного письма email**</mark>
+<mark style="background-color:blue;">**Для отправки email-шаблона**</mark>
 
 **send\_email\_template(mailing\_id, client\_email, email\_bot, date)**
 
