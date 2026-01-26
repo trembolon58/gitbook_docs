@@ -15,44 +15,13 @@
 **send\_email() | send\_email\_from\_bot() | send\_email\_template()**
 
 {% tabs %}
-{% tab title="Описание" %}
-<mark style="background-color:blue;">**Для отправки email-сообщения**</mark>
+{% tab title="Пример кода для копирования" %}
+```
+send_email('test@test.ru', 'Это заголовок', 'А здесь я пишу текст')
 
-**send\_email(to\_email, subject, message)**&#x20;
-
-Параметры:
-
-<mark style="color:red;">**!**</mark>**&#x20;to\_email -** email получателя
-
-<mark style="color:red;">**!**</mark>**&#x20;subject -** заголовок письма
-
-<mark style="color:red;">**!**</mark>**&#x20;message -** текст письма
-
-<mark style="background-color:blue;">**Для отправки email-сообщений через бот**</mark>
-
-**send\_email\_from\_bot(email\_bot, client\_email, email\_subject, text, attachment\_url)**&#x20;
-
-Параметры:
-
-<mark style="color:red;">**!**</mark>**&#x20;email\_bot** - почта, к которой подключен канал email-рассылок \
-<mark style="color:red;">**!**</mark>**&#x20;client\_email** - почта клиента, куда отправится письмо \
-<mark style="color:red;">**!**</mark>**&#x20;email\_subject** - тема письма, заголовок \
-<mark style="color:red;">**!**</mark>**&#x20;text** - сообщение, передаваемое в теле письма \
-**attachment\_url** - url с ссылкой на вложение&#x20;
-
-<mark style="background-color:blue;">**Для отправки email-шаблона**</mark>
-
-**send\_email\_template(mailing\_id, client\_email, email\_bot, date)**
-
-Параметры:
-
-<mark style="color:red;">**!**</mark>**&#x20;mailing\_id** - id шаблона рассылки - либо черновик, либо уже готовое письмо.&#x20;
-
-<mark style="color:red;">**!**</mark>**&#x20;client\_email** - email получателя письма.
-
-**email\_bot** - email отправителя. По умолчанию email, подключенный к проекту.&#x20;
-
-**date** - дата отправки письма, в формате ‘dd.mm.yyyy HH:mm’.  Если указать уже прошедшую дату или не указать вовсе, письмо отправится сразу же после вызова функции.
+/*через бот*/
+mailing = send_email_from_bot('test_channel@test.com', 'test_client@yandex.ru', 'Тема письма. Совсем обычная', 'Привет, шлю тебе мое сообщение', 'https://sun9-82.userapi.com/impg/L3ZYWHnlseIQsqZO')
+```
 {% endtab %}
 
 {% tab title="Примеры" %}
@@ -92,13 +61,44 @@ e\_letter = send\_email\_template(mailing\_id ,client\_email , email\_bot, date)
 <figure><img src="../../../.gitbook/assets/image (228) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Пример кода для копирования" %}
-```
-send_email('spirin.dmitrij@list.ru', 'Это заголовок', 'А здесь я пишу текст')
+{% tab title="Описание" %}
+<mark style="background-color:blue;">**Для отправки email-сообщения**</mark>
 
-/*через бот*/
-mailing = send_email_from_bot('test_channel@test.com', 'test_client@yandex.ru', 'Тема письма. Совсем обычная', 'Привет, шлю тебе мое сообщение', 'https://sun9-82.userapi.com/impg/L3ZYWHnlseIQsqZO')
-```
+**send\_email(to\_email, subject, message)**&#x20;
+
+Параметры:
+
+<mark style="color:red;">**!**</mark>**&#x20;to\_email -** email получателя
+
+<mark style="color:red;">**!**</mark>**&#x20;subject -** заголовок письма
+
+<mark style="color:red;">**!**</mark>**&#x20;message -** текст письма
+
+<mark style="background-color:blue;">**Для отправки email-сообщений через бот**</mark>
+
+**send\_email\_from\_bot(email\_bot, client\_email, email\_subject, text, attachment\_url)**&#x20;
+
+Параметры:
+
+<mark style="color:red;">**!**</mark>**&#x20;email\_bot** - почта, к которой подключен канал email-рассылок \
+<mark style="color:red;">**!**</mark>**&#x20;client\_email** - почта клиента, куда отправится письмо \
+<mark style="color:red;">**!**</mark>**&#x20;email\_subject** - тема письма, заголовок \
+<mark style="color:red;">**!**</mark>**&#x20;text** - сообщение, передаваемое в теле письма \
+**attachment\_url** - url с ссылкой на вложение&#x20;
+
+<mark style="background-color:blue;">**Для отправки email-шаблона**</mark>
+
+**send\_email\_template(mailing\_id, client\_email, email\_bot, date)**
+
+Параметры:
+
+<mark style="color:red;">**!**</mark>**&#x20;mailing\_id** - id шаблона рассылки - либо черновик, либо уже готовое письмо.&#x20;
+
+<mark style="color:red;">**!**</mark>**&#x20;client\_email** - email получателя письма.
+
+**email\_bot** - email отправителя. По умолчанию email, подключенный к проекту.&#x20;
+
+**date** - дата отправки письма, в формате ‘dd.mm.yyyy HH:mm’.  Если указать уже прошедшую дату или не указать вовсе, письмо отправится сразу же после вызова функции.
 {% endtab %}
 {% endtabs %}
 
