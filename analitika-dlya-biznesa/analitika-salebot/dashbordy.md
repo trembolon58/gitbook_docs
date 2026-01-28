@@ -2,7 +2,7 @@
 
 Раздел "Аналитика" представлен в виде отдельных вкладок по функционалу Salebot, где отображены различные статистические данные по существующему проекту.&#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 09.55.37.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 09.55.37.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 В данном разделе можно отследить аналитику по любому разделу со всего проекта. Подробнее разберем каждый раздел "Аналитики" далее. &#x20;
 
@@ -10,7 +10,7 @@
 
 Дашборд  - это инструмент для визуализации и анализа статистических данных, который позволяет отображать показатели бизнес-проекта в Сейлбот. Дашборды представляют собой интерактивные панели, содержащие графики, диаграммы, которые помогают быстро понять текущее состояние дел и выявить положительные или отрицательные тенденции.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 09.59.33.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 09.59.33.png" alt=""><figcaption></figcaption></figure></div>
 
 Преимущества использования дашбордов:
 
@@ -22,7 +22,7 @@
 
 Любой дашборд в разделе отобразит данные в виде графика с числовыми обозначениями и временным диапазоном:
 
-<figure><img src="../../.gitbook/assets/2024-03-20_16-05-29.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/2024-03-20_16-05-29.png" alt=""><figcaption></figcaption></figure></div>
 
 <mark style="color:green;">**Пример:**</mark> Дашборд "Клиенты" \
 Темным цветом отображается общее количество новых клиентов за период текущего года (диапазон с 1 января по 2024 по 20 марта 2024) было 2678 новых клиентов. \
@@ -55,11 +55,11 @@
 
 Далее откроется Библиотека виджетов:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 10.46.53.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 10.46.53.png" alt=""><figcaption></figcaption></figure></div>
 
 Пролистайте вниз до окошка "Выберите виджет для добавления" и добавьте необходимый виджет:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 10.51.03.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 10.51.03.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Также в настройках вы можете скрывать или наоборот отображать уже скрытые виджеты, менять их местами друг с другом:
 
@@ -74,11 +74,11 @@
 
 Чтобы поменять местами виджеты достаточно потянуть его в нужное место, зажав данную кнопку:
 
-<figure><img src="../../.gitbook/assets/гифка-в-аналитику.gif" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/гифка-в-аналитику.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 С помощью таких же кнопок можно скрыть виджет и отобразить его, а также перенести на другое место на основной вкладке дашбордов:
 
-<figure><img src="../../.gitbook/assets/2024-03-20_15-04-28.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/2024-03-20_15-04-28.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="danger" %}
 Обращаем внимание!&#x20;
@@ -86,6 +86,4 @@
 В виджете "Отписалось от сообщений" график строится по дате отписки клиента без учета момента, когда клиент был добавлен.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/2024-03-21_13-44-27.png" alt="" width="563"><figcaption><p>Виджет "Отписалось от сообщений"</p></figcaption></figure>
-
-f
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/2024-03-21_13-44-27.png" alt="" width="563"><figcaption><p>Виджет "Отписалось от сообщений"</p></figcaption></figure></div>

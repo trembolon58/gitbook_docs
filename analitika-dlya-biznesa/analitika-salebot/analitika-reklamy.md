@@ -3,7 +3,7 @@
 Авторизуйтесь в Salebot через ВК аккаунт, чтобы данные рекламного кабинета ВК могли быть загружены в раздел Реклама.
 
 {% hint style="success" %}
-Добавлена возможность выгрузить данные рекламной кампании ВКонтакте в формате csv.
+Можно выгрузить данные рекламной кампании ВКонтакте в формате csv.
 {% endhint %}
 
 В разделе Реклама доступно 2 кабинета:
@@ -11,17 +11,17 @@
 1. Кабинет Реклама ВК
 2. Кабинет Я.Директ
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 12.08.57.png" alt="" width="347"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 12.08.57.png" alt="" width="347"><figcaption></figcaption></figure></div>
 
 #### Подключение Яндекс.Директ
 
 Чтобы авторизоваться через Я.Директ нажмите на:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 12.09.42.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 12.09.42.png" alt=""><figcaption></figcaption></figure></div>
 
 Если у вас еще нет авторизованного кабинета в Яндекс.директе, то необходимо будет зарегистрироваться на платформе в открывшемся окне:
 
-<figure><img src="../../.gitbook/assets/2023-11-24_14-51-39.png" alt="" width="298"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/2023-11-24_14-51-39.png" alt="" width="298"><figcaption></figcaption></figure></div>
 
 После регистрации вы вернетесь обратно во вкладку реклама, где Яндекс.Директ уже будет подключен к разделу Аналитика.&#x20;
 
@@ -29,11 +29,11 @@
 
 Нажмите на авторизоваться в новом РК:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 12.10.24.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 12.10.24.png" alt=""><figcaption></figcaption></figure></div>
 
 Далее войдите в аккаунт, привязанный к РК, и разрешите доступы:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-26 в 16.39.54.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-26 в 16.39.54.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Дополнительно
 

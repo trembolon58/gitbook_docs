@@ -2,7 +2,7 @@
 
 В Аналитике доступен просмотр статистических данных по созданным курсам:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 12.15.02.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 12.15.02.png" alt=""><figcaption></figcaption></figure></div>
 
 Просмотреть статистику можно по различным критериям и по любому из существующих в проекте Salebot курсу.
 
@@ -10,27 +10,27 @@
 
 Чтобы просмотреть статистику по курсу, необходимо создать виджет и установить определенные настройки. Для этого перейдите во вкладку "Курсы" в разделе "Аналитика" и нажмите на "Создать виджет":
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 12.16.28.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 12.16.28.png" alt=""><figcaption></figcaption></figure></div>
 
 Или нажмите на плашку "Добавьте свой виджет":
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 12.23.47.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 12.23.47.png" alt=""><figcaption></figcaption></figure></div>
 
 Здесь вы увидите функционал для добавления нового виджета. Нажмите на плашку, после чего откроется меню с настройками виджета:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 12.27.15.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 12.27.15.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Настройки
 
 1. **Период Аналитики** - это временной промежуток, за который система высчитывает статистические данные.&#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 10.33.13.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 10.33.13.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 **Внимание!**&#x20;
 
 * <mark style="color:green;">**Период за месяц отображает данные за текущий месяц**</mark> в промежутке с 1 числа нынешнего месяца по N-ое число нынешнего дня: например, если сегодня 26 сентября, то период настройки "Месяц" покажет Аналитику с 1 сентября по 26 сентября, то есть за текущий месяц.&#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 10.36.29.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 10.36.29.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 {% hint style="success" %}
 Обращаем внимание!
@@ -42,25 +42,25 @@
 
 2. Иконка виджета - визуальное решение для вашего виджета:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 10.44.19.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 10.44.19.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Выбранная иконка отображается здесь:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 10.45.57.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 10.45.57.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 3. **Название виджета** - обязательное поле, принимающее как <mark style="color:green;">**текстовое значение, так и эмодзи**</mark>:&#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 10.50.36.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 10.50.36.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 10.50.02.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 10.50.02.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Если не ввести название, то виджет попросту не сохранится и не добавится в раздел "Курсы" Аналитики:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 10.48.19.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 10.48.19.png" alt=""><figcaption></figcaption></figure></div>
 
 4. Выбор курса и тарифов
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 10.51.57.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 10.51.57.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 В виджете доступны для просмотра все курсы, которые вы создали в Salebot. Единственное ограничение - <mark style="color:green;">**это один курс = один виджет**</mark>. Тогда как аналитику можно просмотреть по одному курсу сразу по нескольким тарифам, которые существуют в вашем курсе.&#x20;
 
@@ -76,17 +76,17 @@
 
 6. Отображать статистику - настройка для выбора данных, которые будут учтены в виджете:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 11.08.17.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 11.08.17.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 В данном случае для курсов вы можете увидеть статистику:
 
 а) **по домашним заданиям**, куда включены данные по принятым, отклоненным д/з, общему количеству и ожидающих проверки:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 11.11.36.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 11.11.36.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 б) **по продажам курса**:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 11.12.33.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 11.12.33.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Обращаем внимание!&#x20;
@@ -96,15 +96,15 @@
 
 в) **по количеству зарегистрированных клиентов на курсе**, где отображается количество учеников, которые приобрели курс, которые ввели данные для покупки, но не оплатили, и зашедшие для покупки курса:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 11.13.30.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 11.13.30.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 г) по прохождению курсов:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 11.17.27.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 11.17.27.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 После того, как вы применили все необходимые настройки для виджета курса, нажмите на "добавить виджет":
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 11.18.53.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-26 в 11.18.53.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="success" %}
 Теперь вы знаете, как отслеживать статистику ваших курсов и умеете настраивать виджеты.&#x20;
@@ -114,7 +114,7 @@
 
 Также отследить количество записанных учеников и выручку вы сможете в разделе курсы:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 15.44.52.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 15.44.52.png" alt=""><figcaption></figcaption></figure></div>
 
 На карточке курса отображается:
 
@@ -124,4 +124,4 @@
 
 При клике на показатель "Выручка", вы перейдете в раздел "Аналитика" во вкладку "Курсы:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 15.47.16.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-14 в 15.47.16.png" alt="" width="563"><figcaption></figcaption></figure></div>

@@ -2,7 +2,7 @@
 
 Статистические данные теперь можно просматривать и по работе оператора в проекте.&#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 13.22.44.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 13.22.44.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="success" %}
 Обращаем внимание!
@@ -12,7 +12,7 @@
 
 В разделе операторы не нужно ничего настраивать, поскольку подсчет ведется автоматически, но только в рабочее время вашего оператора:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 13.25.24.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 13.25.24.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Как настраивать рабочее время, рассказали в статье "[Сотрудники](/broken/pages/SIUeJLHQq31693zHRNLY#avtomatizaciya)".&#x20;
@@ -20,7 +20,7 @@
 
 Вы можете выбрать период, в который необходимо просмотреть статистические данные по операторам:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 13.28.26.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 13.28.26.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Значения
 
@@ -30,11 +30,11 @@
 
 а) по дням:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-07 в 11.22.45.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-07 в 11.22.45.png" alt=""><figcaption></figcaption></figure></div>
 
 б) по часам по определенному дню:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-07 в 11.46.49.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-07 в 11.46.49.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="success" %}
 Внимание!&#x20;
@@ -44,7 +44,7 @@
 
 2. В строке с определенным оператором указаны значения в формате <mark style="color:purple;">**секунды**</mark>**/**<mark style="color:orange;">**ответы**</mark>**/**<mark style="color:blue;">**диалоги:**</mark>
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-07 в 11.21.28.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-07 в 11.21.28.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 * <mark style="color:blue;">**NN диалогов**</mark> — это общее количество диалогов с клиентами, в которых ваши операторы отвечали клиентам:
 
@@ -54,16 +54,16 @@
 
 а) Значение по дням:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-07 в 11.19.05.png" alt=""><figcaption><p>Всего диалогов за день</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-07 в 11.19.05.png" alt="" width="563"><figcaption><p>Всего диалогов за день</p></figcaption></figure></div>
 
 б) Значение по часам:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-07 в 11.58.12.png" alt=""><figcaption><p>Всего диалогов с 18:00:00 до 18:59:59</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-07 в 11.58.12.png" alt="" width="563"><figcaption><p>Всего диалогов с 18:00:00 до 18:59:59</p></figcaption></figure></div>
 
 {% hint style="info" %}
 Внимание!&#x20;
 
-Значения по часам учитываются по рабочему времени, выставленному в проекте (в разделе "Сотрудники" -> "[Автоматизация](/broken/pages/SIUeJLHQq31693zHRNLY#avtomatizaciya)").&#x20;
+Значения по часам учитываются по рабочему времени, выставленному в проекте (в разделе "Сотрудники" -> "[Автоматизация](../../o-nas/administrirovanie/sotrudniki.md#avtomatizaciya)").&#x20;
 
 Соответственно, часы указываются по часовому поясу проекта.&#x20;
 {% endhint %}
@@ -72,21 +72,21 @@
 
 а) по дням:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-07 в 11.51.20.png" alt=""><figcaption><p>Например, оператор направил 72 сообщения в 37 диалогах</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-07 в 11.51.20.png" alt="" width="563"><figcaption><p>Например, оператор направил 72 сообщения в 37 диалогах</p></figcaption></figure></div>
 
 б) по часам:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-07 в 12.08.00.png" alt=""><figcaption><p>Например, оператор отправил 8 ответов в пяти диалогах в период с 18:00 до 18 ч. 59 мин. 59 сек</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-07 в 12.08.00.png" alt="" width="563"><figcaption><p>Например, оператор отправил 8 ответов в пяти диалогах в период с 18:00 до 18 ч. 59 мин. 59 сек</p></figcaption></figure></div>
 
 * &#x20;<mark style="color:purple;">**NN cекунд**</mark> — среднее значение времени, затраченное на ответы в диалогах.&#x20;
 
 а) по дням:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-07 в 12.14.12.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-07 в 12.14.12.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 б) по часам:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-07 в 12.17.04.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-07 в 12.17.04.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Среднее значение времени учитывается следующим образом: учитывается время отклика, затраченное оператором на КАЖДЫЙ ответ, и делится на общее количество ответов (по дням, если статистика за день, и по часам, если статистика за час).&#x20;

@@ -2,21 +2,21 @@
 
 В разделе "Аналитика" также можно создать виджет для анализа данных по вашим сделкам или состояниям воронки в CRM-системе:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 13.14.55.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 13.14.55.png" alt=""><figcaption></figcaption></figure></div>
 
 Чтобы создать новый виджет для CRM, кликните на одноименную кнопку в правом углу экрана либо на форму виджета:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 13.18.04.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 13.18.04.png" alt=""><figcaption></figcaption></figure></div>
 
 Далее откроется окно настройки, стандартное для всех виджетов:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 13.21.12.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 13.21.12.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Настройки внешнего вида
 
 Шаг 1. В окне настройки выберите необходимый период:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.13.09.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.13.09.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Это может быть нынешний день, предыдущий, месяц или год.&#x20;
 
@@ -28,79 +28,79 @@
 
 Шаг 2. Выберите иконку виджета:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.16.39.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.16.39.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Данный шаг необязателен, но при необходимости вы можете подобрать более интересное, на ваш взгляд, изображение.
 
 Шаг 3. Название виджета:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.17.43.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.17.43.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Данное поле является обязательным! Если вы не пропишите название виджета, то не сможете сохранить и добавить его в свой раздел аналитики:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.19.20.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.19.20.png" alt=""><figcaption></figcaption></figure></div>
 
 Шаг 4. Вид диаграммы:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.20.11.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.20.11.png" alt=""><figcaption></figcaption></figure></div>
 
 Данные будут отображены в зависимости от вида диаграммы, всего существует 4 вида:
 
 1. Круговая:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.24.10.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.24.10.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 2. Столбчатая:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.21.13.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.21.13.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 3. Линейчатая:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.21.39.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.21.39.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 4. Упрощенная:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.22.52.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.22.52.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Параметры построения диаграммы
 
 В виджете существуют различные параметры, на основе которых строится диаграмма. Каждый показатель отображает единую картину данных аналитики либо по количеству (сделок/клиентов), либо по среднему значению.&#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.29.51.png" alt="" width="266"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.29.51.png" alt="" width="266"><figcaption></figcaption></figure></div>
 
 1. Количество сделок - отображает количественный показатель всех сделок за данный период:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.32.15.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.32.15.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 В данном случае мы видим, что клиенты совершили 37 сделок за данный период.
 
 2. Количество клиентов:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.33.40.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.33.40.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Показывает количество клиентов за данный период, совершивших какие-либо сделки в вашей воронке.&#x20;
 
 3. Сумма стоимостей:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.37.34.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.37.34.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Данный параметр высчитывает итоговую стоимость всех состоявшихся сделок: например, было совершено три сделки по 100, 200 и 300 рублей. Сумма стоимостей сделок будет равна 600 единицам.
 
 4. Среднее по стоимости:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.41.15.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.41.15.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Данная настройка высчитывает среднее значение всех стоимостей сделок: например, было совершено три сделки по 100, 200 и 300 рублей, среднее значение стоимости всех трех сделок будет равняться - 200 единиц.&#x20;
 
 5. LTV - индекс покупок:&#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.44.10.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.44.10.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Данный показатель отображает сколько сделок приходится на ОДНОГО клиента: например, первый клиент совершил три сделки, второй клиент - одну, а третий - две. Индекс покупок будет равен как среднее значение сделок на клиента, то есть 2 сделки на одного клиента.&#x20;
 
 После первого параметра также можно выбрать отображение второго с теми же показателями:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.47.13.png" alt="" width="286"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.47.13.png" alt="" width="286"><figcaption></figcaption></figure></div>
 
 {% hint style="success" %}
 Второй параметр не влияет на отображение первого параметра и может быть использован для сравнительного анализа показателей в виджете:
@@ -108,13 +108,13 @@
 
 ### Фильтр сделок
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.49.52.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.49.52.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Фильтр сделок отобразит значения по выбранными вами показателями: например, подсчет статистики из определенного состояния воронки или по определенным спискам клиентов.&#x20;
 
 При фильтрации показателей для виджета можно применить несколько значений, добавив еще один или несколько шагов при клике на соответствующую кнопку:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 18.04.07.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 18.04.07.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### Фильтрация по параметрам сделки
 
@@ -122,19 +122,19 @@
 
 1. По ответственным сотрудникам:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.52.25.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.52.25.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Осуществит подсчет данных аналитики только по выбранным сотрудникам, которые были назначены ответственными по каким-либо сделкам.
 
 2. Ценовой диапазон:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.53.56.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.53.56.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Выведет статистические данные в зависимости от установленного ценового диапазона.
 
 3. По воронке:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.54.55.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.54.55.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Отфильтрует статистические показатеои в зависимости от состояния сделки в CRM-системе или в зависимости от воронки.
 
@@ -144,18 +144,18 @@
 
 1. По блоку воронки:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.58.50.png" alt="" width="292"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 17.58.50.png" alt="" width="292"><figcaption></figcaption></figure></div>
 
 Отфильтрует показатели по нахождению клиента в определенном состоянии воронки в конструкторе чат-бота.
 
 2. По каналам:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 18.00.48.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 18.00.48.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Отобразит показатели по клиентам в зависимости от канала, в котором с вами связывался клиент или в котором осуществил свою сделку.
 
 3. По спискам/меткам:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 18.02.14.png" alt="" width="269"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-27 в 18.02.14.png" alt="" width="269"><figcaption></figcaption></figure></div>
 
 Отобразит показатели по клиентам в зависимости от выбранного вами списка или метки.

@@ -2,14 +2,14 @@
 
 С помощью вкладки "Онлайн-чат" можно провести оценку и качество оказываемой поддержки на вашем курсе или на сайте, к которому вы привязали чат.&#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 12.56.23.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 12.56.23.png" alt=""><figcaption></figcaption></figure></div>
 
 Если у вас уже есть существующий онлайн-чат, то перейдите в настройках во вкладку "Оценка качества":
 
-<figure><img src="../../.gitbook/assets/2024-03-07_17-12-27.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/2024-03-07_17-12-27.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-Как настроить создать и настроить онлайн-чат, читайте в [одноименной статье](/broken/pages/-M1KvJVpNh4GFYbYGYgQ).&#x20;
+Как настроить создать и настроить онлайн-чат, читайте [в одноименной статье.](../../chat-boty/onlain-chat.md)
 {% endhint %}
 
 Далее можно настроить оценку качества по своему усмотрению.&#x20;
@@ -24,7 +24,7 @@
 
 Далее все статистические данные отображаются во вкладке "Онлайн-чат" в аналитике. При этом, даже если клиент не оставил никакую оценку, это также отобразится в статистике:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 12.57.06.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 12.57.06.png" alt=""><figcaption></figcaption></figure></div>
 
 Также вы сможете увидеть в этом же разделе аналитики отзывы на диалоги чуть ниже.&#x20;
 
@@ -32,22 +32,22 @@
 
 При переходе в раздел "Онлайн-чат" без примененных фильтров отображается все оценки работы кураторов/операторов во всех онлайн-чатах:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 13.12.30.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 13.12.30.png" alt=""><figcaption></figcaption></figure></div>
 
 Можно просмотреть аналитику по различным периодам — для этого необходимо выбрать дату, с которой нужно просмотреть оценки:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 12.57.34.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 12.57.34.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Также, если у вас создано и подключено несколько онлайн-чатов, то можно выбрать данные только для определенного чата:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 13.01.57.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 13.01.57.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Далее можно просмотреть оценки только для определенного сотрудника (оператора, куратора и пр.):
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 13.05.03.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 13.05.03.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 И также выбрать оценки работы вашего онлайн-чата:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 13.06.50.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-09-01 в 13.06.50.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 После того, как вы выбрали необходимые фильтры, нажмите "Применить".
