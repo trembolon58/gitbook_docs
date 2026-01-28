@@ -8,7 +8,7 @@ description: >-
 
 В разделе "Клиенты" (при клике в левом списке на пользователя) можно открыть диалоговое окно, чтобы просмотреть необходимую информацию и историю переписки с клиентом:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 14.24.04.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 14.24.04.png" alt=""><figcaption></figcaption></figure></div>
 
 При этом можно вести общение с пользователями из разных мессенджеров в едином разделе "Клиенты" — не нужно переключаться каждый раз к разным мессенджерам, социальным сетям или чату с объявлением (например, для Юлы, Циана или Авито).
 
@@ -16,7 +16,7 @@ description: >-
 
 Правый бар - это карточка клиента, в которой указана вся информация о нем. В карточку записаны, как стандартные переменные, так и те которые вы записываете в боте, лендинге или получаете из сторонних сервисов (например телефонии):
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 14.30.14.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 14.30.14.png" alt=""><figcaption></figcaption></figure></div>
 
 <p align="center"><em>p.s. все данные вымышлены, совпадения случайны</em></p>
 
@@ -32,31 +32,31 @@ description: >-
 
 В каждой карточке есть стандартные поля и кнопки взаимодействия.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 14.33.10.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 14.33.10.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 <p align="center"><em>p.s. все данные вымышлены, совпадения случайны</em></p>
 
 Если клиент обращается из мессенджера и у него установлен аватар, то он отобразится в карточке клиента. Также будет указано имя клиента (автоматически прописывается из мессенджера: номер телефона для whatsapp, имя пользователя — для Telegram, имя и фамилия — для Вконтакте и т.д.)  :
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 14.47.52.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 14.47.52.png" alt=""><figcaption></figcaption></figure></div>
 
 Чтобы изменить имя клиента, нажмите на кнопку карандаша и пропишите необходимое:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 14.49.33.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 14.49.33.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ID клиента - это идентификатор клиента в salebot, _<mark style="color:orange;">уникальный номер</mark>_ клиента. Этот идентификатор (client\_id) используется при работе с функциями в salebot, а так же может понадобится при работе с клиентами (поиск, связывание клиентов и прочее).&#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 14.52.34.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 14.52.34.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Кнопка "Передать клиента" - кнопка позволят назначить ответственного для данного клиента.
 
 Также ответственного можно назначить в плашке "Ответственный":
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 14.57.55.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 14.57.55.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Во вкладке "О клиенте" можно увидеть карточку "Контакты":
 
-<figure><img src="https://docs.salebot.pro/~gitbook/image?url=https%3A%2F%2F4216716816-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-LxKl4rC_EcwBAz40Qn_%252Fuploads%252FY8W0lqOPwBgtzYXgJqga%252FScreenshot%25202025-12-30%2520at%252012.10.51.png%3Falt%3Dmedia%26token%3D0bcadaa3-5a8a-46f2-8a91-a62ce9b78ad4&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=352ffbb6&#x26;sv=2" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="https://docs.salebot.pro/~gitbook/image?url=https%3A%2F%2F4216716816-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-LxKl4rC_EcwBAz40Qn_%252Fuploads%252FY8W0lqOPwBgtzYXgJqga%252FScreenshot%25202025-12-30%2520at%252012.10.51.png%3Falt%3Dmedia%26token%3D0bcadaa3-5a8a-46f2-8a91-a62ce9b78ad4&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=352ffbb6&#x26;sv=2" alt="" width="563"><figcaption></figcaption></figure></div>
 
 В данной карточке отображается номер телефона и / или электронная почта, полученные:
 
@@ -64,25 +64,25 @@ ID клиента - это идентификатор клиента в salebot,
 
 Пример схемы со сбором данных номера телефона (email) в переменные phone (email):
 
-<figure><img src="https://docs.salebot.pro/~gitbook/image?url=https%3A%2F%2F4216716816-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-LxKl4rC_EcwBAz40Qn_%252Fuploads%252FW3MLCnansq53rSvz7Wu7%252FScreenshot%25202025-12-30%2520at%252012.17.44.png%3Falt%3Dmedia%26token%3D93338913-1b44-4193-91a4-18c6915f5540&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=d7c191ba&#x26;sv=2" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="https://docs.salebot.pro/~gitbook/image?url=https%3A%2F%2F4216716816-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-LxKl4rC_EcwBAz40Qn_%252Fuploads%252FW3MLCnansq53rSvz7Wu7%252FScreenshot%25202025-12-30%2520at%252012.17.44.png%3Falt%3Dmedia%26token%3D93338913-1b44-4193-91a4-18c6915f5540&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=d7c191ba&#x26;sv=2" alt="" width="563"><figcaption></figcaption></figure></div>
 
 [Подробнее, как работать со стрелкой со сбором данных, рассказали здесь.](../../chat-boty/kak-sozdat-chat-bot-dlya-biznesa/strelki-soedineniya/tipy-soedinenii-strelok.md#strelka-so-sborom-dannykh)
 
 1. Можно заполнить данные вручную в разделе "О клиенте":
 
-<figure><img src="https://docs.salebot.pro/~gitbook/image?url=https%3A%2F%2F4216716816-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-LxKl4rC_EcwBAz40Qn_%252Fuploads%252FHxt18G13RdXLzo1v9y4E%252FScreenshot%25202025-12-30%2520at%252012.19.56.png%3Falt%3Dmedia%26token%3D2d57ea0e-770f-4c76-beb4-80e06de8ac3a&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=416c0dc3&#x26;sv=2" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="https://docs.salebot.pro/~gitbook/image?url=https%3A%2F%2F4216716816-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-LxKl4rC_EcwBAz40Qn_%252Fuploads%252FHxt18G13RdXLzo1v9y4E%252FScreenshot%25202025-12-30%2520at%252012.19.56.png%3Falt%3Dmedia%26token%3D2d57ea0e-770f-4c76-beb4-80e06de8ac3a&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=416c0dc3&#x26;sv=2" alt="" width="563"><figcaption></figcaption></figure></div>
 
 2. При создании сделки в боте со сбором данных клиента или при ручном создании сделки (нужно заполнить поля телефон и почта):
 
-<figure><img src="https://docs.salebot.pro/~gitbook/image?url=https%3A%2F%2F4216716816-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-LxKl4rC_EcwBAz40Qn_%252Fuploads%252FpdgO0QBVOIiktwvuIVLE%252FScreenshot%25202025-12-30%2520at%252012.24.32.png%3Falt%3Dmedia%26token%3D172d0b25-5491-498d-9a76-880cdb5f97e5&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=b31e167d&#x26;sv=2" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="https://docs.salebot.pro/~gitbook/image?url=https%3A%2F%2F4216716816-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-LxKl4rC_EcwBAz40Qn_%252Fuploads%252FpdgO0QBVOIiktwvuIVLE%252FScreenshot%25202025-12-30%2520at%252012.24.32.png%3Falt%3Dmedia%26token%3D172d0b25-5491-498d-9a76-880cdb5f97e5&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=b31e167d&#x26;sv=2" alt="" width="375"><figcaption></figcaption></figure></div>
 
 3. При заполнении клиентом формы сбора данных ([при включении переключателя в настройках "Создать сделку в CRM](https://docs.salebot.pro/~/changes/5570/saity-dlya-biznesa/konstruktor-saitov/minilendingi-v-socialnykh-setyakh/sekcii-bloki/sekciya-forma#kak-dobavit-sdelku-v-salebotcrm-s-saita)")
 
-<figure><img src="https://docs.salebot.pro/~gitbook/image?url=https%3A%2F%2F4216716816-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-LxKl4rC_EcwBAz40Qn_%252Fuploads%252FE0z8i8UXU9c1yDa3udPy%252F%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2520%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%25202024-04-25%2520%25D0%25B2%252012.59.55.png%3Falt%3Dmedia%26token%3D1f99ea2d-df02-4036-865e-3e36bc724df9&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=59788087&#x26;sv=2" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="https://docs.salebot.pro/~gitbook/image?url=https%3A%2F%2F4216716816-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-LxKl4rC_EcwBAz40Qn_%252Fuploads%252FE0z8i8UXU9c1yDa3udPy%252F%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2520%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%25202024-04-25%2520%25D0%25B2%252012.59.55.png%3Falt%3Dmedia%26token%3D1f99ea2d-df02-4036-865e-3e36bc724df9&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=59788087&#x26;sv=2" alt="" width="563"><figcaption></figcaption></figure></div>
 
 В карточке клиента отображаются данные по этапу воронки, в которой находится клиент на текущий момент и реализована возможность перемещения клиента:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 14.59.37.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 14.59.37.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Если клиент не привязан к сделке или воронке, состояние сделки отображаться не будет.
@@ -92,7 +92,7 @@ ID клиента - это идентификатор клиента в salebot,
 
 Также в данном блоке вы можете добавить клиенту метку или переместить его в список. Метки и списки можно создать из карточки клиента:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 15.06.06.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 15.06.06.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 <details>
 
@@ -125,17 +125,17 @@ ID клиента - это идентификатор клиента в salebot,
 Ниже в карточке клиента расположен блок с переменными и редактором переменных. \
 Вы можете добавить переменную из данного блока указав тип переменной (переменная клиента или переменная сделки) задав ее имя и значение.&#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 15.05.33.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 15.05.33.png" alt=""><figcaption></figcaption></figure></div>
 
 Также в карточке указаны системные переменные: в документации будем рассматривать только их, так как набор переменных, которые вы можете задать в своем проекте, будет уникальным.
 
 {% hint style="info" %}
-Подробнее о переменных рассказали [в одноименной статье.](/broken/pages/-LxpXZscJeU6Wb2MlqSH)&#x20;
+Подробнее о переменных рассказали [в одноименной статье. ](../../chat-boty/peremennye-i-funkcii/peremennye.md)
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 15.13.39.png" alt="" width="563"><figcaption></figcaption></figure>
 
-1. _**Тег**_ - Переменная-идентификатор которая позволяет отследить откуда пришел клиент. [Подробно о теге рассказали тут](/broken/pages/2TrIRoeYDBBvuN7VZouE#teg)
+1. _**Тег**_ - Переменная-идентификатор которая позволяет отследить откуда пришел клиент. [Подробно о теге рассказали тут](../../saity-dlya-biznesa/konstruktor-saitov/nastroiki-stranicy-saita.md#teg)
 2. _**Дата создания**_ - это дата и время в которые был создан текущий клиент. Часовой пояс указан тот, который задан в проекте.&#x20;
 3. _**Последнее действие**_ - время последнего действия с клиентом
 4. _**Источник**_ - мессенджер из которого пришел клиент.
@@ -178,7 +178,7 @@ ID клиента - это идентификатор клиента в salebot,
 
 10. **Прокси ссылки** — отображает количество прокси ссылок клиента. При нажатии открывается таблица этих прокси ссылок.
 
-<figure><img src="../../.gitbook/assets/links.jpg" alt="" width="563"><figcaption><p>Таблица прокси-ссылок в карточке клиента</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/links.jpg" alt="" width="563"><figcaption><p>Таблица прокси-ссылок в карточке клиента</p></figcaption></figure></div>
 
 ### Комментарии
 
@@ -188,54 +188,54 @@ ID клиента - это идентификатор клиента в salebot,
 
 Это удобно когда вопрос клиента находится на уточнении или с клиентами работает несколько операторов или сотрудников из разных отделов.&#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 15.34.32.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 15.34.32.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Комментарий можно оставить также, если нажать на "Преобразовать в комментарий", когда пишите сообщение:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 15.36.06.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 15.36.06.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 В комментарии будет указан его создатель и дата/время. Также оставленный в диалоге комментарий можно удалить, редактировать или закрепить в диалоге клиента. Выбрать действие можно в боковом меню:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 15.37.02.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 15.37.02.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Сделки
 
 Во вкладке "Сделки" отображаются все сделки клиента и активные, и уже завершенные.&#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 16.07.08.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 16.07.08.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Пример успешной закрытой сделки:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 16.10.04.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 16.10.04.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Если сделка закрыта, но вам необходимо добавить в нее переменную, то вы можете это сделать нажав на активную строку _**"+ Новая переменная".**_&#x20;
 
 В этой вкладке вы можете создать новую сделку для данного клиента. \
 Нажмите кнопку _**"+ Создать сделку"**_ и введите данные в форму создания. Укажите бюджет, задайте все необходимые данные и выберите состояние воронки для созданной сделки:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 16.11.19.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 16.11.19.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Задачи
 
 Раздел "Задачи" поможет поставить задачу на ответственного сотрудника и не забыть о её выполнении.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 16.17.24.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 16.17.24.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Создать задачу можно по клику на одноименную кнопку.&#x20;
 
 Для создания укажите название задачи, внесите ее описание, приоритет и укажите дату выполнения:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 16.20.56.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 16.20.56.png" alt=""><figcaption></figcaption></figure></div>
 
 Когда задача создана она отобразиться в разделе с описанием и датами выполнения.&#x20;
 
 ## **Диалоговое окно**
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 16.37.49.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 16.37.49.png" alt=""><figcaption></figcaption></figure></div>
 
 Верхняя часть содержит имя клиента, время последнего действия клиента, id в мессенджере.
 
-<figure><img src="../../.gitbook/assets/Запись-экрана-2025-07-10-в-16.39.54-_online-video-cutter.com_.gif" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Запись-экрана-2025-07-10-в-16.39.54-_online-video-cutter.com_.gif" alt=""><figcaption></figcaption></figure></div>
 
 Кнопки и меню в блоке:&#x20;
 
@@ -249,27 +249,27 @@ ID клиента - это идентификатор клиента в salebot,
 
 В диалоговом окне отображаются сообщения от клиента, сообщения менеджеров и от бота, а также системные уведомления, которые отображаются желтым цветом (колбеки, комментария, которые клиент не видит):
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 16.47.45.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 16.47.45.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Все сообщения содержат контекстное меню. Обычные сообщения можно закрепить или удалить:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 16.50.22.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 16.50.22.png" alt=""><figcaption></figcaption></figure></div>
 
 Закрепленное сообщение будет отображаться в верхней части, с указанием времени отправки. Открепить сообщение можно с помощью крестика:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 16.51.20.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 16.51.20.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Можно переотправлять сообщение клиенту, при этом существует функционал изменения темы сообщения (для email-ботов), если перессылка осуществляется, например, из Telegram на электронную почту.&#x20;
 
 Удалять сообщения могут все сотрудники, кроме операторов. Чтобы ограничить возможность удаления сообщений, вы можете настроить роли.&#x20;
 
 {% hint style="info" %}
-Как работать с ролями рассказали в статье "[Сотрудники](/broken/pages/SIUeJLHQq31693zHRNLY#chto-takoe-rol-v-salebot)"
+Как работать с ролями рассказали в статье "[Сотрудники](../../o-nas/administrirovanie/sotrudniki.md)"
 {% endhint %}
 
 ## **Форма отправки сообщения**
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-12 в 18.02.54.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-12 в 18.02.54.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 _**Главное поле**_ — поле ввода сообщения для отправки клиенту.\
 Меню формы
@@ -277,7 +277,7 @@ _**Главное поле**_ — поле ввода сообщения для 
 1. _**Отправить emoji (смайлик)**_ открывает меню с выбором emoji, чтобы добавить emoji в ваше сообщение, просто нажмите на нужную иконку.
 2. _**Прикрепить файл**_ - загрузить файл для отправки клиенту. Открывает меню с выбором типа файла. Также в этом окне вы можете просмотреть ранее загруженные файлы, их размер, дату загрузки и название. Ненужные файлы можно удалять.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-12 в 18.08.20.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-12 в 18.08.20.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="success" %}
 Вы можете загрузить изображения из буфера обмена, просто вставив его в главное поле ввода сообщения. Оно будет загружено к нам на сервис и будет занимать 1 из 40 мест
@@ -287,32 +287,32 @@ _**Главное поле**_ — поле ввода сообщения для 
 
 3. _**Быстрые ответы**_ - позволяет создавать шаблоны сообщений для отправки клиентам. Также можно формировать отдельные папки для удобства поиска и категорирования готовых сообщений.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 16.55.39.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 16.55.39.png" alt=""><figcaption></figcaption></figure></div>
 
 После клика на кнопку (См. пример выше), откроется небольшая форма с заполнением поля названия раздела ответов:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 16.56.08.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 16.56.08.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 После создания разделов, их можно перемещать в любом удобном порядке:
 
-<figure><img src="../../.gitbook/assets/перемещаем-ответы-_online-video-cutter.com_.gif" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/перемещаем-ответы-_online-video-cutter.com_.gif" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Чтобы создать сообщение с быстрым ответом, кликните по необходимой папке (разделу):&#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 17.01.35.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 17.01.35.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 после чего вы увидите форму добавления быстрого ответа:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 16.59.45.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 16.59.45.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 4. _**Отправить сообщение из воронки**_  - позволяет отправить клиенту сообщение, из конкретного блока. После отправки сообщения, клиент будет перенаправлен в выбранный блок, а его дальнейшие действия будут зависеть от последующей цепочки в разделе воронки. \
    В открывшемся окне выбора блока из раздела воронки необходимо выбрать нужный блок. Блоки можно отфильтровать их по цвету (типу), найти через форму поиска по описанию, ID или ответу.
 
-<figure><img src="../../.gitbook/assets/блоки.jpg" alt=""><figcaption><p>окно с выбором блока из схемы</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/блоки.jpg" alt=""><figcaption><p>окно с выбором блока из схемы</p></figcaption></figure></div>
 
 Сообщение из выбранного блока можно отредактировать из главного поля. Кнопка Удалить блок удалит выбранный блок:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 17.02.32.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 17.02.32.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 5. _**Преобразовать в комментарий**_ - позволяет преобразовывать сообщение в комментарий для подготовки более полного ответа клиенту и комментирования действий сотрудника в диалоге.
 
@@ -322,7 +322,7 @@ _**Главное поле**_ — поле ввода сообщения для 
 
 6. **Иконка таймера** -  при нажатии открывается меню, в котором можно выбрать точное время для отправки сообщения. Чтобы выбрать дату и время, нужно кликнуть на соответствующее поле.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 17.04.17.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 17.04.17.png" alt=""><figcaption></figcaption></figure></div>
 
 7. **Кнопка отправки сообщения** — отправляет введённое сообщение.&#x20;
 
@@ -330,27 +330,27 @@ _**Главное поле**_ — поле ввода сообщения для 
 
 8. Сгенерировать текст с помощью ИИ
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-12 в 18.10.12.png" alt="" width="498"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-12 в 18.10.12.png" alt="" width="498"><figcaption></figcaption></figure></div>
 
 Кликните по кнопке, после чего откроется модальное окно с выбором АИ-ассистента:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-12 в 18.12.28.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-12 в 18.12.28.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Чтобы сгенерировать любой необходимый текст с помощью ИИ, выберите АИ-ассистента, который будет вами использован:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-12 в 18.25.49.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-12 в 18.25.49.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Затем кликните на "Закрыть" и пропишите в поле для сообщения - необходимый текст.&#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-12 в 18.40.28.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-12 в 18.40.28.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 После чего кликните по кнопке для генерации текста:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-12 в 18.41.11.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-12 в 18.41.11.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Вы увидите результат в поле "Сообщения", переработанное ИИ:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-12 в 18.42.26.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-12 в 18.42.26.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ## Отличие ответственного за сделку и ответственного за клиента
 
@@ -360,19 +360,19 @@ _**Главное поле**_ — поле ввода сообщения для 
 
 В контексте диалогов с клиентом в Salebot - **ответственным за клиента** является тот менеджер (сотрудник) вашего проекта, который в данный момент ведет переписку с клиентом в разделе "Клиенты".&#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 15.16.26.png" alt=""><figcaption><p>Три способа, как назначить ответственного за клиента:<br>1. Кликнуть "Взять клиента";<br>2. Кликнуть "Передать клиента";<br>3. В поле "Ответственный" выбрать сотрудника.</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 15.16.26.png" alt=""><figcaption><p>Три способа, как назначить ответственного за клиента:<br>1. Кликнуть "Взять клиента";<br>2. Кликнуть "Передать клиента";<br>3. В поле "Ответственный" выбрать сотрудника.</p></figcaption></figure></div>
 
 Чтобы назначить ответственного, закрепленного за клиентом, можно перейти с ним в диалог и кликнуть на "Взять клиента":
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 15.20.39.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 15.20.39.png" alt=""><figcaption></figcaption></figure></div>
 
 Также ответственного, закрепленного за клиентом, можно изменить, кликнув на "Передать клиента" либо выбрав ответственного в выпадающем списке сотрудников в поле "Ответственный":
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 15.22.51.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 15.22.51.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 2. **Ответственный за сделку**, в свою очередь, фокусируется на конкретном этапе продаж, например, на заключении договора на этапе "Первичный контакт" или на выполнении заказа.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 15.33.16.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-25 в 15.33.16.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Чтобы просмотреть ответственных по сделкам клиентов, перейдите во вкладку "Сделки" в карточке клиента.
 

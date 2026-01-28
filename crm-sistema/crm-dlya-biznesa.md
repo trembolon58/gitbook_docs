@@ -17,43 +17,43 @@ CRM позволяют собирать и структурировать инф
 3. Управление задачами: создание, назначение и контроль выполнения задач, связанных с продажами, обслуживанием клиентов и другими бизнес-процессами (см. статью "[Задачи](zadachi.md)").
 4. Управление сделками: планирование, организация и анализ этапов сделок, отслеживание взаимодействия с клиентами и партнерами на всех этапах сделки.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 10.35.52.png" alt=""><figcaption><p>Рис. 1. CRM-система в Salebot<br>(p.s. все данные вымышлены и совпадения случайны)</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 10.35.52.png" alt=""><figcaption><p>Рис. 1. CRM-система в Salebot<br>(p.s. все данные вымышлены и совпадения случайны)</p></figcaption></figure></div>
 
 ## Основные настройки
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 10.36.59.png" alt=""><figcaption><p>Рис. 2. Название воронки CRM</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 10.36.59.png" alt="" width="563"><figcaption><p>Рис. 2. Название воронки CRM</p></figcaption></figure></div>
 
 Список воронок (рис. 2) - при клике на название воронки, откроется выпадающий список с созданными вронками в CRM, где вы сможете выбрать вкладку с филиалом:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 10.38.34.png" alt="" width="563"><figcaption><p>Рис. 3. Список воронок (филиалов) в CRM</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 10.38.34.png" alt="" width="563"><figcaption><p>Рис. 3. Список воронок (филиалов) в CRM</p></figcaption></figure></div>
 
 ### Создание и настройки воронки
 
 Здесь же, в меню со списком воронок, вы можете создать новую, кликнув по кнопке "+ Создать новую воронку":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 10.52.40.png" alt=""><figcaption><p>Рис. 4. Модальное окно для создания новой воронки</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 10.52.40.png" alt=""><figcaption><p>Рис. 4. Модальное окно для создания новой воронки</p></figcaption></figure></div>
 
 В открывшемся окне вам нужно прописать название воронки (филиала) и выбрать валюту (рис. 4).&#x20;
 
 После чего будет создана воронка без состояний\*:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 10.54.39.png" alt=""><figcaption><p>Рис. 5. Новая воронка в CRM без состояний.</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 10.54.39.png" alt=""><figcaption><p>Рис. 5. Новая воронка в CRM без состояний.</p></figcaption></figure></div>
 
 {% hint style="info" %}
 \*Состояния воронки CRM - это этапы, через которые проходит потенциальный клиент от момента первого контакта до завершения сделки или другого целевого действия. Каждый этап представляет собой определенный статус или стадию взаимодействия с клиентом, отражая его прогресс в процессе продажи или обслуживания (см. рис. 6)
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 10.58.52.png" alt=""><figcaption><p>Рис. 6. Состояния воронки</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 10.58.52.png" alt=""><figcaption><p>Рис. 6. Состояния воронки</p></figcaption></figure></div>
 
 Нажмите на кнопку "Создать", чтобы создать состояние\* воронки:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 11.12.09.png" alt=""><figcaption><p>Рис. 7. Модальное окно для создания состояния воронки<br>с полем для ввода названия состояния</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 11.12.09.png" alt=""><figcaption><p>Рис. 7. Модальное окно для создания состояния воронки<br>с полем для ввода названия состояния</p></figcaption></figure></div>
 
 Пропишите название состояния воронки, после чего нажмите "Готово".&#x20;
 
 Состояние будет создано в воронке, а вам откроется модальное окно для настроек воронки:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 11.14.20.png" alt=""><figcaption><p>Рис. 8. Настройки новой воронки в CRM</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 11.14.20.png" alt=""><figcaption><p>Рис. 8. Настройки новой воронки в CRM</p></figcaption></figure></div>
 
 В модальном окне (рис. 8) вы можете:
 
@@ -62,7 +62,7 @@ CRM позволяют собирать и структурировать инф
 3. Добавить новые состояния воронки;
 4. Отобразить необходимые поля в сделке в виде "Доска"\*\*:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 11.19.23.png" alt="" width="278"><figcaption><p>Рис. 9. Поля сделки</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 11.19.23.png" alt="" width="278"><figcaption><p>Рис. 9. Поля сделки</p></figcaption></figure></div>
 
 {% hint style="info" %}
 \*\*CRM можно отображать в виде доски и списка со сделками.
@@ -84,10 +84,10 @@ CRM в виде списка отображается таблицей со сд
 
 5. На карточках сделок можно отобразить переменные:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 11.27.22.png" alt="" width="563"><figcaption><p>Рис. 12. Настройки для отображения переменных в карточках сделок</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 11.27.22.png" alt="" width="563"><figcaption><p>Рис. 12. Настройки для отображения переменных в карточках сделок</p></figcaption></figure></div>
 
 {% hint style="info" %}
-Подробнее о том, что такое переменные, рассказали в одноименной статье "[Переменные](/broken/pages/-LxpXZscJeU6Wb2MlqSH)"
+Подробнее о том, что такое переменные, рассказали в одноименной статье "[Переменные](../chat-boty/peremennye-i-funkcii/peremennye.md)"
 {% endhint %}
 
 6. Отображение скрытых состояний
@@ -102,15 +102,15 @@ CRM в виде списка отображается таблицей со сд
 
 г) неразобранные сделки.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 11.38.07.png" alt="" width="563"><figcaption><p>Рис. 13. Состояния воронки по умолчанию</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 11.38.07.png" alt="" width="563"><figcaption><p>Рис. 13. Состояния воронки по умолчанию</p></figcaption></figure></div>
 
 В настройках воронки такие состояния можно скрыть или наоборот отобразить:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 11.39.26.png" alt="" width="563"><figcaption><p>Рис. 14. Настройки воронки: как скрыть или отобразить состояния, существующие по <br>умолчанию в CRM</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 11.39.26.png" alt="" width="563"><figcaption><p>Рис. 14. Настройки воронки: как скрыть или отобразить состояния, существующие по <br>умолчанию в CRM</p></figcaption></figure></div>
 
 7. Чекбоксы для настройки вывода и действия со сделками:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 11.41.19.png" alt="" width="563"><figcaption><p>Рис. 15. Дополнительные поля для отображения сделок</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 11.41.19.png" alt="" width="563"><figcaption><p>Рис. 15. Дополнительные поля для отображения сделок</p></figcaption></figure></div>
 
 #### Объединение сделок
 
@@ -124,15 +124,15 @@ CRM в виде списка отображается таблицей со сд
 
 Далее после настройки воронки нажмите "Сохранить":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 11.42.35.png" alt="" width="563"><figcaption><p>Рис. 16. Для сохранения настроек воронки нужно <br>нажать на "Сохранить"</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 11.42.35.png" alt="" width="563"><figcaption><p>Рис. 16. Для сохранения настроек воронки нужно <br>нажать на "Сохранить"</p></figcaption></figure></div>
 
 Теперь ваша новая воронка будет отображаться с установленными настройками:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 11.46.48.png" alt=""><figcaption><p>Рис. 17. Вид новой воронки в CRM-системе</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 11.46.48.png" alt=""><figcaption><p>Рис. 17. Вид новой воронки в CRM-системе</p></figcaption></figure></div>
 
 Чтобы вновь перейти в настройки воронки, нажмите на шестеренку в верхнем меню:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 11.48.25.png" alt=""><figcaption><p>Рис. 18. Кнопка для настроек воронки</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 11.48.25.png" alt=""><figcaption><p>Рис. 18. Кнопка для настроек воронки</p></figcaption></figure></div>
 
 ## Видеогид "Создать и удалить воронку в Salebot CRM"
 
@@ -154,7 +154,7 @@ CRM в виде списка отображается таблицей со сд
 
 Включить отображение неразобранного можно в настройках воронки, так же как и другие системные стадии (успешная/проваленная сделка/архивная сделка).
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 11.39.26.png" alt="" width="563"><figcaption><p>Рис. 19. Настройки воронки: как скрыть или отобразить состояния, существующие по <br>умолчанию в CRM</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 11.39.26.png" alt="" width="563"><figcaption><p>Рис. 19. Настройки воронки: как скрыть или отобразить состояния, существующие по <br>умолчанию в CRM</p></figcaption></figure></div>
 
 Отметьте чек-бокс для отображения системного состояния и сохраните настройки.
 
@@ -176,17 +176,17 @@ CRM в виде списка отображается таблицей со сд
 
 Далее найдите необходимую роль в списке или создайте новую:
 
-<figure><img src="../.gitbook/assets/2024-04-18_15-53-03.png" alt="" width="449"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/2024-04-18_15-53-03.png" alt="" width="449"><figcaption></figcaption></figure></div>
 
 После чего в настройках редактирования роли найдите вкладку SalebotCRM:
 
-<figure><img src="../.gitbook/assets/2024-04-18_16-02-20.png" alt="" width="536"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/2024-04-18_16-02-20.png" alt="" width="536"><figcaption></figcaption></figure></div>
 
 После чего выберите доступ для роли в проекте: доступны просмотр и редактирование; только просмотр либо раздел недоступен совсем.&#x20;
 
 Здесь же вы найдете чекбокс "Не может удалять состояния воронки" - именно он вам и нужен. Активируйте чекбокс, и тогда в настройках указанной роли будет стоять запрет на удаление.&#x20;
 
-<figure><img src="../.gitbook/assets/2024-04-18_15-54-01.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/2024-04-18_15-54-01.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Как создавать и настраивать роли для сотрудников в проекте, смотрите в статье "[Настраиваемые роли](/broken/pages/SIUeJLHQq31693zHRNLY)".
@@ -196,9 +196,9 @@ CRM в виде списка отображается таблицей со сд
 
 В настройках проекта в разделе "Callback" можно изменить вид колбека crm\_state\_changed — можно сделать его короче, убрав ID состояния.
 
-<figure><img src="../.gitbook/assets/IMAGE 2026-01-21 164122.jpg" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/IMAGE 2026-01-21 164122.jpg" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../.gitbook/assets/IMAGE 2026-01-21 164123.jpg" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/IMAGE 2026-01-21 164123.jpg" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Меняет вид коллбека "crm\_state\_changed " — это значит, что можно убрать или наоборот добавить ID состояния:
 
@@ -206,6 +206,6 @@ CRM в виде списка отображается таблицей со сд
 
 ## Функции API Salebot
 
-Для использования всех возможностей CRM через бота, ознакомьтесь со статьей:&#x20;
-
-{% embed url="https://docs.salebot.pro/peremennye-1/api-v-kalkulyatore#api-salebot" %}
+{% hint style="info" %}
+Для использования всех возможностей CRM через бота, ознакомьтесь со статьей "[Для работы с CRM](../chat-boty/peremennye-i-funkcii/kalkulyator/dlya-raboty-s-klientami-i-crm.md)"
+{% endhint %}

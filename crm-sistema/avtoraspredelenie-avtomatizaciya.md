@@ -8,7 +8,7 @@ description: Позволяет автоматически распределя�
 
 У каждого оператора есть меню настройки активности.
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdPgdR_ZbmWUBMkQneImaTaUmZaK6T8MxjGyVJTbgupQKJXVEjScnwc-WKSJj9-peC-zb6Yd-_S_yI848J4rO9txbYQkbte2Z5HA5goPWEkgFI6NLjAOjMb4HbA0tn3uujHl1y_dg?key=xhY-tTHpzMIIBvXVOxnYCQ" alt="" width="563"><figcaption><p>Статусы доступные операторам</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdPgdR_ZbmWUBMkQneImaTaUmZaK6T8MxjGyVJTbgupQKJXVEjScnwc-WKSJj9-peC-zb6Yd-_S_yI848J4rO9txbYQkbte2Z5HA5goPWEkgFI6NLjAOjMb4HbA0tn3uujHl1y_dg?key=xhY-tTHpzMIIBvXVOxnYCQ" alt="" width="563"><figcaption><p>Статусы доступные операторам</p></figcaption></figure></div>
 
 #### Обзор статусов:&#x20;
 
@@ -26,21 +26,21 @@ description: Позволяет автоматически распределя�
 
 Перейдите в раздел "Сотрудники" →"Автоматизация" → Активируйте переключатель автоматического распределения клиентов<br>
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcoWcoX4Qcl3xNnqsALE7eH9ewQlNyOikQeD3ZPlkN2fMzlbMipVFuwUN2eZWlysFIT8wAsZnbbdcH7-gl7MWt87SDQgFdhDQSZ-RPIS2XHRx9s-jWyTxaP53U97CjTyc5uiPwUlw?key=xhY-tTHpzMIIBvXVOxnYCQ" alt=""><figcaption><p>Настройки системы автораспределения системы</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcoWcoX4Qcl3xNnqsALE7eH9ewQlNyOikQeD3ZPlkN2fMzlbMipVFuwUN2eZWlysFIT8wAsZnbbdcH7-gl7MWt87SDQgFdhDQSZ-RPIS2XHRx9s-jWyTxaP53U97CjTyc5uiPwUlw?key=xhY-tTHpzMIIBvXVOxnYCQ" alt=""><figcaption><p>Настройки системы автораспределения системы</p></figcaption></figure></div>
 
 Режим работы
 
 Вы можете указать режим работы распределения круглосуточный или задать режим работы вашей компании.
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXf0KHuIVYeXUocRAnJ9NdYf4lBaAvDAGoLk0GWbRB8LTDWfn7DzGLfiY2LvlslK_XQJyEhTgnyjahKi5dtY16KCFb03x1qCML0IkUVTA6ym1j1eE08tidR2viegJ43A-yoZLB64dg?key=xhY-tTHpzMIIBvXVOxnYCQ" alt="" width="563"><figcaption><p>В примере активен режим круглосуточной работы</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXf0KHuIVYeXUocRAnJ9NdYf4lBaAvDAGoLk0GWbRB8LTDWfn7DzGLfiY2LvlslK_XQJyEhTgnyjahKi5dtY16KCFb03x1qCML0IkUVTA6ym1j1eE08tidR2viegJ43A-yoZLB64dg?key=xhY-tTHpzMIIBvXVOxnYCQ" alt="" width="563"><figcaption><p>В примере активен режим круглосуточной работы</p></figcaption></figure></div>
 
 Если вы выберите режим  “Период” вам необходимо установить рабочее время
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc9zNS7k2k4PjZAMIbYCnfJ88gKaLNMBojKCIaPhilWXob1ibIXvbIiYNmAMI9w7aDOl6caQ1ttiUTLXlMq6o9oyKHs5KORB5CZfvvfStPdFEO3BxnnryjpL5px7M9QEjdfKMegeg?key=xhY-tTHpzMIIBvXVOxnYCQ" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc9zNS7k2k4PjZAMIbYCnfJ88gKaLNMBojKCIaPhilWXob1ibIXvbIiYNmAMI9w7aDOl6caQ1ttiUTLXlMq6o9oyKHs5KORB5CZfvvfStPdFEO3BxnnryjpL5px7M9QEjdfKMegeg?key=xhY-tTHpzMIIBvXVOxnYCQ" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Выходные — выбор дней в которые система автораспределения работать не будет. В примере, как выходные выбраны суббота и воскресенье.<br>
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcu7e7EGRHZlmVyKIXChVjXOvR10VCiI4W2KOtMz9uqGBjwyOzA7OWHCx6hZo11L7AswxmMIX5eUYEN2nEyBg3v26DDFyrrpctfScl9U-jvU1nJxg3opaFTxHX-_Ffpxxj7u3hgLQ?key=xhY-tTHpzMIIBvXVOxnYCQ" alt="" width="563"><figcaption><p>Указаны выходные: Суббота и Воскресенье</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcu7e7EGRHZlmVyKIXChVjXOvR10VCiI4W2KOtMz9uqGBjwyOzA7OWHCx6hZo11L7AswxmMIX5eUYEN2nEyBg3v26DDFyrrpctfScl9U-jvU1nJxg3opaFTxHX-_Ffpxxj7u3hgLQ?key=xhY-tTHpzMIIBvXVOxnYCQ" alt="" width="563"><figcaption><p>Указаны выходные: Суббота и Воскресенье</p></figcaption></figure></div>
 
 ### Как это работает
 
@@ -62,12 +62,12 @@ description: Позволяет автоматически распределя�
 
 ## Настройки для операторов
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfMPDllwEKZ4besWFjwH2YfHsV-_lYxSKRH9MjfmRYGfR9IEn7lrY8xR446WxUBqwz1q4l7qcFxWEwVhXRUigyBKot5VEeA3X1w8ozZrlHiRQIzu0NX2ptpFLATQh-tL-LmjkbPNg?key=xhY-tTHpzMIIBvXVOxnYCQ" alt="" width="563"><figcaption><p>Настройки операторов раздел Сотрудники → Автоматизация</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfMPDllwEKZ4besWFjwH2YfHsV-_lYxSKRH9MjfmRYGfR9IEn7lrY8xR446WxUBqwz1q4l7qcFxWEwVhXRUigyBKot5VEeA3X1w8ozZrlHiRQIzu0NX2ptpFLATQh-tL-LmjkbPNg?key=xhY-tTHpzMIIBvXVOxnYCQ" alt="" width="563"><figcaption><p>Настройки операторов раздел Сотрудники → Автоматизация</p></figcaption></figure></div>
 
 1. **Отображать у операторов кнопки распределения клиентов** — Настройка позволяет оператору закрепить клиента за собой, передать его или отказаться от клиента.
 2. **Отображать у операторов разделы "Ожидают ответа" и "Свободные клиенты"** — выбор, нужно ли отображать иконки "Ожидают ответа" и "Свободные клиенты" в левом баре в диалоге с клиентами. Если функция включена, то отображение разделов будет таким, как в скриншоте ниже:&#x20;
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdQtDGOwqtGuOmbw6nUltndTrU07lPFm0GHw8tDxZiFmDT3wX-TVKij8dZ_6rSgyJfo6ksP-IzmN-ylrH-Ae28fvXetCKDF7A6peYULWnIs6UfYWmpgXmSBP9juGJkTVhc7F4yr?key=xhY-tTHpzMIIBvXVOxnYCQ" alt="" width="375"><figcaption><p>Отображение при активной функции</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdQtDGOwqtGuOmbw6nUltndTrU07lPFm0GHw8tDxZiFmDT3wX-TVKij8dZ_6rSgyJfo6ksP-IzmN-ylrH-Ae28fvXetCKDF7A6peYULWnIs6UfYWmpgXmSBP9juGJkTVhc7F4yr?key=xhY-tTHpzMIIBvXVOxnYCQ" alt="" width="375"><figcaption><p>Отображение при активной функции</p></figcaption></figure></div>
 
 3. **Снимать операторов со смены** - автоматически убирать операторов со смены по окончании рабочего дня. Конец рабочего дня - это время указанное в режиме работы.
 4. **Равномерно распределять клиентов за определенный интервал времени** - при активации, система распределяет клиентов равномерно за весь рабочий день. Например, если за весь день пришло 300 клиентов, а на смене было 6 операторов, то в этот день каждому досталось по 50 клиентов.\
@@ -88,22 +88,22 @@ description: Позволяет автоматически распределя�
 
 Кнопка “Очистить привязку к сотрудникам” - снимает привязку клиентов к операторам. Не распространяется на тех клиентов, которые пришли менее суток назад.
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXero4wxBxAzbp9DDNvIZPnBSsYngkXlJtzdrrJA1GgGMY6Tt0bqIU55KwD134Iea_DvLLYSKwBPotnPCXgpR7ZjduQSgZPe-brWqyseFhSH26eO8sPdwW_4CiyqTyADHh2jAOwohQ?key=xhY-tTHpzMIIBvXVOxnYCQ" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXero4wxBxAzbp9DDNvIZPnBSsYngkXlJtzdrrJA1GgGMY6Tt0bqIU55KwD134Iea_DvLLYSKwBPotnPCXgpR7ZjduQSgZPe-brWqyseFhSH26eO8sPdwW_4CiyqTyADHh2jAOwohQ?key=xhY-tTHpzMIIBvXVOxnYCQ" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Все сотрудники, которые имеют доступ к вашему проекту располагаются на вкладке "Сотрудники".
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfJio6cl8fiMumqMp3fp-TjfCQ3FfwfjMveD2Ua_eNCUaUvq31-yC4l9bJIUHExUscRw__oWs8VAF0_z8XToxq0jKCWg66VYPa6V-KYsOqNKpoOFyspcg6Zo45a_vB1TEHR6EVXww?key=xhY-tTHpzMIIBvXVOxnYCQ" alt="" width="563"><figcaption><p>Список сотрудников проекта.</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfJio6cl8fiMumqMp3fp-TjfCQ3FfwfjMveD2Ua_eNCUaUvq31-yC4l9bJIUHExUscRw__oWs8VAF0_z8XToxq0jKCWg66VYPa6V-KYsOqNKpoOFyspcg6Zo45a_vB1TEHR6EVXww?key=xhY-tTHpzMIIBvXVOxnYCQ" alt="" width="563"><figcaption><p>Список сотрудников проекта.</p></figcaption></figure></div>
 
 Если навести на три точки справа от сотрудника, то будет доступно контекстное меню с командами Редактировать и Удалить.
 
 При редактировании карточки сотрудника с ролью Оператор дополнительно открывается поле выбора статуса. Можно указать любой из обозначенных статусов: На смене, Перерыв или Отсутствую.
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcHEyqhb2IM6RO69cjCjS-JhxJLO8rbJEACF5kWScBtm8sOozJ30gFs1Y_1skVR-VWvAlqq_8ZCqDaaszAqDto7Nruamcc9aRirxVZkexymH2vRnYxTiglN2sbo6T97R7VeInOHqQ?key=xhY-tTHpzMIIBvXVOxnYCQ" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcHEyqhb2IM6RO69cjCjS-JhxJLO8rbJEACF5kWScBtm8sOozJ30gFs1Y_1skVR-VWvAlqq_8ZCqDaaszAqDto7Nruamcc9aRirxVZkexymH2vRnYxTiglN2sbo6T97R7VeInOHqQ?key=xhY-tTHpzMIIBvXVOxnYCQ" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Редактирование карточки сотрудника с ролью Оператор
 
 Вы можете работать, как со стандартными ролями сотрудников, так и созданными кастомными ролями. В таких ролях можно настроить доступы с гибкими настройками.&#x20;
 
 {% hint style="info" %}
-Подробно о том как создать свою роль рассказали[ тут.](https://docs.salebot.pro/administrirovanie/nastraivaemye-roli)
+[Подробно о том как создать свою роль рассказали тут.](../o-nas/administrirovanie/sotrudniki.md#kak-sozdat-novuyu-rol)
 {% endhint %}

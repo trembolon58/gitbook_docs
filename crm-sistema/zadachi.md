@@ -23,11 +23,11 @@ description: >-
 
 Все задачи отображаются по умолчанию в виде календаря:
 
-<figure><img src="../.gitbook/assets/2024-03-14_11-56-16.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/2024-03-14_11-56-16.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Однако при необходимости можно отобразить задачи в виде списка:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-03 в 11.33.39.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-04-03 в 11.33.39.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="success" %}
 Выбор отображения задач в виде списка или календаря сохранится автоматически: вам не нужно каждый раз переключаться на удобный формат, также в последующем вы сможете выбрать удобный формат в любое время.
@@ -39,7 +39,7 @@ description: >-
 
 Чтобы настроить редактирование задачи для других сотрудников, вам необходимо перейти в настройки сотрудника:
 
-<figure><img src="../.gitbook/assets/2024-03-14_10-03-26.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/2024-03-14_10-03-26.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Далее активируйте необходимые чекбоксы для определенной роли или сотрудника.
 
@@ -51,7 +51,7 @@ description: >-
 
 Чтобы создать задачу, нажмите на одноименную кнопку справка на экране, после чего откроется окно создания задачи:
 
-<figure><img src="../.gitbook/assets/2024-04-08_17-55-33.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/2024-04-08_17-55-33.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Также существует форма быстрого добавления задачи: для этого кликните на + напротив необходимой даты, где снизу откроется форма:
 
@@ -66,21 +66,21 @@ description: >-
 
 В карточке клиента SalebotCRM можно увидеть сколько задач по клиенту было создано
 
-<figure><img src="../.gitbook/assets/image (333).png" alt=""><figcaption><p>Какрточка клиента SalebotCRM. Красный значок - задачи</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (333).png" alt=""><figcaption><p>Какрточка клиента SalebotCRM. Красный значок - задачи</p></figcaption></figure></div>
 
 В клиентах можно создать/удалить задачу и посмотреть перечень задач этого клиента.
 
-<figure><img src="../.gitbook/assets/image (334).png" alt="" width="563"><figcaption><p>Карточка Клиента - вкладка Задачи. Создание новой задачи</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (334).png" alt="" width="563"><figcaption><p>Карточка Клиента - вкладка Задачи. Создание новой задачи</p></figcaption></figure></div>
 
-<figure><img src="../.gitbook/assets/image (335).png" alt="" width="426"><figcaption><p>Карточка Клиента - вкладка Задачи</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (335).png" alt="" width="426"><figcaption><p>Карточка Клиента - вкладка Задачи</p></figcaption></figure></div>
 
 В меню проекта можно увидеть общее число незакрытых задач:
 
-<figure><img src="../.gitbook/assets/image (336).png" alt=""><figcaption><p>Меню проекта</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (336).png" alt=""><figcaption><p>Меню проекта</p></figcaption></figure></div>
 
 Также создать задачу можно, не входя в диалог прямо в CRM-системе в воронке в списке имеющихся сделок с клиентами:
 
-<figure><img src="../.gitbook/assets/2023-11-16_14-27-45.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/2023-11-16_14-27-45.png" alt=""><figcaption></figcaption></figure></div>
 
 После нажатия на иконку задач откроется окно создания задач, аналогичное окну создания задачи в диалоге с клиентом:
 
@@ -88,15 +88,15 @@ description: >-
 
 После создания задачи, просмотреть ее можно, нажав на иконку задачи:
 
-<figure><img src="../.gitbook/assets/2023-11-16_14-51-59.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/2023-11-16_14-51-59.png" alt=""><figcaption></figcaption></figure></div>
 
 При нажатии на иконку, откроется диалоговое окно с клиентом с разделом задач:
 
-<figure><img src="../.gitbook/assets/2023-11-16_14-32-32.png" alt="" width="425"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/2023-11-16_14-32-32.png" alt="" width="425"><figcaption></figcaption></figure></div>
 
 Здесь вы можете отредактировать задачу, завершить ее или вовсе удалить.&#x20;
 
-<figure><img src="../.gitbook/assets/2023-11-16_14-33-37.png" alt="" width="407"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/2023-11-16_14-33-37.png" alt="" width="407"><figcaption></figcaption></figure></div>
 
 Для завершения задачи откройте окно редактирования, нажав на "Редактирование задачи".
 
@@ -106,11 +106,11 @@ description: >-
 
 Для завершения задачи необходимо кликнуть на галочку на плашке задачи:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-03 в 11.37.49.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-04-03 в 11.37.49.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 После этого задача приобретет следующий вид:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-03 в 11.39.33.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-04-03 в 11.39.33.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ## Канбан
 
@@ -118,31 +118,31 @@ description: >-
 
 Канбан использует доски с карточками, на которых написаны задачи или этапы работы. Карточки перемещаются по доске в зависимости от стадии выполнения задачи. Например, карточка может начать на “Планировании”, перейти на “Выполнении” и затем на “Завершении”.
 
-<figure><img src="../.gitbook/assets/2024-03-14_10-39-18.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/2024-03-14_10-39-18.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Создание колонки и задач
 
 Чтобы использовать функционал канбана, кликните и перейдите в соответствующий раздел:
 
-<figure><img src="../.gitbook/assets/2024-03-14_10-28-16.png" alt="" width="497"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/2024-03-14_10-28-16.png" alt="" width="497"><figcaption></figcaption></figure></div>
 
 После чего откроется пустая вкладка с предложением создать первую колонку в разделе:
 
-<figure><img src="../.gitbook/assets/2024-03-14_10-53-09.png" alt="" width="448"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/2024-03-14_10-53-09.png" alt="" width="448"><figcaption></figcaption></figure></div>
 
 Кликнув на кнопку, откроется форма с полем для наименования колонки и выбором цвета колонки
 
-<figure><img src="../.gitbook/assets/2024-03-14_10-55-19.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/2024-03-14_10-55-19.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 После того как вы прописали название колонки и, при необходимости выбрали цвет, колонка появится во вкладке канбан:
 
-<figure><img src="../.gitbook/assets/2024-03-14_11-00-45.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/2024-03-14_11-00-45.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Можно добавлять любое необходимое количество колонок с помощью кнопки "Добавить новую колонку" (см. пример выше).&#x20;
 
 Чтобы добавить в определенную колонку задачу, кликните по кнопке "+ Добавить задачу". Тогда откроется окошко быстрого добавления задачи:
 
-<figure><img src="../.gitbook/assets/2024-04-08_17-58-51.png" alt="" width="273"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/2024-04-08_17-58-51.png" alt="" width="273"><figcaption></figcaption></figure></div>
 
 Также можно воспользоваться кнопкой на верхней панели для добавления задачи либо добавить  задачу в колонке уже под созданными задачами.
 
@@ -161,23 +161,23 @@ description: >-
 
 Чтобы отредактировать колонку, воспользуйтесь меню дополнительных настроек, которое открывается при клике на данную кнопку:
 
-<figure><img src="../.gitbook/assets/2024-03-14_11-14-17.png" alt="" width="312"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/2024-03-14_11-14-17.png" alt="" width="312"><figcaption></figcaption></figure></div>
 
 В выпадающем меню также можно создать задачу, отредактировать или удалить колонку.&#x20;
 
 Стоит отметить, что при удалении колонки, задачи НЕ удаляются. Задачи переносятся из раздела "Канбан" на доску с календарем или списком с определенной датой:
 
-<figure><img src="../.gitbook/assets/задачи-_online-video-cutter.com_-_1_.gif" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/задачи-_online-video-cutter.com_-_1_.gif" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Любую задачу из доски календаря можно перенести в колонку канбана.&#x20;
 
 Для этого достаточно перейти в настройки редактирования задачи и выбрать колонку, в которую хотите продублировать задачу:
 
-<figure><img src="../.gitbook/assets/переносим-задачку.gif" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/переносим-задачку.gif" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Чтобы поменять местами колонки, достаточно кликнуть на шестеренку в верхнем меню, где откроется окно настроек:
 
-<figure><img src="../.gitbook/assets/2024-03-20_18-18-00.png" alt="" width="485"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/2024-03-20_18-18-00.png" alt="" width="485"><figcaption></figcaption></figure></div>
 
 Далее зажмите левой кнопкой мыши необходимую колонку и перетяните ее в необходимое место.
 
@@ -193,57 +193,57 @@ description: >-
 3. Размер каждого вложения не должен превышать 10 мб.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-04-25 в 15.17.39.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-04-25 в 15.17.39.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Чтобы добавить необходимое вложение внутри задачи, нажмите "Редактировать задачу":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-04-25 в 15.11.15.png" alt="" width="470"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-04-25 в 15.11.15.png" alt="" width="470"><figcaption></figcaption></figure></div>
 
 Далее в открывшемся модальном окне найдите кнопку "Вложение":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-04-25 в 15.14.49.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-04-25 в 15.14.49.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Кликните на вложение и прогрузите необходимый файл (изображение или видео):
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-04-25 в 15.20.27.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-04-25 в 15.20.27.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Дополнительно любое вложение можно добавить в описание вложения с помощью горячих клавиш.
 
 Для начала выберите необходимое вложение и скопируйте его:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-04-25 в 15.23.12.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-04-25 в 15.23.12.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 После чего перейдите в редактирование задачи канбана, куда необходимо внедрить вложение. \
 Затем кликните на "Изменить" напротив описания:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-04-25 в 15.26.41.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-04-25 в 15.26.41.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Затем сочетанием горячих клавиш вставьте изображение (ctrl + V):
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-04-25 в 15.28.54.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-04-25 в 15.28.54.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Чтобы удалить или загрузить изображение из задачи, воспользуйтесь одноименными кнопками внутри задачи:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-04-25 в 15.30.32.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-04-25 в 15.30.32.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ## Коллбэки
 
 ### Функция коллбэк add\_new\_task\_from\_clients\_callback
 
-При создании задачи, привязанной к определенному клиенту, в разделе "Клиенты" с ним в диалоге будет появляться сообщение с текстом: new\_task\_added\_callback task\_id:#{[task.id](https://vk.com/away.php?to=http%3A%2F%2Ftask.id\&post=-155867893_10927\&cc_key=)}, task\_name:#{[task.name](https://vk.com/away.php?to=http%3A%2F%2Ftask.name\&post=-155867893_10927\&cc_key=)}, где&#x20;
+При создании задачи, привязанной к определенному клиенту, в разделе "Клиенты" с ним в диалоге будет появляться сообщение с текстом: new\_task\_added\_callback task\_id:#{task.id}, task\_name:#{task.name}, где&#x20;
 
 task\_id - это идентификатор задачи;
 
 task\_name - это название задачи.
 
-<figure><img src="../.gitbook/assets/2023-12-28_11-48-15.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/2023-12-28_11-48-15.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Функция коллбэк edit\_task\_callback
 
-При редактировании задачи, привязанной к определенному клиенту, в диалоге с клиентом будет появляться комментарий с текстом: "Задача была отредактирована #{current\_user.display\_name}: edit\_task\_callback task\_id:#{[task.id](https://vk.com/away.php?to=http%3A%2F%2Ftask.id\&post=-155867893_10927\&cc_key=)}, task\_name:#{[task.name](https://vk.com/away.php?to=http%3A%2F%2Ftask.name\&post=-155867893_10927\&cc_key=)}", где
+При редактировании задачи, привязанной к определенному клиенту, в диалоге с клиентом будет появляться комментарий с текстом: "Задача была отредактирована #{current\_user.display\_name}: edit\_task\_callback task\_id:#{task.id}, task\_name:#{task.name}", где
 
 task\_id - ID задачи;
 
 task\_name - это название задачи.&#x20;
 
-<figure><img src="../.gitbook/assets/2023-12-28_11-54-44.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/2023-12-28_11-54-44.png" alt=""><figcaption></figcaption></figure></div>

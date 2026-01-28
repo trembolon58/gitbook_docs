@@ -2,25 +2,25 @@
 
 Сделки в CRM отображаются в виде карточек с информацией о клиенте, названии сделок, описании и суммы.&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 11.51.56.png" alt=""><figcaption><p>Рис. 19. Отображение сделок в CRM</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 11.51.56.png" alt=""><figcaption><p>Рис. 19. Отображение сделок в CRM</p></figcaption></figure></div>
 
 При необходимости можно добавить и другие поля (например, переменные) (см. рис. 8 — 12).
 
 ## Кнопка "Создать сделку"
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 11.53.40.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 11.53.40.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 20. Кнопка "Создать сделку"</p>
 
 Создать сделку - модальное окно создания новой сделки:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 12.44.19.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 12.44.19.png" alt=""><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 21. Модальное окно создания сделки</p>
 
 Вы можете заполнить все данные в форме и создать клиента. Если клиент есть в базе клиентов, то salebot предложит выбрать данного клиента:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 12.57.46.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 12.57.46.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 22. Выбор клиента из существующих в системе <br>(p.s. все данные вымышлены, совпадения случайны)</p>
 
@@ -28,13 +28,13 @@
 
 Также можно выбрать состояние воронки, в которое будет добавлена сделка:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 13.05.32.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 13.05.32.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 23. Выбор воронки и состояния, где будет создана сделка</p>
 
 Также в окне модальной формы можно добавить переменные сделки:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 13.00.29.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 13.00.29.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 24. Вкладка "Переменные сделки" в окне создания сделки</p>
 
@@ -44,19 +44,19 @@
 
 Данная кнопка также поможет добавить нового клиента в CRM-систему вручную.&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 13.07.05.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 13.07.05.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 25. Кнопка "Быстрое добавление"<br>(p.s. все данные вымышлены, совпадения случайны)</p>
 
 Кликните по кнопке (рис. 25), чтобы открылось окно с полями для заполнения информации о клиенте:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 13.08.52.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 13.08.52.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 26. Окно для быстрого добавления сделки<br>(p.s. все данные вымышлены, совпадения случайны)</p>
 
 Таким образом, сделка будет создана в состоянии "Заинтересовались":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 13.14.37.png" alt="" width="281"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 13.14.37.png" alt="" width="281"><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 27. Сделка, созданная с <br>помощью кнопки "Быстрое добавление"</p>
 
@@ -68,7 +68,7 @@
 
 ## Создать сделку из чат-бота
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 15.02.16.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 15.02.16.png" alt=""><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 28. Пример схемы чат-бота <br>для создания сделки с помощью функции</p>
 
@@ -76,7 +76,7 @@
 
 1. Создайте блок с условием ("Стартовое условие"):
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 14.29.52.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 14.29.52.png" alt=""><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 29. Настройки блока "Стартовое условие"</p>
 
@@ -84,25 +84,25 @@
 
 2. Создайте блок ниже, соединенный стрелкой с предыдущим блоком:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 14.31.02.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 14.31.02.png" alt=""><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 30. Настройки блока с кнопками</p>
 
 В данном блоке созданы кнопки с функцией "По умолчанию" и текстом "Многостраничный сайт", "Одностраничный сайт". При выборе клиентом кнопки он перейдет в один из блоков "Состояние", а с помощью стрелок мы передали переменную description и активировали чекбокс "Пользователь вводит данные":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 14.49.14.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 14.49.14.png" alt=""><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 31. Настройки стрелки</p>
 
 3. Далее в блоках, к которым ведут стрелки "Многостраничный сайт" и "Одностраничный" сайт запрашиваем номер телефона клиента и сразу объявляем переменную budget со стоимостью услуги (сделки):
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 14.15.48.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 14.15.48.png" alt=""><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 32. Настройки блока с объявлением переменной budget</p>
 
 4. Далее создадим два блока: "Состояние" и "Не состояние". Данные блоки нам понадобятся для проверки номера телефона клиента.&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 14.33.34.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 14.33.34.png" alt=""><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 33. Настройки стрелки: проверка номера телефона и <br>объявление переменной для сохранения номера клиента в системе</p>
 
@@ -116,13 +116,13 @@
 
 5. Предпоследним блоком в схеме будет блок "Состояние", в котором будем спрашивать у клиента его имя.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 14.36.26.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 14.36.26.png" alt=""><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 34. Блок "Состояние" для запроса имени клиента</p>
 
 Из данного блока (рис. 34) протягиваем стрелку со сбором данных:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 14.51.01.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 14.51.01.png" alt=""><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 35. Настройки стрелки со сбором данных в виде<br>имени клиента</p>
 
@@ -130,7 +130,7 @@
 
 6. В последнем блоке прописываем функцию для создания сделки в CRM системе:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 14.42.32.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 14.42.32.png" alt=""><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 36. Блок "Состояние" с функцией для создания сделки</p>
 
@@ -159,13 +159,13 @@
 * Phone — номер телефона клиента (рис. 33);
 * Client\_name — имя клиента (рис. 34-35).&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 14.51.56.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 14.51.56.png" alt=""><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 37. Блок "Состояние" с функцией для создания сделки</p>
 
 При необходимости создания сделки в определенном состоянии сделки, передайте параметр state\_id:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 14.54.04.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 14.54.04.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 38. Передача id состояния сделки</p>
 
@@ -177,25 +177,25 @@
 
 Где найти id состояния (параметр state\_id):
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 13.23.33.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 13.23.33.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 39. Меню дополнительных настроек состояния</p>
 
 ID состояния:
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcc7z-CsqHVfmZq-RA1SXr0YO3G1UOEeFxykLkOXz3kCGXpwN7_GjOEMkuaKTVvItclZ3_4y0KYjSZ25zeFPrYwiSJBAQ5KCX6tm59Ma4Knk6xCaiNVoT_6J8HVIdDmsYYPnvQ9aQ?key=-rPG2GUEvYW_RB8HLUT5kg" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcc7z-CsqHVfmZq-RA1SXr0YO3G1UOEeFxykLkOXz3kCGXpwN7_GjOEMkuaKTVvItclZ3_4y0KYjSZ25zeFPrYwiSJBAQ5KCX6tm59Ma4Knk6xCaiNVoT_6J8HVIdDmsYYPnvQ9aQ?key=-rPG2GUEvYW_RB8HLUT5kg" alt="" width="563"><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 40. ID состояния</p>
 
 Теперь бот будет отрабатывать следующим образом:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 14.56.55.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 14.56.55.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 41. Тестирование бота в Telegeam</p>
 
 После чего вы можете найти сделку в том состоянии воронки, ID которого передали в функции create\_order:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 14.59.29.png" alt="" width="283"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 14.59.29.png" alt="" width="283"><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 42. Пример созданной<br>сделки с помощью функции</p>
 
@@ -205,13 +205,13 @@ ID состояния:
 
 * Строка поиска - поиск сделки по имени клиента.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 15.05.53.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 15.05.53.png" alt=""><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 43. Строка поиска сделки</p>
 
 * Фильтр - позволяет фильтровать сделки с указанием различных параметров. Так же вы можете сохранить созданный фильтр, если часто его используете.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 15.06.28.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 15.06.28.png" alt=""><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 44. Фильтр для сделок</p>
 
@@ -219,26 +219,26 @@ ID состояния:
 
 Вы можете запустить бота при перемещении сделки по этапу воронки в CRM. Для включения данной функции перейдите в настройки проекта:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 15.08.09.png" alt="" width="200"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 15.08.09.png" alt="" width="200"><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 45. Вкладка с настройками<br>проекта</p>
 
 \
 Далее перейдите в раздел Callback's:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-09-25 в 15.38.56.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-09-25 в 15.38.56.png" alt=""><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 46. Вкладка Calbacks в настройках проекта</p>
 
 Нажмите на "Настройки колбеков при переходе между этапами CRM":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-09-25 в 16.20.03.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-09-25 в 16.20.03.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 47. Переход в настройки колбеков для CRM</p>
 
 После чего вам откроется модальное окошко со всеми воронками, которые существуют в проекте, где необходимо выбрать всю воронку или только определенное состояние:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-09-25 в 16.24.11.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-09-25 в 16.24.11.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 48. Выбор воронки или состояний воронки</p>
 
@@ -252,17 +252,17 @@ ID состояния:
 
 Также в карточке клиента появится переменная **callback\_query\_id**, в которой будет сохранен идентификатор сделки, для которой отправлено уведомление
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 15.11.37.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 15.11.37.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 49. Вид колбека при смене состояния</p>
 
 Чтобы запустить бота на это событие, необходимо указать текст колбека (уведомления) в поле  Условие стрелки или любого блока с условием ("Стартовое условие", "Не состояние с условием").&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 15.13.25.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 15.13.25.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 50. Настройка реакции с помощью блока "Не состояние с условием"</p>
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 15.13.44.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 15.13.44.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 <p align="center">Рис. 51. Настройка реакции с помощью блока "Стартовое условие"</p>
 
@@ -276,7 +276,7 @@ ID состояния:
 
 Для перемещения сделки в любое состояние воронки достаточно захватить ее левой кнопки мыши и переместить в необходимое состояние:
 
-<figure><img src="../.gitbook/assets/Видео-без-названия-—-сделано-в-Clipchamp-_21_.gif" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Видео-без-названия-—-сделано-в-Clipchamp-_21_.gif" alt="" width="563"><figcaption></figcaption></figure></div>
 
 При перемещении сделки в "Проваленные" или "Архив" появляется модальное окно с просьбой указать причину перемещения, далее создается переменная сделки failed\_reason или achived\_reason соответственно.
 
@@ -287,11 +287,11 @@ ID состояния:
 Если необходимо ограничить стадии в которые сделки будет перемещена при ручном перемещении, то настройте запрет в настройках состояния. \
 Откройте воронку и перейдите в настройки состояния.&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 15.49.28.png" alt="" width="440"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 15.49.28.png" alt="" width="440"><figcaption></figcaption></figure></div>
 
 В настройках состояния вы можете задать состояния, в которые сделку нельзя будет перенести. Отмечать выбранные этапы воронки необходимо в чек-боксе. Вы можете указать несколько состояний. После того, как все необходимые состояния будут выбраны, сохраните изменения.&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 15.50.04.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 15.50.04.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 После того, как настройки будут сохранены, при перемещении сделки в разделе SalebotCRM недоступные состояния будут визуально отличаться по цвету. Они станут темнее, и возможность переноса будет ограничена. В диалоге с клиентом, запрещенные состояния отображаться не будут если установлен запрет на перенос.&#x20;
 
@@ -299,11 +299,15 @@ ID состояния:
 
 При удалении сделки в CRM в бот клиенту приходит колбек об этом **crm\_lead\_removed**
 
-<figure><img src="../.gitbook/assets/image (332).png" alt=""><figcaption><p>Callback об удалении сделки</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (332).png" alt=""><figcaption><p>Callback об удалении сделки</p></figcaption></figure></div>
 
 ## Функции API Salebot
 
-{% embed url="https://docs.salebot.pro/peremennye-1/api-v-kalkulyatore#api-salebot" %}
+{% hint style="info" %}
+Для работы со сделками в чат-боте можно использовать функции API в калькуляторе.
+
+Подробнее о функциях читайте в статье "[Для работы со сделками](../chat-boty/peremennye-i-funkcii/kalkulyator/dlya-raboty-so-ssylkami.md)".
+{% endhint %}
 
 ## Переключение сделок
 
@@ -316,7 +320,7 @@ ID состояния:
 
 Также в переменные клиента записывается переменная "callback\_order\_id", содержащая id сделки, с которой происходили действия на странице CRM.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-11-27 в 18.05.14.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-11-27 в 18.05.14.png" alt=""><figcaption></figcaption></figure></div>
 
 При обработке такого колбека в блоке сделка временно становится активной - то есть в этом блоке можно обращаться к её переменным.
 
@@ -330,7 +334,7 @@ order\_id - необязательный параметр, id сделки. Ес
 
 В функцию switch\_order(order\_id) нужно передать id сделки, тем самым сделать эту сделку активной. Если вызвать эту функцию в калькуляторе и передать id желаемой сделки, то далее в блоке можно обращаться к переменным этой сделки.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-11-27 в 18.10.55.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-11-27 в 18.10.55.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Если в функцию switch\_order передать id удалённой или несуществующей сделки, то переключения не произойдет, и функция вернет id той сделки, которая сейчас установлена активной у Клиента (или None, если у Клиента нет активной сделки).
 
@@ -340,6 +344,6 @@ order\_id - необязательный параметр, id сделки. Ес
 
 `РЕЗУЛЬТАТ = if(switch_result == order_id, value_if_true, value_if_false)`
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-11-27 в 18.21.11.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-11-27 в 18.21.11.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Если в функцию switch\_order не передавать ничего, то функция сделает активной последнюю сделку Клиента, таким образом можно откатывать переключение сделки (после переключения сделки или в блоке, обрабатывающем колбеки от CRM, если не требуется делать временно активной сделку, по которой пришел колбек)

@@ -2,7 +2,7 @@
 
 В разделе "Списки"  вы можете создавать, редактировать и использовать кастомные списки клиентов для дальнейшей автоматизации. Добавление пользователей в список можно настроить автоматически через шаги бота — при выполнении определённых условий или действий пользователя. Списки могут использоваться как для фильтрации и сегментации клиентов внутри одного проекта, так и для экспорта данных — вы можете выгрузить список в файл и загрузить в другой проект Salebot.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-11 в 14.13.11.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-11 в 14.13.11.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Преимущества использования списков:
 
@@ -16,31 +16,31 @@
 
 Списки создаются в одноименном разделе во вкладке "Списки":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-11 в 14.14.13.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-11 в 14.14.13.png" alt=""><figcaption></figcaption></figure></div>
 
 Кликните по кнопке "Создать списки", чтобы открылось окно с полями ввода, где нужно прописать название списка и при необходимости выбрать папку (если они уже есть), в который нужно добавить список:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-11 в 14.14.41.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-11 в 14.14.41.png" alt=""><figcaption></figcaption></figure></div>
 
 В разделе Списки можно отсортировать списки по ID списков или по алфавиту (по названию):
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-11 в 14.15.28.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-11 в 14.15.28.png" alt=""><figcaption></figcaption></figure></div>
 
 Удобство списков клиентов заключается в гибкости возможностей действий над списками. Например, добавление клиента в несколько списков одновременно.
 
 Списки можно группировать в папки, можно отредактировать наименование списка, удалить список (при этом клиенты останутся в базе) или удалить из проекта клиентов указанного списка.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-11 в 14.16.32.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-11 в 14.16.32.png" alt=""><figcaption></figcaption></figure></div>
 
 Добавление и удаление из списка работают с набором фильтров, что позволяет добавлять/удалять клиентов используя тип фильтра как из формы, так и из файла. Подробнее [ниже](spiski-i-metki.md#kak-vruchnuyu-rabotat-so-spiskami).
 
 Чтобы просмотреть клиентов из списка, нажмите на список, чтобы открылось правое меню, затем кликните на кнопку "К списку клиентов":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-11 в 14.34.17.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-11 в 14.34.17.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Тогда откроется новое окно из раздела "Клиенты", где вы увидите пользователей, находящимися в списке:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-11 в 14.36.12.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-11 в 14.36.12.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ## Как автоматизировать работу со списками
 
@@ -48,19 +48,19 @@
 
 Набор команд — действий над списками — вы найдете в любом блоке конструктора:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 10.28.22.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 10.28.22.png" alt=""><figcaption></figcaption></figure></div>
 
 При включении раздела Действия станет возможным выбрать действия над списками:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 10.29.49.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 10.29.49.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 После выбора действия станет возможным выбор конкретного списка, с которым необходимо произвести указанное действие. В одном блоке можно указать несколько разных действий:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 10.30.44.png" alt="" width="563"><figcaption></figcaption></figure>
+<div align="center" data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 10.30.44.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Количество действий в одном блоке не ограничено:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 10.31.43.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 10.31.43.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Выполняются команды по порядку следования в настройках блока.
 
@@ -74,27 +74,27 @@
 
 `inlist(номер списка) == False -` клиента НЕТ в списке.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 10.37.31.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 10.37.31.png" alt=""><figcaption></figcaption></figure></div>
 
 Номер списка можно найти, кликнув по необходимому списку. Тогда откроется правое меню с информацией о списке:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-11 в 14.18.44.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-11 в 14.18.44.png" alt=""><figcaption></figcaption></figure></div>
 
 Тогда блоки отработаются так:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 10.39.20.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 10.39.20.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Другие функции работы со списками:
 
 Дальнейшие команды вводятся в поле "Калькулятор" любого блока:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 10.40.50.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 10.40.50.png" alt=""><figcaption></figcaption></figure></div>
 
 **Добавить в список**
 
 `add_to_list(номер списка)`
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 10.51.04.png" alt="" width="563"><figcaption><p>Добавление в список</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 10.51.04.png" alt="" width="563"><figcaption><p>Добавление в список</p></figcaption></figure></div>
 
 Номер списка может быть передан в виде массива, тогда функция примет вид: `add_to_list('[list1,list2]')`
 
@@ -102,7 +102,7 @@
 
 `remove_from_list(номер списка)`
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 10.55.35.png" alt="" width="563"><figcaption><p>Удаление из списка</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 10.55.35.png" alt="" width="563"><figcaption><p>Удаление из списка</p></figcaption></figure></div>
 
 Номер списка может быть передан в виде массива, тогда функция примет вид: `remove_from_list('[list1,list2]')`
 
@@ -110,7 +110,7 @@
 
 `move_to_list(номер списка)`
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 10.56.44.png" alt="" width="563"><figcaption><p>Перемещение в список</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 10.56.44.png" alt="" width="563"><figcaption><p>Перемещение в список</p></figcaption></figure></div>
 
 При перемещении человек будет удален из всех списков и добавлен в выбранный.
 
@@ -118,11 +118,11 @@
 
 `list_size(номер списка)`
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 10.57.32.png" alt="" width="375"><figcaption><p>Проверка размера списка</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 10.57.32.png" alt="" width="375"><figcaption><p>Проверка размера списка</p></figcaption></figure></div>
 
 Вернет количество людей в списке.
 
-Больше возможностей функций калькулятора рассмотрено в разделе [Калькулятор - Работа со списками](/broken/pages/-M0wi0AByiQblPfnYkJI#dlya-raboty-so-spiskami)
+Больше возможностей функций калькулятора рассмотрено в разделе [Калькулятор - Работа со списками](../chat-boty/peremennye-i-funkcii/kalkulyator/dlya-raboty-so-spiskami.md)
 
 ## Как вручную работать со списками
 
@@ -134,7 +134,7 @@
 
 ### Добавить клиентов в список
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-11 в 14.24.38.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-11 в 14.24.38.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 В список клиентов можно вручную <mark style="color:green;">**загрузить СУЩЕСТВУЮЩИХ клиентов**</mark>, отфильтровав их в форме, из файла или из другого списка.
 
@@ -146,11 +146,11 @@
 
 1. Выберите тип фильтра "Клиенты из файла":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 11.04.33.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 11.04.33.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 2. Далее загрузите список с клиентами в формате .CVS:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 11.04.25.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 11.04.25.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Чтобы <mark style="color:green;">**добавить НОВЫХ клиентов**</mark> в определенный список перейдите в раздел Каналы. Затем нажмите на кнопку "Загрузить список клиентов" и выберите список, в который хотите загрузить клиентов.
 
@@ -158,7 +158,7 @@
 
 По тому же принципу можно удалить клиентов из списка: нажмите на кнопку "— Исключить из списка" и выберите фильтры (при необходимости):
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-11 в 14.26.21.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-11 в 14.26.21.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 И кажите необходимые фильтры для удаления определенной категории клиентов ИЗ этого списка (не из базы клиентов!):
 
@@ -180,11 +180,11 @@
 
 При клике на список, в правом меню вы также увидите кнопку "Создать рассылку":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-11 в 14.31.54.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-11 в 14.31.54.png" alt=""><figcaption></figcaption></figure></div>
 
 Можно создать рассылку как в мессенджеры, так и в email (если подключена почта в проекте):
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-11 в 14.33.08.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-11 в 14.33.08.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ## Как перенести клиентов из других платформ
 
@@ -192,8 +192,8 @@
 
 Для этого перейдите в раздел "Каналы" и выберите подключенный мессенджер, куда необходимо загрузить клиентов:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 11.17.11.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 11.17.11.png" alt=""><figcaption></figcaption></figure></div>
 
 Кликните по кнопке "Загрузить клиентов" и загрузите список, настроив необходимые поля загрузки (кодировку, в какой список добавить клиентов и тп):
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 11.19.51.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-04-30 в 11.19.51.png" alt="" width="563"><figcaption></figcaption></figure></div>
