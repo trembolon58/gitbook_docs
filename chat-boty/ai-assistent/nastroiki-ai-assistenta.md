@@ -2,7 +2,7 @@
 
 AI-ассистент - это настоящий прорыв: теперь вы сами сможете настроить для работы с клиентами чат-боты с искусственным интеллектом, используя уже готовые роли и подготовленные для него функции.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-17 в 15.59.06.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-17 в 15.59.06.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Настроив чат-бота с ИИ, вы сможете:
 
@@ -60,7 +60,7 @@ AI-ассистент мультиязычен: модель выполняет 
 
 После создания нескольких AI-ассистентов, вы сможете увидеть красную звездочку над названием одного из них:
 
-<figure><img src="../../.gitbook/assets/Запись экрана 2025-11-07 в 09.59.57.gif" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Запись экрана 2025-11-07 в 09.59.57.gif" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Эта звездочка означает наиболее приоритетного AI-ассистента в вашем проекте — это значит, что именно этот бот будет отрабатываться раньше других AI-ассистентов.
 
@@ -76,17 +76,17 @@ AI-ассистент имеет приоритет ниже, чем блоки 
 Если даже у блока нет условия, отработается сначала блок в конструкторе!&#x20;
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-11-07 в 10.05.38.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-11-07 в 10.05.38.png" alt=""><figcaption></figcaption></figure></div>
 
 Если условия для запуска одинаковы для двух AI-ассистентов, то проверка приоритетности бота идет дальше.
 
 Чтобы назначить приоритетным другого AI-ассистента, нужно в настройках ныне приоритетного бота выбрать роль "Выключен":
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-11-07 в 10.14.33.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-11-07 в 10.14.33.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Тогда приоритет перейдет к другому AI-ассистенту:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-11-07 в 10.15.10.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-11-07 в 10.15.10.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Если у вас три и более ассистента, то приоритет уйдет к тому, у кого расписаны условия в поле "Условия для запуска".
 
@@ -94,7 +94,7 @@ AI-ассистент имеет приоритет ниже, чем блоки 
 
 Роли для чат-бота определяют функциональные задачи и поведенческие характеристики, которые ассистент может выполнять или проявлять в процессе взаимодействия с пользователем.&#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-17 в 19.55.18.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-17 в 19.55.18.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 И для вашего удобства командой Salebot уже были настроены несколько ролей для ваших проектов.&#x20;
 
@@ -112,7 +112,7 @@ AI-ассистент имеет приоритет ниже, чем блоки 
 
 Данная модель слабо ограничена в генерации текстов, однако хороша для задач, требующих креативности: например, копирайтинг.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-18 в 09.48.45.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-18 в 09.48.45.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Видеогид
 
@@ -122,7 +122,7 @@ AI-ассистент имеет приоритет ниже, чем блоки 
 
 С данной ролью бот предлагает товары клиентам, информирует о доступных продуктах и, если вы пропишите необходимые настройки, рассчитает итоговую стоимость:
 
-<figure><img src="https://lh7-us.googleusercontent.com/docsz/AD_4nXdTfMEe66GTpAlf0PAIXyLR9OQ-_LCgiDDPa0_Sb2Jgb-YD7erhP4TZr-DtU44LoizMCjgdd893Rx1NJb5LaiuRi_-nASlLJKvwqR7AASuFeu-_oCdkx8hU2yGFtkKZyIPzsvfSIgjKVO9kxsNnHA7VOtfF?key=g9-j53ENQsA_W1hDFrramA" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="https://lh7-us.googleusercontent.com/docsz/AD_4nXdTfMEe66GTpAlf0PAIXyLR9OQ-_LCgiDDPa0_Sb2Jgb-YD7erhP4TZr-DtU44LoizMCjgdd893Rx1NJb5LaiuRi_-nASlLJKvwqR7AASuFeu-_oCdkx8hU2yGFtkKZyIPzsvfSIgjKVO9kxsNnHA7VOtfF?key=g9-j53ENQsA_W1hDFrramA" alt="" width="375"><figcaption></figcaption></figure></div>
 
 В основу настройки данной модели заложена команда "Продать любыми способами". Данный бот отлично будет работать в сочетании с google-таблицами:
 
@@ -148,7 +148,7 @@ AI-ассистент имеет приоритет ниже, чем блоки 
 
 б) ответы бота:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-19 в 18.43.10.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-19 в 18.43.10.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Прописывание алгоритма достаточно трудоемкий процесс и требует обращения внимания на малейшие детали.&#x20;
@@ -169,18 +169,18 @@ AI-ассистент имеет приоритет ниже, чем блоки 
 <div><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-18 в 09.59.20.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-18 в 10.02.01.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-Как настроить [чат-бота с ИИ на работу с онлайн-записью](/broken/pages/5Sy40v9I0JB04H9dIJ4V), рассказали в одноименной статье.&#x20;
+[Как настроить чат-бота с ИИ на работу с онлайн-записью](chat-bot-s-ai-dlya-onlain-zapisi.md), рассказали в одноименной статье.&#x20;
 {% endhint %}
 
 ### **RAG ассистент**
 
 Понадобится для работы с документами, чтобы давать точные ответы на основе вашего контекста.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-20 в 10.09.54.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-20 в 10.09.54.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Добавляйте файлы: FAQ, инструкции, статьи или внутренние материалы. Ассистент использует их, чтобы находить ответы на вопросы пользователей:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-20 в 10.11.41.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-20 в 10.11.41.png" alt=""><figcaption></figcaption></figure></div>
 
 Принцип работы:&#x20;
 
@@ -193,7 +193,7 @@ AI-ассистент имеет приоритет ниже, чем блоки 
 Чанк — это блок / фрагмент документа.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-20 в 11.03.26.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-20 в 11.03.26.png" alt=""><figcaption></figcaption></figure></div>
 
 RAG разбивает документ на кусочки (чанки), осуществляет предварительный поиск среди этих кусочков, находит среди них максимально похожий (похожие) на оригинальный запрос и добавляет в контекст не весь документ целиком, а только несколько кусочков (чанков). С большой вероятностью нужный ответ будет находиться среди приложенных чанков.
 
@@ -205,7 +205,7 @@ RAG разбивает документ на кусочки (чанки), осу
 
 Деление документа производится автоматически, при этом для ассистента лучше, чтобы один кусочек содержал какой-то осмысленный фрагмент: условно, один вопрос и один ответ из FAQ или один/два целых абзаца какого-то документа.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-20 в 11.06.50.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-20 в 11.06.50.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Можно после автоматического деления через интерфейс поправить эти чанки: где-то подрезать, где-то добавить информации, какой-то удалить, добавить абсолютно новый.
 
@@ -213,7 +213,7 @@ RAG разбивает документ на кусочки (чанки), осу
 
 Шаг 1. Загрузите документ:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-20 в 11.18.19.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-20 в 11.18.19.png" alt=""><figcaption></figcaption></figure></div>
 
 И укажите размер чанка и перекрытие чанков.
 

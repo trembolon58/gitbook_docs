@@ -10,15 +10,15 @@
 
 Для начала перейдите в раздел таблицы:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-01 в 16.49.59.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-01 в 16.49.59.png" alt=""><figcaption></figcaption></figure></div>
 
 Далее вы увидите кнопку "Добавить таблицу", кликнув по которой откроется модальное окошко, в котором нужно ввести название таблицы:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-01 в 17.09.39.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-01 в 17.09.39.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Пропишите название для таблицы и кликните на кнопку "Готово". Тогда новая таблица будет создана в проекте и появится в разделе "Таблицы":
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.06.59.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.06.59.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Настройки таблицы
 
@@ -26,27 +26,27 @@
 
 Вы увидите следующие настройки:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-01 в 17.15.09.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-01 в 17.15.09.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Чтобы добавить столбец с названием, нажмите "Плюс":
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-01 в 17.42.41.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-01 в 17.42.41.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 при клике на кнопку появится модальное окно, в котором нужно прописать название для добавляемого столбца:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.10.00.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.10.00.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 После того как вы прописали название столбца, кликните по кнопке "Готово", тогда новый столбец добавится в таблицу. Добавьте необходимое количество столбцов, а затем строк:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.11.37.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.11.37.png" alt=""><figcaption></figcaption></figure></div>
 
 Теперь наша таблица выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.09.12.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.09.12.png" alt=""><figcaption></figcaption></figure></div>
 
 Скопируйте (запомните) ID таблицы: для этого нажмите на адресную строку:&#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.13.41.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.13.41.png" alt=""><figcaption></figcaption></figure></div>
 
 Теперь перейдем к настройкам блоков в конструкторе.
 
@@ -58,9 +58,9 @@
 
 Перейдите в соответствующую вкладку в Salebot и создайте блок с условием (стартовое условие или не состояние с условием):
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.28.09.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.28.09.png" alt=""><figcaption></figcaption></figure></div>
 
-Назначьте переменную (она понадобится для знаний AI-ассистента): в примере это переменная 'online\_shope'.&#x20;
+Назначьте переменную (она понадобится для знаний AI-ассистента): в примере это переменная 'online\_shop'.&#x20;
 
 Пример кода из калькулятора:
 
@@ -90,7 +90,7 @@ get\_records\_from\_table(table\_id, start\_row, count, start\_col, end\_col) - 
 
 Пропишем в сообщении вместо #{none} нашу переменную через конструкцию #{}, чтобы наглядно увидеть, какие данные записались в переменную проекта.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.32.05.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.32.05.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 Обращаем внимание!&#x20;
@@ -116,11 +116,11 @@ get\_records\_from\_table(table\_id, start\_row, count, start\_col, end\_col) - 
 
 Далее создадим блок "Состояние" для передачи данных в карточку клиента
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-20 в 11.53.34.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-20 в 11.53.34.png" alt=""><figcaption></figcaption></figure></div>
 
 Можно также в данном блоке передать завершающее сообщение от бота, например, "Спасибо за заказ! Передаю данные менеджеру по связи!":
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-20 в 12.09.31.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-20 в 12.09.31.png" alt=""><figcaption></figcaption></figure></div>
 
 Далее скопируйте ID блока - он понадобится для настройки AI-ассистента в команде  "вызываю блок <mark style="color:red;">31241050</mark>" , где вместо <mark style="color:red;">ID блока</mark> из примера вам необходимо вставить ID своего блока.
 
@@ -138,13 +138,13 @@ get\_records\_from\_table(table\_id, start\_row, count, start\_col, end\_col) - 
 
 Теперь перейдите в тестирование бота и запустите блок с условием:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.37.49.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.37.49.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Таким образом, блок отработался верно: вы видите значения, которые лежат в переменной в настройках проекта.&#x20;
 
 В этом можно убедиться, перейдя в соответствующий раздел:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.39.04.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.39.04.png" alt=""><figcaption></figcaption></figure></div>
 
 Во вкладке "Переменные" в настройках проекта вы увидите свою переменную с вложенными в нее значениями из таблицы. Таким образом, теперь внутри вашего проекта существует переменная с товарами, стоимостью и всем тем, что вы указали в таблице.
 
@@ -154,7 +154,7 @@ get\_records\_from\_table(table\_id, start\_row, count, start\_col, end\_col) - 
 
 Роль ассистента: продажник
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-20 в 12.12.22.png" alt="" width="341"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-20 в 12.12.22.png" alt="" width="341"><figcaption></figcaption></figure></div>
 
 Также установим дополнительные настройки:
 
@@ -166,23 +166,23 @@ get\_records\_from\_table(table\_id, start\_row, count, start\_col, end\_col) - 
 
 1. Должность и инструкции для бота.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.44.13.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.44.13.png" alt=""><figcaption></figcaption></figure></div>
 
 2. Команда для вызова блока и передачи переменных в систему прописывается следующим образом:
 
 <Если клиент написал "Заказ составлен верно" или "Верно", то напиши "start\_block\_from\_ai N">, где вместо N прописывается ID блока с завершающим сообщением: блок Состояние передает данные в карточку клиента:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.44.50.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.44.50.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Знания бота
 
 В поле "Знания бота" передайте переменную, которую ранее закешировали блоком с условием:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.32.05.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.32.05.png" alt=""><figcaption></figcaption></figure></div>
 
 Знания бота:&#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.45.47.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.45.47.png" alt=""><figcaption></figcaption></figure></div>
 
 Так бот будет брать информацию из переменной, лежащей в настройках проекта, и консультировать ваших клиентов по поводу имеющегося ассортимента.&#x20;
 
@@ -190,15 +190,15 @@ get\_records\_from\_table(table\_id, start\_row, count, start\_col, end\_col) - 
 
 В формате передаваемых данных вы прописываете собственно сами собираемые данные (например, товар), далее прописывается фразу с "ключом" и присваиваете значение ключу:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.46.33.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.46.33.png" alt=""><figcaption></figcaption></figure></div>
 
 Так переменные при вызове блока будут передаваться в карточку клиента: далее вы сможете работать с переменными, например, в конструкторе:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.49.15.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.49.15.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Поскольку в формате передаваемых данных мы объявили переменную payment\_sum, при подключенных платежных сервисах вы сможете выдавать ссылку на оплату прямо в боте:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.51.27.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 17.51.27.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="danger" %}
 При объявлении переменной payment\_sum сумма ссылка на оплату генерируется автоматически!&#x20;
@@ -214,7 +214,7 @@ get\_records\_from\_table(table\_id, start\_row, count, start\_col, end\_col) - 
 
 Остальные параметры можно выставить по-своему усмотрению:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-20 в 13.15.51.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-20 в 13.15.51.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ## Тестирование бота
 
@@ -222,15 +222,15 @@ get\_records\_from\_table(table\_id, start\_row, count, start\_col, end\_col) - 
 
 Шаг 1. Кликните по конструктору условий
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-20 в 13.17.55.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-20 в 13.17.55.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Шаг 2. Выберите вкладку с тестовым окном и кликните "Добавить":
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-20 в 13.18.22.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-20 в 13.18.22.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Теперь в условии для запуска вы видите следующее значение:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-20 в 13.20.08.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-06-20 в 13.20.08.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Так бот будет запускаться только в тестовом окне и нигде больше.
@@ -240,7 +240,7 @@ get\_records\_from\_table(table\_id, start\_row, count, start\_col, end\_col) - 
 
 В примере мы протестируем прямо в мессенджере:
 
-<figure><img src="../../.gitbook/assets/Запись-экрана-2025-07-15-в-17.57.16-_online-video-cutter.com_.gif" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Запись-экрана-2025-07-15-в-17.57.16-_online-video-cutter.com_.gif" alt="" width="563"><figcaption></figcaption></figure></div>
 
 <details>
 
@@ -250,11 +250,11 @@ get\_records\_from\_table(table\_id, start\_row, count, start\_col, end\_col) - 
 
 АИ-ассистент вызывает блок для формирования ссылки на оплату, затем отправляется блок с кнопкой:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 18.12.36.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 18.12.36.png" alt=""><figcaption></figcaption></figure></div>
 
 Далее после успешной оплаты приходит колбек в диалоге с клиентом (колбек пользователь не видит):
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 18.17.54.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 18.17.54.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Обратите внимание, что на примере выше, видно, где отработал AI, а где бот из конструктора.&#x20;
@@ -279,7 +279,7 @@ get\_records\_from\_table(table\_id, start\_row, count, start\_col, end\_col) - 
 
 Данное сообщение отправляется в режиме тестирования из-за команды "вызываю блок <mark style="color:red;">31241050</mark>"
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 18.04.28.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-15 в 18.04.28.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 После тестирования и отладки работы бота, прописывайте команду в [настройках бота](ai-assistent-s-salebot-tablicami.md#nastroiki-ai-assistenta) "start\_block\_from\_ai <mark style="color:red;">31241050</mark>".
 
