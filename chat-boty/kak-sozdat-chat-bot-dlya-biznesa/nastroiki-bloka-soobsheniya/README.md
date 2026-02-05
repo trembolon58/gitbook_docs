@@ -2,15 +2,14 @@
 
 #### Основные поля Редактора блока:
 
-* [Верхняя строка редактора блока](/broken/pages/ylnFuEIu0T1rEvkdmUfa)
-* [Вкладка "Условие"](/broken/pages/FbOsfSLoPE2zJWUGkdfn)
-* [Вкладка "Сообщение"](/broken/pages/3YxywSkz1rPQbpwSjr8F)
-* [Вкладка "API - запрос"](/broken/pages/kobSt53zwlmbYhf5chyg)
-* [Вкладка "Калькулятор"](/broken/pages/-M0wi0AByiQblPfnYkJI)
-* [Вкладка "Действие"](/broken/pages/kYv2hVvGKrZFvLcWD5xj)
-* [Вкладка "Кнопки"](/broken/pages/mEiHpf4gAofvQxjN0pPh)
-* [Вкладка "Вложения"](/broken/pages/yYSwWjAgADeJZAa4eZxl)
-* [Вкладка "Аналитика"](/broken/pages/7T9UQASdC8yvK4wzitgn)
+1. [Условие](vkladka-uslovie/)
+2. [Сообщение](vkladka-soobshenie.md)
+3. [Кнопки](vkladka-knopki/)
+4. [Действие](vkladka-deistvie.md)
+5. [API-запрос](vkladka-api-zapros.md)
+6. [Вложения](vkladka-vlozheniya.md)
+7. [Аналитика](vkladka-analitika.md)
+8. [Калькулятор](../../peremennye-i-funkcii/kalkulyator/)
 
 {% hint style="warning" %}
 #### Последовательность исполнения полей Редактора блока
@@ -67,15 +66,3 @@
 * использовать функции в калькуляторе (например, для создания сделки в CRM) и многое-многое другое!&#x20;
 
 Огромный функциональный инструмент настроек поможет сделать схему более автоматизированной, а продажи и рост клиентов — еще интенсивнее.&#x20;
-
-{% hint style="info" %}
-Обо всем и по порядку рассказали в статьях:
-
-1. [Как отправлять сообщения](/broken/pages/3YxywSkz1rPQbpwSjr8F);
-2. [Целевые действия в боте ](/broken/pages/kYv2hVvGKrZFvLcWD5xj)(добавлять в список или удалять из списков, перемещать сделку в состояние CRM-системы, добавлять и удалять метки клиенту и др.);
-3. [Отправка вложений](/broken/pages/yYSwWjAgADeJZAa4eZxl);
-4. [Кнопки с оплатой](/broken/pages/xeepnRj969zW3xRimkdg#kak-sdelat-knopku-oplata);
-5. [Виджет онлайн-записи в боте](/broken/pages/XbtBEspHOYLLx2Ou9OHC);
-6. [Отправлять API-запросы;](/broken/pages/kobSt53zwlmbYhf5chyg)
-7. [О калькуляторе](/broken/pages/-M0wi0AByiQblPfnYkJI).
-{% endhint %}

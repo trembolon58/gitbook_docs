@@ -11,7 +11,7 @@
 {% embed url="https://www.youtube.com/watch?v=SqBauUIu9SA" %}
 
 {% hint style="info" %}
-Как зарегистрировать аккаунт в Сейлбот и создать проект, рассказали в статье "[Аккаунт в Salebot](/broken/pages/ScNABLITnhdN6palwVuO)"
+Как зарегистрировать аккаунт в Сейлбот и создать проект, рассказали в статье "[Аккаунт в Salebot](../../o-nas/administrirovanie/akkaunt-v-salebot.md)"
 {% endhint %}
 
 ### Узнать номер проекта
@@ -19,7 +19,7 @@
 {% embed url="https://youtu.be/ENahWiCYJ04" %}
 
 {% hint style="info" %}
-Как найти номер проекта, рассказали в статье "[Аккаунт в Salebot](/broken/pages/ScNABLITnhdN6palwVuO#kak-uznat-nomer-proekta)"
+Как найти номер проекта, рассказали в статье "[Аккаунт в Salebot](../../o-nas/administrirovanie/akkaunt-v-salebot.md)"
 {% endhint %}
 
 ### Подключить Telegram  к проекту
@@ -27,7 +27,7 @@
 {% embed url="https://youtu.be/aefp_YnP41I" %}
 
 {% hint style="info" %}
-Как работать с мессенджером Telegram, рассказали в статье "[Основы работы с ботом в Telegram](/broken/pages/pOKkhShNZoMNKOe34fVT)"
+Как работать с мессенджером Telegram, рассказали в [одноименном разделе](../podklyuchenie-messendzherov-i-kanalov/telegram/)
 {% endhint %}
 
 ### Подключить Whatsapp к проекту
@@ -52,9 +52,7 @@
 
 {% embed url="https://youtu.be/8zQn9wNzJ0U" %}
 
-Функция quiz\_link работает ТОЛЬКО для Telegram. Описание здесь:
-
-{% embed url="https://docs.salebot.pro/minilendingi-v-socialnykh-setyakh#kak-rabotat-s-kvizom-v-telegram" %}
+Функция[ quiz\_link ](obuchayushie-video.md#ssylka-s-uvedomleniem-o-klike)работает ТОЛЬКО для Telegram.
 
 ## SalebotCRM
 

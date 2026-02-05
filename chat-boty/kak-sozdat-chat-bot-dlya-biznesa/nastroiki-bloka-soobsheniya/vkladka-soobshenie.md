@@ -58,7 +58,7 @@
 {% endhint %}
 
 {% hint style="info" %}
-Подробнее про работу с [Markdown читайте в этой статье.](/broken/pages/KEcqTxiLh1QVQqHdo0eU)
+Подробнее про работу с [Markdown читайте в этой статье.](../formatirovanie-teksta-soobshenii.md)
 {% endhint %}
 
 4. **Защитить контент**: защита контента от копирования, работает только в Telegram. Защищенные сообщения нельзя переслать, а на телефоне нельзя переслать и сделать скриншот.
@@ -74,7 +74,7 @@
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-04-18 в 09.54.11.png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Подробнее о разметке в Telegram рассказали в статье "[Markdown и HTML-разметка в Телеграм](/broken/pages/KEcqTxiLh1QVQqHdo0eU)"
+Подробнее о разметке в Telegram рассказали в статье "[Markdown и HTML-разметка в Телеграм](../../podklyuchenie-messendzherov-i-kanalov/telegram/formatirovanie-soobshenii-v-telegram.md)"
 {% endhint %}
 
 6. **Отправка без звука**

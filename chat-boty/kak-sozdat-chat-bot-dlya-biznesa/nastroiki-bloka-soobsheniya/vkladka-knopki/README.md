@@ -2,7 +2,7 @@
 
 <figure><img src="../../../../.gitbook/assets/Снимок экрана 2025-04-18 в 11.51.56.png" alt="" width="563"><figcaption></figcaption></figure>
 
-Кнопки можно создавать [двумя способами](https://docs.salebot.pro/osnovnye-ponyatiya.-kak-sozdavat-botov-na-salebot.pro/knopki#kak-sozdavat-knopki): \
+Кнопки можно создавать [двумя способами](../../strelki-soedineniya/): \
 \- стрелками с условием (включить настройку Отображать как кнопку)
 
 <figure><img src="../../../../.gitbook/assets/Снимок экрана 2025-04-18 в 11.54.44.png" alt=""><figcaption></figcaption></figure>
@@ -51,4 +51,4 @@
 
 <figure><img src="../../../../.gitbook/assets/Снимок экрана 2025-04-18 в 12.15.02.png" alt="" width="563"><figcaption></figcaption></figure>
 
-Все возможные настройки кнопок можно прочитать [в этой статье](https://docs.salebot.pro/osnovnye-ponyatiya.-kak-sozdavat-botov-na-salebot.pro/knopki#vse-vozmozhnye-nastroiki-knopok-v-etom-pole).
+Все возможные настройки кнопок можно прочитать [в этой статье](tipy-knopok.md).

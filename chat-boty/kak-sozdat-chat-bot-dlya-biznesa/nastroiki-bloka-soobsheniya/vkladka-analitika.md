@@ -115,7 +115,7 @@
 Если нужно отображать все значения, то оставьте поле пустым.&#x20;
 
 {% hint style="info" %}
-О других возможностях аналитики в Сейлбот рассказали в статье "[Аналитика Salebot](/broken/pages/wYAWtCPmmg5M9uDmeUPE)".
+О других возможностях аналитики в Сейлбот рассказали в статье "[Аналитика Salebot](../../../analitika-dlya-biznesa/analitika-salebot/)".
 {% endhint %}
 
 {% hint style="success" %}

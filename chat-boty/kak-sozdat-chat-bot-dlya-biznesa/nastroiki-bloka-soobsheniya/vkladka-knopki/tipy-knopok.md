@@ -12,22 +12,6 @@
 
 Они поддерживают два типа кнопок: те, что появляются ниже поля ввода сообщения (клавиатурные или reply) и кнопки в тексте (инлайн, inline), т.е внутри сообщения.
 
-* [Как создавать кнопки](tipy-knopok.md#kak-sozdavat-knopki.)
-* [Как можно сделать кнопку без протягивания стрелок](tipy-knopok.md#esli-nuzhno-sdelat-knopku-bez-protyagivaniya-strelok)
-* [Как сделать кнопки в тексте](tipy-knopok.md#knopki-v-tekste)
-* [Как сделать кнопки со ссылкой](tipy-knopok.md#knopki-so-ssylkoi)
-* [Как задать цвет кнопки](tipy-knopok.md#cvet-knopki)
-* [Как сделать кнопку - Запросить телефон (Telegram и Viber)](tipy-knopok.md#kak-sdelat-knopku-zaprosit-telefon)
-* [Как сделать кнопку - Оплата](tipy-knopok.md#kak-sdelat-knopku-oplata)
-* [Как сделать кнопку - Запрос геолокации (Вконтакте, Телеграм и Viber)](tipy-knopok.md#kak-sdelat-knopku-zapros-geolokacii)
-* [Как создать кнопку – Звонок](tipy-knopok.md#kak-sozdat-knopku-zvonok)
-* [Как создать кнопку - Поделиться (Telegram)](tipy-knopok.md#kak-sozdat-knopku-podelitsya-telegram)
-* [Как добавить Callback кнопку (Вконтакте, Telegram)](tipy-knopok.md#kak-dobavit-callback-knopku-vkontakte-telegram)
-* [Как установить боту кнопку для входа в Ваше веб-приложение (Web App)](tipy-knopok.md#kak-ustanovit-botu-knopku-dlya-vkhoda-v-vashe-veb-prilozhenie-web-app)
-* [Как заменить кнопки в WhatsApp](tipy-knopok.md#knopki-v-whatsapp)
-* [Как настроить кнопки вручную](tipy-knopok.md#nastroiki-knopok-vruchnuyu)
-* [Какие есть ограничения](tipy-knopok.md#ogranicheniya)
-
 ## Как создать кнопку
 
 Кнопки можно создавать двумя способами: используя настройки кнопок в нужном блоке и используя стрелки между блоками. Первый вариант более функционален и удобен в работе.
@@ -301,13 +285,13 @@ _\*принадлежит Meta, деятельность которой приз
 В зависимости от выбранной платежной системы обязательные поля для формирования ссылки и для создания чека будут  отличаться.&#x20;
 {% endhint %}
 
-Посмотреть настройки кнопки с функцией Оплата для разных платежных систем можно здесь:
+Посмотреть настройки кнопки с функцией Оплата для разных платежных провайдеров можно здесь:
 
-* для [Prodamus здесь](https://docs.salebot.pro/integracii/platezhnye-sistemy/platezhnaya-sistema-prodamus-prodamus#knopka-s-funkciei-oplata)
-* для[ Robokassa здесь](https://docs.salebot.pro/integracii/platezhnye-sistemy/priem-platezhei-cherez-robokassu#knopka-s-funkciei-oplata)
-* для [Тинькофф здесь](https://docs.salebot.pro/integracii/platezhnye-sistemy/tinkoff#knopka-s-funkciei-oplata)
-* для [ЮKassa здесь](https://docs.salebot.pro/integracii/platezhnye-sistemy/priem-platezhei-v-bote-cherez-yandeks.kassu#knopka-s-funkciei-oplata)
-* для [Cloudpayments здесь](https://docs.salebot.pro/integracii/platezhnye-sistemy/cloudpayments#knopka-s-funkciei-oplata)
+* для [Prodamus здесь](../../../../platezhnye-sistemy/platezhnaya-sistema-prodamus-prodamus.md)
+* для [Robokassa здесь](../../../../platezhnye-sistemy/priem-platezhei-cherez-robokassu.md)[priem-platezhei-cherez-robokassu.md](../../../../platezhnye-sistemy/priem-platezhei-cherez-robokassu.md "mention")
+* для [Тбанк здесь](../../../../platezhnye-sistemy/tinkoff.md)
+* для [ЮKassa здесь](../../../../platezhnye-sistemy/priem-platezhei-v-bote-cherez-yandeks.kassu.md)
+* для [Cloudpayments здесь](../../../../platezhnye-sistemy/cloudpayments.md)
 
 <mark style="color:green;">**Обязательными полями для формирования ссылки**</mark> будут Сумма и Наименование товара/Описание товара. \
 **поле Сумма.** В данном поле нужно указать сумму к оплате.
@@ -420,8 +404,6 @@ ovg58keefc : 10 символов секретного ключа платежн�
 <div><figure><img src="../../../../.gitbook/assets/Снимок экрана 2025-04-23 в 14.37.20.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../../.gitbook/assets/Снимок экрана 2025-04-23 в 14.39.07.png" alt=""><figcaption></figcaption></figure></div>
 
 После того, как клиент разрешит передачу местоположения, в бота перейдет сообщение с долготой и широтой.
-
-![](<../../../../.gitbook/assets/image (74) (1) (1) (1).png>)
 
 {% hint style="success" %}
 Долгота и широта автоматически запишутся в переменные **latitude** и **longitude.**

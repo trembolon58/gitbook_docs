@@ -2,10 +2,6 @@
 
 В блок можно добавить один из типов вложений: ссылка, видео, картинка, файл, аудио. &#x20;
 
-{% hint style="success" %}
-Подробнее про работу с вложениями, их различие и как правильно использовать рассказано [в этой статье. ](https://docs.salebot.pro/osnovnye-ponyatiya.-kak-sozdavat-botov-na-salebot.pro/otpravka-vlozhenii-audio-video)
-{% endhint %}
-
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-04-18 в 12.18.26.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Существует несколько типов вложений, которые можно отправлять в боте:
@@ -286,8 +282,8 @@ _<mark style="color:blue;">Исключение:</mark>_ Если в блоке 
 {% hint style="info" %}
 Полезные статьи:
 
-1. Функции для создания ссылок с уведомлением о клике и сроком действия можно прочитать в статье "[Для работы с ссылками](/broken/pages/EDc43pOhHpH3zXtkpiAl)"
-2. Подобнее о том, как разместить ссылку в кнопке, вы можете прочитать в статье "[Кнопки](/broken/pages/xeepnRj969zW3xRimkdg)"
+1. Функции для создания ссылок с уведомлением о клике и сроком действия можно прочитать в статье "[Для работы с ссылками](../../peremennye-i-funkcii/kalkulyator/dlya-raboty-so-ssylkami.md)"
+2. Подобнее о том, как разместить ссылку в кнопке, вы можете прочитать в статье "[Кнопки](vkladka-knopki/tipy-knopok.md#knopki-so-ssylkoi)"
 {% endhint %}
 
 ### Видеоинструкция
@@ -315,8 +311,6 @@ _<mark style="color:blue;">Исключение:</mark>_ Если в блоке 
 `Ваша_переменная = #{attachment_url}`, как на Рисунке 3.
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-04-22 в 14.46.20.png" alt=""><figcaption><p>Присвоить переменной url_image1  значение <code>attachment_url</code></p></figcaption></figure>
-
-
 
 {% embed url="https://www.youtube.com/watch?v=pR-tWPwxtdI" %}
 Видео-урок "Получение файлов от пользователя"
