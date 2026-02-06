@@ -11,7 +11,7 @@ description: >-
 В нем можно присвоить(объявить) переменную клиента, перешедшего в данный блок, или назначить значение уже существующим переменным. Например, будет полезно при создании воронки или отслеживания источника трафика.&#x20;
 
 {% hint style="success" %}
-О работе с переменными рассказали в [одноименной статье.](/broken/pages/-LxpXZscJeU6Wb2MlqSH)
+О работе с переменными рассказали[ в одноименной статье.](../peremennye.md)
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2025-04-18 в 11.08.26.png" alt="" width="563"><figcaption></figcaption></figure>
@@ -27,32 +27,30 @@ description: >-
 <mark style="color:red;">**Неверно:**</mark> <Имя клиента>\
 <mark style="color:green;">**Верно:**</mark> <Имя\_клиента>
 
-Подробнее читайте в статье "[Переменные](/broken/pages/-LxpXZscJeU6Wb2MlqSH)".
+Подробнее читайте в статье "[Переменные](../peremennye.md)".
 {% endhint %}
 
 {% hint style="success" %}
 Быстрый доступ к описаниям функций:
 
-* [математические ](/broken/pages/YKvDgH8Gyfs70ZtOvOF8)
-* [Для работы с ссылками](/broken/pages/EDc43pOhHpH3zXtkpiAl)
-* [для работы с таблицами Salebot ](/broken/pages/L6lTpoRomqX2vooeMmp6)
-* [работы с регулярными выражениями ](/broken/pages/MUNCztH0kSi1LuNryBlu)
-* [работы со строками ](/broken/pages/cjRoQmnTKUZrhVIMNTFC)
-* [для работы с датами и временем](/broken/pages/-M4rQ-AmC1n9xmWneCZ8)
-* [для работы с AI-ассистентом](/broken/pages/sH7i5pd0E8ZjZJa7vIRD)
-* [работы с клиентами и CRM](/broken/pages/X4tknFOsd3wxEHal7Ypl#dlya-raboty-s-klientami)
-* [для работы с онлайн-записью](/broken/pages/NubGjmQfs3kQXvWPl1Uq)
-* [работы с метками Salebot](/broken/pages/SYi1hydnFRfnjPaSMnLM)
-* [работы со списками ](/broken/pages/WzhSqrUng3kekDSFZ6Sv)
-* [для работы в мессенджерах](/broken/pages/09SDRdLKUDXv0TwX2ahu)
-* [для работы с сотрудниками](/broken/pages/zZ9Fd9KkY2Hnd0Ekx5Uw)
-* [работы с задачами ](/broken/pages/X4tknFOsd3wxEHal7Ypl#dlya-raboty-s-zadachami)
-* [удаления последнего сообщения](/broken/pages/09SDRdLKUDXv0TwX2ahu#dlya-udaleniya-poslednego-soobsheniya)
-* [отправки e-mail ](/broken/pages/TPtuT2spoOwcVbVn2qyW#dlya-otpravki-email-soobshenii)
-* [проверки условия "if": Если](/broken/pages/57jaf4kgdkdU6RsDb1l4#dlya-proverki-usloviya-if-esli)
-* [работы со сторонними API](/broken/pages/-MgzqQUP1TEKbhIUhJQn)
-* [работы с датой и временем](/broken/pages/-M4rQ-AmC1n9xmWneCZ8)
-* [работы с маркетплейсами](/broken/pages/oieC3bxnmf27EnLJndqy)
+* [математические ](matematicheskie-funkcii.md)
+* [Для работы с ссылками](dlya-raboty-so-ssylkami.md)
+* [для работы с таблицами Salebot ](dlya-raboty-s-salebot-tablicami.md)
+* [работы с регулярными выражениями ](dlya-raboty-s-regulyarnymi-vyrazheniyami.md)
+* [работы со строками ](dlya-raboty-so-strokami.md)
+* [для работы с датами и временем](dlya-raboty-s-datami-i-vremenem.md)
+* [для работы с AI-ассистентом](../../ai-assistent/funkcii-dlya-ai-assistenta.md)
+* [работы с клиентами и CRM](dlya-raboty-s-klientami-i-crm.md)
+* [для работы с онлайн-записью](dlya-raboty-s-onlain-zapisyu.md)
+* [работы с метками Salebot](dlya-raboty-s-metkami-salebot.md)
+* [работы со списками ](dlya-raboty-so-spiskami.md)
+* [для работы в мессенджерах](dlya-raboty-v-messendzherakh.md)
+* [для работы с сотрудниками](dlya-raboty-s-sotrudnikami.md)
+* [отправки e-mail ](dlya-raboty-s-email.md)
+* [проверки условия "if": Если](uslovnyi-operator-if.md)
+* [работы со сторонними API](funkcii-api-v-kalkulyatore.md)
+* [работы с датой и временем](dlya-raboty-s-datami-i-vremenem.md)
+* [работы с маркетплейсами](dlya-raboty-s-marketpleisami.md)
 {% endhint %}
 
 ## **Как использовать калькулятор в конструкторе**
