@@ -145,10 +145,6 @@ chat\_member\_username - ник пользователя (если устано�
 
 chat\_member\_id - id пользователя
 
-max\_delete\_message(message\_id) - удаляет указанное сообщение
-
-message\_id - id сообщения, обязательный параметр
-
 Чтобы писать сообщения от имени бота, а также видеть сообщения других участников в групповом чате/канале, бота нужно назначить администратором и дать соответствующие разрешения&#x20;
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcayIDrqacWVl_jDsnno0J51KkSGhOeI2VidLf1g2mo5SZjCN1raRljOcxcU9Vn4kBZ1CI4q7m70yPylwBTfwOOO_Rcif0D7vrz8EoMHzse2fPFaqCuTBNj6o8ahcq_DVknscWnqQ?key=lOib_VIcXHaMAcJLN34KW0zJ" alt=""><figcaption></figcaption></figure>
@@ -186,3 +182,10 @@ message\_id - id сообщения, обязательный параметр
 ссылка \<a href="https://dev.max.ru">Docs\</a>
 
 <div><figure><img src="../../.gitbook/assets/Снимок экрана 2026-01-21 в 14.54.37.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Снимок экрана 2026-01-21 в 14.54.47.png" alt=""><figcaption></figcaption></figure></div>
+
+## Функции калькулятора
+
+| Функция                            | Описание                             |
+| ---------------------------------- | ------------------------------------ |
+| max\_delete\_message (message\_id) | удаляет указанное сообщение          |
+| message\_id                        | id сообщения (обязательный параметр) |
