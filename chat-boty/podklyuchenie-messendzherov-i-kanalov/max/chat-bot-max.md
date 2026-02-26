@@ -1,4 +1,4 @@
-# MAX
+# Чат-бот MAX
 
 {% hint style="warning" %}
 Обращаем внимание!
@@ -34,19 +34,19 @@
 
 Затем в проекте перейдите во вкладку "Каналы" и нажмите на кнопку MAX:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2026-02-04 в 14.37.29.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2026-02-04 в 14.37.29.png" alt=""><figcaption></figcaption></figure>
 
 При клике по кнопке подключения мессенджера откроется форма, где можно найти кнопку для регистрации в мессенджере для компаний (ю/л и ИП):
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2026-02-04 в 14.40.47.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2026-02-04 в 14.40.47.png" alt=""><figcaption></figcaption></figure>
 
 **Шаг 2. Создайте бота**
 
 {% hint style="info" %}
-Если вы уже создали бота на платформе  и он прошёл проверку, перейдите к разделу "[Подключение мессенджера](max.md#podklyuchenie-messendzhera)" ниже.
+Если вы уже создали бота на платформе  и он прошёл проверку, перейдите к разделу "[Подключение мессенджера](chat-bot-max.md#podklyuchenie-messendzhera)" ниже.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-29 в 14.53.01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-10-29 в 14.53.01.png" alt=""><figcaption></figcaption></figure>
 
 Чтобы подключить инструменты коммуникации с клиентами в MAX, вам нужно:
 
@@ -62,11 +62,11 @@
 2. Если у вас несколько ботов, в левом верхнем углу выберите нужный.
 3. В разделе Чат-бот и мини-приложение нажмите Настроить.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-29 в 14.40.04.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-10-29 в 14.40.04.png" alt="" width="375"><figcaption></figcaption></figure>
 
 **Шаг 4. Скопируйте токен:**
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-29 в 14.40.10.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-10-29 в 14.40.10.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Теперь можно подключать мессенджер к Сейлбот.
 
@@ -74,15 +74,15 @@
 
 После того как вы создали бота в мессенджере, необходимо перейти в раздел "Каналы" в Сейлбот:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-26 в 17.43.10.png" alt="" width="327"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-03-26 в 17.43.10.png" alt="" width="327"><figcaption></figcaption></figure>
 
 В разделе каналы нажимаем на “MAX” для ввода токена, который вы скопировали ранее при создании бота:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-29 в 14.49.08.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-10-29 в 14.49.08.png" alt=""><figcaption></figcaption></figure>
 
 Вставьте скопированный токен и нажмите на “Готово”:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-26 в 17.39.30.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-03-26 в 17.39.30.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Готово! Бот подключен
@@ -181,7 +181,7 @@ chat\_member\_id - id пользователя
 
 ссылка \<a href="https://dev.max.ru">Docs\</a>
 
-<div><figure><img src="../../.gitbook/assets/Снимок экрана 2026-01-21 в 14.54.37.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Снимок экрана 2026-01-21 в 14.54.47.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/Снимок экрана 2026-01-21 в 14.54.37.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/Снимок экрана 2026-01-21 в 14.54.47.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Функции калькулятора
 

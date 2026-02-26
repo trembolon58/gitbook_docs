@@ -1,0 +1,83 @@
+# Перенос закрытых клубов из TG в MAX
+
+Сначала необходимо зарегистрироваться в MAX и создать бота.
+
+{% hint style="info" %}
+[Подробнее о создании чат-бота для MAX и возможностях мессенджера рассказали в статье MAX.](chat-bot-max.md)
+{% endhint %}
+
+{% hint style="warning" %}
+После прохождения верификации в мессенджере, в настройках бота вы найдете **токен.** Обязательно скопируйте его, он понадобится вам далее.
+{% endhint %}
+
+После регистрации и верификации, создайте групповой чат в MAX:
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Снимок экрана 2026-02-26 в 10.28.03.png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+Далее добавьте бота в группу и назначьте бота суперадминистратором:
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Снимок экрана 2026-02-26 в 10.30.06.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+Теперь перейдите в Salebot в раздел "Каналы" в проекте и нажмите на кнопку MAX:
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Снимок экрана 2026-02-26 в 10.32.46.png" alt=""><figcaption></figcaption></figure></div>
+
+Вставьте токен, скопированный в настройках бота, в одноименное поле "Токен" и нажмите "Готово". Тогда бот будет подключен к вашему проекту в Salebot.
+
+{% hint style="warning" %}
+Теперь скопируйте ID группового чата в MAX.
+{% endhint %}
+
+Затем перейдите в настройки проекта в раздел "Константы" и пропишите константы:
+
+* save\_webhook=1
+* access\_token=ntp0MZxYF3K8kKtDeQ7p8oDOjSCM7EKSkl0CvJpw91DWUhMQNARTnoLtzA\
+  <mark style="color:$success;">**(здесь указывается токен вашего бота в MAX)**</mark>
+* chatId=-1234567\
+  <mark style="color:blue;">**(здесь указывается ID вашего группого чата в MAX. Обращаем внимание, ID группового чата прописан со знаком "-"!)**</mark>
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Снимок экрана 2026-02-26 в 10.36.23.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+{% hint style="warning" %}
+Перейдите в раздел списки и создайте Список для подписчиков. ID данного списка вам понадобится далее по настройкам.
+{% endhint %}
+
+В блоке после успешной оплаты в Telegram добавляйте клиента в Список, созданный ранее. Далее будем отправлять АPI-запрос на добавление в групповой чат в MAX.
+
+Данный метод API из документации MAX будет использован в конструкторе чат-бота Salebot:
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Снимок экрана 2026-02-26 в 10.40.07.png" alt=""><figcaption></figcaption></figure></div>
+
+Далее в блоке в конструкторе чат-бота Salebot нажмите на кнопку API-запрос:
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Снимок экрана 2026-02-26 в 10.41.42.png" alt=""><figcaption></figcaption></figure></div>
+
+Теперь прописываем параметры API-запроса:
+
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2026-02-26 в 10.42.25.png" alt="" width="375"><figcaption></figcaption></figure>
+
+* <mark style="color:$success;">**Тип запроса: POST-json**</mark>
+* <mark style="color:purple;">**URL запроса: https://platform-api.max.ru/chats/#{chatId}/members**</mark>
+* Заголовок запроса:\
+  `{`\
+  `"Authorization":"#{access_token}"`\
+  `"Content-Type":"application/json"`\
+  `}`
+* JSON параметры:\
+  `{`\
+  `"user_ids":["#{tamtam_user_id}"]`\
+  `}`
+
+После того как закончился срок действия подписки и/или подписчик не продлил подписку, удаляем участника из группы: также отправляем API-запрос на удаление из чата.
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Снимок экрана 2026-02-26 в 10.49.08.png" alt=""><figcaption></figcaption></figure></div>
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Снимок экрана 2026-02-26 в 10.49.57.png" alt=""><figcaption></figcaption></figure></div>
+
+* <mark style="color:$danger;">**Тип запроса: DELETE-json**</mark>
+* <mark style="color:$warning;">**URL запроса: https://platform-api.max.ru/chats/**</mark><mark style="color:purple;">**{chatId}**</mark><mark style="color:$warning;">**/members?user\_id={user\_id}\&block=true**</mark>\
+  (вместо {chatID} можно указать ID группового чата, как показано в примере выше)
+* <mark style="color:blue;">**Заголовок запроса:**</mark> \
+  `{`\
+  `"Authorization": "#{access_token}"`\
+  `}`
