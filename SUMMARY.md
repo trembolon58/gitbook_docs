@@ -75,10 +75,10 @@
     * [Чат-бот MAX](chat-boty/podklyuchenie-messendzherov-i-kanalov/max/chat-bot-max.md)
     * [Перенос закрытых клубов из TG в MAX](chat-boty/podklyuchenie-messendzherov-i-kanalov/max/perenos-zakrytykh-klubov-iz-tg-v-max.md)
   * [Telegram](chat-boty/podklyuchenie-messendzherov-i-kanalov/telegram/README.md)
-    * [Как сделать бота Telegram](chat-boty/podklyuchenie-messendzherov-i-kanalov/telegram/kak-sdelat-bota-telegram.md)
+    * [Как создать Telegram бота](chat-boty/podklyuchenie-messendzherov-i-kanalov/telegram/kak-sozdat-telegram-bota.md)
     * [Подключение бота к каналу/группе](chat-boty/podklyuchenie-messendzherov-i-kanalov/telegram/podklyuchenie-bota-k-kanalu-gruppe.md)
-    * [Подключение личного аккаунта Telegram](chat-boty/podklyuchenie-messendzherov-i-kanalov/telegram/podklyuchenie-lichnogo-akkaunta-telegram.md)
-    * [Telegram Business-аккаунт](chat-boty/podklyuchenie-messendzherov-i-kanalov/telegram/telegram-business-akkaunt.md)
+    * [Telegram бот для личных сообщений](chat-boty/podklyuchenie-messendzherov-i-kanalov/telegram/telegram-bot-dlya-lichnykh-soobshenii.md)
+    * [Telegram бот для Business аккаунта](chat-boty/podklyuchenie-messendzherov-i-kanalov/telegram/telegram-bot-dlya-business-akkaunta.md)
     * [Автоматизация Telegram](chat-boty/avtomatizaciya/avtomatizaciya-telegram.md)
     * [Форматирование сообщений в Telegram](chat-boty/podklyuchenie-messendzherov-i-kanalov/telegram/formatirovanie-soobshenii-v-telegram.md)
     * [Кнопки в Telegram](chat-boty/podklyuchenie-messendzherov-i-kanalov/telegram/knopki-v-telegram.md)
@@ -397,7 +397,7 @@
 
 ## Наши услуги
 
-* [Тарифы и оплата](nashi-uslugi/tarify-i-oplata.md)
+* [Тарифы](nashi-uslugi/tarify.md)
 * [Мобильное приложение](nashi-uslugi/mobilnoe-prilozhenie.md)
 * [Партнерская программа](nashi-uslugi/partnerskaya-programma/README.md)
   * [Как передать проект заказчику](nashi-uslugi/partnerskaya-programma/kak-peredat-proekt-zakazchiku.md)

@@ -1,4 +1,4 @@
-# Подключение личного аккаунта Telegram
+# Telegram бот для личных сообщений
 
 ## Важно знать!
 
@@ -159,7 +159,7 @@
 
 Учитывайте ограничения для создания контактов для Телеграмм-аккаунта.&#x20;
 
-Подробнее в разделе "[Важно знать!](podklyuchenie-lichnogo-akkaunta-telegram.md#vazhno-znat)".
+Подробнее в разделе "[Важно знать!](telegram-bot-dlya-lichnykh-soobshenii.md#vazhno-znat)".
 {% endhint %}
 
 ## Методы калькулятора

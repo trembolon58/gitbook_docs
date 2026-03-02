@@ -13,7 +13,7 @@
 {% hint style="success" %}
 #### Создать Telegram-бота
 
-Как создать Telegram-бота и подключить его к Salebot, [рассказали в этой статье.](../podklyuchenie-messendzherov-i-kanalov/telegram/kak-sdelat-bota-telegram.md)
+Как создать Telegram-бота и подключить его к Salebot, [рассказали в этой статье.](../podklyuchenie-messendzherov-i-kanalov/telegram/kak-sozdat-telegram-bota.md)
 {% endhint %}
 
 ### Как добавить бота в группу/канал Telegram
