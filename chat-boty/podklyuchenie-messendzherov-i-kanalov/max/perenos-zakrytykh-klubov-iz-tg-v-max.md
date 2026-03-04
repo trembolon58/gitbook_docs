@@ -42,42 +42,14 @@
 Перейдите в раздел списки и создайте Список для подписчиков. ID данного списка вам понадобится далее по настройкам.
 {% endhint %}
 
-В блоке после успешной оплаты в Telegram добавляйте клиента в Список, созданный ранее. Далее будем отправлять АPI-запрос на добавление в групповой чат в MAX.
+В блоке после успешной оплаты в Telegram добавляйте клиента в Список, созданный ранее. Далее будем отправлять блок с функцией в калькуляторе на добавление в групповой чат в MAX.
 
-Данный метод API из документации MAX будет использован в конструкторе чат-бота Salebot:
+Шаг 1. Создайте блок в конструкторе SaleBot:
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Снимок экрана 2026-02-26 в 10.40.07.png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Снимок экрана 2026-03-04 в 17.01.48.png" alt=""><figcaption></figcaption></figure></div>
 
-Далее в блоке в конструкторе чат-бота Salebot нажмите на кнопку API-запрос:
+И пропишите в калькуляторе функцию `max_add_chat_member(chat_id, user_id)`
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Снимок экрана 2026-02-26 в 10.41.42.png" alt=""><figcaption></figcaption></figure></div>
+Чтобы удалить клиента после окончания подписки, воспользуйтесь функцией `max_delete_chat_member(chat_id, user_id)`
 
-Теперь прописываем параметры API-запроса:
-
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2026-02-26 в 10.42.25.png" alt="" width="375"><figcaption></figcaption></figure>
-
-* <mark style="color:$success;">**Тип запроса: POST-json**</mark>
-* <mark style="color:purple;">**URL запроса: https://platform-api.max.ru/chats/#{chatId}/members**</mark>
-* Заголовок запроса:\
-  `{`\
-  `"Authorization":"#{access_token}"`\
-  `"Content-Type":"application/json"`\
-  `}`
-* JSON параметры:\
-  `{`\
-  `"user_ids":["#{tamtam_user_id}"]`\
-  `}`
-
-После того как закончился срок действия подписки и/или подписчик не продлил подписку, удаляем участника из группы: также отправляем API-запрос на удаление из чата.
-
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Снимок экрана 2026-02-26 в 10.49.08.png" alt=""><figcaption></figcaption></figure></div>
-
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Снимок экрана 2026-02-26 в 10.49.57.png" alt=""><figcaption></figcaption></figure></div>
-
-* <mark style="color:$danger;">**Тип запроса: DELETE-json**</mark>
-* <mark style="color:$warning;">**URL запроса: https://platform-api.max.ru/chats/**</mark><mark style="color:purple;">**{chatId}**</mark><mark style="color:$warning;">**/members?user\_id={user\_id}\&block=true**</mark>\
-  (вместо {chatID} можно указать ID группового чата, как показано в примере выше)
-* <mark style="color:blue;">**Заголовок запроса:**</mark> \
-  `{`\
-  `"Authorization": "#{access_token}"`\
-  `}`
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Снимок экрана 2026-03-04 в 17.01.08.png" alt=""><figcaption></figcaption></figure></div>
