@@ -1,4 +1,4 @@
-# Как создать чат-бота для \*\*stagram\*
+# Как создать чат-бота для Instagram\*
 
 {% hint style="danger" %}
 \***Принадлежат компании Meta Platforms Inc**., деятельность которой признана **на территории Российской Федерации&#x20;**<mark style="color:red;">**экстремистской и**</mark> <mark style="color:red;">**запрещена!**</mark>&#x20;
@@ -41,7 +41,7 @@
 
 ## Как подключить аккаунт к Salebot
 
-Чтобы подключить аккаунт Instagram<mark style="color:red;">**\***</mark> к Salebot, вам необходимо сначала подготовить свой аккаунт, переключив его на профессиональный (как это сделать, [рассказали выше](kak-sozdat-chat-bota-dlya-stagram.md#kak-podgotovit-svoi-akkaunt-instagram)).&#x20;
+Чтобы подключить аккаунт Instagram<mark style="color:red;">**\***</mark> к Salebot, вам необходимо сначала подготовить свой аккаунт, переключив его на профессиональный (как это сделать, [рассказали выше](kak-sozdat-chat-bota-dlya-instagram.md#kak-podgotovit-svoi-akkaunt-instagram)).&#x20;
 
 Далее перейдите в раздел "Каналы" в Salebot:
 
