@@ -118,6 +118,7 @@
   * [WhatsApp\*](chat-boty/podklyuchenie-messendzherov-i-kanalov/whatsapp/README.md)
     * [FAQ Whatsapp\*](chat-boty/podklyuchenie-messendzherov-i-kanalov/whatsapp/faq-whatsapp.md)
   * [Viber](chat-boty/podklyuchenie-messendzherov-i-kanalov/viber.md)
+  * [WABA\*](chat-boty/podklyuchenie-messendzherov-i-kanalov/waba.md)
   * [Одноклассники](chat-boty/podklyuchenie-messendzherov-i-kanalov/odnoklassniki.md)
   * [\*\*cebook Messenger\*](chat-boty/podklyuchenie-messendzherov-i-kanalov/cebook-messenger/README.md)
     * [API \*\*cebook](chat-boty/podklyuchenie-messendzherov-i-kanalov/cebook-messenger/api-cebook.md)
