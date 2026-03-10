@@ -8,11 +8,11 @@
 
 Шаг 2. Добавьте бота (Add Bot)
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (9).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-03-10 в 13.30.29.png" alt=""><figcaption></figcaption></figure></div>
 
 Шаг 2.1. В разделе Installation выберите Install Link -> None
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (10).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-03-10 в 13.31.30.png" alt=""><figcaption></figcaption></figure></div>
 
 Шаг 2.2. В разделе Bot выключите Public Bot, далее включите Intents:
 
@@ -20,17 +20,17 @@
 * Server memebrs intent;
 * но можно и Presence Intent на будущее.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (11).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-03-10 в 13.36.19.png" alt=""><figcaption></figcaption></figure></div>
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (12).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-03-10 в 13.37.50.png" alt=""><figcaption></figcaption></figure></div>
 
 &#x20;3\. Получите токен (Reset Token)
 
 &#x20;4\. Добавьте бота на сервер (OAuth2 → URL Generator, в Scopes отметить bot, в Bot Permissions выбрать Send Messages, Read Message History и другие нужные привилегии, перейти по полученной ссылке, выбрать сервер для добавления и согласиться)
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (13).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-03-10 в 13.39.07.png" alt=""><figcaption></figcaption></figure></div>
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (14).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-03-10 в 13.40.18.png" alt=""><figcaption></figcaption></figure></div>
 
 Для получения полного вебхука от Дискорд достаточно присвоить любое значение переменной  save\_webhook
 
