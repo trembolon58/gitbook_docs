@@ -1,4 +1,4 @@
-# Telegram Business-аккаунт
+# Telegram бот для Business аккаунта
 
 Теперь существует возможность создавать специализированных ботов, которые могут быть интегрированы в личные чаты бизнес-пользователей в мессенджере Telegram. Эти боты способны автоматически обрабатывать входящие запросы, отвечая от имени владельца аккаунта, что позволяет существенно сократить время на рутинные операции и повысить эффективность коммуникации.
 
@@ -28,23 +28,23 @@
 
 Для начала перейдите во вкладку Каналы в разделе Salebot для подключения чат-бота Telegram (если такового еще нет).&#x20;
 
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-11-04 в 15.26.12.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Снимок экрана 2025-11-04 в 15.26.12.png" alt=""><figcaption></figcaption></figure></div>
 
-Далее подключаем [Телеграм-бота согласно инструкции](/broken/pages/7fmy0xrLRyQ3zT9Cbo3I).&#x20;
+Далее подключаем Телеграм-бота согласно инструкции.&#x20;
 
 2. **Если Телеграм-бот подключен**.&#x20;
 
 В случае, если у вас уже есть подключенный Телеграм-бот, найдите данного бота в каналах:
 
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2025-11-04 в 15.27.26.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Снимок экрана 2025-11-04 в 15.27.26.png" alt=""><figcaption></figcaption></figure></div>
 
 Далее кликните по кнопке настройки, после чего вам откроется модальное окно с полями токена и пр.:
 
-<figure><img src="../../../.gitbook/assets/2024-04-04_11-19-31.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/2024-04-04_11-19-31.png" alt=""><figcaption></figcaption></figure></div>
 
 В открывшемся модальном окне кликните на ГОТОВО для обновления настроек вашего Телеграм-бота (больше никаких настроек менять не нужно):
 
-<figure><img src="../../../.gitbook/assets/2024-04-04_11-19-48.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/2024-04-04_11-19-48.png" alt=""><figcaption></figcaption></figure></div>
 
 На данном этапе работа с каналами завершена. Переходите в настройки мессенджера.&#x20;
 
@@ -56,15 +56,15 @@
 
 Далее вы увидите вкладку "Чат-боты", куда необходимо перейти:
 
-<figure><img src="../../../.gitbook/assets/photo_2024-04-04_10-59-03.jpg" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/photo_2024-04-04_10-59-03.jpg" alt=""><figcaption></figcaption></figure></div>
 
 После чего в открывшейся вкладке укажите ссылку необходимого телеграм-бота либо его имя (приоритетнее ввод ссылки):
 
-<figure><img src="../../../.gitbook/assets/photo_2024-04-04_10-59-46.jpg" alt="" width="291"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/photo_2024-04-04_10-59-46.jpg" alt="" width="291"><figcaption></figcaption></figure></div>
 
 Установите в этой же вкладке разрешение (чекбокс "Ответы на сообщения") чат-боту отвечать на сообщения:
 
-<figure><img src="../../../.gitbook/assets/photo_2024-04-04_11-00-35 (2).jpg" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/photo_2024-04-04_11-00-35 (2).jpg" alt=""><figcaption></figcaption></figure></div>
 
 На данном этапе настройка чат-бота в бизнес аккаунте завершена. Переходите далее.
 
@@ -73,15 +73,15 @@
 После привязки чат-бота к бизнес-аккаунту, необходимо поменять настройки самого чат-бота в BotFather, где вы ранее создавали бота для Telegram. \
 Для этого перейдите в диалог с BotFather, где необходимо подключить работу с бизнес-аккаунтом:
 
-<figure><img src="../../../.gitbook/assets/photo_2024-04-04_11-01-52.jpg" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/photo_2024-04-04_11-01-52.jpg" alt=""><figcaption></figcaption></figure></div>
 
 Перейдите в настройки самого бота:
 
-<figure><img src="../../../.gitbook/assets/photo_2024-04-04_11-02-58.jpg" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/photo_2024-04-04_11-02-58.jpg" alt=""><figcaption></figcaption></figure></div>
 
 Далее кликните по кнопке "Business Mode" для подключения бизнес-режима для чат-бота:
 
-<figure><img src="../../../.gitbook/assets/photo_2024-04-04_11-03-45.jpg" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/photo_2024-04-04_11-03-45.jpg" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="success" %}
 Готово! Все необходимые настройки чат-бота с бизнес аккаунтом завершены.
@@ -89,17 +89,17 @@
 
 Теперь в настройках канала вы найдете Телеграм-бота, в котором увидите business ID и также имя владельца бизнес-аккаунта:
 
-<figure><img src="../../../.gitbook/assets/photo_2024-04-04_11-38-50.jpg" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/photo_2024-04-04_11-38-50.jpg" alt=""><figcaption></figcaption></figure></div>
 
 ### Как отключить&#x20;
 
 Для отключения чат-бота с бизнес-режимом, перейдите в каналы и найдите чат-бота, в котором необходимо отключить данную настройку. Кликните по кнопке настройки:
 
-<figure><img src="../../../.gitbook/assets/два.jpg" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/два.jpg" alt=""><figcaption></figcaption></figure></div>
 
 Кликните по кнопке "Отключить бизнес-аккаунт":
 
-<figure><img src="../../../.gitbook/assets/photo_2024-04-04_11-10-18.jpg" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/photo_2024-04-04_11-10-18.jpg" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="success" %}
 При отключении бизнес-аккаунта чат-бот продолжит свою работу в штатном режиме.&#x20;
@@ -245,44 +245,44 @@
 
 2. Методы
 
-\- [tg\_send\_chat\_action](https://docs.salebot.pro/messendzhery-i-chaty/kak-sozdat-bota-v-telegram/api-telegram-funkcii-dlya-ispolzovaniya-vsekh-vozmozhnostei-telegram/funkcii-raboty-v-chatakh-i-kanalakh-telegram#tg_send_chat_action)
+\- [tg\_send\_chat\_action](funkcii-api-telegram/funkcii-raboty-v-chatakh-i-kanalakh-telegram.md#kak-pokazat-deistviya-v-chate-kanale-telegram)
 
-\- [tg\_send\_message](https://docs.salebot.pro/messendzhery-i-chaty/kak-sozdat-bota-v-telegram/api-telegram-funkcii-dlya-ispolzovaniya-vsekh-vozmozhnostei-telegram/funkcii-dlya-otpravki-i-redaktirovaniya-soobshenii)
+\- [tg\_send\_message](funkcii-api-telegram/funkcii-dlya-otpravki-i-redaktirovaniya-soobshenii.md#otpravit-soobshenie-v-telegram)
 
-\- [tg\_send\_poll](https://docs.salebot.pro/messendzhery-i-chaty/kak-sozdat-bota-v-telegram/api-telegram-funkcii-dlya-ispolzovaniya-vsekh-vozmozhnostei-telegram#kak-sozdat-zakryt-opros-v-chate-kanale-telegram)
+\- [tg\_send\_poll](telegram-bot-dlya-business-akkaunta.md#tg_send_poll)
 
-\- [tg\_send\_quiz\_poll](https://docs.salebot.pro/messendzhery-i-chaty/kak-sozdat-bota-v-telegram/api-telegram-funkcii-dlya-ispolzovaniya-vsekh-vozmozhnostei-telegram#kak-sozdat-zakryt-opros-v-chate-kanale-telegram)
+\- [tg\_send\_quiz\_poll](telegram-bot-dlya-business-akkaunta.md#tg_send_quiz_poll)
 
-\- [tg\_send\_video\_note](https://docs.salebot.pro/messendzhery-i-chaty/kak-sozdat-bota-v-telegram/api-telegram-funkcii-dlya-ispolzovaniya-vsekh-vozmozhnostei-telegram/funkcii-otpravki-vlozhenii-v-soobshenii)
+\- [tg\_send\_video\_note](funkcii-api-telegram/funkcii-otpravki-vlozhenii-v-soobshenii.md)
 
-\- [tg\_send\_sticker](https://docs.salebot.pro/messendzhery-i-chaty/kak-sozdat-bota-v-telegram/api-telegram-funkcii-dlya-ispolzovaniya-vsekh-vozmozhnostei-telegram/funkcii-otpravki-vlozhenii-v-soobshenii)
+\- [tg\_send\_sticker](funkcii-api-telegram/funkcii-otpravki-vlozhenii-v-soobshenii.md)
 
-\- [tg\_send\_contact](https://docs.salebot.pro/messendzhery-i-chaty/kak-sozdat-bota-v-telegram/api-telegram-funkcii-dlya-ispolzovaniya-vsekh-vozmozhnostei-telegram/funkcii-otpravki-vlozhenii-v-soobshenii#otpravit-kontakt-tg_send_contact)
+\- [tg\_send\_contact](funkcii-api-telegram/funkcii-otpravki-vlozhenii-v-soobshenii.md)
 
-\- [tg\_send\_venue](https://docs.salebot.pro/messendzhery-i-chaty/kak-sozdat-bota-v-telegram/api-telegram-funkcii-dlya-ispolzovaniya-vsekh-vozmozhnostei-telegram/funkcii-otpravki-vlozhenii-v-soobshenii#otpravit-geotochku-tg_send_venue)
+\- [tg\_send\_venue](funkcii-api-telegram/funkcii-otpravki-vlozhenii-v-soobshenii.md)
 
-\- [tg\_send\_video](https://docs.salebot.pro/messendzhery-i-chaty/kak-sozdat-bota-v-telegram/api-telegram-funkcii-dlya-ispolzovaniya-vsekh-vozmozhnostei-telegram/funkcii-otpravki-vlozhenii-v-soobshenii?q=#primer-koda-dlya-kopirovaniya-6)
+\- [tg\_send\_video](funkcii-api-telegram/funkcii-otpravki-vlozhenii-v-soobshenii.md)
 
-\- [tg\_send\_animation](https://docs.salebot.pro/messendzhery-i-chaty/kak-sozdat-bota-v-telegram/api-telegram-funkcii-dlya-ispolzovaniya-vsekh-vozmozhnostei-telegram/funkcii-otpravki-vlozhenii-v-soobshenii#otpravit-animaciyu-tg_send_animation)
+\- [tg\_send\_animation](funkcii-api-telegram/funkcii-otpravki-vlozhenii-v-soobshenii.md)
 
-\- [tg\_send\_voice](https://docs.salebot.pro/messendzhery-i-chaty/kak-sozdat-bota-v-telegram/api-telegram-funkcii-dlya-ispolzovaniya-vsekh-vozmozhnostei-telegram/funkcii-otpravki-vlozhenii-v-soobshenii#otpravit-animaciyu-tg_send_animation)
+\- [tg\_send\_voice](funkcii-api-telegram/funkcii-otpravki-vlozhenii-v-soobshenii.md)
 
-\- [tg\_send\_document](https://docs.salebot.pro/messendzhery-i-chaty/kak-sozdat-bota-v-telegram/api-telegram-funkcii-dlya-ispolzovaniya-vsekh-vozmozhnostei-telegram/funkcii-otpravki-vlozhenii-v-soobshenii#otpravit-animaciyu-tg_send_animation)
+\- [tg\_send\_document](funkcii-api-telegram/funkcii-otpravki-vlozhenii-v-soobshenii.md)
 
-\- [tg\_send\_media\_group](https://docs.salebot.pro/messendzhery-i-chaty/kak-sozdat-bota-v-telegram/api-telegram-funkcii-dlya-ispolzovaniya-vsekh-vozmozhnostei-telegram/funkcii-otpravki-vlozhenii-v-soobshenii#otpravit-media-gruppu-tg_send_media_group)
+\- [tg\_send\_media\_group](funkcii-api-telegram/funkcii-otpravki-vlozhenii-v-soobshenii.md)
 
-\- [tg\_send\_some\_photo](https://docs.salebot.pro/messendzhery-i-chaty/kak-sozdat-bota-v-telegram/api-telegram-funkcii-dlya-ispolzovaniya-vsekh-vozmozhnostei-telegram/funkcii-otpravki-vlozhenii-v-soobshenii#otpravit-media-gruppu-tg_send_media_group)
+\- [tg\_send\_some\_photo](funkcii-api-telegram/funkcii-otpravki-vlozhenii-v-soobshenii.md)
 
-\- [tg\_send\_some\_video](https://docs.salebot.pro/messendzhery-i-chaty/kak-sozdat-bota-v-telegram/api-telegram-funkcii-dlya-ispolzovaniya-vsekh-vozmozhnostei-telegram/funkcii-otpravki-vlozhenii-v-soobshenii#otpravit-media-gruppu-tg_send_media_group)
+\- [tg\_send\_some\_video](funkcii-api-telegram/funkcii-otpravki-vlozhenii-v-soobshenii.md)
 
-\- [tg\_send\_some\_document](https://docs.salebot.pro/messendzhery-i-chaty/kak-sozdat-bota-v-telegram/api-telegram-funkcii-dlya-ispolzovaniya-vsekh-vozmozhnostei-telegram/funkcii-otpravki-vlozhenii-v-soobshenii#otpravit-media-gruppu-tg_send_media_group)
+-[ tg\_send\_some\_document](funkcii-api-telegram/funkcii-otpravki-vlozhenii-v-soobshenii.md)
 
-\- [tg\_send\_some\_audio](https://docs.salebot.pro/messendzhery-i-chaty/kak-sozdat-bota-v-telegram/api-telegram-funkcii-dlya-ispolzovaniya-vsekh-vozmozhnostei-telegram/funkcii-otpravki-vlozhenii-v-soobshenii#otpravit-media-gruppu-tg_send_media_group)
+\- [tg\_send\_some\_audio](funkcii-api-telegram/funkcii-otpravki-vlozhenii-v-soobshenii.md)
 
-\- [tg\_send\_dice ](https://docs.salebot.pro/messendzhery-i-chaty/kak-sozdat-bota-v-telegram/api-telegram-funkcii-dlya-ispolzovaniya-vsekh-vozmozhnostei-telegram/funkcii-otpravki-vlozhenii-v-soobshenii#otpravit-media-gruppu-tg_send_media_group)
+\- [tg\_send\_dice ](funkcii-api-telegram/funkcii-otpravki-vlozhenii-v-soobshenii.md)
 
 автоматически работают с клиентами, написавшими в бизнес аккаунт телеграм так же, как в ботах.
 
 {% hint style="info" %}
-Подробнее об указанных методах написано в статье "[API Telegram](/broken/pages/Cv3rieQMEhwLgHdm9aBq)".
+Подробнее об указанных методах написано в статье "[API Telegram](funkcii-api-telegram/)".
 {% endhint %}
