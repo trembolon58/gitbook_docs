@@ -8,7 +8,7 @@
 
 По умолчанию можно использовать три роли - **Администратор**, **Редактор** и **Оператор**. Права данных ролей нередактируемые. &#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 12.24.18.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 12.24.18.png" alt=""><figcaption></figcaption></figure></div>
 
 Пользователь с правами Администратора или Создателя проекта может создать новую **Настраиваемую роль**.
 
@@ -24,35 +24,65 @@
 
 Также существует роль "**Владелец проекта**":
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 12.37.27.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 12.37.27.png" alt=""><figcaption></figcaption></figure></div>
 
-Владелец проекта обладает всеми правами администратора, при этом Владельца проекта нельзя удалить из проекта другим администраторам, Владельцу проекта нельзя изменять права доступа в проекте и только Владелец проекта может назначить другого владельца.&#x20;
+Владелец проекта обладает всеми правами администратора, при этом Владельца проекта нельзя удалить из проекта другим администраторам, Владельцу проекта нельзя изменять права доступа в проекте и только Владелец проекта может назначить другого владельца.
+
+### Редактировать сотрудника
+
+Чтобы редактировать информацию о сотруднике или его контактные данные, перейдите в раздел "Сотрудники" и найдите кнопку дополнительных действий:
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-03-11 в 17.17.43.png" alt=""><figcaption></figcaption></figure></div>
+
+При клике на кнопку откроется дополнительные действия с сотрудником "Редактировать" и "Удалить". Нажмите "Редактировать":
+
+<figure><img src="../../.gitbook/assets/Снимок экрана 2026-03-11 в 17.20.41.png" alt=""><figcaption></figcaption></figure>
+
+Вам откроется модальное окно, где вы можете редактировать имя сотрудника, его роль, описание.
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-03-11 в 17.22.12.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+Также добавили возможность в настройки сотрудника добавили указать дополнительные данные:
+
+\- email
+
+\- Телефон
+
+\- Должность
+
+и до трех дополнительных полей (при клике на кнопку "+ Добавить поле").
+
+Эти данные можно получить в калькуляторе с помощью функции get\_operator\_info(field\_name)
+
+{% hint style="info" %}
+Подробнее о работе с методом калькулятора [рассказали здесь.](../../chat-boty/peremennye-i-funkcii/kalkulyator/dlya-raboty-s-sotrudnikami.md#poluchit-informaciyu-o-sotrudnike)
+{% endhint %}
 
 ### Как создать новую роль
 
 Создать **“настраиваемую роль”** может Владелец проекта или Администратор и далее назначить эту роль другим пользователям (сотрудникам):
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 13.29.29.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 13.29.29.png" alt=""><figcaption></figcaption></figure></div>
 
 Для новой роли может быть задано любое имя.
 
 Чтобы создать роль перейдите во вкладку "Роли":
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 13.34.18.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 13.34.18.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Меню предусматривает основные разделов, доступы к которым можно настроить при создании роли:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 13.35.00.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 13.35.00.png" alt=""><figcaption></figcaption></figure></div>
 
 Если запретить доступ к какому-либо разделу, то он перестанет отображаться в основном меню и в него нельзя будет попасть.&#x20;
 
 Например, для стандартной роли Оператора недоступны разделы конструктора чат-бота, АИ-ассистента, онлайн-курсов и настроек проекта.&#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 13.36.12.png" alt="" width="326"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 13.36.12.png" alt="" width="326"><figcaption></figcaption></figure></div>
 
 Настроить разделы можно 3 способами: недоступно, только просмотр, просмотр и редактирование:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 13.39.48.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 13.39.48.png" alt=""><figcaption></figcaption></figure></div>
 
 **Недоступно** - это значит полностью ограничить доступ к просмотру и редактированию выбранного раздела&#x20;
 
@@ -64,21 +94,19 @@
 
 В разделе "Аналитика" можно настроить кастомную роль таким образом, чтобы сотруднику были доступны только определенные вкладки:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 13.40.33.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 13.40.33.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Раздел: Задачи
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 14.06.02.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 14.06.02.png" alt=""><figcaption></figcaption></figure></div>
 
 При активном состоянии тумблера **“Просмотр чужих задач”** пользователь сможет видеть не только свои задачи, но и задачи, назначенные другим пользователям, а также задачи без пользователей (свободные задачи).&#x20;
 
 При неактивном состоянии тумблера **“Просмотр чужих задач”** пользователь сможет видеть только свои задачи. При активном состоянии тумблера “Редактирование задач” пользователь сможет редактировать и удалять все доступные задачи.
 
-
-
 ### Раздел: Клиенты
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 14.19.34.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 14.19.34.png" alt=""><figcaption></figcaption></figure></div>
 
 При активном состоянии чекбокса "М**ожет удалять сообщения**" пользователю будет доступна возможность удалять сообщения в карточке клиента бота
 
@@ -88,7 +116,7 @@
 
 При активном состоянии чекбокса **“Просмотр ID мессенджера”** пользователь сможет видеть ID мессенджера клиента в карточке клиента:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 14.21.00.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 14.21.00.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 При активном состоянии чекбокса **“Взаимодействие с клиентами”** пользователь сможет: писать сообщения клиентам, редактировать, удалять переписку, редактировать данные клиента (фото, имя и т.п.), блокировать, удалять клиента, назначать себе клиента, передавать, перемещать клиента.
 
@@ -98,11 +126,11 @@
 
 ### Раздел: Переменные
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 14.22.51.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 14.22.51.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 При активном состоянии чекбокса **“Просмотр клиентских переменных”** пользователь сможет видеть клиентские переменные:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 14.24.14.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 14.24.14.png" alt=""><figcaption></figcaption></figure></div>
 
 Аналогично работает чекбокс **“Просмотр переменных сделки”**.&#x20;
 
@@ -112,7 +140,7 @@
 
 Чтобы изменить владельца проекта, перейдите в настройки проекта:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 13.05.03.png" alt="" width="304"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 13.05.03.png" alt="" width="304"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Переназначить владельца проекта может только текущий владелец.&#x20;
@@ -120,25 +148,25 @@
 
 Далее во вкладке "Основные настройки" найдите строку "Владелец проекта":
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 13.06.35.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 13.06.35.png" alt=""><figcaption></figcaption></figure></div>
 
 Кликните по строке"Владелец проекта" и выберите из выпадающего списка email сотрудника, который будет назначен в проекте владельцем:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 13.10.19.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 13.10.19.png" alt=""><figcaption></figcaption></figure></div>
 
 Затем обязательно нажмите на "Готово" внизу экрана:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 13.16.57.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 13.16.57.png" alt=""><figcaption></figcaption></figure></div>
 
 После чего страница обновится и у бывшего владельца проекта пропадет строка для изменения владельца:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 13.18.18.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 13.18.18.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Назначение ролей пользователю (сотруднику)
 
 После создания роли на нее можно назначить любого сотрудника проекта, при этом в зависимости от полномочий и прав доступа настроенной роли, пользователь сможет просматривать только те разделы приложения, которые были заранее определены.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 14.32.02.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 14.32.02.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-21 в 14.35.31.png" alt=""><figcaption></figcaption></figure>
 
