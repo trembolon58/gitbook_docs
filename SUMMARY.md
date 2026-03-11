@@ -257,7 +257,10 @@
   * [Продажа курсов через сайт](dlya-onlain-shkol/kak-prodavat-kursy/prodazha-kursov-cherez-sait.md)
 * [Ученики](dlya-onlain-shkol/ucheniki.md)
 * [Часто задаваемые вопросы](dlya-onlain-shkol/chasto-zadavaemye-voprosy.md)
-* [Трансляции](dlya-onlain-shkol/translyacii.md)
+* [Трансляции](dlya-onlain-shkol/translyacii/README.md)
+  * [Настройки трансляции](dlya-onlain-shkol/translyacii/nastroiki-translyacii.md)
+  * [Как запустить трансляцию через ZOOM](dlya-onlain-shkol/translyacii/kak-zapustit-translyaciyu-cherez-zoom.md)
+  * [Кастомные роли для трансляций](dlya-onlain-shkol/translyacii/kastomnye-roli-dlya-translyacii.md)
 * [Аналитика курсов](analitika-dlya-biznesa/analitika-salebot/analitika-kursov.md)
 
 ## Рассылки
