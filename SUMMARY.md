@@ -126,6 +126,7 @@
   * [\*\*cebook Messenger\*](chat-boty/podklyuchenie-messendzherov-i-kanalov/cebook-messenger/README.md)
     * [API \*\*cebook](chat-boty/podklyuchenie-messendzherov-i-kanalov/cebook-messenger/api-cebook.md)
   * [Чат-бот для Авито](chat-boty/podklyuchenie-messendzherov-i-kanalov/chat-bot-dlya-avito.md)
+  * [Чат-бот для Циан](chat-boty/podklyuchenie-messendzherov-i-kanalov/chat-bot-dlya-cian.md)
   * [Чат-бот для Юлы](chat-boty/podklyuchenie-messendzherov-i-kanalov/chat-bot-dlya-yuly.md)
   * [Перевод клиента в другой мессенджер](chat-boty/podklyuchenie-messendzherov-i-kanalov/perevod-klienta-v-drugoi-messendzher.md)
 * [Переменные и функции](chat-boty/peremennye-i-funkcii/README.md)
