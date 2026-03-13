@@ -1,4 +1,4 @@
-# Кнопки и вложения в \*\*\*stagram\*
+# Кнопки и вложения в Instagram\*
 
 {% hint style="danger" %}
 \***Принадлежат компании Meta Platforms Inc**., которая признана **на территории Российской Федерации&#x20;**<mark style="color:red;">**экстремистской и**</mark> <mark style="color:red;">**запрещена!**</mark>&#x20;
@@ -139,7 +139,7 @@ p = \[{"title":"заголовок", "description": "ОПИСАНИЕ КАРТО
 
 &#x20;                                      ![](<../../../.gitbook/assets/image (1) (2) (1).png>)
 
-&#x20;                                     <img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" data-size="original">
+&#x20;                                     <img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" data-size="original">
 
 {% hint style="info" %}
 В кнопки карточек карусели добавлен еще один необязательный параметр payload, который не будет отображаться клиенту, но позволит проанализировать сделанный клиентом выбор&#x20;

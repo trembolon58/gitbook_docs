@@ -6,7 +6,7 @@
 
 <figure><img src="../../.gitbook/assets/image (148).png" alt=""><figcaption><p>Меню Звонобот</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Форма получения API-ключа</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Форма получения API-ключа</p></figcaption></figure>
 
 Сохраните его в надежное место. Вы всегда можете использовать ранее полученный ключ или перегенерировать его
 
@@ -16,7 +16,7 @@
 
 Далее следует перейти в Salebot во вкладку телефония и ввести полученные данные в форму подключения Zvonobot.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Форма подключения Zvonobot в Salebot</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Форма подключения Zvonobot в Salebot</p></figcaption></figure>
 
 Zvonobot подключен!&#x20;
 

@@ -29,7 +29,7 @@
 
 Сохраняем все настройки, копируем данные и переходим к настройкам в Salebot. Открываем раздел "Эквайринг", выбираем Coinpayments.&#x20;
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Нужно ввести полученные данные.
 

@@ -431,6 +431,9 @@
   * [QR-код и штрихкод](chasto-zadavaemye-voprosy/osobye-vozmozhnosti/qr-kod-i-shtrikhkod.md)
   * [Отправка заявок в мессенджеры и на электронную почту](chasto-zadavaemye-voprosy/osobye-vozmozhnosti/otpravka-zayavok-v-messendzhery-i-na-elektronnuyu-pochtu.md)
   * [Работа с промокодами](chasto-zadavaemye-voprosy/osobye-vozmozhnosti/rabota-s-promokodami.md)
+* [Как переехать в Salebot](chasto-zadavaemye-voprosy/kak-pereekhat-v-salebot/README.md)
+  * [Как переехать с BotHelp](chasto-zadavaemye-voprosy/kak-pereekhat-v-salebot/kak-pereekhat-s-bothelp.md)
+  * [Как переехать с Senler](chasto-zadavaemye-voprosy/kak-pereekhat-v-salebot/kak-pereekhat-s-senler.md)
 
 ## Что нового
 
