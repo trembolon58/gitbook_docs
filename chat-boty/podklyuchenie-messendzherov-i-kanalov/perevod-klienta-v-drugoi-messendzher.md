@@ -12,10 +12,13 @@
 
 Параметры:
 
-<table><thead><tr><th width="201"></th><th width="258"></th><th></th></tr></thead><tbody><tr><td><strong>client_type</strong></td><td> тип клиента число, обязательный параметр, указывает на какой мессенджер будет совершен переход </td><td>(доступны следующие значения 0: 'vkontakte', 1: 'telegram', 2: 'viber', 3: 'facebook', 6: 'whatsapp', 8: 'odnoklassniki', 10: 'instagram')</td></tr><tr><td><strong>tag</strong> </td><td>сообщение, которое придет в чат с клиентом после перехода (для ТГ) или запишется в переменную tag (для ВК) (так же как в минилендингах) - необязательный параметр</td><td></td></tr><tr><td><strong>group</strong> </td><td>идентификатор бота, можно посмотреть в списке подключенных ботов. Не обязательный параметр</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="201"></th><th width="258"></th><th></th></tr></thead><tbody><tr><td><strong>client_type</strong></td><td> тип клиента число, обязательный параметр, указывает на какой мессенджер будет совершен переход </td><td>(доступны следующие значения 0: 'vkontakte', 1: 'telegram', 2: 'viber', 3: 'facebook', 6: 'whatsapp', 8: 'odnoklassniki', 10: 'instagram',* 20: 'max')</td></tr><tr><td><strong>tag</strong> </td><td>сообщение, которое придет в чат с клиентом после перехода (для ТГ) или запишется в переменную tag (для ВК) (так же как в минилендингах) - необязательный параметр</td><td></td></tr><tr><td><strong>group</strong> </td><td>идентификатор бота, можно посмотреть в списке подключенных ботов. Не обязательный параметр</td><td></td></tr></tbody></table>
 
-\
-&#xNAN;**`merge_client(main_client_id, client_id)`** - свяжет текущего клиента с клиентом с идентификатор которого указан в переменной main\_client\_id, если передан второй параметр, то свяжет клиента client\_id с main\_client\_id.<br>
+{% hint style="danger" %}
+<mark style="color:red;">**\*Instagram**</mark>**&#x20;Принадлежат компании Meta Platforms Inc**., которая признана **на территории Российской Федерации&#x20;**<mark style="color:red;">**экстремистской и**</mark> <mark style="color:red;">**запрещена!**</mark>&#x20;
+{% endhint %}
+
+**`merge_client(main_client_id, client_id)`** - свяжет текущего клиента с клиентом с идентификатор которого указан в переменной main\_client\_id, если передан второй параметр, то свяжет клиента client\_id с main\_client\_id.<br>
 
 <figure><img src="../../.gitbook/assets/conect.jpg" alt=""><figcaption><p>Связанные клиенты отобразятся в карточке клиента. </p></figcaption></figure>
 
