@@ -13,7 +13,7 @@ description: >-
 
 В любом случае предусмотрите возможность генерации новой ссылки.
 
-Подробнее в таблице "срок оплаты" [https://yookassa.ru/developers/payment-methods/overview](https://yookassa.ru/developers/payment-methods/overview)
+[Подробнее в таблице "срок оплаты"](https://yookassa.ru/developers/payment-methods/overview)
 {% endhint %}
 
 ## Как интегрировать ЮKassa в Salebot.pro &#x20;
@@ -84,11 +84,11 @@ description: >-
 
 ## Кнопка с функцией Оплата
 
-Ссылку на оплату можно создавать в кнопке с функцией "Оплата". О том как создавать такую кнопку  рассказано в этой статье:&#x20;
+Ссылку на оплату можно создавать в кнопке с функцией "Оплата".&#x20;
 
-{% embed url="https://docs.salebot.pro/osnovnye-ponyatiya.-kak-sozdavat-botov-na-salebot.pro/knopki#kak-sdelat-knopku-oplata" %}
-Статья про кнопку с функцией Оплата
-{% endembed %}
+{% hint style="info" %}
+[О том как создавать такую кнопку  рассказано в этой статье](../chat-boty/kak-sozdat-chat-bot-dlya-biznesa/nastroiki-bloka-soobsheniya/vkladka-knopki/tipy-knopok.md#kak-sdelat-knopku-oplata)
+{% endhint %}
 
 Рассмотрим все возможные параметры данной кнопки. О том как создавать кнопку с функцией Оплата  рассказано в этой статье:
 
@@ -290,11 +290,7 @@ ovg58keefc : первые 10 символов секретного ключа п
 {% tab title="Описание параметров" %}
 `link_yookassa = get_yookassa_payment_url(amount, description, recurrent, products_for_receipt, customer_phone, customer_email, full_name, taxation, currency, extra_params, twostage_payment)`
 
-####
-
-#### Параметры функции:
-
-
+Параметры функции:
 
 <table><thead><tr><th width="203">Параметр</th><th>Описание параметра</th></tr></thead><tbody><tr><td><strong><code>amount</code></strong></td><td><mark style="background-color:blue;">Сумма к оплате.</mark>  В этом поле указываем стоимость товара в рублях <strong><code>(обязательный параметр)</code></strong> </td></tr><tr><td><strong><code>description</code></strong></td><td><p><mark style="background-color:blue;">Описание заказа.</mark>  В этом поле можно использовать только символы английского или русского алфавита, цифры и знаки препинания. </p><p></p><p><em>Чтобы пропустить данный параметр передайте вместо него пару одинарных или двойных кавычек или значение</em> <em><code>None</code></em> </p></td></tr><tr><td><strong><code>recurrent</code></strong></td><td><mark style="background-color:blue;">Установочный платеж для автоплатежей.</mark> Если хотите провести первый установочный платеж, то передать значение 1, если нет -  передайте значение None. <br>В этом случае данные сохраняются в платежной системе для возможности автоплатежей в дальнейшем.</td></tr><tr><td><p><strong><code>products_for_</code></strong></p><p><strong><code>receipt</code></strong></p></td><td><p><mark style="background-color:blue;">Параметры для формирования чеков.</mark>  <em>Чтобы пропустить данный параметр передайте вместо него пару одинарных / пару двойных кавычек или значение</em> <em><code>None</code></em></p><p><br>Имеет следующий вид: </p><p>[{"name":"ТОВАР1","amount":"1200","vat_code":"5","method":"full_payment","object":"commodity", "quantity":1}]</p><p></p><p><strong>Важно! Используйте двойные кавычки для формирования словаря {"ключ": "значение"}</strong></p><p></p><p><strong>name</strong> - Наименование товара</p><p></p><p><strong>amount -</strong> Полная сумма в рублях за все количество данного товара с учетом всех возможных скидок, бонусов и специальных цен.</p><p></p><p><strong>vat_code</strong> - ставка НДС. Этот параметр устанавливает налоговую ставку в ККТ. Возможные значения данного параметра: </p><p>'1' - Без НДС </p><p>'2' - НДС по ставке 0% </p><p>'3' - НДС по ставке 10% </p><p>'4' - НДС чека по ставке 20% </p><p>'5' - НДС чека по расчетной ставке 10/110 </p><p>'6' - НДС чека по расчетной ставке 20/120</p><p><br>Для чеков Самозанятых передать значение '1' </p><p></p><p><strong>method</strong> - Признак способа расчёта (дополнительный параметр для формирования чека)</p><p>Пример значения параметра: full_payment — полный расчет<br></p><p>Остальные доступные варианты можно найти в документации ЮKassa : <a href="https://yookassa.ru/developers/payment-acceptance/scenario-extensions/receipts/54fz/parameters-values#payment-mode">https://yookassa.ru/developers/payment-acceptance/scenario-extensions/receipts/54fz/parameters-values#payment-mode</a><br></p><p><strong>object</strong> - Предмет расчета может принимать разные значения (дополнительный параметр для формирования чека)</p><p> Например, commodity — товар</p><p></p><p><strong>quantity</strong> - количество товара</p><p></p><p>Остальные доступные варианты можно найти в документации ЮKassa : <a href="https://yookassa.ru/developers/payment-acceptance/scenario-extensions/receipts/54fz/parameters-values#payment-subject">https://yookassa.ru/developers/payment-acceptance/scenario-extensions/receipts/54fz/parameters-values#payment-subject</a></p><p></p></td></tr><tr><td><strong><code>customer_phone</code></strong></td><td><p><mark style="background-color:blue;">номер телефона покупателя</mark>, не обязательно, если передан параметр <code>customer_email</code> </p><p></p><p>Чтобы пропустить данный параметр,  передайте вместо него одинарные или двойные кавычки</p></td></tr><tr><td><strong><code>customer_email</code></strong></td><td><p><mark style="background-color:blue;">емейл покупателя</mark>, не обязательно, если передан параметр <code>customer_phone</code> </p><p></p><p>Чтобы пропустить данный параметр,  передайте вместо него одинарные или двойные кавычки.</p></td></tr><tr><td><strong><code>full_name</code></strong></td><td><mark style="background-color:blue;">ФИО покупателя  или название организации (покупателя)</mark><br>В данном параметре передайте для ИП и физического лица — ФИО Покупателя, для юрлица — название организации Покупателя<br><br><em>Чтобы пропустить данный параметр передайте вместо него пару одинарных или двойных кавычек или значение</em> <em><code>None</code></em></td></tr><tr><td><mark style="background-color:blue;"><strong><code>taxation</code></strong></mark></td><td><p><mark style="background-color:blue;">Система налогообложения</mark></p><p></p><p><em><strong>Система налогообложения магазина (тег в 54 ФЗ — 1055). Параметр необходим, если вы используете онлайн-кассу Атол Онлайн, обновленную до ФФД 1.2, или у вас несколько систем налогообложения</strong></em><strong>, в остальных случаях не передается</strong><br><a href="https://yookassa.ru/developers/api#create_payment"><em><strong>https://yookassa.ru/developers/api#create_payment</strong></em></a><br><br>Возможные значения данного параметра:</p><p> None - Организация имеет один тип налогообложения<br>'1' - Общая система налогообложения </p><p>'2' - Упрощенная (УСН, доходы) </p><p>'3' - Упрощенная (УСН, доходы минус расходы) </p><p>'4' - Единый налог на вмененный доход (ЕНВД) (<mark style="color:red;"><strong>отменен 01.01.2021)</strong></mark></p><p>'5' - Единый сельскохозяйственный налог (ЕСН) </p><p>'6' - Патентная система налогообложения<br><br>Для чеков Самозанятых пропустить параметр. <br><br><em><strong>Чтобы пропустить данный параметр</strong> передайте вместо него пару одинарных или двойных кавычек или значение</em> <em><code>None</code></em></p></td></tr><tr><td><strong><code>currency</code></strong></td><td><p><mark style="background-color:blue;">Трехбуквенный код валюты</mark> в формате ISO-4217. </p><p>Пример: 'RUB' <br></p><p>Должен соответствовать валюте субаккаунта (recipient.gateway_id), если вы разделяете потоки платежей, и валюте аккаунта (ShopID в личном кабинете), если не разделяете.</p><p></p><p><em>Чтобы пропустить данный параметр,  передайте вместо него пару одинарных/ пару двойных кавычек или значение None.</em></p></td></tr><tr><td><strong><code>extra_params</code></strong></td><td><p><mark style="background-color:blue;">дополнительные параметры, которых нет в данной функции.</mark><br>Возможные дополнительные параметры можно посмотреть по ссылке в документации работы с API  платежной системы <a href="https://yookassa.ru/developers/api#create_payment">https://yookassa.ru/developers/api#create_payment</a><br>Пример: </p><p><code>extra_params = {"client_ip": "66.249.72.248", "payment_method_data":{"type":"bank_card"}}</code><br><br><br><em>Чтобы пропустить данный параметр,  передайте вместо него пару одинарных/ пару двойных кавычек или значение None.</em></p></td></tr><tr><td><code>twostage_payment</code></td><td>двухстадийная оплата (холдирование). Чтобы включить, передайте значение '1'.<br>Подробнее рассказали в разделе "<a href="priem-platezhei-v-bote-cherez-yandeks.kassu.md#dvukhstadiinaya-oplata">Двухстадийная оплата"</a>. </td></tr></tbody></table>
 {% endtab %}
@@ -470,7 +466,7 @@ _<mark style="color:blue;">Шаг 1. Включить автоплатежи в 
 
 _<mark style="color:blue;">Шаг 2. Провести обычный платёж.</mark>_
 
-С помощью удобного способа сформировать ссылку на оплату.  Рекомендуем использовать в блоке [кнопку с функцией "Оплата"](priem-platezhei-v-bote-cherez-yandeks.kassu.md#knopka-s-funkciei-oplata) или с помощью функции  `get_yookassa_payment_url`
+С помощью удобного способа сформировать ссылку на оплату.  Рекомендуем использовать в блоке [кнопку с функцией "Оплата"](../chat-boty/kak-sozdat-chat-bot-dlya-biznesa/nastroiki-bloka-soobsheniya/vkladka-knopki/tipy-knopok.md#kak-sdelat-knopku-oplata) или с помощью функции  `get_yookassa_payment_url`
 
 <figure><img src="../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
 
@@ -807,5 +803,3 @@ response -> resp
 {"shop\_id": "769963", "secret\_key": "test\_fMZ0RqpghcoETJ9fhWXbZJsM66DKyvBgJN1rr65Ioz", "refund\_sum": 100, "yandex\_kassa\_payment\_id": "#{yandex\_kassa\_payment\_id}", "peace\_refund": 1, "full\_name": "Иванов Иван Иванович", "email": "example@gmail.com", "phone": "79000000000", "vat\_code": 1, "tax\_system\_code": 6, "refund\_products\_list": "\[{'description': 'Название товара', 'quantity': 'Количество товара', 'amount': 'Цена за единицу товара'}, {'description': 'Название товара 2', 'quantity': 'Количество товара 2', 'amount': 'Цена за единицу товара 2'}]"}
 
 <figure><img src="../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
-
-а
