@@ -186,7 +186,7 @@
   * [Настройки страницы сайта](saity-dlya-biznesa/konstruktor-saitov/nastroiki-stranicy-saita.md)
   * [Экспорт и импорт страниц сайта](saity-dlya-biznesa/konstruktor-saitov/eksport-i-import-stranic-saita.md)
   * [Информация о сайте](saity-dlya-biznesa/konstruktor-saitov/informaciya-o-saite.md)
-  * [Яндекс.Метрика для сайта](analitika-dlya-biznesa/yandeks.metrika-dlya-saita.md)
+  * [Яндекс.Метрика для сайта](analitika-dlya-biznesa/analitika-salebot/analitika-saita/yandeks.metrika-dlya-saita.md)
   * [Аналитика сайта](saity-dlya-biznesa/konstruktor-saitov/analitika-saita.md)
   * [Настройки мессенджеров](saity-dlya-biznesa/konstruktor-saitov/nastroiki-messendzherov.md)
   * [Ссылки на мессенджеры (Как получить ссылку на бота)](saity-dlya-biznesa/konstruktor-saitov/ssylki-na-messendzhery-kak-poluchit-ssylku-na-bota.md)
@@ -286,15 +286,14 @@
   * [Аналитика рекламы](analitika-dlya-biznesa/analitika-salebot/analitika-reklamy.md)
     * [Подключение рекламного кабинета ВКонтакте к Salebot](integracii/integraciya-s-servisami-analitiki/podklyuchenie-reklamnogo-kabineta-vkontakte-k-salebot.md)
   * [Аналитика курсов](analitika-dlya-biznesa/analitika-salebot/analitika-kursov.md)
-  * [Аналитика сайта](analitika-dlya-biznesa/analitika-salebot/analitika-saita.md)
+  * [Аналитика сайта](analitika-dlya-biznesa/analitika-salebot/analitika-saita/README.md)
+    * [Как отслеживать события на сайте](saity-dlya-biznesa/konstruktor-saitov/analitika-saita.md)
+    * [Яндекс.Метрика для сайта](analitika-dlya-biznesa/analitika-salebot/analitika-saita/yandeks.metrika-dlya-saita.md)
   * [UTM-метки](analitika-dlya-biznesa/analitika-salebot/utm-metki.md)
   * [Аналитика для онлайн-чата](analitika-dlya-biznesa/analitika-salebot/analitika-dlya-onlain-chata.md)
   * [Аналитика CRM](analitika-dlya-biznesa/analitika-salebot/analitika-crm.md)
   * [Операторы](analitika-dlya-biznesa/analitika-salebot/operatory.md)
-* [Яндекс.Метрика для сайта](analitika-dlya-biznesa/yandeks.metrika-dlya-saita.md)
 * [Как удалить виджет в аналитике](analitika-dlya-biznesa/kak-udalit-vidzhet-v-analitike.md)
-* [Page 2](analitika-dlya-biznesa/page-2.md)
-* [Page 1](analitika-dlya-biznesa/page-1.md)
 
 ## Онлайн-запись
 
