@@ -1,46 +1,52 @@
 # Новофон
 
-## Как подключить сервис
+## Как начать пользоваться
 
-В некоторых случаях Новофон не работает. Обязательно проверьте следующее:&#x20;
+Для работы интеграции у вас должна быть создана учетная запись в сервисе Новофон. Чтобы начать пользоваться услугами сервиса Новофон, нужно пройти следующие шаги:
 
-\- Новофон просит активацию через e-mail
+1\. Зарегистрироваться на сайте Новофон.
 
-\- CRM Новофон должна быть активна
+2\. Подтвердить контактный мобильный номер РФ.
 
-Настройка интеграции производится через личный кабинет администратора.
+3\. Подписать договор.
+
+4\. Пополнить счет.
+
+5\. Подключить виртуальный номер.
 
 По умолчанию доступ к API запрещен всем. Чтобы можно было делать запросы необходимо открыть доступ. Это можно сделать через личный кабинет администратора в разделе "Настройки -> Правила и настройки безопасности" вкладка "API".
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdAzDKPvqRVarx9PxQBi8sWfaG9Cyn5jVle11QxfXz5JCmg3WdL786C3dK0Q2ASIOXx8Feof7ApStTKSRCPYltCxSVddYu_dJR6qdcaXmUxRt9RXCbKwgj3qkFZHqyIXg1jZChkqNr2f0ueaS3toQlCBY1P?key=gRO4Wih9euT2ZU7mHveHOA" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdAzDKPvqRVarx9PxQBi8sWfaG9Cyn5jVle11QxfXz5JCmg3WdL786C3dK0Q2ASIOXx8Feof7ApStTKSRCPYltCxSVddYu_dJR6qdcaXmUxRt9RXCbKwgj3qkFZHqyIXg1jZChkqNr2f0ueaS3toQlCBY1P?key=gRO4Wih9euT2ZU7mHveHOA" alt=""><figcaption></figcaption></figure></div>
 
 В поле IP/Маска введите “0.0.0.0/0”.
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc2_8MUkPJRVejiAMlRSXgtHLLj0WlbnwBZhS3IAoAzNsdTFFbWg-9ZpQfVAlOIP768zmlK8-t_IWRLf4kmbjlqMpfx9k04rg8uxH2DMw1DU4wuOmGCuQQBaz567jcFv53qaKOp8W8sntdXXNUSEeL_iy5B?key=gRO4Wih9euT2ZU7mHveHOA" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc2_8MUkPJRVejiAMlRSXgtHLLj0WlbnwBZhS3IAoAzNsdTFFbWg-9ZpQfVAlOIP768zmlK8-t_IWRLf4kmbjlqMpfx9k04rg8uxH2DMw1DU4wuOmGCuQQBaz567jcFv53qaKOp8W8sntdXXNUSEeL_iy5B?key=gRO4Wih9euT2ZU7mHveHOA" alt=""><figcaption></figcaption></figure></div>
 
 Для подключения Новофон к Salebot в настройках пользователя Администратор нужно включить доступ по ключу. Для этого в разделе Телефония - Пользователи АТС открыть настройки пользователя "Администратор". В настройках пользователя в вкладке API поставьте галку "Использовать ключ API". Также установите  параметр “Время жизни” - вечно. В этом разделе понадобятся данные из полей Key и Secret.
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdkPTSOqmMoz63XhhhGza3dovI1o8MyZNVCeAk9oVxIysx_vf0ZFC1qvTVkmQcp4iFMawJ0SNacTwUP7BLGqKl0oxoPGeaWX10AkJ8b2E_1hMoeI_AKTYJYWgRQnMxRiiFu90jEn12KqNoiF3yGO51XugWm?key=gRO4Wih9euT2ZU7mHveHOA" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdkPTSOqmMoz63XhhhGza3dovI1o8MyZNVCeAk9oVxIysx_vf0ZFC1qvTVkmQcp4iFMawJ0SNacTwUP7BLGqKl0oxoPGeaWX10AkJ8b2E_1hMoeI_AKTYJYWgRQnMxRiiFu90jEn12KqNoiF3yGO51XugWm?key=gRO4Wih9euT2ZU7mHveHOA" alt=""><figcaption></figcaption></figure></div>
 
 После генерации, сохраните Secret в надежное место. Вы всегда можете использовать ранее полученные ключи или перегенерировать их.
 
 Обращаем внимание, что после перегенерации ключей придется заменять их на новые во всех местах, где они использовались.
 
-Далее следует перейти в Salebot во вкладку телефония и ввести полученные данные в окно Zadarma.
+Далее следует перейти в Salebot во вкладку телефония и ввести полученные данные в окно Новофон.
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXe12ZUIjmTQ2gWE8wcfrSf9qhnN0iD71VvSL1eGx_QL8vynn8YtC7IGzbmaLaEyVS1e0fvt7ecjsJ4BzPARgD-AH48BPsYwzi2qyTIKwhOYzLFN2BZTGhqJEMlmyGBYZIlbSaCC2RGhCZMVCBGwULHNXS-g?key=gRO4Wih9euT2ZU7mHveHOA" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-03-25 в 15.25.41.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdh5a-FT1NcFylqzfVOh24oTG3Hk9ryGz5COwn-Bzf667DYfXKfz4EsIm8LUFGbXAs0M5chpN9pglYo9bmPzUkSAnwo02UuioLy07PSscMriBFhwIYUVQGHQKQCDS7rMldubkX7nQjVx6F2Bc5NeVmSsuda?key=gRO4Wih9euT2ZU7mHveHOA" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-03-25 в 15.27.25.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-Сервис Новофон (ex. Zadarma) подключен.
+Сервис Новофон подключен.
 
 Однако для успешной работы с телефонией нам также понадобится информация о сотрудниках и схемах работы.
 
 Для осуществления звонков следует подключить виртуальные номера. Такая настройка осуществляется в «Телефония» → «Виртуальные номера». Также в разделе “Пользователи АТС” нужно добавить сотрудников и назначить им номер для исходящих звонков. Назначение номера происходит во вкладке “ВАТС” настроек сотрудника.
 
+{% hint style="info" %}
 Без подключенного номера для сотрудника звонки из Salebot работать не будут!
+{% endhint %}
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeGXRgkWpMcwwLa-8ZhzBtrCtZjwxqP6C9wBO9OlFOuFkwgv03YuO84djKQsfRXCGx6auM35XezaPbMNU5SN7AHt4TNdE91QZ473pVRyL3T9h6iR-fbXeRBsDhTTZ23TxYSp0jnIFUDM12C4rKcBDokDrY?key=gRO4Wih9euT2ZU7mHveHOA" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeGXRgkWpMcwwLa-8ZhzBtrCtZjwxqP6C9wBO9OlFOuFkwgv03YuO84djKQsfRXCGx6auM35XezaPbMNU5SN7AHt4TNdE91QZ473pVRyL3T9h6iR-fbXeRBsDhTTZ23TxYSp0jnIFUDM12C4rKcBDokDrY?key=gRO4Wih9euT2ZU7mHveHOA" alt=""><figcaption></figcaption></figure></div>
 
 Кроме виртуального номера, нам также нужен id сотрудника. Найти его можно в адресной строке, находясь на странице сотрудника. В этом примере id это “111111”
 
@@ -52,8 +58,12 @@
 
 Последовательность сопоставления данных о клиенте: 1. Осуществляется поиск клиента Телефонии. Если клиент не найден, то происходит поиск по значениям всех переменных по всему списку клиентов проекта. Первая найденная запись о клиенте считается тем самым "искомым" клиентом. 2.Если клиент не найден среди клиентов Телефонии и:
 
-* если к проекту подключен любой мессенджер, например, Whatsapp, то будет создан клиент Whatsapp с данным номером телефона;
-* если к проекту не подключены иные виды мессенджеров (Whatsapp, Viber, Instagram и т.д.), то будет создан клиент Телефонии. Такому клиенту Вы сможете совершать только звонки с получением информации о них. Написать такому клиенту возможности нет
+* если к проекту подключен любой мессенджер, например, Whatsapp\*, то будет создан клиент Whatsapp\* с данным номером телефона;
+* если к проекту не подключены иные виды мессенджеров (Whatsapp\*, Viber, Instagram\* и т.д.), то будет создан клиент Телефонии. Такому клиенту Вы сможете совершать только звонки с получением информации о них. Написать такому клиенту возможности нет
+
+{% hint style="danger" %}
+\*Whatsapp, Instagram принадлежат Meta inc., деятельность которой признана в РФ экстремистской и запрещена.
+{% endhint %}
 
 ### Функция Salebot обратный звонок
 
@@ -80,7 +90,7 @@
 
 После выбора способа совершения телефонных звонков в “Звонки по API Zadarma” появятся дополнительные поля, в которые следует вписать виртуальный номер и id вашего сотрудника в системе.
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXd1Qs1Y4UIYBWaBGMqH7-LOMFAcXCimw8wdi5u5mohGA44BxPXvxpLqdSNgTW24e83BxUqA3bv0lDv3Tsbcx86Br7L8be0zmKSM0R1zm-_XZ3LSsBUj0EnmJL6NSQPM2rw28FSbrnXQX_fPO0t1ICo3Ubc?key=gRO4Wih9euT2ZU7mHveHOA" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXd1Qs1Y4UIYBWaBGMqH7-LOMFAcXCimw8wdi5u5mohGA44BxPXvxpLqdSNgTW24e83BxUqA3bv0lDv3Tsbcx86Br7L8be0zmKSM0R1zm-_XZ3LSsBUj0EnmJL6NSQPM2rw28FSbrnXQX_fPO0t1ICo3Ubc?key=gRO4Wih9euT2ZU7mHveHOA" alt=""><figcaption></figcaption></figure></div>
 
 Для осуществления звонка выбранным методом достаточно в карточке клиента нажать на иконку голубой телефонной трубки рядом с его номером телефона:
 
@@ -123,7 +133,5 @@ NOTIFY\_END | NOTIFY\_OUT\_END -> конец звонка&#x20;
 NOTIFY\_INTERNAL -> начало входящего звонка на внутренний номер АТС&#x20;
 
 NOTIFY\_ANSWER -> ответ при звонке на внутренний или на внешний номер&#x20;
-
-OUT в статусе означает, что звонок исходящий из Новофон.
 
 Также если у звонка будет иметься запись разговора, то у клиента будет создана переменная zadarma\_record\_link, содержащая ссылку на запись.
