@@ -23,7 +23,7 @@ max\_get\_chat\_member(chat\_id, user\_id) - проверить, состоит 
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Снимок экрана 2026-03-19 в 17.29.23.png" alt=""><figcaption></figcaption></figure></div>
 
-**`id_user = tt_request['message']['recipient']['user_id']`** - необходимо прописать данную строк в калькуляторе, чтобы получить ID пользователя, который пишет в бот.
+**`id_user = tt_request['message']['sender']['user_id']`** - необходимо прописать данную строк в калькуляторе, чтобы получить ID пользователя, который пишет в бот.
 
 **`test = max_get_chat_member(-72227316929933, id_user)`** - функция для проверки подписки.
 
