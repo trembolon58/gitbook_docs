@@ -58,7 +58,7 @@
 
 <figure><img src="../../.gitbook/assets/image (40) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-Описание доступных интеграций с сервисами аналитики и инструкции по их настройке можно узнать в разделе[ Интеграции - > Аналитика.](../../integracii/integraciya-s-servisami-analitiki/)
+Описание доступных интеграций с сервисами аналитики и инструкции по их настройке можно узнать в разделе[ Интеграции - > Аналитика.](../../analitika-dlya-biznesa/integracii-dlya-analitiki/)
 
 ## Google Аналитика
 
@@ -67,7 +67,7 @@
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (41) (1) (1).png" alt=""><figcaption><p>Настройки сайта</p></figcaption></figure></div>
 
 {% hint style="info" %}
-[Подробнее о том как подключить и настроить Google Аналитику рассказано в статье.](../../integracii/integraciya-s-servisami-analitiki/google-analytics.md)
+[Подробнее о том как подключить и настроить Google Аналитику рассказано в статье.](../../analitika-dlya-biznesa/integracii-dlya-analitiki/google-analytics.md)
 {% endhint %}
 
 _**Создайте событие конверсии для каждой кнопки отдельно или одну цель для всех кнопок.**_
