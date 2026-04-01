@@ -315,7 +315,8 @@ otpravka = vk_send_sticker(platform_id, 3384)
 **text** - текст для сообщения с картинками\
 **keyboard** - кнопки в сообщении [\*\*](./#kak-propisyvat-knopki-v-parametre-keyboard)\
 **dont\_parse\_links** - отключение превью ссылок\
-**disable\_mentions** -отключение уведомлений
+**disable\_mentions** -отключение уведомлений\
+**parse\_mode** - необязательный параметр. Включает разметку текста в сообщении. Возможные значения - "html" и "markdown"
 
 Пример
 

@@ -1,7 +1,5 @@
 # Функции для отправки и редактирования сообщений
 
-Раздел находится на редактировании
-
 ## Как отправить сообщение во Вконтакте&#x20;
 
 **Описание:**
@@ -10,45 +8,7 @@
 
 Параметры:
 
-<mark style="color:red;">**!**</mark>**&#x20;platform\_id** — id клиента в мессенджере [\*](funkcii-dlya-otpravki-i-redaktirovaniya-soobshenii.md#gde-vzyat-platform_id-owner_id-klienta-dlya-otpravki-uvedomlenii)
-
-<mark style="color:red;">**!**</mark>**&#x20;message** — текст сообщения
-
-**keyboard** — кнопки в сообщении [\*\*](funkcii-dlya-otpravki-i-redaktirovaniya-soobshenii.md#kak-propisyvat-knopki-v-parametre-keyboard)
-
-**reply\_to** — id сообщения для ответа/цитаты
-
-**forward\_messages** — id пересылаемых сообщений (формат списка                                       "{#айдипервогосообщения}, #{второго}, #{итакдалее}"
-
-**sticker\_id** — id стикера &#x20;
-
-**dont\_parse\_links** — создавать сниппет или нет, может принимать значение 1 — создавать, 0 — нет&#x20;
-
-**disable\_mentions** — отключить уведомление об упоминании в сообщении, для отключения уведомлений передайте в этот параметр что угодно, иначе оставьте пустым
-
-**attachments\_photo** — добавить в медиавложения сообщения фотографии, которые пока не загружены во ВКонтакте, в виде списка ссылок на фотографии в формате:\
-&#x20;                                      `'["#{url1}","#{url2}"]'`, где \
-`url` - это ссылка на фотографию на доступных ресурсах в Интернете.&#x20;
-
-**attachments\_files** — различные вложения из ВКонтакте. Для использования attachments\_files потребуется строка с вложениями, перечисленными через запятую и уже находящимися во ВКонтакте, имеющая следующий вид: \
-&#x20;                    `'doc-182762603_638918266, photo-182762603_638918266'`\
-_Каждое вложение описываем следующим образом:_\
-&#x20;                         _`<type>-<owner_id>_<media_id>` - где:_ \
-`<type>` — тип медиа-вложения:
-
-* `photo` — фотография;
-* `video` — видеозапись;
-* `audio` — аудиозапись;
-* `doc` — документ;
-* `wall` — запись на стене;&#x20;
-* `market` — товар;&#x20;
-* `poll` — опрос.
-
-`<owner_id>` — идентификатор владельца медиа-вложения.\
-`<media_id>` — идентификатор медиа-вложения.<br>
-
-_Обратите внимание, если прикрепляется объект, принадлежащий другому пользователю, следует добавлять к вложению его access\_key в формате_ \
-&#x20;                             _-\<owner\_id>_\<media\_id>\_\<access\_key> <br>
+<table><thead><tr><th width="274.390625">Параметр</th><th>Описание</th></tr></thead><tbody><tr><td><mark style="color:red;"><strong>!</strong></mark><strong> platform_id</strong></td><td>id клиента в мессенджере <a href="funkcii-dlya-otpravki-i-redaktirovaniya-soobshenii.md#gde-vzyat-platform_id-owner_id-klienta-dlya-otpravki-uvedomlenii">*</a></td></tr><tr><td><mark style="color:red;"><strong>!</strong></mark><strong> message</strong></td><td>текст сообщения</td></tr><tr><td><strong>keyboard</strong></td><td>кнопки в сообщении <a href="funkcii-dlya-otpravki-i-redaktirovaniya-soobshenii.md#kak-propisyvat-knopki-v-parametre-keyboard">**</a></td></tr><tr><td><strong>reply_to</strong></td><td>id сообщения для ответа/цитаты</td></tr><tr><td><strong>forward_messages</strong></td><td> id пересылаемых сообщений (формат списка                                       "{#айдипервогосообщения}, #{второго}, #{итакдалее}"</td></tr><tr><td><strong>sticker_id</strong></td><td>id стикера  </td></tr><tr><td><strong>dont_parse_links</strong></td><td>создавать сниппет или нет, может принимать значение 1 — создавать, 0 — нет </td></tr><tr><td><strong>disable_mentions</strong></td><td>отключить уведомление об упоминании в сообщении, для отключения уведомлений передайте в этот параметр что угодно, иначе оставьте пустым</td></tr><tr><td><strong>attachments_photo</strong></td><td>добавить в медиавложения сообщения фотографии, которые пока не загружены во ВКонтакте, в виде списка ссылок на фотографии в формате:<br>                                       <code>'["#{url1}","#{url2}"]'</code>, где <br><code>url</code> - это ссылка на фотографию на доступных ресурсах в Интернете. </td></tr><tr><td><strong>attachments_files</strong></td><td><p>различные вложения из ВКонтакте. Для использования attachments_files потребуется строка с вложениями, перечисленными через запятую и уже находящимися во ВКонтакте, имеющая следующий вид: <br>                     <code>'doc-182762603_638918266, photo-182762603_638918266'</code><br><em>Каждое вложение описываем следующим образом:</em><br>                          <em><code>&#x3C;type>-&#x3C;owner_id>_&#x3C;media_id></code> - где:</em> <br><code>&#x3C;type></code> — тип медиа-вложения:</p><ul><li><code>photo</code> — фотография;</li><li><code>video</code> — видеозапись;</li><li><code>audio</code> — аудиозапись;</li><li><code>doc</code> — документ;</li><li><code>wall</code> — запись на стене; </li><li><code>market</code> — товар; </li><li><code>poll</code> — опрос.</li></ul><p><code>&#x3C;owner_id></code> — идентификатор владельца медиа-вложения.<br><code>&#x3C;media_id></code> — идентификатор медиа-вложения.<br><br><em>Обратите внимание, если прикрепляется объект, принадлежащий другому пользователю, следует добавлять к вложению его access_key в формате</em></p><p><em>-&#x3C;owner_id></em>&#x3C;media_id>_&#x3C;access_key> </p></td></tr><tr><td><strong>parse_mode</strong></td><td>необязательный параметр. Включает разметку текста в сообщении. Возможные значения - "html" и "markdown"</td></tr></tbody></table>
 
 Если присвоить функцию переменной, то в переменную будет помещен id сообщения, который будет необходим для возможно последующего редактирования сообщения.
 
@@ -89,45 +49,7 @@ soob=vk_send_message(2000000001, "Выбирай", knop, None, None, None, None,
 
 Параметры:
 
-<mark style="color:red;">**!**</mark>**&#x20;platform\_id** — id клиента в мессенджере [\*](funkcii-dlya-otpravki-i-redaktirovaniya-soobshenii.md#gde-vzyat-platform_id-owner_id-klienta-dlya-otpravki-uvedomlenii)
-
-<mark style="color:red;">**!**</mark>**&#x20;message\_id** — id редактируемого сообщения
-
-**text** — текст сообщения&#x20;
-
-**attachments\_photo** — добавить в медиа вложения сообщения фотографии, которые пока не загружены во ВКонтакте, в виде списка ссылок на фотографии в формате:\
-&#x20;                                      `'["#{url1}","#{url2}"]'`, где \
-`url` - это ссылка на фотографию на доступных ресурсах в Интернете.&#x20;
-
-**attachments\_files** — различные вложения из ВКонтакте. Для использования attachments\_files потребуется строка с вложениями, перечисленными через запятую и уже находящимися во ВКонтакте, имеющая следующий вид: \
-&#x20;                    `'doc-182762603_638918266, photo-182762603`_`638918266'.`_ \
-_Каждое вложение описываем следующим образом:_\
-&#x20;                         _`<type>-<owner_id>_<media_id>` - где:_ \
-`<type>` — тип медиа-вложения:
-
-* `photo` — фотография;
-* `video` — видеозапись;
-* `audio` — аудиозапись;
-* `doc` — документ;
-* `wall` — запись на стене;&#x20;
-* `market` — товар;&#x20;
-* `poll` — опрос.
-
-`<owner_id>` — идентификатор владельца медиа-вложения.\
-`<media_id>` — идентификатор медиа-вложения.<br>
-
-_Обратите внимание, если прикрепляется объект, принадлежащий другому пользователю, следует добавлять к вложению его access\_key в формате_ \
-&#x20;                             _-\<owner\_id>_\<media\_id>\_\<access\_key>&#x20;
-
-**keyboard** — кнопки в сообщении [\*\*](funkcii-dlya-otpravki-i-redaktirovaniya-soobshenii.md#kak-propisyvat-knopki-v-parametre-keyboard)
-
-**keep\_forward\_messages** — признак необходимости сохранить прикреплённые пересланные сообщения (любое значение)
-
-**keep\_snippets** — признак необходимости сохранить прикреплённые внешние ссылки (сниппеты)(любое значение) &#x20;
-
-**dont\_parse\_links** — признак того, что не надо создавать сниппет (любое значение)
-
-**disable\_mentions** — признак того, что надо отключить уведомление об упоминании в сообщении (любое значение)
+<table><thead><tr><th width="234.41015625">Параметры</th><th>Описание</th></tr></thead><tbody><tr><td><mark style="color:red;"><strong>!</strong></mark><strong> platform_id</strong></td><td>id клиента в мессенджере <a href="funkcii-dlya-otpravki-i-redaktirovaniya-soobshenii.md#gde-vzyat-platform_id-owner_id-klienta-dlya-otpravki-uvedomlenii">*</a></td></tr><tr><td><mark style="color:red;"><strong>!</strong></mark><strong> message_id</strong></td><td>id редактируемого сообщения</td></tr><tr><td><strong>text</strong></td><td>текст сообщения</td></tr><tr><td><strong>attachments_photo</strong></td><td>добавить в медиа вложения сообщения фотографии, которые пока не загружены во ВКонтакте, в виде списка ссылок на фотографии в формате:<br>                                       <code>'["#{url1}","#{url2}"]'</code>, где <br><code>url</code> - это ссылка на фотографию на доступных ресурсах в Интернете. </td></tr><tr><td><strong>attachments_files</strong></td><td><p>различные вложения из ВКонтакте. Для использования attachments_files потребуется строка с вложениями, перечисленными через запятую и уже находящимися во ВКонтакте, имеющая следующий вид: <br>                     <code>'doc-182762603_638918266, photo-182762603</code><em><code>638918266'.</code></em> <br><em>Каждое вложение описываем следующим образом:</em><br>                          <em><code>&#x3C;type>-&#x3C;owner_id>_&#x3C;media_id></code> - где:</em> <br><code>&#x3C;type></code> — тип медиа-вложения:</p><ul><li><code>photo</code> — фотография;</li><li><code>video</code> — видеозапись;</li><li><code>audio</code> — аудиозапись;</li><li><code>doc</code> — документ;</li><li><code>wall</code> — запись на стене; </li><li><code>market</code> — товар; </li><li><code>poll</code> — опрос.</li></ul><p><code>&#x3C;owner_id></code> — идентификатор владельца медиа-вложения.<br><code>&#x3C;media_id></code> — идентификатор медиа-вложения.<br></p><p><em>Обратите внимание, если прикрепляется объект, принадлежащий другому пользователю, следует добавлять к вложению его access_key в формате</em> <br>                              <em>-&#x3C;owner_id></em>&#x3C;media_id>_&#x3C;access_key> </p></td></tr><tr><td><strong>keyboard</strong></td><td>кнопки в сообщении <a href="funkcii-dlya-otpravki-i-redaktirovaniya-soobshenii.md#kak-propisyvat-knopki-v-parametre-keyboard">**</a></td></tr><tr><td><strong>keep_forward_messages</strong></td><td>признак необходимости сохранить прикреплённые пересланные сообщения (любое значение)</td></tr><tr><td><strong>keep_snippets</strong></td><td>признак необходимости сохранить прикреплённые внешние ссылки (сниппеты)(любое значение)  </td></tr><tr><td><strong>dont_parse_links</strong></td><td>признак того, что не надо создавать сниппет (любое значение)</td></tr><tr><td><strong>disable_mentions</strong></td><td>признак того, что надо отключить уведомление об упоминании в сообщении (любое значение)</td></tr></tbody></table>
 
 **Примеры:**
 
