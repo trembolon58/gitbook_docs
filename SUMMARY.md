@@ -154,6 +154,7 @@
     * [Для работы с переменными](chat-boty/peremennye-i-funkcii/kalkulyator/dlya-raboty-s-peremennymi.md)
     * [Методы геймификации](chat-boty/peremennye-i-funkcii/kalkulyator/metody-geimifikacii.md)
     * [Для работы с маркетплейсами](chat-boty/peremennye-i-funkcii/kalkulyator/dlya-raboty-s-marketpleisami.md)
+    * [Для работы с онлайн-магазином](chat-boty/peremennye-i-funkcii/kalkulyator/dlya-raboty-s-onlain-magazinom.md)
     * [Функции (API) в калькуляторе](chat-boty/peremennye-i-funkcii/kalkulyator/funkcii-api-v-kalkulyatore.md)
     * [Массивы и словари](chat-boty/peremennye-i-funkcii/kalkulyator/massivy-i-slovari/README.md)
       * [Для работы с массивами](chat-boty/peremennye-i-funkcii/kalkulyator/massivy-i-slovari/dlya-raboty-s-massivami.md)
