@@ -295,6 +295,7 @@
   * [Операторы](analitika-dlya-biznesa/analitika-salebot/operatory.md)
 * [Как удалить виджет в аналитике](analitika-dlya-biznesa/kak-udalit-vidzhet-v-analitike.md)
 * [Интеграции для аналитики](analitika-dlya-biznesa/integracii-dlya-analitiki/README.md)
+  * [Яндекс.Метрика для сайта](analitika-dlya-biznesa/integracii-dlya-analitiki/yandeks.metrika-dlya-saita.md)
   * [Подключение рекламного кабинета ВКонтакте к Salebot](analitika-dlya-biznesa/integracii-dlya-analitiki/podklyuchenie-reklamnogo-kabineta-vkontakte-k-salebot.md)
   * [Google Analytics](analitika-dlya-biznesa/integracii-dlya-analitiki/google-analytics.md)
   * [Facebook\* Pixel](analitika-dlya-biznesa/integracii-dlya-analitiki/facebook-pixel.md)
@@ -304,7 +305,6 @@
   * [Loktar](analitika-dlya-biznesa/integracii-dlya-analitiki/loktar.md)
   * [Подключение рекламного кабинета ВКонтакте через GTM](analitika-dlya-biznesa/integracii-dlya-analitiki/podklyuchenie-reklamnogo-kabineta-vkontakte-cherez-gtm.md)
   * [Подключаем счетчики аналитики и настраиваем конверсии через GTM](analitika-dlya-biznesa/integracii-dlya-analitiki/podklyuchaem-schetchiki-analitiki-i-nastraivaem-konversii-cherez-gtm.md)
-  * [Яндекс.Метрика для сайта](analitika-dlya-biznesa/integracii-dlya-analitiki/yandeks.metrika-dlya-saita.md)
 
 ## Онлайн-запись
 

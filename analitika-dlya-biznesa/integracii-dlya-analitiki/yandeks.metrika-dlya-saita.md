@@ -4,7 +4,7 @@
 
 К сайту, созданному в Salebot, можно подключить Яндекс.Метрику. Для этого создайте счётчик в Яндекс.Метрике, создайте цель и укажите данные в настройках сайта:
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (44) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (44) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 **ID Яндекс Метрики.** Укажите ID счётчика Я.Метрики&#x20;
 
@@ -25,7 +25,8 @@
 3 - FaceBook\*\
 6 - WhatsApp\*\
 8 - Одноклассники \
-10 - Instagram\*
+10 - Instagram\*\
+20 - MAX
 
 {% hint style="danger" %}
 \*Facebook, WhatsApp, Instagram принадлежат Meta platform Inc., деятельность которой признана в РФ экстремистской и запрещена.
@@ -33,11 +34,11 @@
 
 _<mark style="color:green;">Пример как настроить на клики по кнопкам разных мессенджеров:</mark>_
 
-<div align="left"><figure><img src="../../../.gitbook/assets/2023-03-29_13-54-33.png" alt=""><figcaption><p>Настройки на сайте</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/2023-03-29_13-54-33.png" alt=""><figcaption><p>Настройки на сайте</p></figcaption></figure></div>
 
 _Настройки на стороне Яндекс.Метрика:_
 
-<div align="center" data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (45) (1) (1).png" alt=""><figcaption><p>Настройки в Яндекс.Метрике</p></figcaption></figure></div>
+<div align="center" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (45) (1) (1).png" alt=""><figcaption><p>Настройки в Яндекс.Метрике</p></figcaption></figure></div>
 
 ### Как подключить Яндекс Метрику
 
@@ -90,7 +91,7 @@ click\_button\_10 - по клику на Instagram\*
 
 Пример правильно заполненных полей в настройках  сайта и правильно созданных целей в Яндекс Метрике:
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Снимок экрана 2026-03-20 в 14.03.15.png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-03-20 в 14.03.15.png" alt=""><figcaption></figcaption></figure></div>
 
 <div data-with-frame="true"><img src="https://lh4.googleusercontent.com/mdyucwGzQQcQvxBhQo2iYZQ431GRGDrecFFllaBu4vZQ-QVe6C8MrJfOKQ2AlrijVBNBn5OhYMM9MFXm67n2rPiFqjfszg2mQYrB-77vejCr2JAJLEzbxFA4vYP32wDvdwR_qRM7" alt=""></div>
 
@@ -110,35 +111,35 @@ click\_button\_10 - по клику на Instagram\*
 2. Адрес сайта - в примере ссылка на сайт Salebot (и далее пример будет построен на нем).
 3. Автоматические цели и Вебвизор, карта скроллинга и аналитика форм - рекомендуем включить обе галочки для сбора большего количества информации.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (47) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (47) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 После заполнения страницы жмем “Создать счетчик”. На открывшейся странице выбираете html-код и копируете весь код, появившийся внизу. Настройки для “Контентной аналитики” и “Электронной коммерции” устанавливайте на свое усмотрение, если они Вам необходимы. Копируем код и вставляем на сайт (см. чуть ниже). Затем нажимаем кнопку “Начать пользоваться”.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (48) (2).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (48) (2).png" alt=""><figcaption></figcaption></figure></div>
 
 В настройках сайта, добавьте код во вкладке “Настройки” - “CSS и JS” - HTML-код head(или HTML-код body) и сохранить.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (49) (1) (1).png" alt=""><figcaption><p>Открыть Настройки</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (49) (1) (1).png" alt=""><figcaption><p>Открыть Настройки</p></figcaption></figure></div>
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (50) (1) (1).png" alt=""><figcaption><p>Перейти в раздел CSS и JS</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (50) (1) (1).png" alt=""><figcaption><p>Перейти в раздел CSS и JS</p></figcaption></figure></div>
 
 Далее нажмите "Сохранить".
 
 Перейдите в меню Метрики, где видим список созданных счетчиков. Забираем номер счетчика и записываем его  в переменную проекта ym\_counter\_id (настройки проекта - константы проекта)
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (51) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (51) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (52) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (52) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 **2. Если у Вас есть аккаунт в Яндекс Метрике**, то следует зайти в счетчик, по которому Вы хотите собирать статистику и записать его номер в переменную проекта ym\_counter\_id (настройки проекта - константы проекта). Настраивать счетчик заново Вам не нужно, просто вносим переменную как показано на скриншоте выше и переходим сразу к следующему пункту.&#x20;
 
 В созданном счетчике следует перейти в настройки - загрузка данных и включить передачу оффлайн конверсий.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (53) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (53) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Далее выйдет уведомление о том, что учет оффлайн конверсий станет доступен в течение суток. Следует помнить, что на данный момент обработка запросов может занимать до 24 часов и появится в статистике метрики лишь на следующие сутки. Сбор информации по цели доступен в течение 21 дней, далее данные будут затираться.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (54) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (54) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 РЕГИСТРИРУЕМ ПРИЛОЖЕНИЕ ЯНДЕКСА И ПОЛУЧАЕМ ТОКЕН АВТОРИЗАЦИИ ДЛЯ ПОДКЛЮЧЕНИЯ API ЯНДЕКС.МЕТРИКИ К SALEBOT
 
@@ -166,11 +167,11 @@ click\_button\_10 - по клику на Instagram\*
 
 При переходе по ссылке откроется страница:
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (55) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (55) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Далее заполняем данную форму:
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (56) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (56) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 1. Введите имя приложения. При желании добавьте иконку.
 2. В подпункте “Платформы приложения” выберите веб-сервисы. Укажите `https://oauth.yandex.ru/verification_code`&#x20;
@@ -183,13 +184,13 @@ click\_button\_10 - по клику на Instagram\*
 Вы можете по своему усмотрению подключить и другие сервисы для приложения, если собираетесь использовать его где-то еще, однако стоит иметь ввиду, что часть пунктов сокращают жизнь токена авторизации до полугода, а то и до 7 дней
 {% endhint %}
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (57) (1) (1).png" alt="" width="561"><figcaption><p>сокращает жизнь токена до 7 дней</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (57) (1) (1).png" alt="" width="561"><figcaption><p>сокращает жизнь токена до 7 дней</p></figcaption></figure></div>
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (58) (1) (1).png" alt="" width="562"><figcaption><p>сокращает с года до 180 дней</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (58) (1) (1).png" alt="" width="562"><figcaption><p>сокращает с года до 180 дней</p></figcaption></figure></div>
 
 После нажатия на кнопку Создать приложение будет переход на следующую страницу:
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (59) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (59) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Вы получаете данные для получения авторизационного токена для связи с API Salebot - ClientID. (в примере 04cb02016fa54163a9e14b5bb6e\*\*\*\*\*). Скопируйте его.
 
@@ -202,11 +203,11 @@ click\_button\_10 - по клику на Instagram\*
 В нашем случае, токен будет располагаться по ссылке "https://oauth.yandex.ru/authorize?response\_type=token\&client\_id=04cb02016fa54163a9e14b5bb\*\*\*\*\*\*"\
 Перейдя по ней, вы увидите окно авторизации в приложение, и, подтвердив вход, получите окно с токеном. Сохраните его в переменные проекта(настройки проекта - константы проекта).&#x20;
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (60) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (60) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (61) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (61) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (62) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (62) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 **ВАЖНО!**
@@ -222,13 +223,13 @@ click\_button\_10 - по клику на Instagram\*
 
 Итак, вы создали счетчик метрики.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (63) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (63) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 <mark style="color:orange;">**1.Ручное создание цели в Яндекс. Метрике**</mark>&#x20;
 
 Нажимаем создать цель - добавить цель.&#x20;
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (64) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (64) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 В меню настройки целей:
 
@@ -245,7 +246,7 @@ click\_button\_10 - по клику на Instagram\*
 
 4\. По желанию, Вы можете указать доход с цели&#x20;
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (65) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (65) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Нажимаем “добавить цель”.
 
@@ -279,15 +280,15 @@ _<mark style="color:blue;">**Если у вас 2 и более аккаунта
 Пример: \
 Создадим две цели, одна(‘Haos goal’) - со стоимостью, другая(‘Free goal’) без нее
 
-<figure><img src="../../../.gitbook/assets/image (66) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (66) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Результатом выполнения будет список, состоящий из номера цели (ym\_goal\_id), ее имени (ym\_goal\_name) и идентификатора отслеживания события (ym\_js\_event\_id). В переменных также можно найти этот список с характеристиками целей. А в Яндекс Метрике появятся заявленные цели:
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (67) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (67) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (68) (2).png" alt="" width="336"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (68) (2).png" alt="" width="336"><figcaption></figcaption></figure></div>
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (69) (2).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (69) (2).png" alt=""><figcaption></figcaption></figure></div>
 
 **Дополнительно. Вывод информации обо всех целях в Salebot** \
 Если Вы запамятовали данные о своих целях в Яндекс Метрике и хотите вывести их все в переменную в Salebot, воспользуйтесь функцией \
@@ -312,15 +313,15 @@ _<mark style="color:blue;">**Если у вас 2 и более аккаунта
 
 Пример:
 
-<figure><img src="../../../.gitbook/assets/image (70) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (70) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Ответом является список, состоящий из словарей с goal\_id, name, js\_event\_id всех целей. Если цель не является JS-событием, то js\_event\_id будет содержать ссылку/указание на соц. сеть/другой идентификатор. Если указать их при выгрузке конверсий, система Яндекс Метрики их просто не зачтет и вернет ошибку.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (71) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (71) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Информация об одной конкретной цели содержит словарь с данными.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (72) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (72) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Отправка оффлайн конверсий в Яндекс метрику
 
@@ -344,7 +345,7 @@ _<mark style="color:blue;">**Если у вас 2 и более аккаунта
 С момента запуска бота до передачи офлайн-конверсии должно пройти достаточно времени для передачи метки \_ym\_uid в Метрику, например, от 5-10 минут. &#x20;
 {% endhint %}
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Снимок экрана 2025-05-14 в 17.01.56.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-05-14 в 17.01.56.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 \_ym\_uid - это clientID посетителя, присваиваемый Яндексом каждому пользователю. Он является уникальным и задается только системой Яндекс. Поэтому, если у клиента нет параметра, статистика по нему передаваться не будет. Однако, если у Вас есть данные о метке посетителя, Вы можете добавить клиенту переменную ya\_client\_id, и, если такой посетитель существует, статистика передастся.&#x20;
 
@@ -352,27 +353,27 @@ _<mark style="color:blue;">**Если у вас 2 и более аккаунта
 Если клиента с номером, указанным в ya\_client\_id, не существует, то и статистика собираться не будет&#x20;
 {% endhint %}
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (73) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (73) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Пример:\
 Представим, у нас есть цели “Старт чата с ботом” и “клик по кнопке хорошо”&#x20;
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (74) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (74) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 В боте у нас создан стартовый блок с приветствием и предложением нажать на две кнопки, нажатие на одну из которых(“хорошо”) приведет нас во второй блок с поздравлением.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (75) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (75) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Впишем в калькулятор функцию **ym\_send\_offline\_conversions("666")**, где \
 666 - идентификатор(ym\_js\_event\_id) цели “Старт чата с ботом”.
 
 В блоке ниже, куда пользователь попадет при нажатии клавиши “Хорошо”, мы поставим ту же функцию с идентификатором второй цели - “клик по кнопке хорошо”.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (76) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (76) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Если посетитель с меткой \_ym\_uid прошел по этим этапам, статистика соберется и отправится в Яндекс Метрику, где потом будет обработана. Статус обработки до появления информации в статистике можно посмотреть в счетчике - настройки -загрузка данных.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (77) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (77) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 **Внимание!**
@@ -380,7 +381,7 @@ _<mark style="color:blue;">**Если у вас 2 и более аккаунта
 Обработка может длиться до 24 часов! По итогу, при успешной загрузке появится значок “Выполнено”, при неуспешной - красная надпись. Это означает, что Яндекс Метрика не обнаружила клиента по заданному \_ym\_uid в своей системе.
 {% endhint %}
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (78) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (78) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 **Внимание!**
@@ -390,8 +391,8 @@ _<mark style="color:blue;">**Если у вас 2 и более аккаунта
 
 Если офлайн конверсии подключены меньше суток, то в ответ на запрос придет ошибка с указанием даты, когда данные могут быть загружены:
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (79) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (79) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 А в Метрике вы увидите ошибку:
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (80) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (80) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
