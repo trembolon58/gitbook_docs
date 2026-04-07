@@ -51,7 +51,7 @@
 
 В Salebot в разделе "Эквайринг" найдите Точка Банк и нажмите "Подключить":
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (2).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (2) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 В открывшемся окне укажите свои уникальные данные JWT токен, clientID, customerCode, merchantId в соответствующих полях:
 

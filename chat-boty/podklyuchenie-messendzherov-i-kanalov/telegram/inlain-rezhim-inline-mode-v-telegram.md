@@ -264,7 +264,7 @@
 
 1. Перейдем к наполнению данных в заданной структуре:
 
-<figure><img src="../../../.gitbook/assets/unknown (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/unknown (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Теперь перейдем в проект и и настроим заполнение переменной inline\_bot данными из таблицы. Для этого создаем отдельный блок, который будет запускаться только менеджером. Выполняем следующие настройки:
 
