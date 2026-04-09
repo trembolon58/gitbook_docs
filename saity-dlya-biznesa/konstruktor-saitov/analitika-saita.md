@@ -184,3 +184,33 @@ Salebot автоматически отправляет события откр�
 После настройки пикселя и перехода на страницу, где он установлен (или нажатия на кнопку какого-то мессенджера), можно посмотреть тестовые события. Если они есть, то пиксель установлен верно.
 
 <div data-with-frame="true"><img src="https://lh5.googleusercontent.com/KKqw_wSp3400pfIfPJSR1PIXbdW5sJ2a8RM0HSwicVzsS6DGnzNEQ267aFggGltgY1iEVUddta3Dbtm3r2MBy-iJKQYI-Zs0JQjZ7xmjjUon1VlUEIAyGKNMLPxCKsJu7WN2195h" alt=""></div>
+
+## Как отследить события по заявкам и переходам в бота с сайта?
+
+Теперь вы можете отследить события по заявкам и(или) переходам в бота с сайта.
+
+Для этого вам нужно перейти в настройки сайта, в котором создана форма отправки заявки или с кнопками на мессенджеры:
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-04-09 в 16.00.31.png" alt=""><figcaption></figcaption></figure></div>
+
+Далее наведите на блок "Форма" и найдите кнопку "Настройки":
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-04-09 в 16.01.49.png" alt=""><figcaption></figcaption></figure></div>
+
+Раскройте настройки кнопок:
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-04-09 в 16.02.33.png" alt=""><figcaption></figcaption></figure></div>
+
+Здесь вы увидите поле, где нужно вставить название события, настроенное в Яндекс Метрике:
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-04-09 в 16.03.36.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+Чтобы отправка событий работала, [нужно вставить скрипт счетчика Метрики на сайт](analitika-saita.md#kak-sozdat-schetchik-yandeks.metriki), или вставить скрипт счетчика [Гугл Аналитики](analitika-saita.md#google-analitika) или [Facebook\* Pixel](analitika-saita.md#piksel-facebook).
+
+Аналогично можно проставить название событий для каждой кнопки мессенджера.
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-04-09 в 16.06.55.png" alt=""><figcaption></figcaption></figure></div>
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-04-09 в 16.07.28.png" alt=""><figcaption></figcaption></figure></div>
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-04-09 в 16.07.47.png" alt="" width="375"><figcaption></figcaption></figure></div>
