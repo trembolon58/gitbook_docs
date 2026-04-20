@@ -19,11 +19,13 @@ max\_get\_chat\_member(chat\_id, user\_id) - проверить, состоит 
 
 Если пользователь есть в чате, в ответе будет информация о нем. Если пользователя в чате нет, в ответе будет None
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Снимок экрана 2026-03-19 в 17.29.23.png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/IMAGE 2026-04-20 165639.jpg" alt=""><figcaption></figcaption></figure></div>
 
-**`id_user = tt_request['message']['sender']['user_id']`** - необходимо прописать данную строк в калькуляторе, чтобы получить ID пользователя, который пишет в бот.
+**`test = max_get_chat_member(-123456789876, id_user)`** - функция для проверки подписки.
 
-**`test = max_get_chat_member(-72227316929933, id_user)`** - функция для проверки подписки.
+Где -123456789876 это идентификатор чата/канала подписку на который Вы проверяете&#x20;
+
+user\_id - это системная переменная, которая есть у клиентов
 
 Ответ, если пользователь подписан:
 
