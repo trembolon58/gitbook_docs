@@ -328,6 +328,7 @@
   * [Где увидеть записи клиентов](onlain-zapis/onlain-zapis-dlya-uslug/gde-uvidet-zapisi-klientov.md)
   * [Чат-бот для онлайн-записи](onlain-zapis/onlain-zapis-dlya-uslug/chat-bot-dlya-onlain-zapisi.md)
   * [Чат-бот с AI для онлайн-записи](chat-boty/ai-assistent/chat-bot-s-ai-dlya-onlain-zapisi.md)
+* [Онлайн-запись на Яндекс Картах](onlain-zapis/onlain-zapis-na-yandeks-kartakh.md)
 * [Виджет онлайн-записи для сайта](onlain-zapis/vidzhet-onlain-zapisi-dlya-saita/README.md)
   * [Как создать виджет](onlain-zapis/vidzhet-onlain-zapisi-dlya-saita/kak-sozdat-vidzhet.md)
   * [Как встроить виджет на сайт](onlain-zapis/vidzhet-onlain-zapisi-dlya-saita/kak-vstroit-vidzhet-na-sait.md)
