@@ -2,7 +2,7 @@
 
 Теперь в Сейлбот доступна интеграция с TikTok — с одной из самых динамичных и популярных социальных платформ в мире. Это действительно новая глава в развитии нашей экосистемы! Миллионы пользователей ежедневно проводят время в TikTok, и именно там формируется современная культура общения, тренды и новые форматы взаимодействия. Возможность интеграции открывает для бизнеса и проектов совершенно иной уровень контакта с более молодой аудиторией.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-03 в 14.51.07.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-03 в 14.51.07.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Мы рассмотрим техническую сторону процесса: какие шаги нужно выполнить для активации интеграции, какие существуют колбеки, какие разрешения потребуется подтвердить.
 
@@ -36,15 +36,15 @@ TikTok API обмена сообщениями сейчас находится �
 
 Шаг 1. Перейдите в раздел "Настройки и конфиденциальность":
 
-<figure><img src="../../.gitbook/assets/IMAGE 2025-10-03 150331.jpg" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/IMAGE 2025-10-03 150331.jpg" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Шаг 2. Далее — в раздел "Аккаунт":
 
-<figure><img src="../../.gitbook/assets/IMAGE 2025-10-03 150332.jpg" alt="" width="329"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/IMAGE 2025-10-03 150332.jpg" alt="" width="329"><figcaption></figcaption></figure></div>
 
 Шаг 3. Нажмите на "Переключиться на бизнес-аккаунт":
 
-<figure><img src="../../.gitbook/assets/IMAGE 2025-10-03 150333.jpg" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/IMAGE 2025-10-03 150333.jpg" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Шаг 4. Заполните информацию о своем бизнесе:
 
@@ -52,21 +52,21 @@ TikTok API обмена сообщениями сейчас находится �
 
 Готово! Теперь ваш аккаунт готов к подключению в Сейлбот:
 
-<figure><img src="../../.gitbook/assets/IMAGE 2025-10-03 150341.jpg" alt="" width="169"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/IMAGE 2025-10-03 150341.jpg" alt="" width="169"><figcaption></figcaption></figure></div>
 
 ## Подключение к Salebot
 
 Перейдите в раздел "Каналы" и нажмите на кнопку ТикТока
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-03 в 14.43.14.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-03 в 14.43.14.png" alt=""><figcaption></figcaption></figure></div>
 
 Далее в открывшемся окне войдите в свой аккаунт ТикТок:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-03 в 15.35.50.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-03 в 15.35.50.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 И разрешите доступы Сейлбот к вашему аккаунту:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-03 в 15.38.28.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-03 в 15.38.28.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 {% hint style="danger" %}
 Важно!
@@ -80,11 +80,11 @@ TikTok API обмена сообщениями сейчас находится �
 
 Далее нажмите "Продолжить":
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-03 в 15.45.00.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-03 в 15.45.00.png" alt=""><figcaption></figcaption></figure></div>
 
 После чего Вас автоматически перебросит в раздел "Каналы" в Сейлбот и Вы увидите уведомление об успешном подключении интеграции:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-03 в 15.45.33.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-03 в 15.45.33.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Особенности TikTok
 
@@ -100,11 +100,11 @@ TikTok API обмена сообщениями сейчас находится �
 
 tiktok\_client\_new\_comment \<video\_id>: \<comment\_text> - пользователь оставил комментарий под вашим видео.
 
-<figure><img src="../../.gitbook/assets/unknown (7).png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (7).png" alt=""><figcaption></figcaption></figure></div>
 
 tiktok\_client\_share\_post \<shared\_video\_id> \<url> - пользователь отправил видео в личные сообщения подключенного аккаунта
 
-<figure><img src="../../.gitbook/assets/unknown (8).png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (8).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Сохраняемые переменные клиента
 
@@ -122,7 +122,7 @@ tiktok\_conversation\_id - id диалога. Появляется после т
 
 В TikTok доступны два вида кнопок - callback и "по умолчанию" (url), <mark style="color:$danger;">**при этом в одном сообщении могут быть кнопки только одного вида.**</mark>
 
-<figure><img src="../../.gitbook/assets/photo_2025-10-06_22-09-54.jpg" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/photo_2025-10-06_22-09-54.jpg" alt="" width="375"><figcaption></figcaption></figure></div>
 
 В TikTok отображаемый текст на кнопке и текст, который отправится боту после нажатия, - совпадают. Для формирования кнопки используются данные из поля "Текст ответного сообщения" или "URL" в настройках кнопки&#x20;
 
@@ -130,7 +130,7 @@ tiktok\_conversation\_id - id диалога. Появляется после т
 2. URL кнопки выглядят как ссылки. Но поведение такое же, как у callback-кнопок. На данный момент в тиктоке нет возможности создать кнопку, при нажатии на которую будет открываться страница по указанному url. Максимальная длина - 40 символов.
 3. Ограничения 40 символов в тексте (в поле "Сообщение"), если отправляете сообщение с кнопками:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-07 в 11.32.45.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-07 в 11.32.45.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="success" %}
 Подробнее о работе с callback-кнопками в [Salebot рассказали здесь.](/broken/pages/xeepnRj969zW3xRimkdg#kak-dobavit-callback-knopku-vkontakte-telegram)
@@ -140,11 +140,17 @@ tiktok\_conversation\_id - id диалога. Появляется после т
 
 В десктоп версии ТикТока не поддерживаются сообщения с кнопками. В чате на компьютере / ноутбуке Вы увидите сообщение следующего вида:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-06 в 10.05.40.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-10-06 в 10.05.40.png" alt=""><figcaption></figcaption></figure></div>
 
 Тогда как в Мобильной версии приложения сообщение будет отображаться корректно:
 
-<figure><img src="../../.gitbook/assets/обновление 10 сентября.png" alt="" width="243"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/обновление 10 сентября.png" alt="" width="243"><figcaption></figcaption></figure></div>
+
+Также если клиент оставит комментарии под видео, вы можете настроить реакции бота с [помощью функции.](tiktok.md#funkcii)
+
+Или ответить на комментарий в личные сообщение прямо в диалоге с клиентом:
+
+<figure><img src="../../.gitbook/assets/Group 2131329336.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Функции
 
