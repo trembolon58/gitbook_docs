@@ -4,7 +4,7 @@
 
 **Описание:**
 
-**vk\_send\_message(platform\_id, message, keyboard, reply\_to, forward\_messages, sticker\_id, dont\_parse\_links, disable\_mentions, attachments\_photo, attachments\_files)**
+**vk\_send\_message(platform\_id, message, keyboard, reply\_to, forward\_messages, sticker\_id, dont\_parse\_links, disable\_mentions, attachments\_photo, attachments\_files, parse\_mode)**
 
 Параметры:
 
@@ -45,7 +45,7 @@ soob=vk_send_message(2000000001, "Выбирай", knop, None, None, None, None,
 
 **Описание:**
 
-**vk\_edit\_message(platform\_id, message\_id, text, attachments\_photo, attachments\_files, keyboard, keep\_forward\_messages, keep\_snippets, dont\_parse\_links, disable\_mentions)**
+**vk\_edit\_message(platform\_id, message\_id, text, attachments\_photo, attachments\_files, keyboard, keep\_forward\_messages, keep\_snippets, dont\_parse\_links, disable\_mentions, parse\_mode)**
 
 Параметры:
 
@@ -75,4 +75,3 @@ soob=vk_send_message(2000000001, "Выбирай", knop, None, None, None, None,
 ```
 soob=vk_edit_message(2000000001, soob, 'Долго думаешь', None, 'photo-217945289_457239048', None, None, None, None, None
 ```
-
