@@ -2,9 +2,10 @@
 description: >-
   Если Вам необходимо принимать международные платежи, Cloudpayments вам в этом
   поможет.
+hidden: true
 ---
 
-# Cloudpayments
+# TipTop pay
 
 ## Как настроить Cloudpayments
 
