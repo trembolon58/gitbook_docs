@@ -18,7 +18,7 @@
 
 **Переменная** - это хранилище данных. Переменной присваивается некое текстовое имя:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-16 в 14.50.37.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-16 в 14.50.37.png" alt=""><figcaption></figcaption></figure></div>
 
 <p align="center"><em>Рис. 1. Пример переменной</em> <br><em>под названием payment_sum, в которой лежит</em> <br><em>сумма для платежа</em></p>
 
@@ -34,11 +34,11 @@
 
 **Обнулить переменную** - значит присвоить этой переменной значение 0.
 
-[**Функции и методы**](/broken/pages/-MgzqQUP1TEKbhIUhJQn) — это определенный набор команд, который заранее установлен Сейлботом. Для большинства функций указываются параметры — значения, которые понимает функция или метод. Как только бот получит значения для функции/метода, далее выполняется определенная команда.
+[**Функции и методы**](kalkulyator/) — это определенный набор команд, который заранее установлен Сейлботом. Для большинства функций указываются параметры — значения, которые понимает функция или метод. Как только бот получит значения для функции/метода, далее выполняется определенная команда.
 
 `vk_send_message(platform_id, "Привет")` — это функция, которая отправляет сообщение вконтакте "Привет".&#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-16 в 14.58.09.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-16 в 14.58.09.png" alt=""><figcaption></figcaption></figure></div>
 
 <p align="center"><em>Рис. 2. Пример переменной</em> <br><em>под названием s_id с приравненной функцией</em></p>
 
@@ -89,7 +89,7 @@
 
 `sum = 1500`
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-16 в 15.09.40.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-16 в 15.09.40.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Как вывести итоговую сумму?
 
@@ -97,7 +97,7 @@
 
 `total_sum = sum * num` **✅ правильно**&#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-16 в 15.11.53.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-16 в 15.11.53.png" alt=""><figcaption></figcaption></figure></div>
 
 **Как нельзя:**
 
@@ -165,7 +165,7 @@ _Уведомление телефонии(светло синий фон в д�
 
 #### **Значения client\_type**
 
-<table><thead><tr><th width="195.3359375">Значение</th><th width="211.8125">Мессенджер</th></tr></thead><tbody><tr><td>0 </td><td>для Вконтакте </td></tr><tr><td>1  </td><td>для Telegram </td></tr><tr><td>2  </td><td>для Viber</td></tr><tr><td>3  </td><td>для Facebook* </td></tr><tr><td>5  </td><td>для онлайн-чата</td></tr><tr><td>6 </td><td>whatsapp</td></tr><tr><td>7 </td><td>авито </td></tr><tr><td>8 </td><td>одноклассники</td></tr><tr><td>10</td><td>в Instagram*  </td></tr><tr><td>12 </td><td>Юла </td></tr><tr><td>13</td><td>Телефония</td></tr><tr><td>14 </td><td>e-mail </td></tr><tr><td>16</td><td>Telegram Business Account </td></tr><tr><td>19 </td><td>для Циан</td></tr><tr><td>20 </td><td>Max</td></tr><tr><td>21</td><td>Telegram account</td></tr><tr><td>22</td><td>TikTok</td></tr></tbody></table>
+<table><thead><tr><th width="195.3359375">Значение</th><th width="211.8125">Мессенджер</th></tr></thead><tbody><tr><td>0 </td><td>для Вконтакте </td></tr><tr><td>1  </td><td>для Telegram </td></tr><tr><td>2  </td><td>для Viber</td></tr><tr><td>3  </td><td>для Facebook* </td></tr><tr><td>5  </td><td>для онлайн-чата</td></tr><tr><td>6 </td><td>whatsapp</td></tr><tr><td>7 </td><td>авито </td></tr><tr><td>8 </td><td>одноклассники</td></tr><tr><td>10</td><td>в Instagram*  </td></tr><tr><td>12 </td><td>Юла </td></tr><tr><td>13</td><td>Телефония</td></tr><tr><td>14 </td><td>e-mail </td></tr><tr><td>16</td><td>Telegram Business Account </td></tr><tr><td>19 </td><td>для Циан</td></tr><tr><td>20 </td><td>Max</td></tr><tr><td>21</td><td>Telegram account</td></tr><tr><td>22</td><td>TikTok</td></tr><tr><td>23</td><td>Discord</td></tr></tbody></table>
 
 {% hint style="danger" %}
 \*Принадлежит компании Meta, запрещенной в России и признанной экстремисткой.
@@ -237,7 +237,7 @@ wa\_bot - номер телефона Whatsapp-бота
 &#x20;ID в мессенджере (переменная platform\_id) является служебной (встроенной) переменной и постоянна. Даже если вы удалите пользователя из конструктора, то при новой регистрации в боте ID  в мессенджере будет тот же. Этот ID пользователь получает при регистрации в самом мессенджере. \
 Как выглядит platform\_id (ID  в мессенджере) в карточке клиента:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 15.29.29.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 15.29.29.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Переменная platform\_id  есть как у обычных пользователей, так и у сообществ, каналов чатов.&#x20;
 
@@ -245,7 +245,7 @@ wa\_bot - номер телефона Whatsapp-бота
 
 Будет автоматически создан диалог бота с каналом. И в разделе **О клиенте** можно скопировать значение platform\_id канала. В Телеграм для каналов значение ID в мессенджере идёт со знаком минус. В функциях используем всё значение вместе с минусом. &#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 15.37.58.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 15.37.58.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ## Как использовать переменные
 
@@ -253,41 +253,41 @@ wa\_bot - номер телефона Whatsapp-бота
 
 Итак, создадим блок "Стартовое условие", в котором спросим, как зовут пользователя:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 15.54.18.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 15.54.18.png" alt=""><figcaption></figcaption></figure></div>
 
 Дальше создаем еще один блок, где благодарим пользователя за предоставленную информацию. В условии перехода в этот блок включим переключатель "Пользователь вводит данные" и в поле "Вводимые данные" напишем "Имя":
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 15.55.53.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 15.55.53.png" alt=""><figcaption></figcaption></figure></div>
 
 &#x20;В нашем случае "Имя" - это как раз и есть переменная, в которую бот запишет имя пользователя. Здесь может быть любое слово как на русском так и на английском языках, в том числе и цифры.&#x20;
 
 После этого мы можем использовать введенные данные с помощью переменной "имя". В следующем блоке обращаемся к клиенту по имени, используя переменную, не забыв при этом добавить решетку и фигурные скобки:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 15.57.18.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 15.57.18.png" alt=""><figcaption></figcaption></figure></div>
 
 Бот будет отрабатывать следующим образом:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 16.02.33.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 16.02.33.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Теперь давайте усложним задачу. В этом же блоке спросим пользователя, его интересует первичное жилье или вторичное:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 16.03.58.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 16.03.58.png" alt=""><figcaption></figcaption></figure></div>
 
 &#x20;Затем добавим два блока, где в стрелках в условиях укажем текст кнопок:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 16.06.20.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 16.06.20.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 16.07.08.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 16.07.08.png" alt=""><figcaption></figcaption></figure></div>
 
 Теперь рассмотрим второй вариант использования переменных: в блоках. Для этого выделим правый блок, в поле "Калькулятор" введем следующий текст: "Клиента\_интересует = Первичное жилье". В левом блоке соответственно "Клиента\_интересует = Вторичное жилье":
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 16.20.50.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 16.20.50.png" alt=""><figcaption></figcaption></figure></div>
 
 Для чего это сделано: при переходе в любой из блоков пользователю присваивается переменная, которую мы сможем использовать при создании заявки.&#x20;
 
 Дальше в блоках спросим бюджет клиента для покупки недвижимости, а также создадим еще два блока, к которым будут протянуты стрелки с условием перехода в зависимости от ответа клиента:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 16.32.46.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 16.32.46.png" alt=""><figcaption></figcaption></figure></div>
 
 А из блоков "Какой у вас бюджет" создадим условие с проверкой введенных данных через встроенную переменную #{question} (в данном случае эта переменная является введенным ответом пользователя).
 
@@ -295,15 +295,15 @@ wa\_bot - номер телефона Whatsapp-бота
 
 Теперь сменим тип последних двух блоков на "Закрыть сделку" и посмотрим что получилось:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 16.38.29.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 16.38.29.png" alt=""><figcaption></figcaption></figure></div>
 
 Теперь проверим схему в действии:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 16.41.30.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 16.41.30.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 При переходе в раздел "Клиенты" в диалоге с клиентом вы увидите созданную сделку с переменными сделки, которые хранят данные клиента:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 16.40.38.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 16.40.38.png" alt=""><figcaption></figcaption></figure></div>
 
 Теперь Вы умеете использовать переменные как минимум тремя разными способами:
 
@@ -315,13 +315,13 @@ wa\_bot - номер телефона Whatsapp-бота
 
 Переменные можно просмотреть в карточке клиента в разделе Клиенты&#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-26 в 16.02.05.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-26 в 16.02.05.png" alt=""><figcaption></figcaption></figure></div>
 
 Каждая переменная указывается с новой строки, слева имя переменной, справа - значение. При наведении указателя мыши на переменную появляется кнопка ![](<../../.gitbook/assets/image (97) (1) (1).png>), при нажатии на которую можно отредактировать как имя переменной, так и ее значение или удалить переменную:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-26 в 16.03.52.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-26 в 16.03.52.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-26 в 16.04.11.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-26 в 16.04.11.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Отредактировать системные переменные нельзя!
@@ -339,7 +339,7 @@ wa\_bot - номер телефона Whatsapp-бота
 
 Например, `клиент.возраст = 28` или `client.возраст = 28:`
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-16 в 15.35.42.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-16 в 15.35.42.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Неявный способ - это задать переменную в поле ввода данных стрелки:
 
@@ -351,13 +351,13 @@ wa\_bot - номер телефона Whatsapp-бота
 
 Далее переходим в настройки стрелки (соединения) и активируем переключатель "Пользователь вводит данные":
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-16 в 15.40.29.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-16 в 15.40.29.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 В поле прописываем приставку client. и название переменной (в примере client.name): таким образом, когда клиент напишет свое имя, бот запишет имя в клиентскую переменную name.
 
 Далее переменную можно вывести в следующем сообщении:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-16 в 15.43.29.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-16 в 15.43.29.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="success" %}
 Переменные клиента используются идентично обычным в конструкторе уже без приставки client.
@@ -373,17 +373,17 @@ wa\_bot - номер телефона Whatsapp-бота
 
 Записать переменную можно используя приставку проект., например: `проект.количество_обращений = 28` или `project.возраст = 28`
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-16 в 15.52.42.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-16 в 15.52.42.png" alt=""><figcaption></figcaption></figure></div>
 
 &#x20;Использовать их можно без префикса.
 
 {% hint style="info" %}
-Подробнее о работе с функцией get\_records\_from\_table() рассказали в статье "[AI-ассистент с Salebot-таблицами](/broken/pages/MFDzkcTNYWbCxWU1wT8n)".
+Подробнее о работе с функцией get\_records\_from\_table() рассказали в статье "[AI-ассистент с Salebot-таблицами](../ai-assistent/ai-assistent-s-salebot-tablicami.md)".
 {% endhint %}
 
 Отредактировать общие переменные можно в настройках проекта:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-16 в 15.51.10.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-16 в 15.51.10.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Пример использования общих переменных
 
@@ -391,21 +391,21 @@ wa\_bot - номер телефона Whatsapp-бота
 
 Перейдем в настройки проекта и создадим новую переменную:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 16.52.57.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 16.52.57.png" alt=""><figcaption></figcaption></figure></div>
 
 Откроется окно, где нужно добавить переменную со значением 0, что означает "Нет клиентов в боте":
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 16.56.43.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 16.56.43.png" alt=""><figcaption></figcaption></figure></div>
 
 Далее в стартовом блоке бота будем увеличивать значение переменной на 1 и отписывать полученное значение в клиентскую переменную нашего клиента.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 17.04.32.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 17.04.32.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Не забудьте установить ограничение, чтобы одному клиенту нельзя было дважды прибавить счетчик.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 17.05.41.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 17.05.41.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ## Как задать константные переменные
 
@@ -417,25 +417,25 @@ wa\_bot - номер телефона Whatsapp-бота
 
 В "Настройках проекта" -> "Константы" запишем Скидка : 10
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 17.11.25.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 17.11.25.png" alt=""><figcaption></figcaption></figure></div>
 
 Для ввода промокода добавим блок “Не состояние с условием”, где присвоим переменной "Скидка" значение 25.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 17.13.43.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 17.13.43.png" alt=""><figcaption></figcaption></figure></div>
 
 А в зеленом блоке выведем переменную с размером скидки:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 17.15.34.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 17.15.34.png" alt=""><figcaption></figcaption></figure></div>
 
 И проведем стрелку с таймером в ноль секунд из серого блока, чтобы скидка была применена и клиенту пришло сообщение из стартового блока.
 
 Теперь напишем боту:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 17.18.38.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 17.18.38.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Без промокода наша скидка равна 10%. Но если мы напишем промокод, то ситуация изменится:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 17.19.31.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-17 в 17.19.31.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Таким образом, переменная "скидка" после ввода промокода для данного клиента стала равна 25.&#x20;
 
@@ -471,25 +471,25 @@ _Например, <mark style="color:yellow;">**client\_id = 1202020202**</mark
 
 Верны оба способа. Постановка кавычек в значение переменной влияет только на подсветку кода в калькуляторе. Но хорошей практикой будет для числовых значений не использовать кавычки, а для строковых (то есть для текста) использовать, поскольку это также упрощает чтение кода.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-18 в 15.15.10.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-18 в 15.15.10.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-18 в 15.17.42.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-18 в 15.17.42.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-22 в 11.28.41.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-22 в 11.28.41.png" alt=""><figcaption></figcaption></figure></div>
 
 _Если передавать ID клиента, ID сайта, ID блока в конструкторе, ID сертификата и другие ID в функциях и методах, нужно ли их закрывать в кавычки?_
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-22 в 11.31.45.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-22 в 11.31.45.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 При передаче ID в методе или функции, его не нужно оборачивать в кавычки:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-22 в 11.33.41.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-22 в 11.33.41.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Что использовать: двойные кавычки или одинарные?
 
 Разницы между использованием одинарных и двойных кавычек нет, но рекомендуем использовать двойные кавычки. В таком случае, например, при вставке переменной внутрь строки, переменная будет подсвечена другим цветом и её проще будет заметить.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-18 в 15.23.43.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-18 в 15.23.43.png" alt=""><figcaption></figcaption></figure></div>
 
 <mark style="color:$warning;">**ВАЖНО!**</mark>&#x20;
 
@@ -497,17 +497,17 @@ _Если передавать ID клиента, ID сайта, ID блока �
 
 <mark style="color:$success;">**ПРАВИЛЬНО:**</mark>
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-08-29 в 11.55.07.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-08-29 в 11.55.07.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 <mark style="color:red;">**ЭТО НЕВЕРНО!**</mark>
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-08-29 в 11.56.08.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-08-29 в 11.56.08.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Как расставлять пробелы?&#x20;
 
 _Одинаково ли работает, если между переменной и равенством есть пробел (например, <mark style="color:blue;">ans="yes"</mark>, <mark style="color:purple;">ans = "yes"</mark>, <mark style="color:orange;">ans= "yes"</mark>, <mark style="color:red;">ans ="yes"</mark>?_
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-18 в 15.26.52.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-18 в 15.26.52.png" alt=""><figcaption></figcaption></figure></div>
 
 Постановка пробелов не влияет на работу методов, переменных и функций. Рекомендуется расставлять пробелы в коде, чтобы он был более читаемым.
 
@@ -521,11 +521,11 @@ _Одинаково ли работает, если между переменн�
 
 Для комментирования текста используйте **/\* текст комментария \*/**.  Данное сочетание /\* \*/  (теги) позволяют делать в калькуляторе как однострочные, так и многострочные комментарии:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-22 в 10.48.03.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-22 в 10.48.03.png" alt=""><figcaption></figcaption></figure></div>
 
 Не забывайте, что комментарий нужно обязательно закрыть тегом <mark style="color:red;">**\*/**</mark> на конце, <mark style="color:red;">**иначе комментарий продолжится с новой строки:**</mark>
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-22 в 10.57.14.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-22 в 10.57.14.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="danger" %}
 Важно!
@@ -535,14 +535,14 @@ _Одинаково ли работает, если между переменн�
 
 Не забывайте ставить закрывающий тег для комментария, даже если комментарий является последней строкой в поле "Калькулятор":
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-22 в 11.49.08.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-22 в 11.49.08.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Как сравнивать переменные
 
 Переменные можно сравнивать по значениям для отработки схемы чат-бота. Например, проверить, является ли ваш пользователь совершеннолетним, а также на случай, чтобы разделить схему бота по мессенджерам.&#x20;
 
 {% hint style="info" %}
-Как разделить воронку по [разным мессенджерам](/broken/pages/5Z68MQWDBRlBwBi8jDga#kak-razdelit-voronku-po-messendzheram) или по [разным аккаунтам одного мессенджера](/broken/pages/5Z68MQWDBRlBwBi8jDga#kak-razdelit-voronku-po-raznym-loginam) рассказали [здесь.](/broken/pages/5Z68MQWDBRlBwBi8jDga#kak-razdelit-voronku-po-messendzheram)
+Как разделить воронку по[ разным мессенджера](../../chasto-zadavaemye-voprosy/faq.md#kak-razdelit-voronku-po-messendzheram)м или по [разным аккаунтам одного мессенджера](../../chasto-zadavaemye-voprosy/faq.md#kak-razdelit-voronku-po-raznym-loginam) рассказали в FAQ.
 {% endhint %}
 
 #### **Поддерживаемые операторы:**
@@ -579,11 +579,11 @@ _Одинаково ли работает, если между переменн�
 
 Если в поле переменная для сравнения указать просто имя переменной, без выражения, то условие будет сравниваться с ней, а не с тем, что ввел пользователь. Например, на рисунке ниже проверяется что клиент из Wahtsapp (переменная client\_type в Whatsapp равна 6):
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-23 в 13.50.31.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-23 в 13.50.31.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Пример ниже работает идентично:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-05-23 в 15.52.31.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-05-23 в 15.52.31.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 Обращаем внимание! \
@@ -635,13 +635,13 @@ attachments == None переход, если значение переменно
 
 Бот спрашивает возраст, если он меньше 18 лет, бот отвечает, что человек несовершеннолетний, если больше, то совершеннолетний.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-05-23 в 16.26.15.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-05-23 в 16.26.15.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Заметьте, в схеме есть блок без ответа, а из него идут стрелки с таймером. Данный блок сделан специально, чтобы показать как строить схемы, если бот реагирует не на действие пользователя, а на результат вычисления. На первом этапе сохраняется ответ в переменную, а дальше происходит сравнение. Задержка на стрелках стоит 0 для моментального ответа.
 
 Сравнение "Age >= 18" может выглядеть также следующим образом: как больше 18 или равно 18%
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-05-23 в 16.30.48.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-05-23 в 16.30.48.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="danger" %}
 Обращаем внимание на ошибки в условиях:&#x20;
@@ -665,11 +665,11 @@ attachments == None переход, если значение переменно
 
 Например, на рис. ниже, блок отработается, если переменная <mark style="color:green;">**phone заполнена**</mark> (то есть не равна None):
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-22 в 11.04.11.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-22 в 11.04.11.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Следующий пример: как сочетать операторы:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-22 в 11.21.51.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-22 в 11.21.51.png" alt=""><figcaption></figcaption></figure></div>
 
 То есть, если у клиента есть переменная age, где указан его возраст от 18 до 99, то блок отработается. Если переменной нет или возраст меньше 18 и больше 99, то блок не будет срабатывать.&#x20;
 

@@ -9,7 +9,7 @@
 {% hint style="warning" %}
 Также причиной того, что бот не работает в мессенджерах, может быть ошибка подключения Канала.&#x20;
 
-В этом случае рекомендуем проверить настройку подключения [по инструкциям подключения мессенджеров.](/broken/pages/-M6-dPO2gBhwzPgf2pVT)
+В этом случае рекомендуем проверить [настройку подключения по инструкциям подключения мессенджеров.](../rassylki/rassylki-v-messendzhery.md)
 {% endhint %}
 
 ### Как получить корректный номер телефона клиента?
@@ -79,40 +79,40 @@ _Регулярные выражения_ — это условие, с помо
 </details>
 
 {% hint style="info" %}
-Подробнее о регулярных выражениях написано в статье "[Список полезных регулярных выражений](/broken/pages/-M0wjAtzg71YW7LB-2D8)".&#x20;
+Подробнее о регулярных выражениях написано в статье "[Список полезных регулярных выражений](../chat-boty/peremennye-i-funkcii/spisok-poleznykh-regulyarnykh-vyrazhenii.md)".&#x20;
 {% endhint %}
 
 ### Как узнать количество подписанных на бота?
 
-В разделе "[Аналитика](/broken/pages/wYAWtCPmmg5M9uDmeUPE)" указано как общее количество клиентов, так и отдельно по мессенджерам:
+В разделе "[Аналитика](../analitika-dlya-biznesa/analitika-salebot/)" указано как общее количество клиентов, так и отдельно по мессенджерам:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 12.56.18.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 12.56.18.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 13.00.41.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 13.00.41.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Как сделать, чтобы начало разговора инициировал сам бот
 
 Для каждого мессенджера существует своя настройка для того, чтобы бот направлял первое сообщение.&#x20;
 
 {% hint style="info" %}
-Статья "[Первое сообщение в мессенджерах](/broken/pages/-M1G8JhiblHfVMG4OKwP)".&#x20;
+Статья "[Первое сообщение в мессенджера](../chat-boty/kak-sozdat-chat-bot-dlya-biznesa/pervoe-soobshenie-v-messendzherakh.md)х".&#x20;
 {% endhint %}
 
 ### Как отправить "догоняющее" сообщение?
 
 Бывают случаи когда клиент по личным причинам перестал проходить путь по воронке. Чтобы напомнить клиенту о себе, можно отправить вслед догоняющее сообщение с помощью блока "Не состояние".
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 12.33.38.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 12.33.38.png" alt=""><figcaption></figcaption></figure></div>
 
 Этот блок отправит пользователю сообщение, но при этом не передвинет его никуда из основной воронки.
 
 {% hint style="info" %}
-Подробнее о работе таких блоков можно прочитать в статье '[Блоки "Не состояние](/broken/pages/-M1G0tS64N7tDTadS8Ao)"'.
+Подробнее о работе таких блоков можно прочитать в статье '[Блоки "Не состояние](../chat-boty/kak-sozdat-chat-bot-dlya-biznesa/tipy-blokov/bloki-ne-sostoyanie.md)"'.
 {% endhint %}
 
 Также в стрелках используем таймер (задержку) и  ВКЛЮЧАЕМ переключатель “Отменить если покинул блок”.&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 12.36.12.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 12.36.12.png" alt=""><figcaption></figcaption></figure></div>
 
 Переключатель "Отменить, если покинул блок" означает, что стрелка сработает только для тех пользователей, которые через указанное время всё еще не перешли в белый блок из зеленого.&#x20;
 
@@ -120,13 +120,13 @@ _Регулярные выражения_ — это условие, с помо
 
 Необходимо блоки соединить стрелками и в настройках соединений (стрелок) в задержке указать 0 секунд.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 12.40.46.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 12.40.46.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Когда в чат вступает оператор или менеджер, как можно отключить умные ответы, чтобы бот не отвечал?
 
 Вам необходимо указать задержку после ответа оператора.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 12.49.42.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 12.49.42.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Как отследить, перешел ли человек по ссылке из предыдущего сообщения
 
@@ -136,23 +136,23 @@ _Регулярные выражения_ — это условие, с помо
 
 Добавьте в настройках блока кнопку:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-08-04 в 14.50.14.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-08-04 в 14.50.14.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 В настройках кнопки оставьте функцию "По умолчанию", пропишите текст кнопки и укажите ссылку:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-08-04 в 15.24.08.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-08-04 в 15.24.08.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Далее обязательно отметьте галочкой "С уведомлением о клике" в настройках кнопки:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-08-04 в 15.24.33.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-08-04 в 15.24.33.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 И нажмите "Добавить", а затем "Сохранить" для изменения настроек блока:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-08-04 в 14.54.23.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-08-04 в 14.54.23.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Теперь если клиент нажмет на кнопку, то вам придет уведомление в диалоге с данным клиентом:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-08-04 в 14.56.32.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-08-04 в 14.56.32.png" alt=""><figcaption></figcaption></figure></div>
 
 2. Прокси-ссылка
 
@@ -160,13 +160,13 @@ _Регулярные выражения_ — это условие, с помо
 
 В настройках блока в калькуляторе создадим переменную link (название переменной может быть любое), которой будет присвоено значение proxy() с вашей ссылкой:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-08-04 в 15.03.10.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-08-04 в 15.03.10.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Далее в сообщении оставим ссылку через конструкцию <mark style="color:yellow;">#{</mark><mark style="color:red;">**название\_вашей\_переменной**</mark><mark style="color:yellow;">}</mark>.&#x20;
 
 Если клиент в чате перейдет по ссылке, то в диалоге с клиентом вы увидите уведомление подобного типа:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-08-04 в 15.04.52.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-08-04 в 15.04.52.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="success" %}
 Колбек при клике на ссылку, которая лежит в функции proxy('ваша ссылка') аналогичен колбеку, который приходит, если клиент нажал на кнопку с уведомлением о клике.&#x20;
@@ -178,7 +178,7 @@ _Регулярные выражения_ — это условие, с помо
 
 Если нужно настроить реакцию только на определенную ссылку (то есть чтобы бот отправлял ответное сообщение только в случае, если клиент перейдет по определенной ссылке), то укажите весь текст колбека в условии блока ("Стартовое условие" или "Не состояние с условием":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-08-04 в 15.08.22.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-08-04 в 15.08.22.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Выбор соответствия "Полное совпадение".
 
@@ -186,11 +186,11 @@ _Регулярные выражения_ — это условие, с помо
 
 Если нужно отправлять ответное сообщение на уведомление о клике по любой ссылке, укажите только часть колбека 'link\_was\_pressed':
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-08-04 в 15.12.34.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-08-04 в 15.12.34.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 С выбором соответствия в блоке "По наличию ключевых слов":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-08-04 в 15.13.17.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-08-04 в 15.13.17.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Видео-инструкция:
 
@@ -200,7 +200,7 @@ _Регулярные выражения_ — это условие, с помо
 
 Вы можете создать сайт (лендинг): на нем будут ссылки на ботов.&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 13.22.53.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 13.22.53.png" alt=""><figcaption></figcaption></figure></div>
 
 Сайт или лендинг использовать необязательно, можно просто взять прокси-ссылки.
 
@@ -212,7 +212,7 @@ _Регулярные выражения_ — это условие, с помо
 
 Все верно. Уйдет в установленные в настройках стрелки дату и время.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 13.36.38.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 13.36.38.png" alt=""><figcaption></figcaption></figure></div>
 
 Если указана задержка перед отправкой, то данная задержка будет добавлена к тому времени, что вы указали (из примера, сообщение будет отправлено 21.07.2025 в 11:00, поскольку к установленному времени в поле "Время отправки" еще прибавляется задержка, установленная в поле "Задержка перед ответом").&#x20;
 
@@ -224,7 +224,7 @@ _Регулярные выражения_ — это условие, с помо
 
 Если по каким-либо причинам вы отключили "Отменить сообщения с таймером" и при этом используете переход по таймеру при соблюдении некоего условия, то рекомендуем прописать в "Строки, на которые не отвечать" прописать #{question}
 
-<figure><img src="../.gitbook/assets/image (363).png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (363).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Почему текст \&para, написанный в блоке, заменяется на ¶
 
@@ -232,9 +232,7 @@ _Регулярные выражения_ — это условие, с помо
 
 ### Можно ли настроить отправку уведомлений нашему администратору, когда клиент отправляет сообщения в онлайн-чат?
 
-Можно. Подробнее об этом в статье:
-
-{% embed url="https://docs.salebot.pro/api-v-konstruktore-salebot.pro/otpravka-zayavok-v-messendzhery" %}
+Можно. [Подробнее об этом в статье](osobye-vozmozhnosti/otpravka-zayavok-v-messendzhery-i-na-elektronnuyu-pochtu.md)
 
 ### **Можно ли сделать разные ссылки на бота с разной логикой**
 
@@ -250,17 +248,17 @@ _Регулярные выражения_ — это условие, с помо
 
 1. Создайте два сайта с разными тегами:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 13.40.22.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 13.40.22.png" alt=""><figcaption></figcaption></figure></div>
 
 2. Далее в стартовых блоках пропишите теги в условии блока:
 
 а) при переходе в мессенджер с лендинга "Сайт для курса" будет работать данная схема:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 13.41.29.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 13.41.29.png" alt=""><figcaption></figcaption></figure></div>
 
 б) при переходе в мессенджер с лендинга "Обучение" будет запускаться вторая воронка:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 13.41.45.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 13.41.45.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Можно ли отправить сообщение на следующий день после первого сообщения бота?
 
@@ -274,13 +272,13 @@ _Регулярные выражения_ — это условие, с помо
 
 Да, можно. У стрелки в поле дата отправки необходимо указать переменную next\_day и нужное время отправки"
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 13.45.43.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 13.45.43.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Как настроить, чтобы бот не мешал общению с клиентами?
 
 В **Настройках проекта** есть поле: _Время в минутах, на которое замирает бот после ответа оператора_
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-22 в 11.55.32.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-04-22 в 11.55.32.png" alt=""><figcaption></figcaption></figure></div>
 
 Отсчет начинается с момента отправки сообщения оператором. Если вы по ошибке установили больше значение, и бот для клиента выключился на очень долгий период, установите в указанное поле 0 и напишите клиенту.
 
@@ -294,17 +292,17 @@ _Регулярные выражения_ — это условие, с помо
 
 Да, бот может отправлять изображения в сообщениях. Для этого в конструкторе выберите необходимый блок, вставку вложения и необходимый тип (например, изображение):
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 13.47.59.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 13.47.59.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-Подробнее об отправке [вложений рассказали здесь.](/broken/pages/yYSwWjAgADeJZAa4eZxl)
+Подробнее об отправке [вложений рассказали здесь](../chat-boty/kak-sozdat-chat-bot-dlya-biznesa/nastroiki-bloka-soobsheniya/vkladka-vlozheniya.md).
 {% endhint %}
 
 ### Как отправить несколько картинок (файлов)?
 
 В блоках добавлена возможность добавления нескольких вложений одного типа:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 13.49.00.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 13.49.00.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 А также можно сделать подряд несколько блоков, в каждом из которых отправлять вложение, чтобы оно отправилось без текста, в поле ответ укажите переменную #{none}
 
@@ -323,7 +321,7 @@ _Регулярные выражения_ — это условие, с помо
 
 При добавлении в текст сообщения ссылок можно включить отображение превью ссылки:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 13.53.33.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 13.53.33.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 За преобразование ссылки в красивое превью при отправке ссылки в различные социальные сети или мессенджер&#x44B;_: **Telegram**, **WhatsApp**, **Facebook**, **VK**_ - отвечает Open Graph разметка.
 
@@ -364,7 +362,7 @@ _Регулярные выражения_ — это условие, с помо
    \
    _Пример:_&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 13.56.15.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 13.56.15.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 При работе с таблицами остается тот же подход, что и с массивами и словарями: Вам необходимо заполнить данные, а далее считывать из таблицы случайно выбранную строку.
 
@@ -378,14 +376,14 @@ _Регулярные выражения_ — это условие, с помо
 
 Значения client\_type:
 
-<table><thead><tr><th width="195.3359375">Значение</th><th width="211.8125">Мессенджер</th></tr></thead><tbody><tr><td>0 </td><td>для Вконтакте </td></tr><tr><td>1  </td><td>для Telegram </td></tr><tr><td>2  </td><td>для Viber</td></tr><tr><td>3  </td><td>для Facebook* </td></tr><tr><td>5  </td><td>для онлайн-чата</td></tr><tr><td>6 </td><td>whatsapp</td></tr><tr><td>7 </td><td>авито </td></tr><tr><td>8 </td><td>одноклассники</td></tr><tr><td>10</td><td>в Instagram*  </td></tr><tr><td>12 </td><td>Юла </td></tr><tr><td>13</td><td>Телефония</td></tr><tr><td>14 </td><td>e-mail </td></tr><tr><td>16</td><td>Telegram Business Account </td></tr><tr><td>19 </td><td>для Циан</td></tr><tr><td>20 </td><td>Max</td></tr><tr><td>21</td><td>Telegram account</td></tr><tr><td>22</td><td>TikTok</td></tr></tbody></table>
+<table><thead><tr><th width="195.3359375">Значение</th><th width="211.8125">Мессенджер</th></tr></thead><tbody><tr><td>0 </td><td>для Вконтакте </td></tr><tr><td>1  </td><td>для Telegram </td></tr><tr><td>2  </td><td>для Viber</td></tr><tr><td>3  </td><td>для Facebook* </td></tr><tr><td>5  </td><td>для онлайн-чата</td></tr><tr><td>6 </td><td>whatsapp</td></tr><tr><td>7 </td><td>авито </td></tr><tr><td>8 </td><td>одноклассники</td></tr><tr><td>10</td><td>в Instagram*  </td></tr><tr><td>12 </td><td>Юла </td></tr><tr><td>13</td><td>Телефония</td></tr><tr><td>14 </td><td>e-mail </td></tr><tr><td>16</td><td>Telegram Business Account </td></tr><tr><td>19 </td><td>для Циан</td></tr><tr><td>20 </td><td>Max</td></tr><tr><td>21</td><td>Telegram account</td></tr><tr><td>22</td><td>TikTok</td></tr><tr><td>23</td><td>Discord</td></tr></tbody></table>
 
 {% hint style="danger" %}
 \*Принадлежит Meta, деятельность которой признана экстремистской и запрещена на территории Российской Федерации.&#x20;
 {% endhint %}
 
 {% hint style="info" %}
-**Подробнее о переменных** [**тут**](/broken/pages/-LxpXZscJeU6Wb2MlqSH)
+[**Подробнее о переменных тут**](../chat-boty/peremennye-i-funkcii/peremennye.md)
 {% endhint %}
 
 Разберем на примерах:
@@ -396,21 +394,21 @@ _Регулярные выражения_ — это условие, с помо
 _-_&#x63;lient\__type==1_ (т.е. пишет из Telegram)\
 -client\__type!=0 and_ client\__type!=1 (т.е. пишет из любого мессенджера, кроме ВКонтакте и Telegram)_
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 14.12.43.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 14.12.43.png" alt=""><figcaption></figcaption></figure></div>
 
 В зависимости от того, в каком мессенджере пишет клиент, он будет двигаться по воронке, попадая в соответствующий блок:
 
 1. Если клиент пишет в Вконтакте, то попадает в блок "Ты из ВК":
 
-<figure><img src="../.gitbook/assets/IMG_4923.PNG" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/IMG_4923.PNG" alt="" width="375"><figcaption></figcaption></figure></div>
 
 2. Если пишет в Telegram, то попадает в блок "Ты из Telegram":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 14.09.52.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 14.09.52.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 3. Если пишет из другого мессенджера или в онлайн-чате, то попадает в блок "Ты пришел не из ВК или ТГ":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 14.09.24.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 14.09.24.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% embed url="https://youtu.be/Ryt4aRHjhos" %}
 
@@ -422,7 +420,7 @@ _-_&#x63;lient\__type==1_ (т.е. пишет из Telegram)\
 
 В разделе Каналы подключено два Telegram бота. Скопируйте group\_id:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 14.19.32.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 14.19.32.png" alt=""><figcaption></figcaption></figure></div>
 
 Использовать сравнение значения переменной **group** можно как с блоках с условием, так и в стрелках. Для этого используем поле **Переменная для сравнения.**
 
@@ -432,9 +430,9 @@ _**Разделить воронки в стартовых блоках:**_&#x20
 
 Данный блок по условию "start" будет запускаться только в соответствующем боте:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-08-26 в 17.57.57.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-08-26 в 17.57.57.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-08-26 в 17.58.14.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-08-26 в 17.58.14.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="danger" %}
 Важно!&#x20;
@@ -448,10 +446,10 @@ _**Разделить воронки в стартовых блоках:**_&#x20
 
 Для того чтобы разделить воронку по логинам бота, также можно сравнивать значение переменной **group в соединениях** (стрелках). В этом случае в зависимости от того, в каком боте клиент проходит воронку, на определённом этапе пользователи будут получать разные сообщения.&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-08-26 в 18.01.37.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-08-26 в 18.01.37.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-**Подробнее о переменных**[ **тут**](/broken/pages/-LxpXZscJeU6Wb2MlqSH)
+[**Подробнее о переменных тут**](../chat-boty/peremennye-i-funkcii/peremennye.md)
 {% endhint %}
 
 {% embed url="https://youtu.be/rTR2dG2Crpk" %}
@@ -485,11 +483,11 @@ message(187235469,'Задал вопрос https://salebot.pro/projects/#{projec
 
 Номер проекта можно взять в адресной строке вашего браузера:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 14.43.02.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 14.43.02.png" alt=""><figcaption></figcaption></figure></div>
 
 А также в списке проектов:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 14.46.44.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 14.46.44.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Как обновить кеш-ссылки Open Graph?
 
@@ -497,7 +495,7 @@ message(187235469,'Задал вопрос https://salebot.pro/projects/#{projec
 
 Запустите бота [@webpagebot](https://t.me/webpagebot) и отправьте нужную ссылку, далее сбросьте кеш, выбрав любую из команд \[**update …** ]
 
-<figure><img src="../.gitbook/assets/image (365).png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (365).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### Facebook\*
 
@@ -509,17 +507,15 @@ message(187235469,'Задал вопрос https://salebot.pro/projects/#{projec
 
 Для **WhatsApp** ссылки обычно обновляются автоматически:
 
-<figure><img src="../.gitbook/assets/image (366).png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (366).png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../.gitbook/assets/image (367).png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (367).png" alt=""><figcaption></figcaption></figure></div>
 
 #### VK
 
 Для VKontakte [воспользуйтесь сторонним сервисом](https://get-vk.ru/vk-clear-cache). Укажите ссылку, нажмите кнопку. Авторизация необязательна.
 
-<figure><img src="../.gitbook/assets/image (368).png" alt="" width="563"><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (369).png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (368).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Как проверить состоит ли участник чата в определенном списке?
 
@@ -543,14 +539,12 @@ message(187235469,'Задал вопрос https://salebot.pro/projects/#{projec
 
 Можно использовать ссылку на вашего бота в мессенджере для приглашения клиентов.&#x20;
 
-Ссылки на мессенджеры можно получить в разделе Каналы:&#x20;
-
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 14.52.41.png" alt=""><figcaption></figcaption></figure>
+Ссылки на мессенджеры можно получить в разделе Каналы.
 
 Дальше необходимо выбрать мессенджер, на который вы ходите получить ссылку. У каждого подключенного мессенджера своя ссылка.
 
 Также вы можете создать сайт, где сможете увидеть ссылки на мессенджеры:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 13.22.53.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 13.22.53.png" alt=""><figcaption></figcaption></figure></div>
 
 Сайт или лендинг использовать необязательно, можно просто взять прокси-ссылки.
