@@ -93,7 +93,7 @@
 Тег - это системная переменная, которая указывается в настройках сайта. Тег присваивается клиенту, если он запустил бота с сайта и если вы указали тег в настройках сайта.&#x20;
 
 {% hint style="info" %}
-Подробнее о теге рассказали в разделе "[ТЕГ](../../saity-dlya-biznesa/konstruktor-saitov/nastroiki-stranicy-saita.md#teg)" в настройках страницы сайта.
+Подробнее о теге рассказали в разделе "[ТЕГ](../../websites/konstruktor-saitov/nastroiki-stranicy-saita.md#teg)" в настройках страницы сайта.
 {% endhint %}
 
 ### **Виджет "Клиенты по каналам"**
@@ -247,7 +247,7 @@ per1 = 1 AND pre2 = 2, то воспользуйтесь оператором И
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/2024-01-25_17-44-28.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-Чтобы узнать, что такое UTM-метки и как ими пользоваться, рекомендуем прочитать статью "[Как передать параметры и UTM-метки](../../saity-dlya-biznesa/konstruktor-saitov/kak-peredat-parametry-i-utm-metki.md)".
+Чтобы узнать, что такое UTM-метки и как ими пользоваться, рекомендуем прочитать статью "[Как передать параметры и UTM-метки](../../websites/konstruktor-saitov/kak-peredat-parametry-i-utm-metki.md)".
 {% endhint %}
 
 В первом поле "Название значений" вы прописываете необходимое для отображения результатов в диаграмме наименование:

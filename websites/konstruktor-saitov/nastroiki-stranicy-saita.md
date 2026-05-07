@@ -71,7 +71,7 @@
 <figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-08 в 15.03.24.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-[Подробнее, как работать с тегом, рассказали в одноименной статье.](../ssylki-na-messendzhery/teg.md)
+[Подробнее, как работать с тегом, рассказали в одноименной статье.](../bot_links/tag.md)
 {% endhint %}
 
 ## Настройка[^1] изображений

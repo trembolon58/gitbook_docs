@@ -7,7 +7,7 @@
 
 Инструкция устарела.
 
-[Для создания опросов и сбора заявок используйте лендинг "Квиз".](../../saity-dlya-biznesa/konstruktor-saitov/kviz.md)
+[Для создания опросов и сбора заявок используйте лендинг "Квиз".](../../websites/konstruktor-saitov/kviz.md)
 {% endhint %}
 
 ## Настройка Yandex
