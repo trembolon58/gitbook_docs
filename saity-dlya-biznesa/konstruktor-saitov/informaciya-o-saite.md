@@ -5,7 +5,7 @@
 ID страницы сайта в списке сайтов можно передать в функции в боте, чтобы, например, передавать ссылку на ваш сайт через бота или открывать как мини-приложение в Телеграм.&#x20;
 
 {% hint style="info" %}
-Подробнее о [Telegram WebAp здесь. ](../../chat-boty/podklyuchenie-messendzherov-i-kanalov/telegram/knopki-v-telegram.md#knopka-telegram-web-application)
+Подробнее о [Telegram WebAp здесь. ](../../chatbots/channels/telegram/buttons.md#knopka-telegram-web-application)
 {% endhint %}
 
 {% hint style="info" %}

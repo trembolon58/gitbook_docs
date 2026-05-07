@@ -306,7 +306,7 @@ ID состояния:
 {% hint style="info" %}
 Для работы со сделками в чат-боте можно использовать функции API в калькуляторе.
 
-Подробнее о функциях читайте в статье "[Для работы со сделками](../chat-boty/peremennye-i-funkcii/kalkulyator/dlya-raboty-so-ssylkami.md)".
+Подробнее о функциях читайте в статье "[Для работы со сделками](../chatbots/peremennye-i-funkcii/kalkulyator/dlya-raboty-so-ssylkami.md)".
 {% endhint %}
 
 ## Переключение сделок

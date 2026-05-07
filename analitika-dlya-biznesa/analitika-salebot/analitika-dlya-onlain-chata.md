@@ -9,7 +9,7 @@
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/2024-03-07_17-12-27.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-Как настроить создать и настроить онлайн-чат, читайте [в одноименной статье.](../../chat-boty/onlain-chat.md)
+Как настроить создать и настроить онлайн-чат, читайте [в одноименной статье.](../../chatbots/onlain-chat.md)
 {% endhint %}
 
 Далее можно настроить оценку качества по своему усмотрению.&#x20;

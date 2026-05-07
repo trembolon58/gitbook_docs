@@ -211,7 +211,7 @@ per1 = 1 AND pre2 = 2, то воспользуйтесь оператором И
 Переменные : var1 = 1, var2 = 2 , где система ищет любого клиента, у которого хоть одна из них совпадает с выбранным значением (_можно передать без значения - тогда система просто смотрит ее наличие_)
 
 {% hint style="info" %}
-Что такое переменные и как с ними работать, прочтите в статье "[Переменные](../../chat-boty/peremennye-i-funkcii/peremennye.md)".&#x20;
+Что такое переменные и как с ними работать, прочтите в статье "[Переменные](../../chatbots/peremennye-i-funkcii/peremennye.md)".&#x20;
 {% endhint %}
 
 Далее можно выбрать каналы, статистика которых будет принята в учет в данном виджете:
@@ -364,7 +364,7 @@ b)  уникальные клиенты (т.е. впервые посетивш�
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-01-18 141628.png" alt=""><figcaption><p>Настройки блока в конструкторе воронок</p></figcaption></figure></div>
 
 {% hint style="success" %}
-Подробнее об этом в статье "Что в редакторе означает каждое поле" в разделе "[Вкладка 'Аналитика'](../../chat-boty/kak-sozdat-chat-bot-dlya-biznesa/nastroiki-bloka-soobsheniya/vkladka-analitika.md)".&#x20;
+Подробнее об этом в статье "Что в редакторе означает каждое поле" в разделе "[Вкладка 'Аналитика'](../../chatbots/builder/message/analytics.md)".&#x20;
 {% endhint %}
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/2024-01-24_15-28-14.png" alt="" width="314"><figcaption></figcaption></figure></div>

@@ -71,11 +71,11 @@
 
 — Добавили функции калькулятора max\_send\_message, max\_send\_photo и max\_send\_document.
 
-[Подробнее](../chat-boty/podklyuchenie-messendzherov-i-kanalov/max/funkcii-dlya-raboty-s-max.md)
+[Подробнее](../chatbots/channels/max/function.md)
 
 — В функцию vk\_edit\_message добавили параметр parse\_mode, который позволяет включать форматирование текста в сообщении.
 
-[Подробнее](../chat-boty/podklyuchenie-messendzherov-i-kanalov/vk/api-vkontakte/)
+[Подробнее](../chatbots/channels/vk/api-vkontakte/)
 
 ⭐️ РАЗНОЕ
 
@@ -162,7 +162,7 @@ _\*Facebook принадлежат Meta, деятельность которой
 — Для Точка Банка добавили возможность выбирать доступные для клиента способы оплаты.\
 — В настройках сотрудника появилась возможность указывать дополнительные данные. Получить их можно через функцию калькулятора get\_operator\_info(field\_name)
 
-[Подробнее](../chat-boty/peremennye-i-funkcii/kalkulyator/dlya-raboty-s-sotrudnikami.md#poluchit-informaciyu-o-sotrudnike)
+[Подробнее](../chatbots/peremennye-i-funkcii/kalkulyator/dlya-raboty-s-sotrudnikami.md#poluchit-informaciyu-o-sotrudnike)
 
 ## 06 марта 2026&#x20;
 
@@ -186,11 +186,11 @@ _\*Facebook принадлежат Meta, деятельность которой
 
 Можно проверять, состоит ли пользователь в групповом чате, автоматически добавлять участников в чат и удалять их при необходимости.&#x20;
 
-[Подробнее](../chat-boty/podklyuchenie-messendzherov-i-kanalov/vk/kak-perenesti-zakrytye-kluby-iz-tg-v-vk.md)
+[Подробнее](../chatbots/channels/vk/kak-perenesti-zakrytye-kluby-iz-tg-v-vk.md)
 
 Также появилась возможность добавлять мини-приложения WebApp для вашего сайта или интернет-магазина.&#x20;
 
-[Подробнее](../chat-boty/podklyuchenie-messendzherov-i-kanalov/max/chat-bot-max.md#knopka-max-webapp)
+[Подробнее](../chatbots/channels/max/chatbot_max.md#knopka-max-webapp)
 
 Это упрощает создание закрытых клубов по подписке и других форматов доступа через MAX.
 
@@ -222,9 +222,9 @@ _\*Facebook принадлежат Meta, деятельность которой
 
 В документе разобрали, как настроить доступ, логику работы клуба и автоматизацию в ВК и MAX, чтобы сохранить привычный формат работы.
 
-[Подробнее о переносе в MAX](../chat-boty/podklyuchenie-messendzherov-i-kanalov/max/perenos-zakrytykh-klubov-iz-tg-v-max.md)
+[Подробнее о переносе в MAX](../chatbots/channels/max/shift.md)
 
-[Подробнее о переносе в ВК](../chat-boty/podklyuchenie-messendzherov-i-kanalov/vk/kak-perenesti-zakrytye-kluby-iz-tg-v-vk.md)
+[Подробнее о переносе в ВК](../chatbots/channels/vk/kak-perenesti-zakrytye-kluby-iz-tg-v-vk.md)
 
 🎓 КУРСЫ
 
@@ -284,7 +284,7 @@ _\*Facebook принадлежат Meta, деятельность которой
 
 Больше не нужно вручную проверять оплаты и управлять участниками. Salebot сам следит за доступом и помогает поддерживать порядок в клубе.
 
-👉 Подробнее в статье "[Автоматизация Telegram](../chat-boty/avtomatizaciya/avtomatizaciya-telegram.md)"
+👉 Подробнее в статье "[Автоматизация Telegram](../chatbots/avtomatizaciya/avtomatizaciya-telegram.md)"
 
 🌐 САЙТЫ
 
@@ -547,7 +547,7 @@ _\*Facebook принадлежат Meta, деятельность которой
 
 — recognize\_code(url) — распознаёт QR-коды и штрихкоды с изображения по ссылке и возвращает распознанный текст. Теперь можно легко генерировать и считывать коды прямо внутри бота.
 
-[Подробнее](../chat-boty/peremennye-i-funkcii/kalkulyator/dlya-generacii-qr-koda.md)
+[Подробнее](../chatbots/peremennye-i-funkcii/kalkulyator/dlya-generacii-qr-koda.md)
 
 🌐 САЙТЫ
 

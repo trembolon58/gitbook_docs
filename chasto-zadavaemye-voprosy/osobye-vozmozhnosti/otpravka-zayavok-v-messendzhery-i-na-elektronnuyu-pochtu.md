@@ -142,5 +142,5 @@
 <figure><img src="https://docs.salebot.pro/~gitbook/image?url=https%3A%2F%2F4216716816-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-LxKl4rC_EcwBAz40Qn_%252Fuploads%252FkmTn4NnOTLw5mJ7w2Vnk%252FScreenshot%25202025-12-04%2520at%252010.03.43.png%3Falt%3Dmedia%26token%3Df7458f43-210c-4533-bffb-29dde0098a11&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=49e41ad9&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
-[О блоке "Закрыть сделку" рассказали здесь](../../chat-boty/kak-sozdat-chat-bot-dlya-biznesa/tipy-blokov/bloki-bez-usloviya.md#blok-zakryt-sdelku)
+[О блоке "Закрыть сделку" рассказали здесь](../../chatbots/builder/block_type/without_trigger.md#blok-zakryt-sdelku)
 {% endhint %}

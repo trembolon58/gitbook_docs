@@ -79,7 +79,7 @@ _Регулярные выражения_ — это условие, с помо
 </details>
 
 {% hint style="info" %}
-Подробнее о регулярных выражениях написано в статье "[Список полезных регулярных выражений](../chat-boty/peremennye-i-funkcii/spisok-poleznykh-regulyarnykh-vyrazhenii.md)".&#x20;
+Подробнее о регулярных выражениях написано в статье "[Список полезных регулярных выражений](../chatbots/peremennye-i-funkcii/spisok-poleznykh-regulyarnykh-vyrazhenii.md)".&#x20;
 {% endhint %}
 
 ### Как узнать количество подписанных на бота?
@@ -95,7 +95,7 @@ _Регулярные выражения_ — это условие, с помо
 Для каждого мессенджера существует своя настройка для того, чтобы бот направлял первое сообщение.&#x20;
 
 {% hint style="info" %}
-Статья "[Первое сообщение в мессенджера](../chat-boty/kak-sozdat-chat-bot-dlya-biznesa/pervoe-soobshenie-v-messendzherakh.md)х".&#x20;
+Статья "[Первое сообщение в мессенджера](../chatbots/builder/fisrt_message.md)х".&#x20;
 {% endhint %}
 
 ### Как отправить "догоняющее" сообщение?
@@ -107,7 +107,7 @@ _Регулярные выражения_ — это условие, с помо
 Этот блок отправит пользователю сообщение, но при этом не передвинет его никуда из основной воронки.
 
 {% hint style="info" %}
-Подробнее о работе таких блоков можно прочитать в статье '[Блоки "Не состояние](../chat-boty/kak-sozdat-chat-bot-dlya-biznesa/tipy-blokov/bloki-ne-sostoyanie.md)"'.
+Подробнее о работе таких блоков можно прочитать в статье '[Блоки "Не состояние](../chatbots/builder/block_type/fallback.md)"'.
 {% endhint %}
 
 Также в стрелках используем таймер (задержку) и  ВКЛЮЧАЕМ переключатель “Отменить если покинул блок”.&#x20;
@@ -295,7 +295,7 @@ _Регулярные выражения_ — это условие, с помо
 <div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-18 в 13.47.59.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-Подробнее об отправке [вложений рассказали здесь](../chat-boty/kak-sozdat-chat-bot-dlya-biznesa/nastroiki-bloka-soobsheniya/vkladka-vlozheniya.md).
+Подробнее об отправке [вложений рассказали здесь](../chatbots/builder/message/attachments.md).
 {% endhint %}
 
 ### Как отправить несколько картинок (файлов)?
@@ -383,7 +383,7 @@ _Регулярные выражения_ — это условие, с помо
 {% endhint %}
 
 {% hint style="info" %}
-[**Подробнее о переменных тут**](../chat-boty/peremennye-i-funkcii/peremennye.md)
+[**Подробнее о переменных тут**](../chatbots/peremennye-i-funkcii/peremennye.md)
 {% endhint %}
 
 Разберем на примерах:
@@ -449,7 +449,7 @@ _**Разделить воронки в стартовых блоках:**_&#x20
 <div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-08-26 в 18.01.37.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-[**Подробнее о переменных тут**](../chat-boty/peremennye-i-funkcii/peremennye.md)
+[**Подробнее о переменных тут**](../chatbots/peremennye-i-funkcii/peremennye.md)
 {% endhint %}
 
 {% embed url="https://youtu.be/rTR2dG2Crpk" %}

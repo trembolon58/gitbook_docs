@@ -87,7 +87,7 @@ description: >-
 Ссылку на оплату можно создавать в кнопке с функцией "Оплата".&#x20;
 
 {% hint style="info" %}
-[О том как создавать такую кнопку  рассказано в этой статье](../chat-boty/kak-sozdat-chat-bot-dlya-biznesa/nastroiki-bloka-soobsheniya/vkladka-knopki/tipy-knopok.md#kak-sdelat-knopku-oplata)
+[О том как создавать такую кнопку  рассказано в этой статье](../chatbots/builder/message/buttons/type.md#kak-sdelat-knopku-oplata)
 {% endhint %}
 
 Рассмотрим все возможные параметры данной кнопки. О том как создавать кнопку с функцией Оплата  рассказано в этой статье:
@@ -466,7 +466,7 @@ _<mark style="color:blue;">Шаг 1. Включить автоплатежи в 
 
 _<mark style="color:blue;">Шаг 2. Провести обычный платёж.</mark>_
 
-С помощью удобного способа сформировать ссылку на оплату.  Рекомендуем использовать в блоке [кнопку с функцией "Оплата"](../chat-boty/kak-sozdat-chat-bot-dlya-biznesa/nastroiki-bloka-soobsheniya/vkladka-knopki/tipy-knopok.md#kak-sdelat-knopku-oplata) или с помощью функции  `get_yookassa_payment_url`
+С помощью удобного способа сформировать ссылку на оплату.  Рекомендуем использовать в блоке [кнопку с функцией "Оплата"](../chatbots/builder/message/buttons/type.md#kak-sdelat-knopku-oplata) или с помощью функции  `get_yookassa_payment_url`
 
 <figure><img src="../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
 

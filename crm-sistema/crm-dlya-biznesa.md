@@ -87,7 +87,7 @@ CRM в виде списка отображается таблицей со сд
 <div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-08 в 11.27.22.png" alt="" width="563"><figcaption><p>Рис. 12. Настройки для отображения переменных в карточках сделок</p></figcaption></figure></div>
 
 {% hint style="info" %}
-Подробнее о том, что такое переменные, рассказали в одноименной статье "[Переменные](../chat-boty/peremennye-i-funkcii/peremennye.md)"
+Подробнее о том, что такое переменные, рассказали в одноименной статье "[Переменные](../chatbots/peremennye-i-funkcii/peremennye.md)"
 {% endhint %}
 
 6. Отображение скрытых состояний
@@ -207,5 +207,5 @@ CRM в виде списка отображается таблицей со сд
 ## Функции API Salebot
 
 {% hint style="info" %}
-Для использования всех возможностей CRM через бота, ознакомьтесь со статьей "[Для работы с CRM](../chat-boty/peremennye-i-funkcii/kalkulyator/dlya-raboty-s-klientami-i-crm.md)"
+Для использования всех возможностей CRM через бота, ознакомьтесь со статьей "[Для работы с CRM](../chatbots/peremennye-i-funkcii/kalkulyator/dlya-raboty-s-klientami-i-crm.md)"
 {% endhint %}

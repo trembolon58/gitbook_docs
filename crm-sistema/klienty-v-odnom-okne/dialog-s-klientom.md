@@ -66,7 +66,7 @@ ID клиента - это идентификатор клиента в salebot,
 
 <div data-with-frame="true"><figure><img src="https://docs.salebot.pro/~gitbook/image?url=https%3A%2F%2F4216716816-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-LxKl4rC_EcwBAz40Qn_%252Fuploads%252FW3MLCnansq53rSvz7Wu7%252FScreenshot%25202025-12-30%2520at%252012.17.44.png%3Falt%3Dmedia%26token%3D93338913-1b44-4193-91a4-18c6915f5540&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=d7c191ba&#x26;sv=2" alt="" width="563"><figcaption></figcaption></figure></div>
 
-[Подробнее, как работать со стрелкой со сбором данных, рассказали здесь.](../../chat-boty/kak-sozdat-chat-bot-dlya-biznesa/strelki-soedineniya/tipy-soedinenii-strelok.md#strelka-so-sborom-dannykh)
+[Подробнее, как работать со стрелкой со сбором данных, рассказали здесь.](../../chatbots/builder/connections/type.md#strelka-so-sborom-dannykh)
 
 1. Можно заполнить данные вручную в разделе "О клиенте":
 
@@ -130,7 +130,7 @@ ID клиента - это идентификатор клиента в salebot,
 Также в карточке указаны системные переменные: в документации будем рассматривать только их, так как набор переменных, которые вы можете задать в своем проекте, будет уникальным.
 
 {% hint style="info" %}
-Подробнее о переменных рассказали [в одноименной статье. ](../../chat-boty/peremennye-i-funkcii/peremennye.md)
+Подробнее о переменных рассказали [в одноименной статье. ](../../chatbots/peremennye-i-funkcii/peremennye.md)
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-10 в 15.13.39.png" alt="" width="563"><figcaption></figcaption></figure>
@@ -264,7 +264,7 @@ ID клиента - это идентификатор клиента в salebot,
 Удалять сообщения могут все сотрудники, кроме операторов. Чтобы ограничить возможность удаления сообщений, вы можете настроить роли.&#x20;
 
 {% hint style="info" %}
-Как работать с ролями рассказали в статье "[Сотрудники](../../o-nas/administrirovanie/sotrudniki.md)"
+Как работать с ролями рассказали в статье "[Сотрудники](../../o-nas/admin/employees.md)"
 {% endhint %}
 
 ## **Форма отправки сообщения**
