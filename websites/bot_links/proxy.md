@@ -25,3 +25,13 @@
 Также можно увидеть ссылки на бота в разделе "Каналы":
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-05-07 в 18.16.19.png" alt=""><figcaption></figcaption></figure></div>
+
+Чтобы добавить новую ссылку, нажмите +:
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-05-07 в 18.48.07.png" alt=""><figcaption></figcaption></figure></div>
+
+Далее в открывшемся окне заполните поля и выберите метки, которые будут присвоены клиенту, или списки, куда попадет клиент, если напишет вашему боту при переходе по данной ссылке:
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-05-07 в 18.50.49.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+Далее нажмите "Сохранить". Тогда новая ссылка появится в списке.
