@@ -62,7 +62,7 @@ https://3dsec.sberbank.ru/payment/merchants/test/payment\_ru.html?mdOrder=70906e
 
 **currency** - Код валюты платежа ISO 4217. Если не указано, то используется значение по умолчанию. (643 - рубль, 840 - доллар и тд)<br>
 
-![Рис. 6. Платежная форма](https://lh3.googleusercontent.com/wabMAwn20pglIK-XxDX1ORkK8OoQfhdOnJsx14OdVKN6aaRyzEsbXo593o611pgBj4gSSK49DY3aOjm4bpphHXue4_RiXvhisgkPkMP-GgAJ8E2fCEefXdpBDcLaAutXMrqmV22K)
+<img src="https://lh3.googleusercontent.com/wabMAwn20pglIK-XxDX1ORkK8OoQfhdOnJsx14OdVKN6aaRyzEsbXo593o611pgBj4gSSK49DY3aOjm4bpphHXue4_RiXvhisgkPkMP-GgAJ8E2fCEefXdpBDcLaAutXMrqmV22K" alt="Рис. 6. Платежная форма" width="375">
 
 {% hint style="info" %}
 **Обратите внимание:** переменной **payment\_sum** присваивается значение **последней**, после необязательных переменных **payment\_description, session\_timeout** и т.д.

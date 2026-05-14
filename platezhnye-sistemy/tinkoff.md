@@ -26,7 +26,7 @@ description: Прием платежей через интернет-эквай�
 
 После рассмотрения вашей заявки, вам выдадут тестовый терминал и пароль к нему.
 
-![Рис. 3. Тестовые данные](https://lh3.googleusercontent.com/RaQ_PSEfHR8z7GrCmMYW7ZLGZOjf0kXLnfPDkPTDtaH44UQ0HTFKFEYa8WbXFW1tybCtIwQvjxPNajNzyGS1u-KyQOxM29dgiVTjhOCQlNrEXzU_WAtQFgePojmRvHcTkUk2ymGj)
+<img src="https://lh3.googleusercontent.com/RaQ_PSEfHR8z7GrCmMYW7ZLGZOjf0kXLnfPDkPTDtaH44UQ0HTFKFEYa8WbXFW1tybCtIwQvjxPNajNzyGS1u-KyQOxM29dgiVTjhOCQlNrEXzU_WAtQFgePojmRvHcTkUk2ymGj" alt="Рис. 3. Тестовые данные" width="563">
 
 Переходим в проект на salebot.pro и в разделе **Эквайринг - Т-банк** прописываем ключи тестового терминала.
 
@@ -56,9 +56,9 @@ description: Прием платежей через интернет-эквай�
 Для совершения повторного платежа обязательно необходимо обнулить payment\_sum, ранее сформированную ссылку и уже после переназначить переменную **payment\_sum** для получения свежей ссылки. Можно указать предыдущее значение.
 {% endhint %}
 
-![Рис. 5. Тестовые платежи](https://lh3.googleusercontent.com/jTLAZEv_KagFqa8sOoVHRG3ZrEmi9gOUa7r8u18xyrDdn_YR_-S2r2oEBgwvnA2Ay9TWBHtPOXkzqZRptgNzBaVMIlQmky0WpImZfmS1A3gOAeakrPLUb-Ux7fVQLnBUaRbpzykX)
+<img src="https://lh3.googleusercontent.com/jTLAZEv_KagFqa8sOoVHRG3ZrEmi9gOUa7r8u18xyrDdn_YR_-S2r2oEBgwvnA2Ay9TWBHtPOXkzqZRptgNzBaVMIlQmky0WpImZfmS1A3gOAeakrPLUb-Ux7fVQLnBUaRbpzykX" alt="Рис. 5. Тестовые платежи" width="563">
 
-![Рис. 6. Тестовые платежи](https://lh6.googleusercontent.com/LnFu1aY22F8LG81bdin3n4ueny3soh270WXBJDFzQSryLBZrqjymRfAZ_sSKgGWYlwvb4TJS2X0KoefZDqEjCsbe6Zn2fDQjafnl91ifz0KofFKpvIyQ8LNNmjp4nALAsFfjWZnl)
+<img src="https://lh6.googleusercontent.com/LnFu1aY22F8LG81bdin3n4ueny3soh270WXBJDFzQSryLBZrqjymRfAZ_sSKgGWYlwvb4TJS2X0KoefZDqEjCsbe6Zn2fDQjafnl91ifz0KofFKpvIyQ8LNNmjp4nALAsFfjWZnl" alt="Рис. 6. Тестовые платежи" width="563">
 
 {% hint style="info" %}
 Обратите внимание на Тест 3 (отмена платежа) на рис. 6, вам нужен будет идентификатор платежа PaymentId, найти его можно после совершения платеж в переменной **tinkoff\_payment\_id**

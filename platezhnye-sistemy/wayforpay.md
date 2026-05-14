@@ -74,7 +74,7 @@
 
 Такой вид имеет страница для оплаты ссылка.
 
-![Пример формирования ссылки на оплату](https://lh6.googleusercontent.com/Qsm1KH-AI7U8pv_6AjddIF3rWTlidd-TCKepv0LtbxbpEHBL72YbrQ-Yzb-UvI64-ih_XVqb9kjVCRcix6B5rWFK-AWgNLEbHgsaLCZvMHXoH7xHmSrnsZz-qKB0wHH67M0u8gyR)
+<img src="https://lh6.googleusercontent.com/Qsm1KH-AI7U8pv_6AjddIF3rWTlidd-TCKepv0LtbxbpEHBL72YbrQ-Yzb-UvI64-ih_XVqb9kjVCRcix6B5rWFK-AWgNLEbHgsaLCZvMHXoH7xHmSrnsZz-qKB0wHH67M0u8gyR" alt="Пример формирования ссылки на оплату" width="375">
 
 Создадим ссылку на оплату в размере 1 грн и временем жизни 2 часа:
 

@@ -23,15 +23,15 @@ description: >-
 Если Вы хотите получать ответы на еще один IP., просто добавьте его через символ “;”. Например, 2.2.2.2;3.3.3.3
 {% endhint %}
 
-![](https://lh6.googleusercontent.com/SoHPw3QRlEMm_Sq_JxJL0ajiPfGegjtlPzlZYxrChdRfc-I3UzVkGNCYesie5VTeUlkeQP2YvdmCZuD5a-o3X3Ry0OrRlsKbgrAAa2nwzVz_kL8WYyFIfsBiou6-LY9j8kBmg99m)
+<img src="https://lh6.googleusercontent.com/SoHPw3QRlEMm_Sq_JxJL0ajiPfGegjtlPzlZYxrChdRfc-I3UzVkGNCYesie5VTeUlkeQP2YvdmCZuD5a-o3X3Ry0OrRlsKbgrAAa2nwzVz_kL8WYyFIfsBiou6-LY9j8kBmg99m" alt="" width="563">
 
 После успешного заполнения данных у Вас появится следующее окно:
 
-![](https://lh5.googleusercontent.com/nGEKbfbl-xeTqmbzglIdy8eOMKvB2iz6P1GCfPMYKipF_RWj2h9q4WYPkoU4bitAjRrQnKzEHoX2sGsg5Vog87quepz0tFP7rsTxuA-fA6fT2__mezAhNMAfFQhTj4O3vwdCWyzG)
+<img src="https://lh5.googleusercontent.com/nGEKbfbl-xeTqmbzglIdy8eOMKvB2iz6P1GCfPMYKipF_RWj2h9q4WYPkoU4bitAjRrQnKzEHoX2sGsg5Vog87quepz0tFP7rsTxuA-fA6fT2__mezAhNMAfFQhTj4O3vwdCWyzG" alt="" width="563">
 
 Перейдите в настройки и скопируйте значение id( в примере d95c634e-b17d-4a75-9aa8-b59fecbdb402), оно нам понадобится.
 
-![](https://lh5.googleusercontent.com/4Tw5UCdZkkCAmzy_YxIjhIa5DCnzmjxgIKjZoKfrVuUVblfyAiM86HrIAbA1cMXWV8kpv1sZPGI3xA_4iH5rnwkBxlpXAAGkZbCT4Rl1QqkDVqYBGm2-6Kv_WlHg4sJzSfCuwosT)
+<img src="https://lh5.googleusercontent.com/4Tw5UCdZkkCAmzy_YxIjhIa5DCnzmjxgIKjZoKfrVuUVblfyAiM86HrIAbA1cMXWV8kpv1sZPGI3xA_4iH5rnwkBxlpXAAGkZbCT4Rl1QqkDVqYBGm2-6Kv_WlHg4sJzSfCuwosT" alt="" width="563">
 
 ### Получение данных в Salebot
 

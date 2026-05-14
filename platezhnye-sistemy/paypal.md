@@ -17,11 +17,11 @@ description: Настройка приема платежей в чат-боте
 
 И выбираем из списка или создаем новое приложение:
 
-![](https://lh4.googleusercontent.com/i7wtKw-RzPSHarXCkIVIqPvAvn_39t1r4CPL9lSmxzFc1mNiz24zHj4PJIUUhCzL-YXaNrQbK5edCP9bYHGXkIij59shZ6XPj3YZiVp4uRlDllvWRetnF1Y3GSbQXRZt03OOiGxs)
+<img src="https://lh4.googleusercontent.com/i7wtKw-RzPSHarXCkIVIqPvAvn_39t1r4CPL9lSmxzFc1mNiz24zHj4PJIUUhCzL-YXaNrQbK5edCP9bYHGXkIij59shZ6XPj3YZiVp4uRlDllvWRetnF1Y3GSbQXRZt03OOiGxs" alt="" width="375">
 
 Вверху меняем переключатель в Live режим и выбираем нужное приложение. Открывается страница с настройками, где находятся нужные нам данные:<br>
 
-![](https://lh4.googleusercontent.com/DEKr4nWXl27UVUoT4Ycl_nOx0Aj-M7KrLcgxWR-uTaUFV82416Wwd2ib4ghxQ3jiW5P53KfMwkqvB_ZS3KjLxNNdn8bzbpvVgfeV5HKsL_iFcv6bc1y_0yntseRKzwPUGz37bpnn)
+<img src="https://lh4.googleusercontent.com/DEKr4nWXl27UVUoT4Ycl_nOx0Aj-M7KrLcgxWR-uTaUFV82416Wwd2ib4ghxQ3jiW5P53KfMwkqvB_ZS3KjLxNNdn8bzbpvVgfeV5HKsL_iFcv6bc1y_0yntseRKzwPUGz37bpnn" alt="" width="563">
 
 Копируем данные и вставляем в соответствующие поля в настройках Salebot: перейдите в раздел "Эквайринг" и найдите сервис Paypal:
 
@@ -85,7 +85,7 @@ description: Настройка приема платежей в чат-боте
 
 При открытии ссылки на оплату
 
-![](https://lh3.googleusercontent.com/GvWy17AiTcE0apTWzoPjoADq9h9bXWMRjS61DC00iwnVfSojYKvGS6Puhr6Eg0KfBtBnUza1rY_Mlh0351ka2ikbmNkC6-9zjc2CP-LdUYOQjX4fMaB3V-AT9IRTrMbqRxD-KzW2)
+<img src="https://lh3.googleusercontent.com/GvWy17AiTcE0apTWzoPjoADq9h9bXWMRjS61DC00iwnVfSojYKvGS6Puhr6Eg0KfBtBnUza1rY_Mlh0351ka2ikbmNkC6-9zjc2CP-LdUYOQjX4fMaB3V-AT9IRTrMbqRxD-KzW2" alt="" width="563">
 
 ### С помощью функции калькулятора paypal\_payment\_url
 

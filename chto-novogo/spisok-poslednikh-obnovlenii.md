@@ -328,7 +328,7 @@ _\*Facebook принадлежат Meta, деятельность которой
 
 Больше не нужно вручную проверять оплаты и управлять участниками. Salebot сам следит за доступом и помогает поддерживать порядок в клубе.
 
-👉 Подробнее в статье "[Автоматизация Telegram](../chatbots/avtomatizaciya/avtomatizaciya-telegram.md)"
+👉 Подробнее в статье "[Автоматизация Telegram](../chatbots/quick_automation/telegram.md)"
 
 🌐 САЙТЫ
 

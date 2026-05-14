@@ -702,13 +702,13 @@ profile\_id - ID профиля в системе Продамус\
 
 r = prodamus\_subscription\_discount('624034', '1')
 
-![Пример 1](https://lh3.googleusercontent.com/_4i_sKKn39tHVdnb47xgj8fxfP_x9UGMWLaierBnpup9LCZMdVT0G9AmIOa8S_uMrVXWQIH6rvZnujCYPGcphkYvwFbCXEh819tWIjGIM4mHvd3afSlPzhZfcWk6D1z1tyBwFrZV)
+<img src="https://lh3.googleusercontent.com/_4i_sKKn39tHVdnb47xgj8fxfP_x9UGMWLaierBnpup9LCZMdVT0G9AmIOa8S_uMrVXWQIH6rvZnujCYPGcphkYvwFbCXEh819tWIjGIM4mHvd3afSlPzhZfcWk6D1z1tyBwFrZV" alt="Пример 1" width="563">
 
 2\. Оформление скидки 2р на следующие 3 списания (номер телефона заменен пустыми кавычками, так как будет автоматически взят из переменной customer\_phone)&#x20;
 
 r = prodamus\_subscription\_discount('624034', '2', '', '3')
 
-![Пример 2](https://lh5.googleusercontent.com/IgutVRIqTFbaof9A14qdQRLCB6oop4mSAIew5s3lz62Kb4YVHdHJEt6GuC7AACStDgRiR1d_XEG1k5Dj7c2M-VNtci16JbklMTEla8_RNWD7wBNeG649g0lnFiMZilhri3phwKr-)
+<img src="https://lh5.googleusercontent.com/IgutVRIqTFbaof9A14qdQRLCB6oop4mSAIew5s3lz62Kb4YVHdHJEt6GuC7AACStDgRiR1d_XEG1k5Dj7c2M-VNtci16JbklMTEla8_RNWD7wBNeG649g0lnFiMZilhri3phwKr-" alt="Пример 2" width="563">
 
 3\. Пример оформления скидки в виде числа с дробной частью до сотых (разделитель точка), числовые данные указываются без кавычек, номер телефона передаем через переменную
 
@@ -716,7 +716,7 @@ r = prodamus\_subscription\_discount('624034', '2', '', '3')
 
 r = prodamus\_subscription\_discount(#{prodamus\_subscription}, 10.25, #{customer\_phone}, 3)
 
-![Пример 3](https://lh3.googleusercontent.com/xJVbZ3Q5f6LzCsYtuX-JqaKYPc69lS6Wi4yA0ui2vBxmFkXXGIHSqgO2VoK0rzDPdNG-HxVpAnpRcmbZXQ_oSrtT7ijJcQA6ZOwjXLbKP8WsCFBip-4DwRnVHpz-fIPRt_Wldo0h)
+<img src="https://lh3.googleusercontent.com/xJVbZ3Q5f6LzCsYtuX-JqaKYPc69lS6Wi4yA0ui2vBxmFkXXGIHSqgO2VoK0rzDPdNG-HxVpAnpRcmbZXQ_oSrtT7ijJcQA6ZOwjXLbKP8WsCFBip-4DwRnVHpz-fIPRt_Wldo0h" alt="Пример 3" width="563">
 
 
 

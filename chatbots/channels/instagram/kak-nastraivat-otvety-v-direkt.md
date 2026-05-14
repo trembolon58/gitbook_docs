@@ -286,7 +286,7 @@
 
 Если под вашим аккаунтом отмечают человека , в карточке клиента создается переменная **mentioned\_in\_comment** . в нее записывается логин того, кого отметили. если отмечено больше 2 человек, то логины записываются в массив:
 
-![](../../../.gitbook/assets/Xl601qKoAeI.jpg)
+<img src="../../../.gitbook/assets/Xl601qKoAeI.jpg" alt="" width="375">
 
 Если вам нужно сегментировать тех, кто упомянул 2 и более друзей, вы можете присвоить переменную типа len = arr\_len(mentioned\_in\_comment) и дальше сравнивать переменную с нужным значением. Подробнее о работе с массивами [тут](https://docs.salebot.pro/peremennye-1/rabota-s-massivami-i-slovaryami#dlinna-massiva-ili-kolichestvo-elementov-v-slovare)
 

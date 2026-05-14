@@ -20,7 +20,7 @@ description: Белорусская система электронных пла
 
 Второе — нужно заполнить поле Секретный ключ (рис. ниже) — заполняем случайной последовательностью символов за исключением знака &&#x20;
 
-![Рис. 2. Заполнение поля "Секретный ключ"](https://lh5.googleusercontent.com/XUzS80nA03gI1nh7y3jkNxlEb-cVfBB-Zu0riKV_INrHd8_-LOrG1_DpKZz7qSupe7mT3OESFceBgUUamzfGdfof7O4n6KICtQBm2J1JrtnmiDHNL5lQXXZrmtFIt2NK8ga5b51x)
+<img src="https://lh5.googleusercontent.com/XUzS80nA03gI1nh7y3jkNxlEb-cVfBB-Zu0riKV_INrHd8_-LOrG1_DpKZz7qSupe7mT3OESFceBgUUamzfGdfof7O4n6KICtQBm2J1JrtnmiDHNL5lQXXZrmtFIt2NK8ga5b51x" alt="Рис. 2. Заполнение поля &#x22;Секретный ключ&#x22;" width="563">
 
 {% hint style="danger" %}
 Секретный ключ должен быть не короче 10 символов, без символа &
