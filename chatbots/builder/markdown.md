@@ -6,7 +6,7 @@
 
 Для разметки текста в нужном блоке под полем для ввода текста сообщения включите "Markdown в Telegram":
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-17 в 12.57.19.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-17 в 12.57.19.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="danger" %}
 Если в этом блоке встречаются символы из перечисленных: '\_', '\*', '\[', ']', '(', ')', '\~', '\`', '>', '#', '+', '-', '=', '|', '{', '}', '.', '!'  — их нужно экранировать, добавлять перед ними обратный слэш \\&#x20;
@@ -32,9 +32,9 @@
 
 Пример:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-17 в 13.11.00.png" alt=""><figcaption><p>Пример экранирования</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-17 в 13.11.00.png" alt=""><figcaption><p>Пример экранирования</p></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-17 в 13.12.22.png" alt=""><figcaption><p>Как выглядит текст в Telegram</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-17 в 13.12.22.png" alt=""><figcaption><p>Как выглядит текст в Telegram</p></figcaption></figure></div>
 
 ![Как выглядит текст в других мессенджерах](../../.gitbook/assets/spaces--LxKl4rC_EcwBAz40Qn_-uploads-NIIRMPo2D2j37Z3doLld-image.png)
 
@@ -60,35 +60,35 @@
 
 Пример:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-17 в 13.18.07.png" alt=""><figcaption><p>Пример экранирования</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-17 в 13.18.07.png" alt=""><figcaption><p>Пример экранирования</p></figcaption></figure></div>
 
 Результат:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-17 в 13.18.46.png" alt=""><figcaption><p>Как выглядит текст в Telegram</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-17 в 13.18.46.png" alt=""><figcaption><p>Как выглядит текст в Telegram</p></figcaption></figure></div>
 
 {% hint style="warning" %}
 Экранировать переменные в тексте НЕ надо.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-17 в 13.23.27.png" alt=""><figcaption><p>Пример ошибки: экранированы символы переменной и разметки текста. </p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-17 в 13.23.27.png" alt=""><figcaption><p>Пример ошибки: экранированы символы переменной и разметки текста. </p></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-17 в 13.29.18.png" alt="" width="563"><figcaption><p>Пример сообщения с ошибкой экранирования</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-17 в 13.29.18.png" alt="" width="563"><figcaption><p>Пример сообщения с ошибкой экранирования</p></figcaption></figure></div>
 
 Правильный вариант:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-17 в 13.30.34.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-17 в 13.30.34.png" alt=""><figcaption></figcaption></figure></div>
 
 Сообщение в Телеграм:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-17 в 13.28.14.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-17 в 13.28.14.png" alt=""><figcaption></figcaption></figure></div>
 
 В случае, если вы не экранируете спец. символы при использовании разметки, то сообщения из бота не будут направляться.&#x20;
 
 Например:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-17 в 13.35.35.png" alt=""><figcaption><p>Не экранирован восклицательный знак, в то время как точка экранирована</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-17 в 13.35.35.png" alt=""><figcaption><p>Не экранирован восклицательный знак, в то время как точка экранирована</p></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-17 в 13.37.41.png" alt=""><figcaption><p>Ошибка отправки сообщения</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-17 в 13.37.41.png" alt=""><figcaption><p>Ошибка отправки сообщения</p></figcaption></figure></div>
 
 ### Видеоинструкция "Как форматировать текст в Telegram"
 
@@ -130,7 +130,7 @@ Markdown:\
 
 Whatsapp и Messenger Facebook<mark style="color:red;">\*</mark> поддерживают выделение текста при помощи символов:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-17 в 13.51.57.png" alt=""><figcaption><p>Форматирование текста в блоке</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-17 в 13.51.57.png" alt=""><figcaption><p>Форматирование текста в блоке</p></figcaption></figure></div>
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-17 в 13.52.31.png" alt="" width="324"><figcaption><p>Как выглядит текст в Whatsapp</p></figcaption></figure>
 

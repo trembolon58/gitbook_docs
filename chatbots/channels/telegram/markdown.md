@@ -32,7 +32,7 @@
 **Упоминание пользователя ТГ**: \[текст в квадратных скобках]\(ссылка на пользователя в круглых скобках). В ссылке после знака равно можно использовать #{platform\_id} \
 \[inline mention of a user]\(tg://user?id=123456789)\
 **Текст в виде кода** — с обеих сторон текста поставить обратный апостроф: \`inline fixed-width code\`\
-**Скрытый текст или spoiler** - с обеих сторон от текста используйте ||&#x20;
+**Скрытый текст или spoiler** - с обеих сторон от текста используйте ||
 
 4. Далее размечаете нужный текст при помощи спецсимволов.&#x20;
 
@@ -110,65 +110,89 @@
 
 Чтобы разметка HTML работала, не забудьте нажать на кнопку HTML под текстовым полем для сообщения:
 
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2024-09-25 в 18.20.40.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Снимок экрана 2024-09-25 в 18.20.40.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 1. \<a href="https://google.com">ссылка\</a> - вшивает ссылку в определенное слово.&#x20;
 
 Пример заполнения:
 
-<figure><img src="../../../.gitbook/assets/2024-04-26_13-52-22.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/2024-04-26_13-52-22.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 2. \<u>underlined\</u> - подчеркнутый шрифт
 
 Пример:
 
-<div><figure><img src="../../../.gitbook/assets/2024-04-26_13-55-06.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/2024-04-26_13-56-20.png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/2024-04-26_13-55-06.png" alt="" width="359"><figcaption></figcaption></figure></div>
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/2024-04-26_13-56-20.png" alt="" width="478"><figcaption></figcaption></figure></div>
+
+
 
 3. \<ins>underlined\</ins> - подчеркнутый шрифт
 
 Пример:
 
-<div><figure><img src="../../../.gitbook/assets/2024-04-26_14-20-34.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/2024-04-26_13-59-01.png" alt="" width="472"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/2024-04-26_14-20-34.png" alt=""><figcaption></figcaption></figure></div>
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/2024-04-26_13-59-01.png" alt="" width="472"><figcaption></figcaption></figure></div>
 
 4. \<em>italic\</em> - курсивный шрифт
 
 Пример:
 
-<div><figure><img src="../../../.gitbook/assets/2024-04-26_14-19-05.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/2024-04-26_14-04-50.png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/2024-04-26_14-19-05.png" alt="" width="544"><figcaption></figcaption></figure></div>
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/2024-04-26_14-04-50.png" alt=""><figcaption></figcaption></figure></div>
 
 5. \<i>italic\</i> - курсивный шрифт
 
 Пример:
 
-<div><figure><img src="../../../.gitbook/assets/2024-04-26_14-17-28.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/2024-04-26_14-07-58.png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/2024-04-26_14-17-28.png" alt=""><figcaption></figcaption></figure></div>
 
-\<strong>strong\</strong> - жирный шрифт
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/2024-04-26_14-07-58.png" alt="" width="473"><figcaption></figcaption></figure></div>
 
-<div><figure><img src="../../../.gitbook/assets/2024-04-26_14-16-01.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/2024-04-26_14-11-21.png" alt=""><figcaption></figcaption></figure></div>
+6. \<strong>strong\</strong> - жирный шрифт
 
-\<strike>strike\</strike> - зачеркнутый шрифт
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/2024-04-26_14-16-01.png" alt=""><figcaption></figcaption></figure></div>
 
-<div><figure><img src="../../../.gitbook/assets/2024-04-26_14-14-54.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/2024-04-26_14-14-20.png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/2024-04-26_14-11-21.png" alt=""><figcaption></figcaption></figure></div>
 
-\<span class="tg-spoiler">hidden\</span> - скрытый шрифт
+7. \<strike>strike\</strike> - зачеркнутый шрифт
 
-Пример:
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/2024-04-26_14-14-54.png" alt="" width="405"><figcaption></figcaption></figure></div>
 
-<figure><img src="../../../.gitbook/assets/2024-04-26_14-22-14.png" alt="" width="464"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/2024-04-26_14-14-20.png" alt=""><figcaption></figcaption></figure></div>
 
-\<code>Prerfomatted\</code> - форматированный шрифт
-
-Пример:
-
-<div><figure><img src="../../../.gitbook/assets/2024-04-26_14-28-08.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/2024-04-26_14-27-54.png" alt=""><figcaption></figcaption></figure></div>
-
-\<pre>Preformatted\</pre> - форматированный шрифт
+8. \<span class="tg-spoiler">hidden\</span> - скрытый шрифт
 
 Пример:
 
-<div><figure><img src="../../../.gitbook/assets/2024-04-26_14-29-50.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/2024-04-26_14-29-36.png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/2024-04-26_14-22-14.png" alt="" width="464"><figcaption></figcaption></figure></div>
 
-## Как включить защищенный режим для контента
+9. \<code>Prerfomatted\</code> - форматированный шрифт
+
+Пример:
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/2024-04-26_14-28-08.png" alt=""><figcaption></figcaption></figure></div>
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/2024-04-26_14-27-54.png" alt=""><figcaption></figcaption></figure></div>
+
+10. \<pre>Preformatted\</pre> - форматированный шрифт
+
+Пример:
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/2024-04-26_14-29-50.png" alt=""><figcaption></figcaption></figure></div>
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/2024-04-26_14-29-36.png" alt=""><figcaption></figcaption></figure></div>
+
+11. \<blockquote>\</blockquote> - цитата
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Снимок экрана 2026-05-15 в 17.45.24.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Снимок экрана 2026-05-15 в 17.45.57.png" alt="" width="325"><figcaption></figcaption></figure></div>
+
+## <sub>Как</sub> включить защищенный режим для контента
 
 Чтобы защитить контент от распространения можно включить защищенный режим для сообщений. Для этого в разделе "Сообщение" включите "Защитить контент":
 
