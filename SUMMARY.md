@@ -75,6 +75,7 @@
     * [Чат-бот MAX](chatbots/channels/max/chatbot_max.md)
     * [Функции для работы с MAX](chatbots/channels/max/function.md)
     * [Перенос закрытых клубов из TG в MAX](chatbots/channels/max/shift.md)
+    * [Автоматизация MAX](chatbots/quick_automation/max.md)
   * [Telegram](chatbots/channels/telegram/README.md)
     * [Как создать Telegram бота](chatbots/channels/telegram/chatbot.md)
     * [Подключение бота к каналу/группе](chatbots/channels/telegram/group_chatbot.md)
