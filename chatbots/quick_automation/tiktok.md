@@ -123,7 +123,7 @@
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-05-14 в 12.43.02.png" alt=""><figcaption></figcaption></figure></div>
 
-Теперь нужно настроить реакции бота на комметарии:
+Теперь нужно настроить реакции бота на комментарии:
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-05-14 в 12.43.57.png" alt="" width="359"><figcaption><p>Триггер-слова, на которые будет отвечать бот<br>ответным комментарием</p></figcaption></figure></div>
 
