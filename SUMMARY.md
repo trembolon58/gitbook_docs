@@ -364,7 +364,7 @@
   * [ЮMoney](platezhnye-sistemy/priem-platezhei-cherez-yandeks.dengi.md)
   * [Bepaid](platezhnye-sistemy/bepaid.md)
   * [Coinpayments](platezhnye-sistemy/coinpayments.md)
-  * [TipTop pay](platezhnye-sistemy/cloudpayments.md)
+  * [Cloudpayments](platezhnye-sistemy/cloudpayments.md)
   * [INXY Payments](platezhnye-sistemy/inxy-payments.md)
   * [Life Pay](platezhnye-sistemy/life-pay.md)
   * [Paypal](platezhnye-sistemy/paypal.md)
