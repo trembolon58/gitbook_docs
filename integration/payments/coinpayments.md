@@ -15,7 +15,7 @@
 
 На первой вкладке копируем идентификатор продавца (**seller ID**)
 
-![](../.gitbook/assets/L9dXnnM9wyZYT3yGK6BlSIbjrOkMScRKrqQwn1-xS817lHXIwQdYsXJWFYi39mQxA5109s5C8_vwDW_Z36oCVF8gVYnFOawcFKpU1JKtl1N_1wuEISjYm7gA9xyDfYrB3Idz0Q1K.png)
+![](../../.gitbook/assets/L9dXnnM9wyZYT3yGK6BlSIbjrOkMScRKrqQwn1-xS817lHXIwQdYsXJWFYi39mQxA5109s5C8_vwDW_Z36oCVF8gVYnFOawcFKpU1JKtl1N_1wuEISjYm7gA9xyDfYrB3Idz0Q1K.png)
 
 Далее переходим во вкладку Настройки продавца и придумываем и вводим секретный ключ IPN - **IPN secret** (Это используется для подтверждения, что вебхук исходит от нас, используйте надежную сложную строку, которую будет сложно угадать.)
 
@@ -29,11 +29,11 @@
 
 Сохраняем все настройки, копируем данные и переходим к настройкам в Salebot. Открываем раздел "Эквайринг", выбираем Coinpayments.&#x20;
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Нужно ввести полученные данные.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Для генерации ссылки на оплату, вам необходимо установить значение обязательных переменных:
 
@@ -55,7 +55,7 @@
 
 Создадим ссылку на оплату в размере 0.0256
 
-<figure><img src="../.gitbook/assets/image (4).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Обратите внимание:** \
@@ -68,7 +68,7 @@
 
 Далее в нужном месте выводим переменную **coinpayments\_pay\_url**, в которой содержится ссылка
 
-<figure><img src="../.gitbook/assets/image (5).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Для совершения повторного платежа обязательно необходимо обнулить payment\_sum, ранее сформированную ссылку и уже после переназначить переменную payment\_sum для получения свежей ссылки
@@ -90,7 +90,7 @@
 
 Например, можно сделать обработку успешной оплаты блоком с условием и вывести соответствующее сообщение пользователю:
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 После завершения оплаты клиенту добавится переменная **coinpayments\_payment\_callback**, содержащая данные ответа платежной системы по совершенной операции. Из полученного словаря можно извлечь необходимые данные при помощи метода **get**.
 
@@ -100,7 +100,7 @@
 
 Пример:
 
-<figure><img src="../.gitbook/assets/image (7).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt="" width="563"><figcaption></figcaption></figure>
 
 > **Примеры статусов**:
 >

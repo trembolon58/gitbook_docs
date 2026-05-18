@@ -16,7 +16,7 @@ description: Платежная система для онлайн-школ и �
 
 Секретный ключ можно получить в личном кабинете, там же нужно прописать URL адрес для уведомлений.
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p>Секретный ключ в настройках формы личного кабинета платежной системы "Продамус"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption><p>Секретный ключ в настройках формы личного кабинета платежной системы "Продамус"</p></figcaption></figure>
 
 Подробная инструкция как это сделать: [https://help.prodamus.ru/payform.ru-onlain-oplaty/prochee/url-dlya-uvedomlenii-i-sekretnyi-klyuch](https://help.prodamus.ru/payform.ru-onlain-oplaty/prochee/url-dlya-uvedomlenii-i-sekretnyi-klyuch)
 
@@ -26,11 +26,11 @@ description: Платежная система для онлайн-школ и �
 
 На главной странице настроек можно выбрать режим работы формы: демо-режим без оплат или режим оплат:
 
-<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
 Адрес для уведомлений нужно прописать в настройках платежной системы в двух местах: вкладка Настройка формы  - для обычных оплат и вкладка, Подписки - для оплат по подписке.&#x20;
 
-<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption><p>Настройка url для уведомлений</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption><p>Настройка url для уведомлений</p></figcaption></figure>
 
 Адрес для уведомлений: **`https://chatter.salebot.pro/prodamus_callback/result`**
 
@@ -40,7 +40,7 @@ description: Платежная система для онлайн-школ и �
 
 &#x20;**`https://chatter.salebot.pro/prodamus_callback/result`**
 
-<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption><p>Настройка url для  уведомлений для оплат по подписке</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption><p>Настройка url для  уведомлений для оплат по подписке</p></figcaption></figure>
 
 {% hint style="warning" %}
 Обратите внимание! После ввода url обязательно нажмите кнопку «Сохранить».
@@ -48,11 +48,11 @@ description: Платежная система для онлайн-школ и �
 
 Для подключения Prodamus необходимо перейти в раздел "Эквайринг"
 
-<figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption><p>Раздел "Эквайринг" → Выбор платежной системы "Продамус"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption><p>Раздел "Эквайринг" → Выбор платежной системы "Продамус"</p></figcaption></figure>
 
 Далее необходимо просто указать данные, о которых говорили выше, в форму:
 
-<figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption><p>Форма платежной системы "Продамус" в разделе "Эквайринг"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption><p>Форма платежной системы "Продамус" в разделе "Эквайринг"</p></figcaption></figure>
 
 {% hint style="warning" %}
 **ВАЖНО!** url - платежной формы указываем БЕЗ https://&#x20;
@@ -88,7 +88,7 @@ description: Платежная система для онлайн-школ и �
 \
 Если в настройках кнопки указать Email и\или телефон пользователя, то на странице оформления заказа будут  указаны контакты плательщика и информация о продукте и его стоимости.
 
-<figure><img src="../.gitbook/assets/image (44).png" alt="" width="563"><figcaption><p>Окно настроек кнопки</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (44).png" alt="" width="563"><figcaption><p>Окно настроек кнопки</p></figcaption></figure>
 
 **поле Текст.** Данный текст будет указан на кнопке с ссылкой на оплату в сообщении
 
@@ -120,7 +120,7 @@ description: Платежная система для онлайн-школ и �
 
 **чекбокс С уведомлением о клике.** Для отслеживания перехода по ссылке для оплаты можно поставить галочку. В таком случае, при клике по кнопке в диалог с клиентом в Сейлбот придет уведомление о том, что был совершен переход по ссылке
 
-<figure><img src="../.gitbook/assets/image (45).png" alt="" width="431"><figcaption><p>Коллбэк после перехода клиентом по ссылке</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (45).png" alt="" width="431"><figcaption><p>Коллбэк после перехода клиентом по ссылке</p></figcaption></figure>
 
 На данное уведомление можно настраивать дальнейшую логику работы бота.&#x20;
 
@@ -131,11 +131,11 @@ description: Платежная система для онлайн-школ и �
 
 А вот так выглядит страница оплаты, которая открывается при переходе по ссылке в кнопке Оплата:
 
-<figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption><p>Страница оплаты: в кнопке заполнены только основные параметры</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption><p>Страница оплаты: в кнопке заполнены только основные параметры</p></figcaption></figure>
 
 ### Дополнительные параметры формирования ссылки на оплату
 
-<figure><img src="../.gitbook/assets/image (47).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (47).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **поле Описание заказа.**  Информация указанная в данном поле будет отображаться на странице оплаты в поле Дополнительные данные
 
@@ -201,9 +201,9 @@ _Например_: _Курс ‘Плетение кос’, стоимость 
 
 С выводом текста: "Извините, вы не успели и ссылка на оплату больше недействительна":
 
-<figure><img src="../.gitbook/assets/image (48).png" alt=""><figcaption><p>Диалог в разделе "Клиенты"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption><p>Диалог в разделе "Клиенты"</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption><p>Настройка блока "Стартовое условие"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption><p>Настройка блока "Стартовое условие"</p></figcaption></figure>
 
 ### Переменные клиента, которые будут созданы автоматически при использовании кнопки с функцией Оплата
 
@@ -254,7 +254,7 @@ ovg58keefc : первые 10 символов секретного ключа п
 ❗️Если вы решили проверять оплату именно в стрелке по условию, то продумайте логику вашей схемы. В случае если клиент покинет блок с переходом по условию с коллбэком, то перехода в блок не будет. Такой способ проверки логично использовать, только тогда когда клиент не меняет свою позицию в воронке (положение в схеме). \
 В схемах, в которых клиент перемещается по блокам лучше использовать вариант с указанием коллбэка в блоке "Стартовое условие". <br>
 
-<figure><img src="../.gitbook/assets/продамус кнопка 2.png" alt=""><figcaption><p>Коллбэк об успешной оплате в поле Условие блока.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/продамус кнопка 2.png" alt=""><figcaption><p>Коллбэк об успешной оплате в поле Условие блока.</p></figcaption></figure>
 
 #### **Успешный платеж для товаров с автоподпиской.**&#x20;
 
@@ -268,7 +268,7 @@ ovg58keefc : первые 10 символов секретного ключа п
 
 `618117`: ID товара по подписке
 
-<figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption><p>Пример коллбэка от Продамус для товаров с автоподпиской</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption><p>Пример коллбэка от Продамус для товаров с автоподпиской</p></figcaption></figure>
 
 **Платеж с ошибкой**
 
@@ -314,7 +314,7 @@ ovg58keefc : первые 10 символов секретного ключа п
 {% tab title="Калькулятор" %}
 Пример 1:
 
-<figure><img src="../.gitbook/assets/ер.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ер.jpg" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Описание параметров" %}
@@ -379,17 +379,17 @@ ovg58keefc : первые 10 символов секретного ключа п
 Переменные **discount\_value**, **customer\_phone**, **customer\_email** и **link\_expired** актуальны и для подписок.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (51).png" alt="" width="524"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (51).png" alt="" width="524"><figcaption></figcaption></figure>
 
 Пример реализации.
 
 В первом блоке задаем сумму оплаты:
 
-<figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
 Дальше выводим в нужном месте url, ссылку prodamus\_pay\_url:
 
-<figure><img src="../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
 **prodamus\_available\_payment\_methods** объявляется до объявления payment\_sum.
 
@@ -415,9 +415,9 @@ ovg58keefc : первые 10 символов секретного ключа п
 Методы подключаются через поддержку. Посмотреть включенные можно в настройках страницы или сформировав ссылку на оплату
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (54).png" alt=""><figcaption><p>Настройки страницы оплаты платежной системы "Продамус"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption><p>Настройки страницы оплаты платежной системы "Продамус"</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption><p>Варианты оплаты, которые подключены для Вашей страницы</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption><p>Варианты оплаты, которые подключены для Вашей страницы</p></figcaption></figure>
 
 ## Как обработать результат
 
@@ -443,7 +443,7 @@ ovg58keefc : секретный ключ **целиком**
 
 Например, можно сделать обработку успешной оплаты блоком с условием и вывести соответствующее сообщение пользователю:
 
-<figure><img src="../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 Тип сравнения должен быть "**Полное совпадение**"
@@ -457,7 +457,7 @@ ovg58keefc : секретный ключ **целиком**
 
 Также в Продамусе существуют уведомления по поводу активации/деактивации подписки:
 
-<figure><img src="../.gitbook/assets/2024-09-19 16.25.12.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-09-19 16.25.12.jpg" alt=""><figcaption></figcaption></figure>
 
 1. "Подписчик деактивировал подписку" - если подписка отменена вручную (например, отказался от подписки).
 
@@ -481,7 +481,7 @@ ovg58keefc : секретный ключ **целиком**
 
 `description = get(payment_callback,'customer_extra')`
 
-<figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Обратите внимание: переменной **payment\_sum** присваивается значение последней, после необязательных переменных **payment\_description, product\_name**
@@ -531,11 +531,11 @@ ovg58keefc : секретный ключ **целиком**
 \
 На уведомление о **не успешной оплате с конкретной причиной**, можно настроить блок с ответом, например, вот так:
 
-<figure><img src="../.gitbook/assets/image (58).png" alt=""><figcaption><p>пример блока для уведомлений о Неуспешной оплате с конкретной причиной</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption><p>пример блока для уведомлений о Неуспешной оплате с конкретной причиной</p></figcaption></figure>
 
 Для отправки сообщения **на все неудачные списания, независимо от причины**, можно настроить следующим образом:
 
-<figure><img src="../.gitbook/assets/image (59).png" alt=""><figcaption><p>пример блока для уведомлений о Неуспешной оплате с любым пояснением причины</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption><p>пример блока для уведомлений о Неуспешной оплате с любым пояснением причины</p></figcaption></figure>
 
 И на все коллбэки, в которых присутствует текст **Неуспешная оплата**, пользователю будет приходить сообщение с указанным вами текстом.
 
@@ -551,7 +551,7 @@ ovg58keefc : секретный ключ **целиком**
 
 Для генерации ссылки на оплату подписки, вам необходимо установить значение (id подписного товара) переменной **prodamus\_subscription**, сразу после этого появится переменная **prodamus\_pay\_url**.&#x20;
 
-<figure><img src="../.gitbook/assets/image (60).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (60).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Переменную **prodamus\_pay\_url** можно вывести на экран ссылкой или разместить на кнопке с текстом "Оплатить". Ссылка имеет вид: [https://payform.ru/7p3JR8/](https://payform.ru/7p3JR8/)<br>
 
@@ -581,7 +581,7 @@ customer\_phone нужен для управления подпиской, ес�
 {% tab title="Калькулятор" %}
 Пример 1: Ссылка на оплату товара по подписке
 
-<figure><img src="../.gitbook/assets/продам.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/продам.jpg" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Описание параметров" %}
@@ -647,7 +647,7 @@ profile\_id можно передать в функцию delete\_subscription\_
 
 Пример настройка блока подписки:
 
-<figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 
 Обратите внимание, что функция возвращает status, который сохраняем и можем обработать по своему усмотрению, при успешной деактивации\активации **status** равен **ok**
 
@@ -665,7 +665,7 @@ profile\_id можно передать в функцию delete\_subscription\_
 
 profile\_id - ID профиля в системе Продамус
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Пример использования функции prodamus_subscription_switch_status</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Пример использования функции prodamus_subscription_switch_status</p></figcaption></figure>
 
 Пример: передан параметр **customer\_phone,** пропущен customer\_email\
 `stat = prodamus_subscription_switch_status`(`'618117', '0', '75431312321')`
@@ -712,7 +712,7 @@ r = prodamus\_subscription\_discount('624034', '2', '', '3')
 
 3\. Пример оформления скидки в виде числа с дробной частью до сотых (разделитель точка), числовые данные указываются без кавычек, номер телефона передаем через переменную
 
-<figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
 
 r = prodamus\_subscription\_discount(#{prodamus\_subscription}, 10.25, #{customer\_phone}, 3)
 
@@ -759,7 +759,7 @@ r = prodamus\_subscription\_discount(#{prodamus\_subscription}, 10.25, #{custome
 Не забудьте нажать кнопку "Сохранить"
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
 #### Чтобы провести тестовый платеж вы можете воспользоваться тестовыми счетами
 

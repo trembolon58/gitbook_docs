@@ -14,73 +14,73 @@
 
 Шаг 1. Переходим в раздел Developers -> API key:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 12.30.16.png" alt=""><figcaption><p>Рис. 1. Как найти раздел api keys</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 12.30.16.png" alt=""><figcaption><p>Рис. 1. Как найти раздел api keys</p></figcaption></figure>
 
 Шаг 2. Находим и копируем Secret key:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 12.33.47.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 12.33.47.png" alt=""><figcaption></figcaption></figure>
 
 Дальше нужно установить URL-адрес для колбэков. Это необходимо для того, чтобы бот получал уведомления об оплате.&#x20;
 
 Переходим в раздел Webhooks и добавляем адрес для вебхуков.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 12.35.23.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 12.35.23.png" alt=""><figcaption></figcaption></figure>
 
 Откроется форма:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 12.38.29.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 12.38.29.png" alt=""><figcaption></figcaption></figure>
 
 Шаг 1. Нажимаем на "+add destination".
 
 Шаг 2.  Выбираем events:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 12.39.29.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 12.39.29.png" alt=""><figcaption></figcaption></figure>
 
 Шаг 3. Выбираем тип "Webhook endpoint":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 12.39.45.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 12.39.45.png" alt=""><figcaption></figcaption></figure>
 
 Шаг 4. Ознакамливаемся с типом запроса и кликаем "Продолжить":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 12.40.02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 12.40.02.png" alt=""><figcaption></figcaption></figure>
 
 Шаг 5. Прописываем название и указываем URL endpoint:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 12.40.51.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 12.40.51.png" alt=""><figcaption></figcaption></figure>
 
 URL указываем - [https://chatter.salebot.pro/stripe\_callback/result](https://chatter.salebot.pro/stripe_callback/result)
 
 Шаг 6. Будет создано два эндпоинта, можно посмотреть настройки перед добавлением:&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 12.41.26.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 12.41.26.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Шаг 7. Далее нажмите кнопку "Add destinations". Тогда вебхуки будут сохранены.
 
 Шаг 8. Нажмите кнопку "Done".
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 12.41.42.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 12.41.42.png" alt=""><figcaption></figcaption></figure>
 
 Сохраняем и попадаем на страницу с установленным вебхуком:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 12.42.06.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 12.42.06.png" alt=""><figcaption></figcaption></figure>
 
 Шаг 9. Далее нажимаем на вебхук, в котором вы выбрали все ивенты:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 13.00.36.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 13.00.36.png" alt=""><figcaption></figcaption></figure>
 
 Шаг 10. Находим Signig key и сохраняем его себе (в дальнейшем он понадобится для подключения к Salebot):
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 13.01.33.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 13.01.33.png" alt=""><figcaption></figcaption></figure>
 
 После получения ключей переходим к подключению в Salebot.
 
 В salebot открываем раздел "Эквайринг", выбираем Stripe.&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 13.04.37.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 13.04.37.png" alt=""><figcaption></figcaption></figure>
 
 На странице подключения, нужно ввести полученные ключи:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 13.07.46.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 13.07.46.png" alt=""><figcaption></figcaption></figure>
 
 Нажмите "Сохранить настройки".
 
@@ -102,7 +102,7 @@ URL указываем - [https://chatter.salebot.pro/stripe\_callback/\<api\_ke
 * `charge.pending`
 * `charge.succeeded`
 
-<figure><img src="../.gitbook/assets/image (126).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (126).png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 **Подробнее о каждом из типов вебхука:**
@@ -118,7 +118,7 @@ URL указываем - [https://chatter.salebot.pro/stripe\_callback/\<api\_ke
 
 Полученный после сохранения вебхук добавляем в Salebot поле - Webhook key2:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 13.09.48.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 13.09.48.png" alt="" width="563"><figcaption></figcaption></figure>
 
 **stripe\_invoice\_id** - идентификатор сделки, по которой не пришел колбек об успешной оплате сразу после платежа
 
@@ -126,29 +126,29 @@ URL указываем - [https://chatter.salebot.pro/stripe\_callback/\<api\_ke
 
 Для использования налогов в платежах нужно сперва создать их в личном кабинете Stripe. Для этого введите в поисковой строке tax rates:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 13.22.41.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 13.22.41.png" alt=""><figcaption></figcaption></figure>
 
 И нажмите "+ Add tax rates":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 13.23.57.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 13.23.57.png" alt=""><figcaption></figcaption></figure>
 
 Далее указываем применяемую налоговую ставку:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 13.26.36.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 13.26.36.png" alt=""><figcaption></figcaption></figure>
 
 В открывшемся меню выберите тип налога, регион, для которого он применяется, процентную ставку и признак - будет этот налог включен в сумму платежа Inclusive или будет добавлен сверх суммы - exclusive:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 13.26.14.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 13.26.14.png" alt=""><figcaption></figcaption></figure>
 
 После создания налоговой ставки скопируйте его id в переменную **stripe\_tax\_id** до объявления суммы платежа.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 13.28.32.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 13.28.32.png" alt=""><figcaption></figcaption></figure>
 
 Во избежание ошибок желательно после получения ссылки в переменную stripe\_tax\_id поместить пустую строку (""), так вы сможете применять налог только тогда, когда он нужен
 
 Если все сделать правильно, то в случае с налоговой ставкой с параметром exclusive Вы увидите следующее
 
-<figure><img src="../.gitbook/assets/image_2023-03-15_12-17-44.png" alt=""><figcaption><p>Пример платежа с налоговой ставкой типа exclusive</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image_2023-03-15_12-17-44.png" alt=""><figcaption><p>Пример платежа с налоговой ставкой типа exclusive</p></figcaption></figure>
 
 ## **Как получить ссылку на оплату**
 
@@ -213,7 +213,7 @@ wechat\_pay zip
 
 Создадим ссылку на оплату в размере 1000 рублей (по умолчанию доллар)
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 13.35.46.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 13.35.46.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **Обратите внимание:** \
@@ -227,25 +227,25 @@ wechat\_pay zip
 
 Пример 1. Выводим ссылку на оплату прямо в сообщении:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 13.39.06.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 13.39.06.png" alt=""><figcaption></figcaption></figure>
 
 Тестирование в боте:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 13.43.51.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 13.43.51.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Пример 2. Добавляем ссылку на оплату в кнопку:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 13.39.41.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 13.39.41.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 13.44.19.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 13.44.19.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Пример 3. Добавляем ссылку в качестве вложения к сообщению:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 13.43.29.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 13.43.29.png" alt=""><figcaption></figcaption></figure>
 
 Тестирование в боте:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 13.49.48.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 13.49.48.png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Допустимы все три варианта для направления ссылки на оплату в боте.&#x20;
@@ -253,17 +253,17 @@ wechat\_pay zip
 
 При клике на кнопку или при переходе по ссылке, вашего плательщика переадресует на платежную страницу:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 13.54.37.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 13.54.37.png" alt=""><figcaption></figcaption></figure>
 
 В примере видно, что параметры, которые мы указывали в калькуляторе в настройках блока были применены: описание заказа, валюта и сумма.&#x20;
 
 Если передадите параметр налоговой ставки (**stripe\_tax\_id)** в блоке:&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 14.00.14.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 14.00.14.png" alt=""><figcaption></figcaption></figure>
 
 То также будет отображена налоговая ставка в форме оплаты:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 13.59.23.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 13.59.23.png" alt=""><figcaption></figcaption></figure>
 
 <details>
 
@@ -276,7 +276,7 @@ wechat\_pay zip
 
 Где найти tax ID:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 14.16.54.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 14.16.54.png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -292,7 +292,7 @@ wechat\_pay zip
 **Важно!** Продолжительность одного цикла подписки не может быть более 1 года (для параметра ‘year’), более 12 месяцев (для параметра ‘month’), более 52 недель (для параметра ‘week’).
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 14.36.17.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 14.36.17.png" alt=""><figcaption></figcaption></figure>
 
 **interval\_count** – количество указанных интервалов, сколько дней, недель или месяцев будет в подписке за указанную сумму. _**По умолчанию**_ будет передан параметр, равный единице (**1**);
 
@@ -355,7 +355,7 @@ wechat\_pay zip
 
 В данном примере подписка с названием 'My\_subscription' будет создана с ценой 90 USD за 1 месяц и повторный платеж будет проведен с той же суммой по истечении 1 месяца:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 14.35.47.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 14.35.47.png" alt=""><figcaption></figcaption></figure>
 
 Пример для копирования:
 
@@ -391,13 +391,13 @@ wechat\_pay zip
 На повторные коллбэка НЕ БУДЕТ. Контроль идет [через функцию](stripe.md#proverka-statusa-podpiski) и stripe\_customer\_id.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (127).png" alt="" width="371"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (127).png" alt="" width="371"><figcaption></figcaption></figure>
 
 ### Настройки для возврата к обычным платежам
 
 Для возврата к обычным платежам присвойте переменной subscription пустую строку **stripe\_subscription = ''**. В таком случае переменные interval и interval\_count не повлияют на создание ссылки
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 14.41.38.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 14.41.38.png" alt=""><figcaption></figcaption></figure>
 
 ### **Настройки для отмены подписки**
 
@@ -405,7 +405,7 @@ wechat\_pay zip
 
 Это позволит оставить оплаченную подписку активной до конца текущего оплаченного срока, но дальнейшие списания не произойдут, и по истечении срока подписка будет отменена:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 14.46.14.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 14.46.14.png" alt=""><figcaption></figcaption></figure>
 
 answer = stripe\_remove\_subscription('#{stripe\_subscription\_id}')
 
@@ -420,13 +420,13 @@ stripe\_remove\_subscription -  в случае успеха придет отв
 **stripe\_subscription\_id** - идентификатор подписки \
 **stripe\_customer\_id** - идентификатор клиента в Stripe (необязательный параметр)
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 14.51.10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 14.51.10.png" alt=""><figcaption></figcaption></figure>
 
 ## Как создать купон и получить ID скидки
 
 Для получения идентификатора скидки создайте купон в личном кабинете в разделе ”[coupons](https://dashboard.stripe.com/coupons)”.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 14.03.42.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 14.03.42.png" alt=""><figcaption></figcaption></figure>
 
 При нажатии кнопки “New” откроется страница, где нужно указать:
 
@@ -435,15 +435,15 @@ stripe\_remove\_subscription -  в случае успеха придет отв
 3. Type — вид скидки: в процентах или фиксированная сумма
 4. Duration — длительность скидки (разовая или продолжительная, например, для подписок) и другие параметры.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 14.07.56.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 14.07.56.png" alt=""><figcaption></figcaption></figure>
 
 Купон со скидкой появится в каталоге “Product catalogue“ в разделе “Coupons”, а ID скидки вы можете посмотреть, зайдя в меню купона:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 14.15.03.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 14.15.03.png" alt=""><figcaption></figcaption></figure>
 
 Нажмите на купон, чтобы скопировать ID купона:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 14.16.15.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 14.16.15.png" alt=""><figcaption></figcaption></figure>
 
 ### Как добавить скидку в заказ
 
@@ -451,13 +451,13 @@ stripe\_remove\_subscription -  в случае успеха придет отв
 
 В калькуляторе блока до объявления переменной **payment\_sum** задайте переменную **coupon\_id**, передав в неё идентификатор скидки из личного кабинета stripe.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 14.18.26.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 14.18.26.png" alt=""><figcaption></figcaption></figure>
 
 2. В существующую подписку с помощью функции **stripe\_add\_subscription\_discount.**
 
 Задайте условия для срабатывания блока и в калькуляторе вызовите указанную функцию, передав в нее параметры stripe\_subscription\_id (id подписки) и coupon\_id (id купона на скидку). Скидка будет применена для последующих платежей по подписке.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 14.55.18.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 14.55.18.png" alt=""><figcaption></figcaption></figure>
 
 <details>
 
@@ -476,7 +476,7 @@ stripe\_remove\_subscription -  в случае успеха придет отв
 
 При успешном добавлении функция вернёт сообщение с указанием id подписки, вида, суммы или процента скидки, а также срока её действия.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 14.54.23.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 14.54.23.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Подробнее о создании подписки расказали в разделе "[Как настроить рекуррентные платежи](stripe.md#kak-nastroit-rekurrentnye-platezhi)"
@@ -488,7 +488,7 @@ stripe\_remove\_subscription -  в случае успеха придет отв
 
 Если вы хотите прекратить действие скидки, задайте условие для срабатывания блока и в калькуляторе вызовите функцию **stripe\_remove\_subscription\_discount**, передав в неё параметр **stripe\_subscrition\_id** (id подписки).&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 14.59.45.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 14.59.45.png" alt=""><figcaption></figcaption></figure>
 
 При успешном выполнении операции функция вернёт сообщение, содержащее id подписки и дату отмены скидки.
 
@@ -503,7 +503,7 @@ stripe\_remove\_subscription -  в случае успеха придет отв
 
 После успешной оплаты в бот придут колбэки, по которым вы сможете понять, что была успешная оплата. Эти колбеки в системе вы видите как сообщения от пользователя, чтобы их не мог отправить пользователь, они состоят из 20 первых символов секретного ключа и приписки success, например: **sk\_live\_d35gky6d8ers\_success**&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 15.03.35.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 15.03.35.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Эти колбеки НЕ ВИДИТ пользователь, они отображаются только оператору.
 
@@ -513,7 +513,7 @@ stripe\_remove\_subscription -  в случае успеха придет отв
 
 Например, можно сделать обработку успешной оплаты блоком с условием и вывести соответствующее сообщение пользователю:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 15.04.47.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 15.04.47.png" alt=""><figcaption></figcaption></figure>
 
 После завершения оплаты клиенту добавится переменная **stripe\_callback\_data**, содержащая данные ответа платежной системы по совершенной операции. Из полученного словаря можно извлечь необходимые данные при помощи метода **get**.
 

@@ -13,9 +13,9 @@ description: Платформа для криптопроцессинга с п�
 
 Все принимаемые виды криптовалют следует отметить галочками и нажать Save Changes
 
-<figure><img src="../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure>
 
 После сохранения откроется поле с данными для связи.&#x20;
 
@@ -29,15 +29,15 @@ description: Платформа для криптопроцессинга с п�
 
 В поле Postback Url (2) надо указать url для вебхуков https://chatter.salebot.pro/inxy\_callback/result
 
-<figure><img src="../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
 
 ## Настройка подключения&#x20;
 
 Затем переходим в Salebot → раздел "Эквайринг" → INXY и нажмите <mark style="background-color:blue;">**подключить**</mark>. Вводим в поля полученные Апи и Секретный ключи.
 
-<figure><img src="../.gitbook/assets/image (133).png" alt=""><figcaption><p>Раздел "Эквайринг" в Salebot</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (133).png" alt=""><figcaption><p>Раздел "Эквайринг" в Salebot</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (134).png" alt=""><figcaption><p>Настройка INXY в разделе "Эквайринг" Salebot</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (134).png" alt=""><figcaption><p>Настройка INXY в разделе "Эквайринг" Salebot</p></figcaption></figure>
 
 ## Генерация ссылки на оплату
 
@@ -58,11 +58,11 @@ description: Платформа для криптопроцессинга с п�
 
 Доступные значения: 'BTC', 'ETH', 'LTC', 'DOGE', 'USDT', 'USDC', 'DAI'
 
-<figure><img src="../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
 
 **inxy\_description** – описание платежа.
 
-<figure><img src="../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 <mark style="color:red;">**Обратите внимание**</mark>! Сначала задаются дополнительные переменные для настроек, затем payment\_sum.
@@ -70,13 +70,13 @@ description: Платформа для криптопроцессинга с п�
 
 Переменные можно задать и ранее в цепочке, а не всё в одном блоке. А переменную inxy\_pay\_url, в которой содержится ссылка, вывести в нужном месте. При переходе по ней откроется платежная форма.
 
-<figure><img src="../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 <mark style="color:red;">**Обратите внимание!**</mark> В строке total amount находится значение в долларах, равное payment\_sum. Ниже в total crypto amount - значение в выбранной криптовалюте. Оно меняется часто в зависимости от текущего курса. Именно это значение клиент должен оплатить Вам со своего кошелька.&#x20;
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 <mark style="color:red;">**Обратите внимание!!!**</mark> Адрес кошелька для оплаты, в рамках одной сессии, резервируется за клиентом только на 2 часа. Рекомендуйте клиенту убедиться, что время не истекло и адрес кошелька актуальный на момент оплаты. Если время сессии закончилось, то необходимо заново начать процесс оплаты.
@@ -88,7 +88,7 @@ description: Платформа для криптопроцессинга с п�
 
 1. Успешные коллбэки состоят из 10 первых символов токена и приписки success, например: uc8zsjNN1x\_success
 
-<figure><img src="../.gitbook/assets/image (139).png" alt=""><figcaption><p>Коллбэк об успешной оплате в диалоге с клиентом</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (139).png" alt=""><figcaption><p>Коллбэк об успешной оплате в диалоге с клиентом</p></figcaption></figure>
 
 Такой callback приходит, если клиент полностью оплатил сумму, и не возникло никаких проблем при оплате. Вместе с этим коллбэком в переменные проекта добавится переменная **inxy\_payment\_completed** , равная True. А также переменная **inxy\_payment\_status** примет значение paid&#x20;
 
@@ -100,17 +100,17 @@ description: Платформа для криптопроцессинга с п�
 
 Например, можно сделать обработку успешной оплаты блоком с условием и вывести соответствующее сообщение пользователю:
 
-<figure><img src="../.gitbook/assets/image (140).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (140).png" alt=""><figcaption></figcaption></figure>
 
 2\. Бывают ситуации, когда курс крипты поменялся или кошелек снял комиссию с операции, в результате чего к вам на счет поступила неполная сумма. В таком случае переменная inxy\_payment\_status примет значение partially\_paid и в систему придет коллбэк вида
 
-<figure><img src="../.gitbook/assets/image (141).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (141).png" alt=""><figcaption></figcaption></figure>
 
 В данном случае Вам нужно будет отправить клиенту уведомление с просьбой о доплате.&#x20;
 
 Например, можно поставить условие на начало коллбэка и при его получении вновь отправить клиенту уже сгенерированный url со ссылкой на оплату или же поставить условие, что блок срабатывает, когда переменная inxy\_payment\_status равна partially\_paid.
 
-<figure><img src="../.gitbook/assets/image (142).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (142).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Помните, что ссылка для оплаты действительна **только 2 часа**! Если клиент не успеет оплатить оставшуюся часть, открыть ее будет уже нельзя. Поскольку INXY на данном этапе уже обработает первый неполный платеж, деньги клиенту не вернутся. Для их возвращения потребуется перейти в личный кабинет INXY и провести операцию возврата.
@@ -125,7 +125,7 @@ description: Платформа для криптопроцессинга с п�
 
 Например, чтобы создать списание по подписке раз в 15 дней надо поставить inxy\_subscription\_interval =’day’ и inxy\_subscription\_period=15, а чтобы деньги списывались раз в полгода надо просто указать inxy\_subscription\_period=6 (т.к. inxy\_subscription\_interval по умолчанию равно месяц)
 
-<figure><img src="../.gitbook/assets/image (143).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (143).png" alt=""><figcaption></figcaption></figure>
 
 При переходе по ссылке будет та же самая платежка, однако с некоторыми изменениями: во-первых, сбоку будет указано, что оплата происходит по подписке с указанной периодичностью, а во-вторых, платежка предложит клиенту оплатить наперед две или три суммы.
 
@@ -137,18 +137,18 @@ description: Платформа для криптопроцессинга с п�
 Частичной оплаты по расписанию быть не может. Перед оплатой проверяется баланс и если баланса недостаточно, списание денег со счета клиента **не происходит**.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (144).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (144).png" alt=""><figcaption></figcaption></figure>
 
 После успешного оформления подписки в переменных клиента появится переменная **inxy\_subscribtion\_id**, обозначающая номер подписки и **inxy\_subscription\_status** с ее статусом.
 
-<figure><img src="../.gitbook/assets/image (145).png" alt="" width="385"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (145).png" alt="" width="385"><figcaption></figcaption></figure>
 
 ## Отмена подписки
 
 Чтобы отменить подписку, воспользуйтесь функцией **inxy\_remove\_subscription(inxy\_subscription\_id)**. Подставьте идентификатор подписки inxy\_subscribtion\_id в функцию, и подписка отменится.
 
-<figure><img src="../.gitbook/assets/image (146).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (146).png" alt=""><figcaption></figcaption></figure>
 
 В случае успеха Вам придет коллбэк **‘Статус подписки inxy\_subscription\_id - deleted’** и переменная **inxy\_subscription\_status** поменяется на соответствующее значение
 
-<figure><img src="../.gitbook/assets/image (147).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (147).png" alt=""><figcaption></figcaption></figure>

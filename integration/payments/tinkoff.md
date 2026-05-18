@@ -12,7 +12,7 @@ description: Прием платежей через интернет-эквай�
 В случае, если у вас уже подключена интеграция, введите значения в указанные поля, иначе все платежи будут приостановлены!
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 13.54.35.png" alt="" width="563"><figcaption><p>Рис. 1. Форма подключения эквайринга от Т-банка на стороне Сейлбот</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 13.54.35.png" alt="" width="563"><figcaption><p>Рис. 1. Форма подключения эквайринга от Т-банка на стороне Сейлбот</p></figcaption></figure>
 
 ## Как подключить
 
@@ -22,7 +22,7 @@ description: Прием платежей через интернет-эквай�
 
 Для подключения интернет-эквайринга Т-банк в первую очередь нужно подать заявку и получить идентификатор терминала и пароль. Это можно сделать перейдя по [ссылке](https://www.tinkoff.ru/kassa/form/partner/salebot/).
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 16.56.08.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 16.56.08.png" alt=""><figcaption></figcaption></figure>
 
 После рассмотрения вашей заявки, вам выдадут тестовый терминал и пароль к нему.
 
@@ -30,7 +30,7 @@ description: Прием платежей через интернет-эквай�
 
 Переходим в проект на salebot.pro и в разделе **Эквайринг - Т-банк** прописываем ключи тестового терминала.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 09.21.56.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 09.21.56.png" alt=""><figcaption></figcaption></figure>
 
 **поле Система налогообложения.** Можно выбрать систему налогообложения, которая будет передана в чеке.
 
@@ -64,7 +64,7 @@ description: Прием платежей через интернет-эквай�
 Обратите внимание на Тест 3 (отмена платежа) на рис. 6, вам нужен будет идентификатор платежа PaymentId, найти его можно после совершения платеж в переменной **tinkoff\_payment\_id**
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 14.40.53.png" alt=""><figcaption><p>Рис. 7. Переменные сделки</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 14.40.53.png" alt=""><figcaption><p>Рис. 7. Переменные сделки</p></figcaption></figure>
 
 {% hint style="danger" %}
 Обращаем внимание!
@@ -94,7 +94,7 @@ description: Прием платежей через интернет-эквай�
 
 Для формирования ссылки на оплату в настройках кнопки  необходимо указать  <mark style="color:green;">**обязательные параметры: Сумма  и Описание товара.**</mark>
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 14.10.00.png" alt="" width="563"><figcaption><p>Рис. 8. Форма для настройки кнопки оплаты в боте</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 14.10.00.png" alt="" width="563"><figcaption><p>Рис. 8. Форма для настройки кнопки оплаты в боте</p></figcaption></figure>
 
 **поле Текст.** Данный текст будет указан на кнопке с ссылкой на оплату в сообщении
 
@@ -139,7 +139,7 @@ description: Прием платежей через интернет-эквай�
 
 **чекбокс С уведомление о клике.** Для отслеживания перехода по ссылке для оплаты можно поставить галочку. В таком случае, при клике по кнопке в диалог с клиентом в Сейлбот придет уведомление о том, что был совершен переход по ссылке
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p>Рис. 9. Уведомление о клике</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption><p>Рис. 9. Уведомление о клике</p></figcaption></figure>
 
 На данное уведомление можно настраивать дальнейшую логику работы бота.&#x20;
 
@@ -147,7 +147,7 @@ description: Прием платежей через интернет-эквай�
 
 **выпадающее меню** "**Данные для формирования чека"**
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 14.55.55.png" alt="" width="563"><figcaption><p>Рис. 10. Меню настроек кнопки Оплата: "Данные для формирования чека"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 14.55.55.png" alt="" width="563"><figcaption><p>Рис. 10. Меню настроек кнопки Оплата: "Данные для формирования чека"</p></figcaption></figure>
 
 **поле Наименование  товара** . В данном поле нужно указать название товара. Чем точнее указано название товара, тем лучше. Например: не Телефон, а Смартфон Xiaomi модель ххх
 
@@ -188,7 +188,7 @@ description: Прием платежей через интернет-эквай�
 
 **поле Язык страницы оплаты.**  По умолчанию, язык страницы оплаты русский. Можно изменить на английский
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 15.34.39.png" alt="" width="563"><figcaption><p>Рис. 11. Меню дополнительной информации</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 15.34.39.png" alt="" width="563"><figcaption><p>Рис. 11. Меню дополнительной информации</p></figcaption></figure>
 
 **поле Время жизни ссылки** — по умолчанию поле пустое, но указав в нем значение в виде дд.мм.гггг, --:-- (в виде даты и времени), можно установить до какого момента времени клиент сможет осуществить платеж по данной ссылке.&#x20;
 
@@ -255,9 +255,9 @@ ovg58keefc : первые первые 10 символов секретного 
 Важно: выбор соответствия Полное совпадение. Также можно использовать По наличию ключевых слов, если указать часть колбэке без сумм оплаты
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 15.38.29.png" alt=""><figcaption><p>Рис. 12. Пример № 1. Колбэк об успешной оплате в поле Условие блока "Стартовое условие"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 15.38.29.png" alt=""><figcaption><p>Рис. 12. Пример № 1. Колбэк об успешной оплате в поле Условие блока "Стартовое условие"</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 15.44.29.png" alt=""><figcaption><p>Рис. 13. Пример № 2. Колбэк об успешной оплате в поле Условие блока "Не состояние с условием"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 15.44.29.png" alt=""><figcaption><p>Рис. 13. Пример № 2. Колбэк об успешной оплате в поле Условие блока "Не состояние с условием"</p></figcaption></figure>
 
 Отличие примера № 1 (рис. 12) и примера № 2 (рис. 13) в том, что при использовании блока "Не состояние с условием" клиент не переходит в блок не состояние и не выбивается из основной воронки. Это удобно, например, если вы хотите продолжать вести клиента далее по воронке.&#x20;
 
@@ -291,7 +291,7 @@ ovg58keefc : первые первые 10 символов секретного 
 
 `123456` : уникальный ID платежа
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 15.49.18.png" alt=""><figcaption><p>Рис. 12. Пример № 1. Колбэк об ошибке платежа в поле Условие блока "Стартовое условие"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 15.49.18.png" alt=""><figcaption><p>Рис. 12. Пример № 1. Колбэк об ошибке платежа в поле Условие блока "Стартовое условие"</p></figcaption></figure>
 
 ## Функция get\_tinkoff\_payment\_url в Калькуляторе
 
@@ -316,11 +316,11 @@ ovg58keefc : первые первые 10 символов секретного 
 {% tab title="Калькулятор" %}
 Пример 1:&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 16.00.13.png" alt=""><figcaption><p>Рис. 13. Пример формирования ссылки: переданы только обязательные параметры</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 16.00.13.png" alt=""><figcaption><p>Рис. 13. Пример формирования ссылки: переданы только обязательные параметры</p></figcaption></figure>
 
 Пример 2:&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 16.02.37.png" alt="" width="563"><figcaption><p>Рис. 14. Пример формирования ссылки: переданы все параметры</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 16.02.37.png" alt="" width="563"><figcaption><p>Рис. 14. Пример формирования ссылки: переданы все параметры</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Описание параметров" %}
@@ -410,7 +410,7 @@ ovg58keefc : первые первые 10 символов секретного 
 \
 Пример использования функции:
 
-<figure><img src="../.gitbook/assets/сплит2.jpg" alt=""><figcaption><p>Рис. 15. Пример функции tinkoff_sm_register_get_shop_code с заполненными параметрами</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/сплит2.jpg" alt=""><figcaption><p>Рис. 15. Пример функции tinkoff_sm_register_get_shop_code с заполненными параметрами</p></figcaption></figure>
 
 При формировании ссылки на оплату указываете переменную, сформированную по принципу: \
 \
@@ -452,7 +452,7 @@ _`expiration_date = "#{date} 12:00"`_
 &#xNAN;_`time = current_time + 30`_\
 _`expiration_date = "#{current_date} #{time}"`_
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 16.05.11.png" alt="" width="563"><figcaption><p>Рис. 16. Пример использования переменных в калькуляторе</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 16.05.11.png" alt="" width="563"><figcaption><p>Рис. 16. Пример использования переменных в калькуляторе</p></figcaption></figure>
 
 Если в настройках вы включили автоматические платежи, то после успешной оплаты у клиента появится переменные **tinkoff\_rebill\_id** и **tinkoff\_recurrent\_id**, которые нужны для проведения автоплатежей и идентификации вебхука. \
 Удалять их нельзя, при удалении **tinkoff\_rebill\_id** невозможно будет провести автоплатеж и нужно заново формировать ссылку на оплату, при удалении **tinkoff\_recurrent\_id** - клиент не получит колбек об оплате.
@@ -464,7 +464,7 @@ _`expiration_date = "#{current_date} #{time}"`_
 При удалении **tinkoff\_rebill\_id** невозможно будет провести автоплатеж и нужно заново формировать ссылку на оплату, при удалении **tinkoff\_recurrent\_id** - клиент не получит колбек об оплате.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 16.07.19.png" alt="" width="563"><figcaption><p>Рис. 17. Пример оплаты</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 16.07.19.png" alt="" width="563"><figcaption><p>Рис. 17. Пример оплаты</p></figcaption></figure>
 
 ![Рис. 18. Переменные в карточке клиента](https://lh5.googleusercontent.com/Cqm9E0RNVVghhZFSX8EGVxf3Nchh_W2yfVBD0o1PYzeM-ImW6Mm6fl_dZE_LfYIntnOHkzz1LUDGCYbHznscP2jpacpFPlm8z3Btd02SC6PHbAE_wxQU5nSXm6fkgsoidCm8AkwW)
 
@@ -476,7 +476,7 @@ _`expiration_date = "#{current_date} #{time}"`_
 
 Создадим ссылку на оплату в размере 100р (в магазине по умолчанию рубль)
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 16.22.30.png" alt=""><figcaption><p>Рис. 19. Пример настройки блока</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 16.22.30.png" alt=""><figcaption><p>Рис. 19. Пример настройки блока</p></figcaption></figure>
 
 {% hint style="info" %}
 **Обратите внимание:** \
@@ -510,13 +510,13 @@ _`expiration_date = "#{current_date} #{time}"`_
 
 Шаг 1. Копируем колбек об успешной олпате:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 16.28.28.png" alt="" width="450"><figcaption><p>Рис. 20. Колбек об успешной оплате</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 16.28.28.png" alt="" width="450"><figcaption><p>Рис. 20. Колбек об успешной оплате</p></figcaption></figure>
 
 Шаг 2. Создаем блок с условием (Стартовое условие или Не состояние с условием) и указываем в поле "Условие" колбек:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 16.31.26.png" alt=""><figcaption><p>Рис. 21. Настройка блока "Стартовое условие"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 16.31.26.png" alt=""><figcaption><p>Рис. 21. Настройка блока "Стартовое условие"</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 16.33.09.png" alt=""><figcaption><p>Рис. 22. Настройка блока "Не состояние с условием"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 16.33.09.png" alt=""><figcaption><p>Рис. 22. Настройка блока "Не состояние с условием"</p></figcaption></figure>
 
 Отличие примера № 1 (рис. 12) и примера № 2 (рис. 13) в том, что при использовании блока "Не состояние с условием" клиент не переходит в блок не состояние и не выбивается из основной воронки. Это удобно, например, если вы хотите продолжать вести клиента далее по воронке.&#x20;
 
@@ -548,7 +548,7 @@ _`expiration_date = "#{current_date} #{time}"`_
 
 <table><thead><tr><th width="314">Возможные значение</th><th>Описание</th></tr></thead><tbody><tr><td>commodity</td><td>товар</td></tr><tr><td>excise </td><td>подакцизный товар</td></tr><tr><td>job </td><td>работа</td></tr><tr><td>service</td><td>услуга</td></tr><tr><td>gambling_bet</td><td>ставка азартной игры</td></tr><tr><td>gambling_prize</td><td>выигрыш азартной игры</td></tr><tr><td>lottery </td><td>лотерейный билет</td></tr><tr><td>lottery_prize</td><td>выигрыш лотереи</td></tr><tr><td>intellectual_activity</td><td>предоставление результатов интеллектуальной деятельности</td></tr><tr><td>payment</td><td>платеж</td></tr><tr><td>agent_commission </td><td>агентское вознаграждение</td></tr><tr><td>composite</td><td>составной предмет расчета</td></tr><tr><td>another </td><td>иной предмет расчета</td></tr></tbody></table>
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 16.41.44.png" alt="" width="563"><figcaption><p>Рис. 23. Пример в калькуляторе передачи параметров</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 16.41.44.png" alt="" width="563"><figcaption><p>Рис. 23. Пример в калькуляторе передачи параметров</p></figcaption></figure>
 
 **После** определения переменных платежа, определяем переменную payment\_sum, после которой сразу появится ссылка на оплату.
 
@@ -556,7 +556,7 @@ _`expiration_date = "#{current_date} #{time}"`_
 **Общая стоимость всех товаров должна быть равной переменной payment\_sum в рублях!**
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 16.43.50.png" alt="" width="563"><figcaption><p>Рис. 24. Пример передачи переменых</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 16.43.50.png" alt="" width="563"><figcaption><p>Рис. 24. Пример передачи переменых</p></figcaption></figure>
 
 **Пример:**
 
@@ -568,7 +568,7 @@ _`expiration_date = "#{current_date} #{time}"`_
 
 В личном кабинете Тинькофф нужно пройти тесты подключения автоплатежей с тестовых карт банка.&#x20;
 
-<figure><img src="../.gitbook/assets/tinkoff_rekur (2).jpg" alt=""><figcaption><p>Рис. 25. Личный кабинет Т-банка: вкладка Автоплатежи -данные для прохождения тестов</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/tinkoff_rekur (2).jpg" alt=""><figcaption><p>Рис. 25. Личный кабинет Т-банка: вкладка Автоплатежи -данные для прохождения тестов</p></figcaption></figure>
 
 Чтобы пройти тесты подключения автоплатежей:\
 \
@@ -582,7 +582,7 @@ _`expiration_date = "#{current_date} #{time}"`_
 
 Для создания ссылки на первый установочный платеж можно воспользоваться функцией `get_tinkoff_payment_url` в Калькуляторе блоке.
 
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p>Рис. 26. Настройка блока для оплаты</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption><p>Рис. 26. Настройка блока для оплаты</p></figcaption></figure>
 
 ```
 receipt = [{"name":"ТОВАР1","price":"1200","quantity":"1","amount":"1200","vat_code":"2","method":"full_payment","object":"commodity"}] 
@@ -605,7 +605,7 @@ link_tinkoff = get_tinkoff_payment_url(1200, 'Купи меня', '1', receipt, 
 &#x20;Будьте внимательны и настройте возможность отменить подписку,чтобы случайно не списать с карты пользователя все средства.&#x20;
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption><p>Рис. 27. Настройки блока для автосписания</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption><p>Рис. 27. Настройки блока для автосписания</p></figcaption></figure>
 
 Далее для проведения автоплатежа, нужно вызвать функцию:&#x20;
 
@@ -620,7 +620,7 @@ link_tinkoff = get_tinkoff_payment_url(1200, 'Купи меня', '1', receipt, 
 
 <table><thead><tr><th width="333"></th><th></th></tr></thead><tbody><tr><td>products_for_receipt_recurrent </td><td>обязательная переменная, массив с перечисленными товарами чека. <br><mark style="color:red;"><strong>Числа нужно указывать без кавычек!</strong></mark></td></tr><tr><td>taxation</td><td>обязательная переменная</td></tr><tr><td>phone</td><td>обязательная, если нет переменной email</td></tr><tr><td>email</td><td>обязательная, если нет переменной phone</td></tr></tbody></table>
 
-<figure><img src="../.gitbook/assets/photo_2024-04-18_16-44-14.jpg" alt=""><figcaption><p>Рис. 29. Пример в калькуляторе</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/photo_2024-04-18_16-44-14.jpg" alt=""><figcaption><p>Рис. 29. Пример в калькуляторе</p></figcaption></figure>
 
 {% hint style="info" %}
 Как заполнять products\_for\_receipt\_recurrent читайте в параграфе выше "[Функция get\_tinkoff\_payment\_url в Калькуляторе](tinkoff.md#funkciya-get_tinkoff_payment_url-v-kalkulyatore)".
@@ -630,7 +630,7 @@ link_tinkoff = get_tinkoff_payment_url(1200, 'Купи меня', '1', receipt, 
 
 Для того, чтобы отменить автосписания настроим блок для удаления переменной `tinkoff_rebill_id`&#x20;
 
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption><p>Рис. 30. Отмена автоплатежа</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption><p>Рис. 30. Отмена автоплатежа</p></figcaption></figure>
 
 ### **Провести обычный платеж, если включены рекуррентные платежи.**
 
@@ -642,7 +642,7 @@ link_tinkoff = get_tinkoff_payment_url(1200, 'Купи меня', '1', receipt, 
 
 `tinkoff_manual_recurrent_disable = 1`
 
-<figure><img src="../.gitbook/assets/tinkoff_rekur2.jpg" alt=""><figcaption><p>Рис. 31. Калькулятор в блоке</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/tinkoff_rekur2.jpg" alt=""><figcaption><p>Рис. 31. Калькулятор в блоке</p></figcaption></figure>
 
 {% hint style="info" %}
 Если при автосписании нужен чек, то до вызова функции нужно определить переменную **products\_for\_receipt\_recurrent**, которая заполняется так же как и для чеков в обычном платеже.
@@ -652,19 +652,19 @@ link_tinkoff = get_tinkoff_payment_url(1200, 'Купи меня', '1', receipt, 
 
 Шаг 1. В платежных системах подключаем прием платежей через Т-банк Эквайринг
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 13.54.35.png" alt="" width="563"><figcaption><p>Рис. 32. Форма подключения эквайринга от Т-банка на стороне Сейлбот</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 13.54.35.png" alt="" width="563"><figcaption><p>Рис. 32. Форма подключения эквайринга от Т-банка на стороне Сейлбот</p></figcaption></figure>
 
 Шаг 2. В настройках курса выбираем платежную систему&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 16.52.31.png" alt=""><figcaption><p>Рис. 33. Выбираем платежную систему в разделе "Оплата" в настроках курса</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 16.52.31.png" alt=""><figcaption><p>Рис. 33. Выбираем платежную систему в разделе "Оплата" в настроках курса</p></figcaption></figure>
 
 Шаг 3. Создаем тариф
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 17.00.37.png" alt=""><figcaption><p>Рис. 34. Создание виджета в настройках курса</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 17.00.37.png" alt=""><figcaption><p>Рис. 34. Создание виджета в настройках курса</p></figcaption></figure>
 
 Шаг 5. В личном кабинете Тинькофф в настройках терминала обязательно включаем уведомления по HTTP и вставляем ссылку: https://chatter.salebot.pro/tinkoff\_callback/result
 
-<figure><img src="../.gitbook/assets/тинькофф.jpg" alt="" width="563"><figcaption><p>Рис. 35. Настройка терминала</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/тинькофф.jpg" alt="" width="563"><figcaption><p>Рис. 35. Настройка терминала</p></figcaption></figure>
 
 {% hint style="danger" %}
 Обращаем внимание!&#x20;
@@ -677,10 +677,10 @@ link_tinkoff = get_tinkoff_payment_url(1200, 'Купи меня', '1', receipt, 
 
 На странице курса будет отображаться тариф с кнопкой для оплаты:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 17.06.05.png" alt=""><figcaption><p>Рис. 36. Тариф на странице курса</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 17.06.05.png" alt=""><figcaption><p>Рис. 36. Тариф на странице курса</p></figcaption></figure>
 
 Далее ученику нужно будет ввести свои данные:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 17.17.23.png" alt="" width="563"><figcaption><p>Рис. 37. Форма для заполнения данных при покупке учеником курса</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 17.17.23.png" alt="" width="563"><figcaption><p>Рис. 37. Форма для заполнения данных при покупке учеником курса</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 17.06.23.png" alt="" width="563"><figcaption><p>Рис. 38. Форма оплаты</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 17.06.23.png" alt="" width="563"><figcaption><p>Рис. 38. Форма оплаты</p></figcaption></figure>

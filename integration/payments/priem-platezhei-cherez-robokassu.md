@@ -40,7 +40,7 @@ description: >-
 \- Fail Url: https://chatter.salebot.pro/robokassa\_callback/fail\
 \- Метод отсылки данных по Fail Url: GET (Рисунок 1)
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2026-01-22 в 17.20.59.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2026-01-22 в 17.20.59.png" alt=""><figcaption></figcaption></figure>
 
 <p align="center">рис. 1</p>
 
@@ -52,15 +52,15 @@ description: >-
 
 Зайдите в раздел "Эквайринг":&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 09.37.06.png" alt="" width="297"><figcaption><p>Рис. 2</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 09.37.06.png" alt="" width="297"><figcaption><p>Рис. 2</p></figcaption></figure>
 
 &#x20;Найдите кнопку Robokassa для подключения сервиса:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 09.38.04.png" alt=""><figcaption><p>Рис. 3</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 09.38.04.png" alt=""><figcaption><p>Рис. 3</p></figcaption></figure>
 
 и заполните форму в открывшейся форме:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 09.39.18.png" alt=""><figcaption><p>Рис. 4</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 09.39.18.png" alt=""><figcaption><p>Рис. 4</p></figcaption></figure>
 
 1. **Поле Идентификатор магазина —** Shop ID, который вы можете найти в настройках магазина в личном кабинете робокассы.
 2. Пароли #1, пароль #2 — уникальные сгенерированные последовательности цифр+букв (см. рис. 1).&#x20;
@@ -85,13 +85,13 @@ description: >-
 
 4. **поле Система налогообложения.** Можно выбрать систему налогообложения, которая будет передана в чеке. Необязательное поле, если у организации имеется только один тип налогообложения. (Данный параметр обязательно задается в личном кабинете магазина)
 
-<figure><img src="../.gitbook/assets/image (65).png" alt="" width="563"><figcaption><p>Рис. 5. Выбор системы налогообложения для формирования чека об оплате</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (65).png" alt="" width="563"><figcaption><p>Рис. 5. Выбор системы налогообложения для формирования чека об оплате</p></figcaption></figure>
 
 На этом подключение закончено. Теперь давайте разберемся как использовать данный функционал.
 
 5. **поле Доменная зона.** Доступные значения ru и kz. Ссылка будет иметь вид robokassa.ru или robokassa.kz
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 09.45.25.png" alt="" width="563"><figcaption><p>Рис. 6. Выбор доменной зоны</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 09.45.25.png" alt="" width="563"><figcaption><p>Рис. 6. Выбор доменной зоны</p></figcaption></figure>
 
 ## Как сформировать ссылку на оплату
 
@@ -117,7 +117,7 @@ description: >-
 
 Для формирования ссылки на оплату в настройках кнопки  необходимо указать  <mark style="color:green;">**обязательные параметры: Сумма  и Наименование товара.**</mark>
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 09.47.40.png" alt=""><figcaption><p>Рис. 7. Форма настройки кнопки оплаты в блоке чат-бота</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 09.47.40.png" alt=""><figcaption><p>Рис. 7. Форма настройки кнопки оплаты в блоке чат-бота</p></figcaption></figure>
 
 **поле Сумма.**  В этом поле указываем стоимость товара в рублях
 
@@ -142,7 +142,7 @@ description: >-
 
 **меню Данные для формирования чека.** При клике откроется выпадающее меню с параметрами для формирования чека:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-01 в 13.54.49.png" alt="" width="563"><figcaption><p>Рис. 8. меню "Данные для формирования чека" </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-01 в 13.54.49.png" alt="" width="563"><figcaption><p>Рис. 8. меню "Данные для формирования чека" </p></figcaption></figure>
 
 **поле Название товара**. <mark style="color:red;">**Обязательное для формирования чека.**</mark>&#x20;
 
@@ -158,7 +158,7 @@ description: >-
 
 Как только пользователь получит блок с кнопкой "Оплата" автоматически будут созданы переменные клиента:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 10.00.38.png" alt="" width="563"><figcaption><p>Рис. 9. переменная payments</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 10.00.38.png" alt="" width="563"><figcaption><p>Рис. 9. переменная payments</p></figcaption></figure>
 
 Служебная переменная клиента **`__payments`** , которая хранит сумму, идентификатор созданной ссылки, нужна для идентификации хука от платежной системы.
 
@@ -188,9 +188,9 @@ Fail URL - это только страница неуспешной оплат�
 
 После того, как вы верно настроите оплату и сформируете ссылку для проведения платежа, протестируйте созданные настройки. Если оплата пройдет успешно, то в диалог клиента (раздел "Клиенты") <mark style="color:orange;">**АВТОМАТИЧЕСКИ**</mark> придет КОЛЛБЭК, который состоит из 10 символов секретного ключа платежной системы, слова \_success и через пробел сумма платежа. **Коллбэк генерируется автоматически**, его не надо составлять самим или запрашивать в поддержке платежной системы,
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-01 в 14.23.05.png" alt="" width="563"><figcaption><p>Рис. 10. Блок "Стартовое условие" с кнопкой оплаты</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-01 в 14.23.05.png" alt="" width="563"><figcaption><p>Рис. 10. Блок "Стартовое условие" с кнопкой оплаты</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 10.13.09.png" alt=""><figcaption><p>Рис. 11. Настройка кнопки</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 10.13.09.png" alt=""><figcaption><p>Рис. 11. Настройка кнопки</p></figcaption></figure>
 
 Например: `ovg58keefc_success 2999`, где:&#x20;
 
@@ -202,11 +202,11 @@ ovg58keefc : 10 символов секретного ключа платежн�
 
 Отработка блока:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-01 в 14.25.37.png" alt=""><figcaption><p>Рис. 12. Диалог с клиентом</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-01 в 14.25.37.png" alt=""><figcaption><p>Рис. 12. Диалог с клиентом</p></figcaption></figure>
 
 Колбек:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-01 в 13.51.55.png" alt="" width="563"><figcaption><p>Рис. 13. Колбек</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-01 в 13.51.55.png" alt="" width="563"><figcaption><p>Рис. 13. Колбек</p></figcaption></figure>
 
 {% hint style="info" %}
 Коллбэки (уведомления) от платежной системы пользователь НЕ ВИДИТ. Они отображаются только во вкладке "Клиенты" и видны оператору/администратору.
@@ -220,11 +220,11 @@ ovg58keefc : 10 символов секретного ключа платежн�
 Важно: выбор соответствия Полное совпадение  или По наличию ключевых слов
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 10.34.53.png" alt=""><figcaption><p>Рис. 14. Реакция на колбек с помощью блока "Стартовое условие"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 10.34.53.png" alt=""><figcaption><p>Рис. 14. Реакция на колбек с помощью блока "Стартовое условие"</p></figcaption></figure>
 
 Далее при оплате клиенту будет приходить сообщение из блока, в котором настроена реакция на коллбэк:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-01 в 14.25.37.png" alt=""><figcaption><p>Рис. 15. Диалог с клиентом</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-01 в 14.25.37.png" alt=""><figcaption><p>Рис. 15. Диалог с клиентом</p></figcaption></figure>
 
 **Платеж с ошибкой**
 
@@ -261,7 +261,7 @@ ovg58keefc : 10 символов секретного ключа платежн�
 {% tab title="Калькулятор" %}
 Пример 1:&#x20;
 
-<figure><img src="../.gitbook/assets/2023-03-27_17-23-38.png" alt=""><figcaption><p>Рис. 16. Пример формирования ссылки: переданы только обязательные параметры</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2023-03-27_17-23-38.png" alt=""><figcaption><p>Рис. 16. Пример формирования ссылки: переданы только обязательные параметры</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Описание параметров" %}
@@ -302,7 +302,7 @@ ovg58keefc : 10 символов секретного ключа платежн�
 
 Вы можете добавить описание к платежу, установив переменную **payment\_description**
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 11.35.24.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 11.35.24.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Это описание будет отображаться в форме оплаты, а также на чеке.
 
@@ -332,11 +332,11 @@ ovg58keefc : 10 символов секретного ключа платежн�
 
 1. Если выдаете ссылку в тексте:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 10.26.42.png" alt=""><figcaption><p>Рис. 17. настройка блока "Стартовое условие" с ссылкой на оплату</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 10.26.42.png" alt=""><figcaption><p>Рис. 17. настройка блока "Стартовое условие" с ссылкой на оплату</p></figcaption></figure>
 
 Отработка блока:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-01 в 14.15.01.png" alt="" width="563"><figcaption><p>Рис. 18. Пример ссылки на оплату, отправляемой ботом. </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-01 в 14.15.01.png" alt="" width="563"><figcaption><p>Рис. 18. Пример ссылки на оплату, отправляемой ботом. </p></figcaption></figure>
 
 {% hint style="warning" %}
 Важно!&#x20;
@@ -348,19 +348,19 @@ ovg58keefc : 10 символов секретного ключа платежн�
 
 Коллбэк при успешной оплате:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-01 в 14.19.44.png" alt=""><figcaption><p>Рис. 19. Колбек об успешной оплате</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-01 в 14.19.44.png" alt=""><figcaption><p>Рис. 19. Колбек об успешной оплате</p></figcaption></figure>
 
 2. Ссылка в кнопке:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-01 в 14.16.08.png" alt=""><figcaption><p>Рис. 20. Кнопка с ссылкой на оплату</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-01 в 14.16.08.png" alt=""><figcaption><p>Рис. 20. Кнопка с ссылкой на оплату</p></figcaption></figure>
 
 Отработка блока:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-01 в 14.12.26.png" alt="" width="563"><figcaption><p>Рис. 21. Пример отправки кнопки с ссылкой на оплату</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-01 в 14.12.26.png" alt="" width="563"><figcaption><p>Рис. 21. Пример отправки кнопки с ссылкой на оплату</p></figcaption></figure>
 
 Коллбэк при успешной оплате:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-01 в 14.12.53.png" alt=""><figcaption><p>Рис. 22. Колбек об успешной оплате в диалоге с клиентом</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-01 в 14.12.53.png" alt=""><figcaption><p>Рис. 22. Колбек об успешной оплате в диалоге с клиентом</p></figcaption></figure>
 
 ## Создание ссылки с помощью переменной payment\_sum  и дополнительных параметров
 
@@ -372,11 +372,11 @@ ovg58keefc : 10 символов секретного ключа платежн�
 
 Для генерации ссылки на оплату, вам необходимо установить значение переменной **payment\_sum**, сразу после этого появится переменная **robokassa\_pay\_url.** Эту переменную можно вывести на экран ссылкой или разместить на кнопке с текстом "Оплатить".&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 10.34.11.png" alt=""><figcaption><p>Рис. 23.  Пример настройки блока "Стартовое условие"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 10.34.11.png" alt=""><figcaption><p>Рис. 23.  Пример настройки блока "Стартовое условие"</p></figcaption></figure>
 
 **ПРИМЕР отработки блоки (ссылки на оплату):**
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-01 в 14.07.25.png" alt="" width="563"><figcaption><p>Рис. 24. Пример ссылки в боте.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-01 в 14.07.25.png" alt="" width="563"><figcaption><p>Рис. 24. Пример ссылки в боте.</p></figcaption></figure>
 
 {% hint style="warning" %}
 Важно!&#x20;
@@ -388,13 +388,13 @@ ovg58keefc : 10 символов секретного ключа платежн�
 
 Чтобы передавать ссылку в кнопке, укажите переменную в кнопке в поле url:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-01 в 14.40.04.png" alt=""><figcaption><p>Рис. 24. Пример настройки кнопки</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-01 в 14.40.04.png" alt=""><figcaption><p>Рис. 24. Пример настройки кнопки</p></figcaption></figure>
 
 ### Результат оплаты при формировании ссылки на оплату через payment\_sum
 
 После успешной оплаты в бот придет коллбэк. Этот коллбэк в системе вы видите как сообщение от пользователя, чтобы их не мог отправить пользователь, они состоят из первого пароля от сервиса Robokassa и приписки со статусом success, например: **qxgZ7zkNX4HHnG8UpZ61\_success.**
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-01 в 14.08.47.png" alt=""><figcaption><p>Рис. 25. Пример колбека об успешной оплате</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-01 в 14.08.47.png" alt=""><figcaption><p>Рис. 25. Пример колбека об успешной оплате</p></figcaption></figure>
 
 Также после успешной оплаты переменная **robokassa\_payment\_completed** устанавливается в **True.**
 
@@ -418,31 +418,31 @@ payment\_sum=0
 
 Пример схемы, которая позволит протестировать и быстро начать работу с сервисом Robokassa:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 11.22.42.png" alt=""><figcaption><p>Рис. 26. Настройка блока "Стартовое условие"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 11.22.42.png" alt=""><figcaption><p>Рис. 26. Настройка блока "Стартовое условие"</p></figcaption></figure>
 
 На рисунке показан пример первого блока, в котором пользователя спрашивают, сколько он хочет оплатит&#x44C;**.**
 
 На рисунке ниже настройки стрелки, в ней должен быть включен переключатель "Пользователь вводит данные" и в поле вписана переменная **payment\_sum:**
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-01 в 15.29.17.png" alt=""><figcaption><p>Рис. 27. Настройки стрелки</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-01 в 15.29.17.png" alt=""><figcaption><p>Рис. 27. Настройки стрелки</p></figcaption></figure>
 
 Далее в следующем блоке оплаты добавьте кнопку и установите в строку url переменную **robokassa\_pay\_url:**
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-01 в 15.32.28.png" alt=""><figcaption><p>Рис. 28. Настройки блока с кнопкой оплаты</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-01 в 15.32.28.png" alt=""><figcaption><p>Рис. 28. Настройки блока с кнопкой оплаты</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-01 в 15.32.58.png" alt=""><figcaption><p>Рис. 29. Настройка кнопки</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-01 в 15.32.58.png" alt=""><figcaption><p>Рис. 29. Настройка кнопки</p></figcaption></figure>
 
 Схема отработает следующим образом:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-01 в 15.31.05.png" alt="" width="563"><figcaption><p>Рис. 30. Пример отработки блоков</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-01 в 15.31.05.png" alt="" width="563"><figcaption><p>Рис. 30. Пример отработки блоков</p></figcaption></figure>
 
 При клике на кнопку сумма, которую прописал клиент, будет доступна к оплате в платежной форме:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-01 в 15.31.10.png" alt="" width="375"><figcaption><p>Рис. 31. Форма оплаты</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-01 в 15.31.10.png" alt="" width="375"><figcaption><p>Рис. 31. Форма оплаты</p></figcaption></figure>
 
 После оплаты придет коллбэк, на который также можно настроить реакцию.&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-01 в 15.42.21.png" alt=""><figcaption><p>Рис. 32. Отправка колбека об успешной оплате</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-01 в 15.42.21.png" alt=""><figcaption><p>Рис. 32. Отправка колбека об успешной оплате</p></figcaption></figure>
 
 {% hint style="info" %}
 Важно!&#x20;
@@ -452,7 +452,7 @@ payment\_sum=0
 
 Для этого добавьте еще один блок с условием, а в строке с условием пропишите коллбэк вида "**qxgZ7zkNX4HHnG8UpZ61\_success":**
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-01 в 15.43.12.png" alt=""><figcaption><p>Рис. 33. Пример настройки блока "Не состояние с условием" для реакции на успешную оплату</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-01 в 15.43.12.png" alt=""><figcaption><p>Рис. 33. Пример настройки блока "Не состояние с условием" для реакции на успешную оплату</p></figcaption></figure>
 
 {% hint style="info" %}
 Тип проверки обязательно поставьте "Полное совпадение"
@@ -460,7 +460,7 @@ payment\_sum=0
 
 Схема будет отрабатывать следующим образом:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-01 в 15.41.40.png" alt=""><figcaption><p>Рис. 34. Как работает схема</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-01 в 15.41.40.png" alt=""><figcaption><p>Рис. 34. Как работает схема</p></figcaption></figure>
 
 ### Видеоурок
 
@@ -472,7 +472,7 @@ payment\_sum=0
 
 При создании кнопки в выпадающем меню “Данные для формирования чека”, заполните поля “Название товара”, “Полная сумма в рублях”, “Количество”, “Ставка НДС”, “Система налогообложения”.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 11.43.57.png" alt="" width="563"><figcaption><p>Рис. 35. Данные для формирования чека</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 11.43.57.png" alt="" width="563"><figcaption><p>Рис. 35. Данные для формирования чека</p></figcaption></figure>
 
 Подробнее в разделе "[Для формирования чека](priem-platezhei-cherez-robokassu.md#dlya-formirovaniya-cheka)".
 
@@ -590,11 +590,11 @@ response = robokassa\_recurrent\_payment(4800, 'Обучение в Лётной
 
 Нужно выбрать в разделе "Оплата" в настройках курса платежную систему Robokassa:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 11.51.02.png" alt=""><figcaption><p>Рис. 36. Выбор платежной системы в разделе "Оплата" в настройках курса</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 11.51.02.png" alt=""><figcaption><p>Рис. 36. Выбор платежной системы в разделе "Оплата" в настройках курса</p></figcaption></figure>
 
 Заполните в разделе "Эквайринг" в настройках платежной системы (если не сделали это ранее) поля "Ставка НДС" и "Система налогообложения":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 12.01.03.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 12.01.03.png" alt=""><figcaption></figcaption></figure>
 
 ## Какие могут быть ошибки
 
@@ -649,15 +649,15 @@ response = robokassa\_recurrent\_payment(4800, 'Обучение в Лётной
 
 Перейдите в настройки блока, в котором даете ссылку на оплату и перейдите в настройки кнопки:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-01 в 15.00.50.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-01 в 15.00.50.png" alt=""><figcaption></figcaption></figure>
 
 Далее в настройках кнопки найдите чекбокс "Автоплатежи" и активируйте его:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-04-01 в 14.59.36.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-01 в 14.59.36.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Если вы хотите принимать автоплатежи во всех кнопках на оплату, то включить автоплатежи можно в настройках подключения платежной системы:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-06-30 в 12.03.51.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-06-30 в 12.03.51.png" alt=""><figcaption></figcaption></figure>
 
 **Шаг 2. Провести обычный платёж.**\
 \
@@ -674,10 +674,10 @@ response = robokassa\_recurrent\_payment(4800, 'Обучение в Лётной
 
 <mark style="color:red;">**Отключите**</mark> чекбокс "**Платежи в тестовом режиме**" (если он у вас активный), иначе переменная robokassa\_previous\_invoice\_id с идентификатором платежа не будет сформирована!&#x20;
 
-![](<../.gitbook/assets/image (66).png>)
+![](<../../.gitbook/assets/image (66).png>)
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/2023-02-17_14-18-03.png" alt=""><figcaption><p>Пример формирования ссылки для обычного платежа</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2023-02-17_14-18-03.png" alt=""><figcaption><p>Пример формирования ссылки для обычного платежа</p></figcaption></figure>
 
 ![](https://lh4.googleusercontent.com/FGVcl0wzMK3_ldq7OxHe3653Q3buEgR29657HixPQ6xUrqoa2E2TpG3yCRdF5oDgj69VhnQRlZJZG_wjnnwQyIjkHRTQ8nr-Jzwyo99CtaiOT5JUuiMLuE2Jm3MDTBxKXJoD02gr=s0)
 
@@ -685,7 +685,7 @@ response = robokassa\_recurrent\_payment(4800, 'Обучение в Лётной
 
 От блока Успешная оплата планируем стрелку с таймером к блоку с автоплатежом. Для примера запланируем следующий платеж через 30 дней.&#x20;
 
-<figure><img src="../.gitbook/assets/2023-02-17_14-15-51.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2023-02-17_14-15-51.png" alt=""><figcaption></figcaption></figure>
 
 Чтобы прошёл автоплатеж в нужном блоке в поле Калькулятор, нужно добавить вызов функции **robokassa\_recurrent\_payment**, передав в неё параметры в указанном порядке:&#x20;
 
@@ -706,7 +706,7 @@ response = robokassa\_recurrent\_payment(4800, 'Обучение в Лётной
 
 Пример запроса на автоплатеж:
 
-<figure><img src="../.gitbook/assets/2024-02-06_18-41-50.png" alt="" width="533"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-02-06_18-41-50.png" alt="" width="533"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 При выполнении автоплатежа не должно быть ссылки на оплату робокассы и переменной **payment\_sum**!
@@ -716,7 +716,7 @@ _<mark style="color:blue;">Шаг 4. Планируем регулярные с�
 \
 Для регулярного повтора платежей планируем  петлю - стрелку с задержкой, например, 30 дней.
 
-<figure><img src="../.gitbook/assets/2023-02-17_14-12-50.png" alt=""><figcaption><p>Петля - повторный переход в блок Автоплатёж</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2023-02-17_14-12-50.png" alt=""><figcaption><p>Петля - повторный переход в блок Автоплатёж</p></figcaption></figure>
 
 Если у вас предусмотрена возможность отмены автоплатежей, то для того, чтобы следующий платеж не был выполнен необходимо удалить у клиента  переменную `robokassa_previous_invoice_id`\
 \
@@ -724,7 +724,7 @@ _<mark style="color:blue;">Шаг 4. Планируем регулярные с�
 \
 `robokassa_previous_invoice_id = ""`
 
-<figure><img src="../.gitbook/assets/2023-02-17_13-18-23.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2023-02-17_13-18-23.png" alt=""><figcaption></figcaption></figure>
 
 ### Обычный платеж при включенных автоплатежах
 
@@ -733,7 +733,7 @@ _<mark style="color:blue;">Шаг 4. Планируем регулярные с�
 В поле Калькулятор объявим переменную:\
 `robokassa_manual_recurrent_disable = 1`
 
-<figure><img src="../.gitbook/assets/2023-02-17_14-26-46.png" alt=""><figcaption><p>Настройки блока для формирования ссылки на обычный платеж при включенных Автоплатежах</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2023-02-17_14-26-46.png" alt=""><figcaption><p>Настройки блока для формирования ссылки на обычный платеж при включенных Автоплатежах</p></figcaption></figure>
 
 {% hint style="info" %}
 Внимание!&#x20;
@@ -759,7 +759,7 @@ _<mark style="color:blue;">Шаг 4. Планируем регулярные с�
 >
 > С уважением, ROBOKASSA.
 
-<figure><img src="../.gitbook/assets/image (67).png" alt=""><figcaption><p>Robokassa рекомендует</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption><p>Robokassa рекомендует</p></figcaption></figure>
 
 ## Robokassa в Telegram
 

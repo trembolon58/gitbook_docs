@@ -8,11 +8,11 @@ description: В данном разделе объясним, как подкл�
 
 Для работы с платежной системой allpay переходим в проект на salebot.pro и в разделе "Эквайринг" находим платежную систему Allpay.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 15.37.42.png" alt=""><figcaption><p>Рис. 1. Раздел "Эквайринг" для подключения платежного сервиса к Сейлботу</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 15.37.42.png" alt=""><figcaption><p>Рис. 1. Раздел "Эквайринг" для подключения платежного сервиса к Сейлботу</p></figcaption></figure>
 
 После нажатия подключить открывается форма для подключения платежной системы
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 15.35.20.png" alt=""><figcaption><p>Рис. 2. Ввод логина и пароля от сервиса</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 15.35.20.png" alt=""><figcaption><p>Рис. 2. Ввод логина и пароля от сервиса</p></figcaption></figure>
 
 В этой форме вводим **Логин** и **пароль** для работы с API платежной системы.
 
@@ -22,7 +22,7 @@ description: В данном разделе объясним, как подкл�
 Это обозначает, что платежная система подключена и можете переходить к работе с ней.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 15.36.07.png" alt=""><figcaption><p>Рис. 3. Отображение кнопки подключенной платежной системы</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 15.36.07.png" alt=""><figcaption><p>Рис. 3. Отображение кнопки подключенной платежной системы</p></figcaption></figure>
 
 ### Настройка работы с платежной системой Allpay
 
@@ -49,7 +49,7 @@ description: В данном разделе объясним, как подкл�
 
 Для первого способа:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 15.43.32.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 15.43.32.png" alt=""><figcaption></figcaption></figure>
 
 > allpay\_email = '\*\*\*\*\*\*1@mail.ru'
 >
@@ -57,17 +57,17 @@ description: В данном разделе объясним, как подкл�
 
 В результате следующую переменную можно передать в блоке ссылкой:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 15.44.31.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 15.44.31.png" alt=""><figcaption></figcaption></figure>
 
 **Пример** для второго способа:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 15.46.29.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 15.46.29.png" alt=""><figcaption></figcaption></figure>
 
 > payment\_url = allpay\_generate\_payment\_url(100, '\*\*\*\*\*\*\*\*[1@mail.ru](mailto:1@mail.ru)')
 
 В результате будут созданы переменные:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 15.47.39.png" alt="" width="266"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 15.47.39.png" alt="" width="266"><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 После успешной оплаты переменная **allpay\_payment\_completed** примет значение True, а также придет callback об успешной оплате

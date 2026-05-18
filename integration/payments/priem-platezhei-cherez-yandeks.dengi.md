@@ -12,13 +12,13 @@ description: В статье расскажем, как быстро подкл�
 
 [Перейдите по ссылке](https://yoomoney.ru/transfer/myservices/http-notification), войдите в личный кабинет или зарегистрируйтесь. Вы перейдете на страницу с http-уведомлениями:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 09.35.31.png" alt=""><figcaption><p>Рис. 1. Страница http-уведомлений</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 09.35.31.png" alt=""><figcaption><p>Рис. 1. Страница http-уведомлений</p></figcaption></figure>
 
 Здесь необходимо указать url в поле "Куда отправлять" и поставить галочку в поле "Отправлять HTTP-уведомления":
 
 <mark style="color:red;">**URL для уведомлений о платежах: https://chatter.salebot.pro/yandex\_money\_callback/result**</mark>
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 09.37.45.png" alt=""><figcaption><p>Рис. 2. Страница уведомлений с заполненными полями </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 09.37.45.png" alt=""><figcaption><p>Рис. 2. Страница уведомлений с заполненными полями </p></figcaption></figure>
 
 {% hint style="danger" %}
 Важно!
@@ -28,7 +28,7 @@ description: В статье расскажем, как быстро подкл�
 
 Далее нажмите "Готово", тогда вы увидите pop-up с информацией, что уведомления будут приходить по указанному вами url Сейлбота:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 09.39.09.png" alt=""><figcaption><p>Рис. 3. pop-up с url для уведомлений</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 09.39.09.png" alt=""><figcaption><p>Рис. 3. pop-up с url для уведомлений</p></figcaption></figure>
 
 На сервисе Юмани для подключения к Сейлботу понадобится скопировать:
 
@@ -36,15 +36,15 @@ description: В статье расскажем, как быстро подкл�
 
 Чтобы скопировать секретный ключ, нажмите "Показать секрет":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 09.41.55.png" alt=""><figcaption><p>Рис. 4. Копируем секретный ключ</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 09.41.55.png" alt=""><figcaption><p>Рис. 4. Копируем секретный ключ</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 09.42.15.png" alt=""><figcaption><p>Рис. 5. Копируем секретный ключ</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 09.42.15.png" alt=""><figcaption><p>Рис. 5. Копируем секретный ключ</p></figcaption></figure>
 
 Сохраните ключ поблизости (или не закрывайте вкладку с http-уведомлениями) — он понадобится нам в дальнейшем.
 
 Шаг 2. Перейдите на главную страницу и скопируйте номер кошелька:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 09.43.02.png" alt=""><figcaption><p>Рис. 6. Копируем номер кошелька</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 09.43.02.png" alt=""><figcaption><p>Рис. 6. Копируем номер кошелька</p></figcaption></figure>
 
 {% hint style="success" %}
 Готово! Теперь перейдем к подключению в Salebot.
@@ -54,11 +54,11 @@ description: В статье расскажем, как быстро подкл�
 
 Для подключения ЮMoney необходимо перейти в раздел  "Эквайринг":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 09.28.31.png" alt=""><figcaption><p>Рис. 7. Раздел "Эквайринг" в Сейлботе для подключения сервисов приема платежей</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 09.28.31.png" alt=""><figcaption><p>Рис. 7. Раздел "Эквайринг" в Сейлботе для подключения сервисов приема платежей</p></figcaption></figure>
 
 Далее необходимо просто указать данные, о которых говорили выше в форму.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 09.50.02.png" alt=""><figcaption><p>Рис. 8. Заполняем поля номер кошелька и секретный ключ, которые ранее скопировали<br>на стороне Юмани</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 09.50.02.png" alt=""><figcaption><p>Рис. 8. Заполняем поля номер кошелька и секретный ключ, которые ранее скопировали<br>на стороне Юмани</p></figcaption></figure>
 
 И нажмите "Сохранить настройки".
 
@@ -74,7 +74,7 @@ description: В статье расскажем, как быстро подкл�
 
 Шаг 1. В калькуляторе прописываем payment\_sum:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 10.03.11.png" alt=""><figcaption><p>Рис. 9. Указываем переменную payment_sum в калькуляторе в блоке</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 10.03.11.png" alt=""><figcaption><p>Рис. 9. Указываем переменную payment_sum в калькуляторе в блоке</p></figcaption></figure>
 
 {% hint style="success" %}
 Минимальная сумма платежа — 10 рублей.&#x20;
@@ -86,11 +86,11 @@ description: В статье расскажем, как быстро подкл�
 
 **а) во вложение в виде ссылки:**
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 10.09.02.png" alt=""><figcaption><p>Рис. 10. Пример № 1, указываем #<strong>{yandex_money_pay_url} в поле url для отправки вложения в виде ссылки</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 10.09.02.png" alt=""><figcaption><p>Рис. 10. Пример № 1, указываем #<strong>{yandex_money_pay_url} в поле url для отправки вложения в виде ссылки</strong></p></figcaption></figure>
 
 б) в кнопке в виде ссылки — для этого нужно создать кнопку во втором блоке:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 10.14.11.png" alt=""><figcaption><p>Рис. 11. Пример " 2, указываем <strong>#{yandex_money_pay_url} в поле url настроек кнопки</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 10.14.11.png" alt=""><figcaption><p>Рис. 11. Пример " 2, указываем <strong>#{yandex_money_pay_url} в поле url настроек кнопки</strong></p></figcaption></figure>
 
 Укажите конструкцию <mark style="color:green;">**#{yandex\_money\_pay\_url}**</mark>**&#x20;в настройках кнопки&#x20;**<mark style="color:green;">**в поле url**</mark>
 
@@ -98,21 +98,21 @@ description: В статье расскажем, как быстро подкл�
 
 а) Тестирование бота с ссылкой на оплату во вложении:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 10.36.17.png" alt="" width="563"><figcaption><p>Рис. 12. Бот направляет ссылку в сообщении</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 10.36.17.png" alt="" width="563"><figcaption><p>Рис. 12. Бот направляет ссылку в сообщении</p></figcaption></figure>
 
 При переходе по ссылке клиент попадает в платежную форму Юмани:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 10.33.11.png" alt=""><figcaption><p>Рис. 13. Платежная форма</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 10.33.11.png" alt=""><figcaption><p>Рис. 13. Платежная форма</p></figcaption></figure>
 
 б) Тестирование бота с ссылкой на оплату в кнопке:
 
 Бот отрабатывается верно и направляет клиенту кнопку с ссылкой на оплату.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 10.32.55.png" alt="" width="563"><figcaption><p>Рис. 14. Отработка ботом схемы с кнопкой</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 10.32.55.png" alt="" width="563"><figcaption><p>Рис. 14. Отработка ботом схемы с кнопкой</p></figcaption></figure>
 
 При клике на кнопку клиент переходит в форму оплаты:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 10.33.11.png" alt=""><figcaption><p>Рис. 15. Платежная форма</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 10.33.11.png" alt=""><figcaption><p>Рис. 15. Платежная форма</p></figcaption></figure>
 
 {% hint style="danger" %}
 Обращаем внимание!
@@ -128,7 +128,7 @@ description: В статье расскажем, как быстро подкл�
 
 После успешной оплаты в бот придет колбек, по которому вы сможете понять, что оплата прошла. Этот колбек в системе вы видите как сообщения от пользователя, _<mark style="color:green;">**но пользователю он не отображается**</mark>_<mark style="color:green;">**.**</mark>&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 11.11.54.png" alt="" width="563"><figcaption><p>Рис. 16. Пример колбека</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 11.11.54.png" alt="" width="563"><figcaption><p>Рис. 16. Пример колбека</p></figcaption></figure>
 
 Колбек состоит из секрета и приписки со статусом, например: **qxgZ7zkNX4HHnG8UpZ61\_success**. Также после успешной оплаты переменная **yandex\_money\_payment\_completed** устанавливается в **True.**
 
@@ -152,9 +152,9 @@ yandex\_money\_pay\_url=""
 
 Чтобы отреагировать на колбек, необходимо создать блок с условием. Это может быть блок "Стартовое условие" или "Не состояние с условием":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 13.20.30.png" alt=""><figcaption><p>Рис. 17. Пример настройки реакции в блоке "Стартовое условие"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 13.20.30.png" alt=""><figcaption><p>Рис. 17. Пример настройки реакции в блоке "Стартовое условие"</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 13.21.20.png" alt=""><figcaption><p>Рис. 18. Пример настройки реакции в блоке "Не состояние с условием"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 13.21.20.png" alt=""><figcaption><p>Рис. 18. Пример настройки реакции в блоке "Не состояние с условием"</p></figcaption></figure>
 
 ## **Пример**&#x20;
 
@@ -162,59 +162,59 @@ yandex\_money\_pay\_url=""
 
 Пример схемы, которая позволит протестировать Чат-бота и быстро начать работу с ЮMoney:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 13.53.09.png" alt="" width="563"><figcaption><p>Рис. 19. Итоговая схема</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 13.53.09.png" alt="" width="563"><figcaption><p>Рис. 19. Итоговая схема</p></figcaption></figure>
 
 1. Выберите тип блока "Стартовое условие" и пропишите ключевые слова, на которые будет реагировать бот:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 13.31.24.png" alt=""><figcaption><p>Рис. 20. Настройка блока "Стартовое условие"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 13.31.24.png" alt=""><figcaption><p>Рис. 20. Настройка блока "Стартовое условие"</p></figcaption></figure>
 
 Так бот будет реагировать на приветственное сообщение от пользователя:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 13.30.46.png" alt="" width="563"><figcaption><p>Рис. 21. Отработка ботом в режиме тестирования</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 13.30.46.png" alt="" width="563"><figcaption><p>Рис. 21. Отработка ботом в режиме тестирования</p></figcaption></figure>
 
 2. Далее в этом же блоке создадим две кнопки "Базовый" и "Премиум", чтобы клиент переходил по стрелкам:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 13.32.04.png" alt="" width="563"><figcaption><p>Рис. 22. Кнопки в настройках блока</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 13.32.04.png" alt="" width="563"><figcaption><p>Рис. 22. Кнопки в настройках блока</p></figcaption></figure>
 
 3. Создаем два блока ниже. В настройках стрелки указываем в условие текст из кнопок:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 13.34.53.png" alt=""><figcaption><p>Рис. 23. Указываем в условии стрелки названия кнопок</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 13.34.53.png" alt=""><figcaption><p>Рис. 23. Указываем в условии стрелки названия кнопок</p></figcaption></figure>
 
 Теперь схема выглядит следующим образом:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 13.37.41.png" alt=""><figcaption><p>Рис. 24. Промежуточный вид схемы</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 13.37.41.png" alt=""><figcaption><p>Рис. 24. Промежуточный вид схемы</p></figcaption></figure>
 
 Теперь в зависимости от того, на какую кнопку нажмет клиент "Премиум" или "Базовый", он перейдет в один из блоков состояние.
 
 3. В настройках блока, стрелка к которому ведет по клику на кнопку "Премиум", укажем payment\_sum = 300, а во втором блоке payment\_sum = 150.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 13.42.37.png" alt=""><figcaption><p>Рис. 25. Настройки блока, в который ведет стрелка с условием "Премиум"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 13.42.37.png" alt=""><figcaption><p>Рис. 25. Настройки блока, в который ведет стрелка с условием "Премиум"</p></figcaption></figure>
 
 Аналогичные настройки у второго блока "Состояние":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 13.43.18.png" alt=""><figcaption><p>Рис. 26. Настройки блока, в который ведет стрелка с условием "Базовый"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 13.43.18.png" alt=""><figcaption><p>Рис. 26. Настройки блока, в который ведет стрелка с условием "Базовый"</p></figcaption></figure>
 
 3. Сформируем ссылку на оплату.
 
 Создадим блок ниже, в котором будет лежать ссылка на оплату. К этому блоку проведем стрелки из двух предыдущих блоков, в которых лежит переменная payment\_sum:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 13.47.58.png" alt=""><figcaption><p>Рис. 27. Настройки блока с кнопкой, в которой лежит ссылка на оплату</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 13.47.58.png" alt=""><figcaption><p>Рис. 27. Настройки блока с кнопкой, в которой лежит ссылка на оплату</p></figcaption></figure>
 
 Добавим кнопку с ссылкой на оплату:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 13.48.32.png" alt=""><figcaption><p>Рис. 28. Настройки кнопки</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 13.48.32.png" alt=""><figcaption><p>Рис. 28. Настройки кнопки</p></figcaption></figure>
 
 Обратите внимание, что в поле url <mark style="color:red;">**#{yandex\_money\_pay\_url} — это ссылка на оплату.**</mark>&#x20;
 
 Далее протягиваем стрелки из двух блоков к блоку с ссылкой на оплату:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 13.49.30.png" alt=""><figcaption><p>Рис. 29. Настройки стрелки с таймером</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 13.49.30.png" alt=""><figcaption><p>Рис. 29. Настройки стрелки с таймером</p></figcaption></figure>
 
 В настройках стрелки указываем задержку "0 секунд".&#x20;
 
 Теперь наша схема выглядит следующим образом:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 13.53.09.png" alt="" width="563"><figcaption><p>Рис. 30. Итоговая схема</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 13.53.09.png" alt="" width="563"><figcaption><p>Рис. 30. Итоговая схема</p></figcaption></figure>
 
 Как работает схема:
 
@@ -227,19 +227,19 @@ yandex\_money\_pay\_url=""
 
 Сначала выберем **базовый тариф:**
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 13.56.42.png" alt="" width="563"><figcaption><p>Рис. 31. Тестирование схемы: выбираем тариф "Базовый"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 13.56.42.png" alt="" width="563"><figcaption><p>Рис. 31. Тестирование схемы: выбираем тариф "Базовый"</p></figcaption></figure>
 
 При клике на кнопку оплаты клиент перейдет в форму оплаты Юмани с суммой в 150 рублей:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 13.59.09.png" alt=""><figcaption><p>Рис. 32. Форма оплаты</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 13.59.09.png" alt=""><figcaption><p>Рис. 32. Форма оплаты</p></figcaption></figure>
 
 Теперь выберем тариф "Премиум":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 13.59.58.png" alt="" width="563"><figcaption><p>Рис. 33. Тестирование бота: выбираем тариф "Премиум"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 13.59.58.png" alt="" width="563"><figcaption><p>Рис. 33. Тестирование бота: выбираем тариф "Премиум"</p></figcaption></figure>
 
 Теперь перейдем по ссылке:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 14.00.44.png" alt="" width="563"><figcaption><p>Рис. 34. Форма оплаты</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 14.00.44.png" alt="" width="563"><figcaption><p>Рис. 34. Форма оплаты</p></figcaption></figure>
 
 Бот снова отработал верно, при этом мы даже не обнуляли данные клиента при тестировании.&#x20;
 
@@ -249,11 +249,11 @@ yandex\_money\_pay\_url=""
 
 1. Создаем блок "Стартовое условие" и прописываем основные настройки:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 14.06.41.png" alt=""><figcaption><p>Рис. 35. Настройки блока "Стартовое условие"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 14.06.41.png" alt=""><figcaption><p>Рис. 35. Настройки блока "Стартовое условие"</p></figcaption></figure>
 
 2. Создаем блок ниже и в настройках стрелки указываем в поле "Условие" текст кнопки:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 14.07.50.png" alt=""><figcaption><p>Рис. 36. Настройки стрелки</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 14.07.50.png" alt=""><figcaption><p>Рис. 36. Настройки стрелки</p></figcaption></figure>
 
 {% hint style="success" %}
 Кнопка в блоке "Стартовое условие" простая: функция "По умолчанию" без ссылки.&#x20;
@@ -261,19 +261,19 @@ yandex\_money\_pay\_url=""
 
 3. Далее во втором блоке спрашиваем у клиента, какую сумму он готов пожертвовать:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 14.10.38.png" alt=""><figcaption><p>Рис. 37. Настройки блока "Состояние".</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 14.10.38.png" alt=""><figcaption><p>Рис. 37. Настройки блока "Состояние".</p></figcaption></figure>
 
 4. Создаем третий блок ниже и в настройках стрелки активируем чекбокс "Пользователь вводит данные" и указываем переменную payment\_sum:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 14.12.19.png" alt=""><figcaption><p>Рис. 38. Указываем переменную payment_sum в настройках стрелки</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 14.12.19.png" alt=""><figcaption><p>Рис. 38. Указываем переменную payment_sum в настройках стрелки</p></figcaption></figure>
 
 5. В третьем блоке создаем кнопку и прописываем любое сообщение:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 14.15.12.png" alt=""><figcaption><p>Рис. 39. Настройки кнопки, в которой лежит ссылка на оплату</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 14.15.12.png" alt=""><figcaption><p>Рис. 39. Настройки кнопки, в которой лежит ссылка на оплату</p></figcaption></figure>
 
 В поле url в настройках кнопки указываем <mark style="color:red;">**#{yandex\_money\_pay\_url} — это ссылка на оплату.**</mark>&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 14.15.55.png" alt=""><figcaption><p>Рис. 40. Настройки третьего блока "Состояние", который будет отправлять клиенту кнопку с ссылкой на оплату</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 14.15.55.png" alt=""><figcaption><p>Рис. 40. Настройки третьего блока "Состояние", который будет отправлять клиенту кнопку с ссылкой на оплату</p></figcaption></figure>
 
 Как работает схема?
 
@@ -288,11 +288,11 @@ yandex\_money\_pay\_url=""
 
 В режиме тестирования бот отработался верно.&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 14.22.25.png" alt="" width="563"><figcaption><p>Рис. 41. Тестирование схемы чат-бота</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 14.22.25.png" alt="" width="563"><figcaption><p>Рис. 41. Тестирование схемы чат-бота</p></figcaption></figure>
 
 При клике на кнопку с ссылкой на оплату, открывается форма оплаты с введенной суммой в боте:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-01 в 14.22.29.png" alt=""><figcaption><p>Рис. 42. Форма оплаты</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-01 в 14.22.29.png" alt=""><figcaption><p>Рис. 42. Форма оплаты</p></figcaption></figure>
 
 {% hint style="success" %}
 Готово!&#x20;

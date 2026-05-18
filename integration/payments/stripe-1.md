@@ -18,45 +18,45 @@ hidden: true
 
 Шаг 1. Переходим в раздел Developers -> API key:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 12.30.16.png" alt=""><figcaption><p>Рис. 1. Как найти раздел api keys</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 12.30.16.png" alt=""><figcaption><p>Рис. 1. Как найти раздел api keys</p></figcaption></figure>
 
 Шаг 2. Находим и копируем Secret key:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 12.33.47.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 12.33.47.png" alt=""><figcaption></figcaption></figure>
 
 Дальше нужно установить URL-адрес для колбэков. Это необходимо для того, чтобы бот получал уведомления об оплате.&#x20;
 
 Переходим в раздел Webhooks и добавляем адрес для вебхуков.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 12.35.23.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 12.35.23.png" alt=""><figcaption></figcaption></figure>
 
 Откроется форма:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 12.38.29.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 12.38.29.png" alt=""><figcaption></figcaption></figure>
 
 Шаг 1. Нажимаем на "+add destination".
 
 Шаг 2.  Выбираем events:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 12.39.29.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 12.39.29.png" alt=""><figcaption></figcaption></figure>
 
 Шаг 3. Выбираем тип "Webhook endpoint":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 12.39.45.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 12.39.45.png" alt=""><figcaption></figcaption></figure>
 
 Шаг 4. Ознакамливаемся с типом запроса и кликаем "Продолжить":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 12.40.02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 12.40.02.png" alt=""><figcaption></figcaption></figure>
 
 Шаг 5. Прописываем название и указываем URL endpoint:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 12.40.51.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 12.40.51.png" alt=""><figcaption></figcaption></figure>
 
 URL указываем - [https://chatter.salebot.pro/stripe\_callback/result](https://chatter.salebot.pro/stripe_callback/result)
 
 Шаг 6. Будет создано два эндпоинта, можно посмотреть настройки перед добавлением:&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-02 в 12.41.26.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2025-07-02 в 12.41.26.png" alt="" width="563"><figcaption></figcaption></figure>
 
 &#x20;и выбираем событие:
 
@@ -90,7 +90,7 @@ URL указываем - [https://chatter.salebot.pro/stripe\_callback/\<api\_ke
 * `charge.pending`
 * `charge.succeeded`
 
-<figure><img src="../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:blue;">**Подробнее о каждом из типов вебхука:**</mark>\
 **charge.succeeded** - содержит информацию об успешном завершении транзакции (аналогичен колбеку об успешной оплате)\
@@ -125,7 +125,7 @@ _Вебхук будет иметь вид {первые 10 символов }_{
 
 Если все сделать правильно, то в случае с налоговой ставкой с параметром exclusive Вы увидите следующее
 
-<figure><img src="../.gitbook/assets/image_2023-03-15_12-17-44.png" alt=""><figcaption><p>Пример платежа с налоговой ставкой типа exclusive</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image_2023-03-15_12-17-44.png" alt=""><figcaption><p>Пример платежа с налоговой ставкой типа exclusive</p></figcaption></figure>
 
 ## **Как получить ссылку на оплату**
 
@@ -374,7 +374,7 @@ wechat\_pay zip
 На повторные коллбэка НЕ БУДЕТ. Контроль идет [через функцию](stripe-1.md#proverka-statusa-podpiski) и stripe\_customer\_id.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (127).png" alt="" width="371"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (127).png" alt="" width="371"><figcaption></figcaption></figure>
 
 
 

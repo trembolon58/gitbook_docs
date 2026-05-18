@@ -287,11 +287,11 @@ _\*принадлежит Meta, деятельность которой приз
 
 Посмотреть настройки кнопки с функцией Оплата для разных платежных провайдеров можно здесь:
 
-* для [Prodamus здесь](../../../../platezhnye-sistemy/platezhnaya-sistema-prodamus-prodamus.md)
-* для [Robokassa здесь](../../../../platezhnye-sistemy/priem-platezhei-cherez-robokassu.md)[priem-platezhei-cherez-robokassu.md](../../../../platezhnye-sistemy/priem-platezhei-cherez-robokassu.md "mention")
-* для [Тбанк здесь](../../../../platezhnye-sistemy/tinkoff.md)
-* для [ЮKassa здесь](../../../../platezhnye-sistemy/priem-platezhei-v-bote-cherez-yandeks.kassu.md)
-* для [Cloudpayments здесь](../../../../platezhnye-sistemy/cloudpayments.md)
+* для [Prodamus здесь](../../../../integration/payments/platezhnaya-sistema-prodamus-prodamus.md)
+* для [Robokassa здесь](../../../../integration/payments/priem-platezhei-cherez-robokassu.md)[priem-platezhei-cherez-robokassu.md](../../../../integration/payments/priem-platezhei-cherez-robokassu.md "mention")
+* для [Тбанк здесь](../../../../integration/payments/tinkoff.md)
+* для [ЮKassa здесь](../../../../integration/payments/priem-platezhei-v-bote-cherez-yandeks.kassu.md)
+* для [Cloudpayments здесь](../../../../integration/payments/cloudpayments.md)
 
 <mark style="color:green;">**Обязательными полями для формирования ссылки**</mark> будут Сумма и Наименование товара/Описание товара. \
 **поле Сумма.** В данном поле нужно указать сумму к оплате.
