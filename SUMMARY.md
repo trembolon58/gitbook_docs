@@ -110,7 +110,7 @@
   * [Discord](chatbots/channels/discord/README.md)
     * [Как создать чат-бота в Discord](chatbots/channels/discord/kak-sozdat-chat-bota-v-discord.md)
     * [Функции API для Discord](chatbots/channels/discord/funkcii-api-dlya-discord.md)
-  * [Email](rassylki/email-rassylki/README.md)
+  * [Email](broadcasts/email/README.md)
   * [Instagram\*](chatbots/channels/instagram/README.md)
     * [Как создать чат-бота для Instagram\*](chatbots/channels/instagram/kak-sozdat-chat-bota-dlya-instagram.md)
     * [Кнопки и вложения в Instagram\*](chatbots/channels/instagram/knopki-i-vlozheniya-v-instagram.md)
@@ -273,18 +273,18 @@
   * [Кастомные роли для трансляций](dlya-onlain-shkol/translyacii/kastomnye-roli-dlya-translyacii.md)
 * [Аналитика курсов](analitika-dlya-biznesa/analitika-salebot/analitika-kursov.md)
 
-## Рассылки
+## Рассылки <a href="#broadcasts" id="broadcasts"></a>
 
-* [Email-рассылки](rassylki/email-rassylki/README.md)
-  * [Привязка домена и создание почтовых ящиков](rassylki/email-rassylki/privyazka-domena-i-sozdanie-pochtovykh-yashikov.md)
-  * [Подключение email-бота](rassylki/email-rassylki/podklyuchenie-email-bota.md)
-  * [Создание email-рассылки](rassylki/email-rassylki/sozdanie-email-rassylki.md)
-  * [Конструктор email-письма](rassylki/email-rassylki/konstruktor-email-pisma.md)
-* [Рассылки в мессенджеры](rassylki/rassylki-v-messendzhery.md)
-* [Автоворонки](rassylki/avtovoronki.md)
-* [Отписка клиента от бота](rassylki/otpiska-klienta-ot-bota.md)
-* [Как отфильтровать клиентов для рассылки](rassylki/kak-otfiltrovat-klientov-dlya-rassylki.md)
-* [Перенос клиентской базы. Загрузка номеров Whatsapp](rassylki/perenos-klientskoi-bazy.-zagruzka-nomerov-whatsapp.md)
+* [Email-рассылки](broadcasts/email/README.md)
+  * [Привязка домена и создание почтовых ящиков](broadcasts/email/domain.md)
+  * [Подключение email-бота](broadcasts/email/connecting.md)
+  * [Создание email-рассылки](broadcasts/email/creation.md)
+  * [Конструктор email-письма](broadcasts/email/mailings_builder.md)
+* [Рассылки в мессенджеры](broadcasts/campaings.md)
+* [Автоворонки](broadcasts/autofunnel.md)
+* [Отписка клиента от бота](broadcasts/unsubscribe.md)
+* [Как отфильтровать клиентов для рассылки](broadcasts/filter.md)
+* [Перенос клиентской базы. Загрузка номеров Whatsapp](broadcasts/customer_base.md)
 
 ## Аналитика для бизнеса
 

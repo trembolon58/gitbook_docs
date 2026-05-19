@@ -19,7 +19,7 @@
 {% endhint %}
 
 {% hint style="warning" %}
-<mark style="color:red;">**Важно:**</mark> Если у вас есть свой домен, но нет на нем почтового ящика, его можно создать на нашем сервисе в разделе “[Домены](podklyuchenie-email-bota.md#privyazka-domena-i-sozdanie-pochtovykh-yashikov)”.\
+<mark style="color:red;">**Важно:**</mark> Если у вас есть свой домен, но нет на нем почтового ящика, его можно создать на нашем сервисе в разделе “[Домены](connecting.md#privyazka-domena-i-sozdanie-pochtovykh-yashikov)”.\
 Если почтовый ящик создан на нашей платформе, подтверждающий код, не потребуется.
 {% endhint %}
 

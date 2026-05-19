@@ -3,9 +3,9 @@
 {% hint style="warning" %}
 Обращаем внимание!
 
-Если домен зарегистрирован не в Salebot, а на стороннем сервисе, для корректной работы необходимы записи [dkim](privyazka-domena-i-sozdanie-pochtovykh-yashikov.md#dkim-zapis), [SPF](privyazka-domena-i-sozdanie-pochtovykh-yashikov.md#spf-zapis) (сразу обе!). Получить их можно в настройках email-бота.&#x20;
+Если домен зарегистрирован не в Salebot, а на стороннем сервисе, для корректной работы необходимы записи [dkim](domain.md#dkim-zapis), [SPF](domain.md#spf-zapis) (сразу обе!). Получить их можно в настройках email-бота.&#x20;
 
-Подробнее об этом читайте [ниже](privyazka-domena-i-sozdanie-pochtovykh-yashikov.md#spf-zapis).&#x20;
+Подробнее об этом читайте [ниже](domain.md#spf-zapis).&#x20;
 
 <mark style="color:red;">**Без этих записей google- и яндекс-почта будут БЛОКИРОВАТЬ исходящие письма!**</mark>
 
@@ -163,7 +163,7 @@
 
 ### **Как подключить SMTP**
 
-Чтобы подключить SMTP, необходимо зарегистрировать ваш домен в личном кабинете Salebot и создать почтовый ящик (как это сделать рассказано [здесь](privyazka-domena-i-sozdanie-pochtovykh-yashikov.md#privyazka-domena-i-sozdanie-pochtovykh-yashikov)).
+Чтобы подключить SMTP, необходимо зарегистрировать ваш домен в личном кабинете Salebot и создать почтовый ящик (как это сделать рассказано [здесь](domain.md#privyazka-domena-i-sozdanie-pochtovykh-yashikov)).
 
 <figure><img src="../../.gitbook/assets/image (16) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
