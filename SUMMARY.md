@@ -72,6 +72,7 @@
   * [Сравнение по смыслу](chatbots/ai_assistant/semantic_match.md)
 * [Подключение мессенджеров и каналов](chatbots/channels/README.md)
   * [MAX](chatbots/channels/max/README.md)
+    * [Как подключить MAX к Salebot](chatbots/channels/max/kak-podklyuchit-max-k-salebot.md)
     * [Чат-бот MAX](chatbots/channels/max/chatbot_max.md)
     * [Функции для работы с MAX](chatbots/channels/max/function.md)
     * [Перенос закрытых клубов из TG в MAX](chatbots/channels/max/shift.md)
