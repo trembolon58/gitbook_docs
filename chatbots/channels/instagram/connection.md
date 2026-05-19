@@ -41,7 +41,7 @@
 
 ## Как подключить аккаунт к Salebot
 
-Чтобы подключить аккаунт Instagram<mark style="color:red;">**\***</mark> к Salebot, вам необходимо сначала подготовить свой аккаунт, переключив его на профессиональный (как это сделать, [рассказали выше](kak-sozdat-chat-bota-dlya-instagram.md#kak-podgotovit-svoi-akkaunt-instagram)).&#x20;
+Чтобы подключить аккаунт Instagram<mark style="color:red;">**\***</mark> к Salebot, вам необходимо сначала подготовить свой аккаунт, переключив его на профессиональный (как это сделать, [рассказали выше](connection.md#kak-podgotovit-svoi-akkaunt-instagram)).&#x20;
 
 Далее перейдите в раздел "Каналы" в Salebot:
 

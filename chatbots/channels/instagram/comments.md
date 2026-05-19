@@ -23,7 +23,7 @@
 
 <figure><img src="https://lh3.googleusercontent.com/SAF0lxh1qG2VGPiF9wWTl72TxRN4zMRnfjYN3vXPCSwo56RNJjYcIziBzEmM7tyP6RIOWxEjpW6P9HJbgnuuMxIlqaZF15zv722GQ8e5bJUQ2JLTe8LST-9rVqody1FzQdQQBoa9JIpNtZOB8H4GVpM" alt="" width="188"><figcaption></figcaption></figure>
 
-И подключаете аккаунт Instagram<mark style="color:red;">\*</mark> заново. Как подключить Instagram<mark style="color:red;">\*</mark>смотрите [здесь ](kak-rabotat-s-kommentariyami.md#kak-podklyuchit-messendzher-videoinstrukciya)
+И подключаете аккаунт Instagram<mark style="color:red;">\*</mark> заново. Как подключить Instagram<mark style="color:red;">\*</mark>смотрите [здесь ](comments.md#kak-podklyuchit-messendzher-videoinstrukciya)
 
 {% hint style="warning" %}
 При публикации постов в соавторстве все уведомления о комментариях придут в тот аккаунт, в котором СОЗДАЕТЕ публикацию.&#x20;
