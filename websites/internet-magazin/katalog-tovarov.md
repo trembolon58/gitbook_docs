@@ -53,7 +53,7 @@
 3. настроить отображение секции: ширину секции, видимость, размер и ширину.
 
 {% hint style="success" %}
-Подробнее об универсальных настройках секций рассказали [здесь](../konstruktor-saitov/sekcii-bloki/universalnye-nastroiki-sekcii/).
+Подробнее об универсальных настройках секций рассказали [здесь](../builder/sekcii-bloki/universalnye-nastroiki-sekcii/).
 {% endhint %}
 
 Теперь перейдите в предпросмотр:
@@ -110,7 +110,7 @@
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-02-05 в 12.37.34.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-Подробнее о настройках отображение секций [рассказали в одноименной статье](../konstruktor-saitov/sekcii-bloki/universalnye-nastroiki-sekcii/nastroiki-otobrazheniya.md)
+Подробнее о настройках отображение секций [рассказали в одноименной статье](../builder/sekcii-bloki/universalnye-nastroiki-sekcii/nastroiki-otobrazheniya.md)
 {% endhint %}
 
 ## Как поменять адрес сайта?
@@ -144,5 +144,5 @@
 {% endhint %}
 
 {% hint style="info" %}
-Если вы хотите установить собственный домен, то [рассказано об этом здесь](../konstruktor-saitov/nastroiki-saita.md#kak-ustanovit-svoi-domen).
+Если вы хотите установить собственный домен, то [рассказано об этом здесь](../builder/nastroiki-saita.md#kak-ustanovit-svoi-domen).
 {% endhint %}

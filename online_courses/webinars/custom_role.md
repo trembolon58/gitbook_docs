@@ -47,7 +47,7 @@
 ## Как проверить, был ли ученик на вебинаре
 
 {% hint style="info" %}
-Подробно рассказали в статье "[Функции калькулятора для курсов](../kak-prodavat-kursy/prodazha-kursov-v-chat-bote/funkcii-kalkulyatora-dlya-kursov.md#kak-proverit-byl-li-uchenik-na-vebinare)"
+Подробно рассказали в статье "[Функции калькулятора для курсов](../selling/chatbot/funkcii-kalkulyatora-dlya-kursov.md#kak-proverit-byl-li-uchenik-na-vebinare)"
 {% endhint %}
 
 ## Как посмотреть статистику

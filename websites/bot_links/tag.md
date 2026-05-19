@@ -65,7 +65,7 @@
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-03-18 в 11.50.02.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-О настройке блока с формой и кнопками в мессенджер, рассказали в статье "[Ответы форм](../konstruktor-saitov/lending-dlya-sbora-zayavok/nastroiki-kontenta-formy.md)" в разделе настройка контента.&#x20;
+О настройке блока с формой и кнопками в мессенджер, рассказали в статье "[Ответы форм](../builder/lending-dlya-sbora-zayavok/nastroiki-kontenta-formy.md)" в разделе настройка контента.&#x20;
 {% endhint %}
 
 При клике на кнопку пользователю предлагается перейти непосредственно в мессенджер:
