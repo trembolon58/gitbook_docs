@@ -1,104 +1,62 @@
 ---
-hidden: true
+description: >-
+  В статье расскажем, как автоматизировать подписку в платные закрытые группы
+  ВК.
 ---
 
 # Автоматизация Вконтакте
 
-Теперь в Salebot можно полностью автоматизировать работу закрытых каналов/чатов (клубов) в Telegram.
+Теперь в Salebot можно полностью автоматизировать работу закрытых групп во Вконтакте.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-02-23 в 10.26.11.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-05-19 в 09.30.26.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Выдача доступа после оплаты, добавление и удаление участников, контроль сроков подписки — всё настраивается автоматически.
 
-## Подготовка группы/канала
+## Подготовка группы
 
-Чтобы успешно автоматизировать подписки в закрытые каналы или группы, Вам необходимо создать Telegram-бота, затем добавить его в канал/группу с правами администратора.
+Для того чтобы автоматизировать подписку, нужно добавить бота к вашей группе.
 
-{% hint style="success" %}
-#### Создать Telegram-бота
-
-Как создать Telegram-бота и подключить его к Salebot, [рассказали в этой статье.](../channels/telegram/chatbot.md)
+{% hint style="info" %}
+[Подробнее о том, как подключить чат-бота к группе и к Сейлботу, рассказали здесь.](../channels/vk/chat-bot-dlya-gruppy-vk.md)
 {% endhint %}
 
-### Как добавить бота в группу/канал Telegram
-
-Эта возможность для бота включается  в BotFather:
-
-Шаг 1. Переходим в настройки бота:
-
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-24 в 13.45.09.png" alt="" width="358"><figcaption><p>Кликаем на Bot Settings</p></figcaption></figure></div>
-
-Шаг 2. Кликните по "Allow Groups?'
-
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-24 в 13.49.11.png" alt="" width="328"><figcaption><p>Allow Groups?</p></figcaption></figure></div>
-
-Шаг 3. Должен быть статус enabled
-
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-24 в 13.53.40.png" alt="" width="375"><figcaption></figcaption></figure></div>
-
-### Видео-инструкция
-
-{% embed url="https://www.youtube.com/watch?v=yDVp-rCCHtA" %}
-Как включить возможность добавлять бота в группы и каналы
-{% endembed %}
-
-### Добавить бота как администратора в группе/канале
-
-Шаг 1.  Перейдите в Управление группой/каналом и выберите вкладку “Администраторы”
-
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-24 в 14.11.27.png" alt="" width="375"><figcaption></figcaption></figure></div>
-
-Шаг 2. Нажмите кнопку “Добавить Администратора”
-
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-24 в 14.11.42.png" alt="" width="563"><figcaption></figcaption></figure></div>
-
-Шаг 3.  В поисковой строке введите логин Вашего бота.&#x20;
-
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-24 в 14.12.24.png" alt="" width="563"><figcaption></figcaption></figure></div>
-
-Шаг 4. Для успешной работы бота предоставьте права на работу/удаление сообщений:
-
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-24 в 14.12.38.png" alt="" width="347"><figcaption></figcaption></figure></div>
+После того как вы подключили группу Вк к Сейлботу, можно приступить к настройкам автоматизации.
 
 ## Настройки автоматизации
 
-Чтобы автоматизировать работу в закрытых клубах по подписке, наведите курсором на "Конструктор". Тогда откроется меню, где вы увидите вкладку с автоматизацией Telegram:
+Чтобы автоматизировать работу в закрытых группах с платной подпиской, наведите курсором на "Конструктор". Тогда откроется меню, где вы увидите вкладку Вконтакте:
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-02-23 в 09.42.51.png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-05-19 в 09.58.18.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Далее нажмите на "Добавить автоматизацию". Тогда откроются настройки автоматизации с двумя вкладками: Основные настройки и Настройки сообщений.
 
 ### Основные настройки
 
-В основных настройках выберите бота, который подключен к закрытому каналу/группе:
+В основных настройках выберите группу, к которой нужно автоматизировать доступ по платной подписке:
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-02-23 в 10.52.33.png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-05-19 в 10.00.51.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-Важно!
-
-Если бот не подключен к каналу или группе, то в плашке выбора группы и канала будет указано "Нет доступных групп":
-
-<img src="../../.gitbook/assets/Снимок экрана 2026-02-23 в 11.02.05.png" alt="" data-size="original">
+При выборе группы, подключенной к Сейлботу, поле "Ссылка на группу для вступления" будет заполнено автоматически.
 {% endhint %}
 
-Далее выберите группу/канал, к которому подключен бот с ролью администратора:
+Далее найдем в настройках группы Вк токен администратора.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-02-23 в 11.10.43.png" alt="" width="563"><figcaption></figcaption></figure></div>
+Для этого перейдите во вкладку "Управление сообществом":
 
-Создайте в настройках Telegram-канала пригласительную ссылку с одобрением заявки (вкл. Заявка на вступление).
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-05-19 в 10.06.42.png" alt=""><figcaption></figcaption></figure></div>
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-02-23 в 11.12.45.png" alt="" width="375"><figcaption></figcaption></figure></div>
+Далее нажмите "Дополнительно" — тогда откроется вкладка "Работа с API", где можно найти токен ВК для группы.
 
-После создания скопируйте ссылку и вставьте ее в указанном поле:
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-05-19 в 10.31.32.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-02-23 в 11.19.42.png" alt="" width="563"><figcaption></figcaption></figure></div>
+Можно создать новый ключ (токен) или скопировать существующий. Затем скопируйте токен и вставьте его в поле:
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-02-23 в 11.20.54.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-05-19 в 10.33.32.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 В условии запуска бота можно оставить одно условие "/start" и добавить доп. условия через точку с запятой (;).
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-02-23 в 11.24.13.png" alt="" width="492"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-05-19 в 10.35.24.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Внимание!
@@ -108,11 +66,11 @@ hidden: true
 
 Далее выберите сервис для приема платежей по подписке:
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-02-23 в 11.25.55.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-05-19 в 10.36.54.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Затем настройте тарифы для подписки:
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-02-23 в 11.26.25.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-05-19 в 10.37.49.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Нужно прописать:
 
@@ -141,9 +99,3 @@ hidden: true
 {% hint style="success" %}
 Готово! Ваша автоматизация подписки в клубы завершена с помощью простых и понятных шагов.
 {% endhint %}
-
-Как работает автоматизация с минимальными настройками:
-
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Запись экрана 2026-02-23 в 11.41.42.gif" alt="" width="324"><figcaption></figcaption></figure></div>
-
-Больше не нужно вручную проверять оплаты и управлять участниками. Salebot сам следит за доступом и помогает поддерживать порядок в группе.
