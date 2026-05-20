@@ -170,7 +170,7 @@
   * [Автоматизация Telegram](chatbots/quick_automation/telegram.md)
   * [Автоматизация TikTok](chatbots/quick_automation/tiktok.md)
 * [Онлайн-чат](chatbots/onlain-chat.md)
-* [Файлы](chatbots/faily.md)
+* [Файлы (хранилище)](chatbots/faily-khranilishe.md)
 
 ## CRM-система
 

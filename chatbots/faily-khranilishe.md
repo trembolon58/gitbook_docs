@@ -1,8 +1,33 @@
-# Файлы
+# Файлы (хранилище)
+
+{% hint style="warning" %}
+В целях обеспечения безопасности клиентов и пользователей на платформе запрещается хранение, загрузка, передача, отправка, получение и обработка исполняемых файлов, а также файлов, которые могут содержать программный код, сценарии, установочные пакеты или иные потенциально опасные элементы.
+
+Данное ограничение введено для предотвращения распространения вредоносного программного обеспечения, несанкционированного выполнения кода, компрометации устройств пользователей и иных угроз информационной безопасности.
+
+К запрещённым типам файлов относятся, включая, но не ограничиваясь:
+
+**Исполняемые файлы и установщики:**\
+.exe, .com, .bat, .cmd, .msi, .msp, .scr, .app, .apk, .ipa, .dmg, .pkg, .deb, .rpm, .appimage
+
+**Скрипты и сценарии:**\
+.ps1, .vbs, .js, .py, .rb, .php, .sh, .bash, .cgi, .asp, .aspx, .jsp
+
+**Макросы и потенциально опасные документы:**\
+.docm, .xlsm, .pptm, .dotm, .xlam
+
+**Библиотеки и системные компоненты:**\
+.dll, .sys, .drv, .ocx
+
+**Другие потенциально опасные типы файлов:**\
+.jar, .class, .swf, .hta, .chm, .reg, .svg, .xml, .html
+
+Полный перечень запрещённых расширений может изменяться и дополняться администрацией платформы без предварительного уведомления.
+{% endhint %}
 
 Файловое хранилище — это удобное и безопасное решение для организации, хранения и совместного использования данных, позволяющее эффективно управлять информацией и обеспечивать её доступность в проекте, созданном в Salebot
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-07 в 09.41.51.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-07 в 09.41.51.png" alt=""><figcaption></figcaption></figure></div>
 
 <mark style="color:green;">**✓**</mark> Одним из главных преимуществ хранилища является возможность централизованного управления всеми файлами в одном проекте. Это удобно, потому что вам больше не нужно тратить время на поиск нужных документов или других файлов на сторонних сервисах, где вместе с файлами по вашему бизнесу будут присутствовать и не особо нужные изображения, аудио- или видеозаписи.&#x20;
 
@@ -16,7 +41,7 @@
 
 ## Как работать с файловым хранилищем
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-07 в 09.43.07.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-07 в 09.43.07.png" alt=""><figcaption></figcaption></figure></div>
 
 В основной функционал хранилища входит:
 
@@ -24,11 +49,11 @@
 
 Чтобы загрузить файл в проект, необходимо кликнуть по одноименной кнопке справа на экране:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-07 в 09.43.34.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-07 в 09.43.34.png" alt=""><figcaption></figcaption></figure></div>
 
 Далее в открывшемся окне выберите необходимый файл, после чего он загрузится в проект:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-07 в 09.48.06.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-07 в 09.48.06.png" alt=""><figcaption></figcaption></figure></div>
 
 2. **Хранение данных**:
 
@@ -36,7 +61,7 @@
 
 Поэтому после загрузки он будет хранится в соответствующей вкладке:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-07 в 09.49.29.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-07 в 09.49.29.png" alt=""><figcaption></figcaption></figure></div>
 
 3. **Поиск и фильтрация файлов**:
 
@@ -44,15 +69,15 @@
 
 а) типу:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-07 в 09.50.34.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-07 в 09.50.34.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 б) по дате загрузки:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-07 в 09.52.02.png" alt="" width="322"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-07 в 09.52.02.png" alt="" width="322"><figcaption></figcaption></figure></div>
 
 в) по размеру:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-09-20 в 12.46.13.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-09-20 в 12.46.13.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Чтобы отфильтровать файлы по размеру, кликните на строку "Размер".&#x20;
 
@@ -60,7 +85,7 @@
 
 Пользователи могут отслеживать и управлять количеством занимаемого места, контролировать, сколько данных загружено.&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-07 в 09.53.37.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-07 в 09.53.37.png" alt=""><figcaption></figcaption></figure></div>
 
 Если окажется, что места недостаточно, то можно приобрести дополнительный объем хранилища согласно тарифной сетке.&#x20;
 
@@ -72,25 +97,25 @@
 
 Если вам необходимо просмотреть файлы, которые были загружены в диалогах с клиентами (учениками), то воспользуйтесь соответствующей вкладкой "Файлы диалогов":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-07 в 09.59.56.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-07 в 09.59.56.png" alt=""><figcaption></figcaption></figure></div>
 
 Файлы из блоков чат-бота в схеме конструктора воронок можно найти в соответствующей вкладке "Файлы из конструктора":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-07 в 09.59.17.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-07 в 09.59.17.png" alt=""><figcaption></figcaption></figure></div>
 
 Файлы, загруженные в других разделах проекта (в т.ч. из файлового хранилища), будут находится во вкладке "Загруженные операторами файлы":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-07 в 10.00.25.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-07 в 10.00.25.png" alt=""><figcaption></figcaption></figure></div>
 
 Также в разделе можно просмотреть сертификаты:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-07 в 10.01.26.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-07 в 10.01.26.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Индикаторы файла
 
 В строке с загруженным файлом можно увидеть индикаторы: зеленый, желтый, оранжевый и красный.&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-03-25 в 10.12.24.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-03-25 в 10.12.24.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Индикаторы обозначают размер файла. Красный индикатор также может говорить о том, что либо файл слишком большой (превышен лимит размера файла), либо файл с какой-либо ошибкой.&#x20;
 
@@ -98,19 +123,19 @@
 
 Чтобы файлы из диалога с клиентом не сохранялись в файловом хранилище перейдите в настройки проекта:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-11-06 в 09.46.47.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-11-06 в 09.46.47.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Далее необходимо в настройках проекта перейти во вкладку "Переписка":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-11-06 в 09.47.58.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-11-06 в 09.47.58.png" alt=""><figcaption></figcaption></figure></div>
 
 Во вкладке переписка находится нужный чекбокс, который поможет отключить сохранение файлов из диалога:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-11-06 в 09.50.48.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-11-06 в 09.50.48.png" alt=""><figcaption></figcaption></figure></div>
 
 Поставьте чекбокс в неактивное положение и тогда файлы из переписки с клиентом не будут сохраняться в файловое хранилище:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-11-06 в 09.57.21.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-11-06 в 09.57.21.png" alt=""><figcaption></figcaption></figure></div>
 
 ## **Очищение хранилища**
 
@@ -128,15 +153,15 @@
 
 Для массового удаления файлов нажмите на соответствующую кнопку, затем внизу экрана откроется плашка для выбора периода:&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2025-07-07 в 10.21.55.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2025-07-07 в 10.21.55.png" alt=""><figcaption></figcaption></figure></div>
 
 Нажмите на период, за который необходимо удалить файлы в проекте:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-09-20 в 13.14.22.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-09-20 в 13.14.22.png" alt=""><figcaption></figcaption></figure></div>
 
 Откроется окно с выбором:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-09-20 в 13.16.06.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-09-20 в 13.16.06.png" alt=""><figcaption></figcaption></figure></div>
 
 В открывшемся модальном окне можно выбрать какие файлы вам необходимо удалить из хранилища:
 
@@ -146,21 +171,21 @@
 4. Файлы, которые были загружены в других разделах Salebot (не в конструкторе и диалогах)
 5. Период, С которого и (или) ДО которого необходимо удалить файлы:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-09-20 в 13.25.46.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-09-20 в 13.25.46.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Единичное удаление файлов
 
 Можно удалять файлы по одному, например, воспользовавшись кнопкой справа на экране:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-09-20 в 13.28.57.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-09-20 в 13.28.57.png" alt=""><figcaption></figcaption></figure></div>
 
 При необходимости удаление нескольких файлов, отметьте галочку напротив необходимых файлов:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-09-20 в 13.30.00.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-09-20 в 13.30.00.png" alt=""><figcaption></figcaption></figure></div>
 
 После чего откроется плашка с удалением файлов, где необходимо найти кнопку "Удалить файлы":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-09-20 в 13.30.20.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-09-20 в 13.30.20.png" alt=""><figcaption></figcaption></figure></div>
 
 Тогда в проекте удалятся только те файлы, которые вы отметили галочкой.&#x20;
 
@@ -172,28 +197,28 @@
 
 В диалоге с клиентом можно прикреплять файлы, загруженные в хранилище. Для этого найдите кнопку "Прикрепить файл":
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-09-20 в 13.34.53.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-09-20 в 13.34.53.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Нажмите на кнопку "Прикрепить файл" и выберите необходимый из хранилища (или загрузите новый):
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-09-20 в 13.36.10.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-09-20 в 13.36.10.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### **Диалог с учеником**
 
 Аналогично диалогу с клиентом, необходимо перейти в диалог с учеником и прикрепить необходимый файл, выбрав его из хранилища:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-09-20 в 13.43.20.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-09-20 в 13.43.20.png" alt=""><figcaption></figcaption></figure></div>
 
 ### **Сайты и уроки**
 
 Для сайта и страницы урока онлайн-курса существуют различные секции, в которые можно вложить медиа-файлы: использовать файлы из хранилища можно в блоках медиа и обложки.&#x20;
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-09-20 в 13.54.15.png" alt="" width="285"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-09-20 в 13.54.15.png" alt="" width="285"><figcaption></figcaption></figure></div>
 
 Из хранилища в блок загружается изображение:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-09-20 в 13.52.16.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-09-20 в 13.52.16.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 А также видео и превью для него:
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-09-20 в 13.51.31.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Снимок экрана 2024-09-20 в 13.51.31.png" alt="" width="375"><figcaption></figcaption></figure></div>
