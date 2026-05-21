@@ -24,13 +24,9 @@ description: В данной статье расскажем, как настр�
 
 ## Создание тарифа
 
-После создания курса необходимо перейти в соответствующую вкладку "Тарифы":
+Чтобы создать тариф в онлайн-курсах, перейдите в соответствующую вкладку в настройках курса:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 16.28.33.png" alt="" width="563"><figcaption></figcaption></figure>
-
-Вы перейдете во вкладку "Тарифы" в настройках курса, где уже существует базовый бесплатный тариф:
-
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 16.30.18.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-05-21 в 09.36.52.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="success" %}
 Обращаем внимание!
@@ -46,29 +42,29 @@ description: В данной статье расскажем, как настр�
 
 Чтобы создать новый тариф, кликните по одноименной кнопке:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 16.39.28.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-05-21 в 09.38.14.png" alt=""><figcaption></figcaption></figure></div>
 
 Либо отредактируйте Базовый тариф, существующий по умолчанию:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 16.40.52.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 16.40.52.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Тогда вы перейдете в форму настройки тарифа, которое выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 16.42.41.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 16.42.41.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ## Поля ввода
 
 **Название тарифа** - текстовое поле для наименования, которое будет отображаться на странице курса.&#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 16.45.18.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 16.45.18.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 **Описание тарифа** - текстовое поле, которое поддерживает форматирование текста, создание списков и добавление ссылок. Оформить описание вы можете на свое усмотрение.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 16.47.22.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 16.47.22.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 **Стоимость тарифа** - поле для ввода стоимости курса.
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 16.48.22.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 16.48.22.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Обращаем внимание!
@@ -78,23 +74,79 @@ description: В данной статье расскажем, как настр�
 
 Установить стоимость тарифа можно не только в российском рубле, но и использовать другие валюты:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 16.50.53.png" alt="" width="167"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 16.50.53.png" alt="" width="167"><figcaption></figcaption></figure></div>
 
 **Сделать скидку** - чекбокс для отображения скидки и окончательной стоимости курса на странице:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 16.53.58.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 16.53.58.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+## Тип подписки
+
+Можно создать разовую подписку и подписку с автопродлением.
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-05-21 в 10.08.01.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+### Единоразовый платеж
+
+Для единоразовой подписки выберите пункт"Разовая оплата":
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-05-21 в 10.23.38.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+Затем пропишите стоимость:
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-05-21 в 10.24.31.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+Также можно указать скидку:
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-05-21 в 10.25.43.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+### Подписка с продлением
+
+{% hint style="warning" %}
+#### Важно!
+
+Подписка с автопродлением будет работать только с платежными сервисами, поддерживающими реккурентные платежи: ТБанк, Робокасса, Сбер, Продамус и др.
+{% endhint %}
+
+Чтобы создать подписку с автопродлением, выберите пункт "Подписка с автоподлением":
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-05-21 в 10.26.14.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+1. Период списания — периодичность списания платежей по подписке (например, 1 раз в неделю, 1 раз в месяц и т.д.):
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-05-21 в 10.31.47.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+2. Пробный период — дни бесплатного доступа до первого списания (например, пробный период 7 дней):
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-05-21 в 10.32.53.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+3. Льготный период после неудачного списания — период, в течение которого клиент сохраняет доступ и может оплатить подписку, если автоматическое списание не прошло.
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-05-21 в 10.33.20.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+4. Максимальное количество списаний — количество платежей по подписке, после которого она автоматически завершится. Можно указать ограниченное число списаний или оставить подписку бессрочной.
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-05-21 в 10.38.38.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+5. При отмене сохранять доступ до конца оплаченного периода — если клиент отменил подписку, он **не теряет доступ сразу**, а продолжает пользоваться услугой до даты окончания уже оплаченного периода.
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-05-21 в 10.39.52.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+Далее пропишите стоимость ежемесячной подписки:
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-05-21 в 10.43.26.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ## Настройки доступа по урокам (модулям)
 
 После создания и редактирования модулей и уроков на курсе, они автоматически отобразятся в настройках тарифов:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 16.57.29.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 16.57.29.png" alt=""><figcaption></figcaption></figure></div>
 
 Для каждого отдельного тарифа можно выбрать необходимые модули и уроки, например, в зависимости от контента вашего онлайн-курса или стоимости.&#x20;
 
 Например, в самый дорогостоящий тариф вы можете включить дополнительные уроки, модули, а в базовом - оставить голую суть:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 17.00.45.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 17.00.45.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 Обращаем внимание!
@@ -106,7 +158,7 @@ description: В данной статье расскажем, как настр�
 
 В настройках тарифа существует возможность ограничивать периоды доступа к тарифу и включенным в него урокам и/или модулям:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 17.03.46.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 17.03.46.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### По количеству дней
 
@@ -122,27 +174,27 @@ description: В данной статье расскажем, как настр�
 
 Также в настройках существует возможность ограничить доступ к тарифу и урокам в нем ДО определенной даты:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 17.16.41.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 17.16.41.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Чтобы установить ограничение доступа до определенной даты, выберите соотвествующее число месяца в календаре, а также определенные часы:
 
-<figure><img src="../../.gitbook/assets/Запись-экрана-2024-07-02-в-17.26.06.gif" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Запись-экрана-2024-07-02-в-17.26.06.gif" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Неограниченный доступ
 
 Чекбокс "Не ограничено" позволяет ученикам вашего курса обратиться к материалам обучения в любое время после оплаты тарифа:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 17.30.36.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 17.30.36.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Настройки доступа тарифа на курсе
 
 В настройках тарифа существует функционал, который отображает созданный вами тариф только после определенной даты:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 17.42.48.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 17.42.48.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 В таком случае на промо-странице курса у созданного вами тарифа откроется старт оплат только после установленной вами даты:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 17.45.08.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 17.45.08.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ## Остальные настройки
 
@@ -150,7 +202,7 @@ description: В данной статье расскажем, как настр�
 
 При настройке тарифа можно предусмотреть возможность заморозки для своих учеников:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 18.01.10.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 18.01.10.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Обращаем внимание!
@@ -163,7 +215,7 @@ description: В данной статье расскажем, как настр�
 
 С помощью чекбокса "Пошаговый доступ к урокам/модулям" ученик будет переходить к последующим этапам обучения только после прохождения предыдущего модуля или урока:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 18.30.43.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 18.30.43.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 При необходимости можно применить данную настройку только к определенным спискам или меткам.
 
@@ -171,31 +223,31 @@ description: В данной статье расскажем, как настр�
 
 1. Прохождения домашнего задания: тогда следующий урок/модуль откроется после выполнения д/з:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 18.32.18.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 18.32.18.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 2. Через определенный промежуток:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 18.33.02.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 18.33.02.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Каждый последующий урок на курсе откроется только по истечению количества дней, заданных в  поле "Каждые n дней".&#x20;
 
 3. По дате доступности урока:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 18.34.30.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 18.34.30.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Чтобы данная настройка работала в тарифе, перейдите в настройки урока:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 18.39.18.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 18.39.18.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Далее найдите поле с вводом даты и времени:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 18.36.53.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 18.36.53.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Скрыть домашнее задание
 
 Чекбокс "Скрыть домашнее" задание не отобразит в создаваемом вами тарифе д/з по курсу:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 18.51.26.png" alt="" width="509"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 18.51.26.png" alt="" width="509"><figcaption></figcaption></figure></div>
 
 Можно использовать только для определенных меток/списков учеников.
 
@@ -203,7 +255,7 @@ description: В данной статье расскажем, как настр�
 
 Кнопку тарифа можно изменять по своему усмотрению:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 19.09.57.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-02 в 19.09.57.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Поле "Добавьте ссылку на оплату" понадобится в том случае, если вам необходимо использовать собственную ссылку на оплату через сервисы, которые необходимы именно вам.&#x20;
 
