@@ -197,7 +197,7 @@ status=delete_task(task_id)
 
 ## Для работы со сделками&#x20;
 
-**get\_order\_id() | create\_order()** **|** **set\_order\_name() |** **set\_order\_budget() | get\_active\_orders\_ids()  | get\_success\_orders\_ids() | get\_fail\_orders\_ids() | get\_order\_var()** | **get\_order\_vars() | set\_order\_var() | set\_order\_vars() | move\_order\_to\_next\_state()** | **set\_order\_status\_success()** | **set\_order\_status\_fail(order\_id)| get\_state\_id()** | **change\_state() |** get\_order\_id\_by\_var\_value() | latest\_order\_datetime() |  count\_client\_orders(), get\_count\_orders() | delete\_order(order\_id)
+**get\_order\_id() | create\_order() | set\_order\_name() | set\_order\_budget() | get\_active\_orders\_ids()  | get\_success\_orders\_ids() | get\_fail\_orders\_ids() | get\_order\_var() | get\_order\_vars() | set\_order\_var() | set\_order\_vars() | move\_order\_to\_next\_state() | set\_order\_status\_success() | set\_order\_status\_fail(order\_id)| get\_state\_id() | change\_state() | get\_order\_id\_by\_var\_value() | latest\_order\_datetime() |  count\_client\_orders(), get\_count\_orders() | delete\_order() | assign\_order\_to\_user() | get\_order\_operator()**
 
 {% tabs %}
 {% tab title="Описание" %}
@@ -454,7 +454,21 @@ get\_count\_orders(id) - функция, которая позволяет вы�
 
 delete\_order(order\_id) — удаление сделки в SalebotCRM.&#x20;
 
-order\_id - необязательный параметр. Нужно указать, если необходимо удалить конкретную сделку по id. Если не указывать, удалит последнюю сделку.&#x20;
+order\_id - необязательный параметр. Нужно указать, если необходимо удалить конкретную сделку по id. Если не указывать, удалит последнюю сделку.
+
+<mark style="background-color:blue;">**Назначить ответственного**</mark>
+
+assign\_order\_to\_user(email, order\_id) - назначить ответственного по сделке
+
+email - емейл сотрудника, который будет назначен ответственным. Обязательный параметр
+
+order\_id - ID сделки, которой нужно назначить сотрудника. Если не указать, ответственный будет назначен текущей сделке. Необязательный параметр.
+
+<mark style="background-color:blue;">**Получить email ответственного**</mark>
+
+get\_order\_operator(order\_id) - получить email ответственного по сделке
+
+order\_id - ID сделки, у которой нужно получить ответственного. Если не указать, ответственный будет получен по текущей сделке. Необязательный параметр
 {% endtab %}
 
 {% tab title="Примеры" %}
