@@ -2,6 +2,24 @@
 description: >-
   В статье расскажем, как создавать урок и модули, заполнять контент урока с
   помощью секций.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Уроки и модули

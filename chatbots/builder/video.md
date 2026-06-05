@@ -11,7 +11,7 @@
 {% embed url="https://www.youtube.com/watch?v=SqBauUIu9SA" %}
 
 {% hint style="info" %}
-Как зарегистрировать аккаунт в Сейлбот и создать проект, рассказали в статье "[Аккаунт в Salebot](../../o-nas/admin/account.md)"
+Как зарегистрировать аккаунт в Сейлбот и создать проект, рассказали в статье "[Аккаунт в Salebot](../../main/admin/account.md)"
 {% endhint %}
 
 ### Узнать номер проекта
@@ -19,7 +19,7 @@
 {% embed url="https://youtu.be/ENahWiCYJ04" %}
 
 {% hint style="info" %}
-Как найти номер проекта, рассказали в статье "[Аккаунт в Salebot](../../o-nas/admin/account.md)"
+Как найти номер проекта, рассказали в статье "[Аккаунт в Salebot](../../main/admin/account.md)"
 {% endhint %}
 
 ### Подключить Telegram  к проекту

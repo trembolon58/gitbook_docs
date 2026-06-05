@@ -2,6 +2,24 @@
 description: >-
   В статье подробно расскажем, как создать онлайн-чат для работы с учениками
   курса
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Чат

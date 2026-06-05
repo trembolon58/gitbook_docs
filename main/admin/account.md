@@ -19,13 +19,13 @@ _**Тариф на Услуги (Тариф)**_ - перечень, включа
 
 На сайте [salebot.pro](https://salebot.pro/) перейдите на страницу регистрации:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-08-28 в 16.58.15.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-06-05 в 13.35.45.png" alt=""><figcaption></figcaption></figure></div>
 
 Доступны варианты входа в конструктор Salebot и в аккаунт ученика (для пользователей ваших курсов и участников трансляций, созданных в Salebot).
 
 Создать аккаунт для создания чат-ботов, работы с CRM, конструктора сайтов, онлайн курсами  и всем доступным функционалом:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-24 в 10.30.18.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-24 в 10.30.18.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Зарегистрироваться можно по email или авторизоваться через соц.сети ВКонтакте, Facebook\* и Apple ID.&#x20;
 
@@ -35,13 +35,13 @@ _**Тариф на Услуги (Тариф)**_ - перечень, включа
 
 Создать аккаунт ученика можно по email:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-24 в 10.34.08.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-04-24 в 10.34.08.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ## Основные разделы аккаунта
 
 После регистрации можно увидеть основные разделы для комфортной работы в Salebot:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 12.26.48.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2026-06-05 в 13.34.33.png" alt=""><figcaption></figcaption></figure></div>
 
 Ваши возможности:
 
@@ -50,7 +50,7 @@ _**Тариф на Услуги (Тариф)**_ - перечень, включа
 3. Зарабатывать вместе с Salebot и Партнерской программой: приглашайте друзей, знакомых и партнеров, а также создавайте свои проекты и продавайте к ним доступ, используя промокоды и реферальные ссылки, **и получайте 10 % с оплат каждого реферального проекта бессрочно.**&#x20;
 
 {% hint style="success" %}
-Подробнее в разделе "[Партнерам](/broken/pages/-M1dthoGCAqHdRb5G-JL)".&#x20;
+Подробнее в разделе "Партнерам".&#x20;
 {% endhint %}
 
 4. Мы также поможем не пропустить ни одного важного события в ваших проектах с помощью раздела "Настройки уведомлений.&#x20;
@@ -58,69 +58,18 @@ _**Тариф на Услуги (Тариф)**_ - перечень, включа
 
 ### Проекты
 
-Чтобы создать проект, в личном кабинете нажмите кнопку Создать проект. &#x20;
-
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 12.44.30.png" alt="" width="243"><figcaption></figcaption></figure>
-
-Заполните **Название проекта**. Это название видите только вы и сотрудники, которым будет выдан доступ для работы. &#x20;
-
-<figure><img src="../../.gitbook/assets/image (81) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
-
-При необходимости смените часовой пояс. По умолчанию установлено время GTM +03:00 Москва.&#x20;
-
 {% hint style="info" %}
-Настройки таймеров и рассылки будут планироваться по часовому поясу указанному в настройках.&#x20;
+Как создать проект, а также об основных настройках проекта рассказали в статьях:
+
+1. [Как создать проект?](creating_project.md)
+2. [Настройки проекта](settings.md)
 {% endhint %}
-
-Если у вас есть промокод его можно ввести только при создании проекта. \
-\
-Проекты можно создавать из шаблонов и сортировать созданные проекты по папкам. \
-\
-Нажимаем кнопку **Готово**.&#x20;
-
-* [x] Поздравляем! Вы создали свой первый проект.
-
-{% hint style="warning" %}
-**Обратите внимание!**
-
-Оплата идёт **за проект, а не за аккаунт.**&#x20;
-
-В одном аккаунте у вас может быть любое количество проектов, но действующими будут только оплаченные!
-{% endhint %}
-
-### Как узнать номер проекта?
-
-При обращении в службу технической поддержки или в других необходимых случаях, вам может понадобится номер проекта: например, номер вашего проекта может понадобиться , чтобы сотрудники технической поддержки могли увидеть наглядно, какая ошибка есть в схеме конструктора, или подсказать, на что вам стоит обратить внимание при разработке веб-инструмента.&#x20;
-
-Номер проекта можно найти:
-
-1. В разделе "Проекты" в личном кабинете:
-
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-06 в 11.43.01.png" alt=""><figcaption></figcaption></figure>
-
-В разделе "Проекты" в ЛК вы увидите созданные вами проекты. Номер проекта находится на информационной плашке проекта:
-
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-06 в 11.44.31.png" alt=""><figcaption></figcaption></figure>
-
-2. Номер проекта в адресной строке:
-
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-06 в 11.46.20.png" alt=""><figcaption></figcaption></figure>
-
-Чтобы каждый раз, когда вам понадобится искомый номер проекта, не переходить в раздел "Проекты" в личном кабинете, достаточно просто кликнуть по адресной строке вашего браузера.&#x20;
-
-В адресной строке вы можете найти айди вашего проекта:
-
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-06 в 11.48.07.png" alt=""><figcaption></figcaption></figure>
-
-Номер проекта в адресной строке можно просмотреть в любом разделе Сейлбота внутри проекта:
-
-<div><figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-06 в 11.49.30.png" alt=""><figcaption><p>Пример: адресная строка в разделе "Задачи"</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Снимок экрана 2025-02-06 в 11.50.46.png" alt=""><figcaption><p>Пример: адресная строка в разделе "Клиенты"</p></figcaption></figure></div>
 
 ### Почтовые домены
 
 Почтовый домен — это часть адреса электронной почты, которая находится после символа «@».
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 13.28.03.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 13.28.03.png" alt=""><figcaption></figcaption></figure></div>
 
 Например, в адресе **documents@salebot.pro \*\*, где** домен — это **salebot.pro.** Почтовый домен играет несколько важных ролей:
 
@@ -150,7 +99,7 @@ documents@salebot.pro - почта для обращения в Salebot.&#x20;
 
 В разделе "Партнерская программа" можно ознакомиться с основными условиями Партнерской программы и публичной офертой:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 12.59.18.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 12.59.18.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Мы предоставляем вам реферальную ссылку или промокод для создания проекта, а после того, как приглашенный вами пользователь или купивший у вас проект клиент оплатит подписку, начисляем вам 10% с выплат по подписке БЕССРОЧНО.&#x20;
 
@@ -164,67 +113,67 @@ documents@salebot.pro - почта для обращения в Salebot.&#x20;
 
 В разделе настроек уведомлений устанавливаются все уведомления для проектов, созданных в вашем аккаунте, в том числе и для мобильного приложения:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 13.30.12.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 13.30.12.png" alt=""><figcaption></figcaption></figure></div>
 
 Если вы не хотите получать уведомления, просто деактивируйте чекбокс "Включить уведомления":
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 13.41.15.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 13.41.15.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Когда у вас активирован чекбокс "Включить уведомления", плашка с настройками будет развернута в полном виде, где для каждого отдельного проекта можно выбрать тип уведомлений.&#x20;
 
 Чтобы выбрать проект, кликните по данному выпадающему списку:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 13.42.47.png" alt="" width="365"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 13.42.47.png" alt="" width="365"><figcaption></figcaption></figure></div>
 
 Далее выберите раздел, в котором необходимо настроить уведомления:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 13.45.05.png" alt="" width="368"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 13.45.05.png" alt="" width="368"><figcaption></figcaption></figure></div>
 
 Тип уведомления - классификация уведомления по способу получения сообщений о событии по электронной почте, в телеграме и (или) в мобильном приложении:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 13.46.47.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 13.46.47.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ЛИБО по событию, которое произошло в проектах:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 13.52.19.png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 13.52.19.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Также при необходимости выберите мессенджер, в котором хотите получать уведомления по проектам:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 13.59.56.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 13.59.56.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Далее перейдите в необходимый канал Salebot, от имени которого будут приходить необходимые уведомления:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 14.01.45.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 14.01.45.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### Раздел "Задачи"
 
 В разделе "Задачи" настраиваются уведомления по добавлению/редактированию/удалению задач в канбане:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 13.54.10.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 13.54.10.png" alt=""><figcaption></figcaption></figure></div>
 
 Можно выбрать, например, получать уведомления только по тем задачам, в котором вы выбраны ответственным, либо по всем сразу:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 13.56.09.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 13.56.09.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 13.55.53.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 13.55.53.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Раздел "Курсы"
 
 В данном разделе доступны уведомления по д/з, продажам и прохождениям курса:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 13.57.17.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 13.57.17.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Раздел "Клиенты"
 
 Для раздела клиенты доступно уведомление о назначении ответственного сотрудника:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 14.02.51.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 14.02.51.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Раздел "Рассылки"
 
 В случае, если вы запланировали рассылку, вам поможет данный раздел, чтобы быть в курсе того, была ли отправлена рассылка или нет:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 14.04.51.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 14.04.51.png" alt=""><figcaption></figcaption></figure></div>
 
 Например, если вы запланировали email-рассылку по базе, но процент попадаемости в спам превысил допустимые пределы, то рассылка не будет отправлена.&#x20;
 
@@ -238,11 +187,11 @@ documents@salebot.pro - почта для обращения в Salebot.&#x20;
 
 Уведомления, настроенные в данном разделе, помогут отслеживать события с карточками в CRM:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 14.08.02.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 14.08.02.png" alt=""><figcaption></figcaption></figure></div>
 
 А также уведомлять вас о записях клиентов к вам при настроенной онлайн-записи:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 14.21.16.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 14.21.16.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Функционал [онлайн-записи](/broken/pages/O7xlRksbq5SUsMYlCxL6) очень удобен и поможет записывать клиентов через сайты или ботов (и даже с внедрением искусственного интеллекта). Также с помощью данного раздела можно создать бронь на объекты: например, столики ресторанов, объекты недвижимости и многое другое.&#x20;
@@ -252,25 +201,25 @@ documents@salebot.pro - почта для обращения в Salebot.&#x20;
 
 Чтобы получать уведомления о продажах через чат-бот, достаточно установить галочки напротив необходимого типа уведомления:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 14.27.06.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 14.27.06.png" alt=""><figcaption></figcaption></figure></div>
 
 Выглядеть уведомление о продажах в боте может следующим образом:
 
-<figure><img src="../../.gitbook/assets/2024-10-03 14.37.53.jpg" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/2024-10-03 14.37.53.jpg" alt=""><figcaption></figcaption></figure></div>
 
 #### Раздел "Сайты"
 
 Для сайта доступны уведомления о заполненной форме и запуске бота с сайта:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 14.40.31.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 14.40.31.png" alt=""><figcaption></figcaption></figure></div>
 
 Для того чтобы получать уведомления с сайта, необходимо настроить секцию "Форма" на сайте с полями ввода:
 
-<figure><img src="../../.gitbook/assets/image.jpeg" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image.jpeg" alt=""><figcaption></figcaption></figure></div>
 
 Второе уведомление, достпуное для сайта, также связано с секцией "Форма":
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 14.48.30.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 14.48.30.png" alt=""><figcaption></figcaption></figure></div>
 
 Необходимо подключить передачу get-параметров.&#x20;
 
@@ -278,21 +227,21 @@ documents@salebot.pro - почта для обращения в Salebot.&#x20;
 
 В настройках профиля вы можете указать свое имя и поменять почту, с которой вы заходите на Salebot, а также при необходимости выбрать аватар для аккаунта:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 14.52.47.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 14.52.47.png" alt=""><figcaption></figcaption></figure></div>
 
 Изменить пароль для входа в аккаунт:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 14.54.45.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 14.54.45.png" alt=""><figcaption></figcaption></figure></div>
 
 Для безопасности аккаунта также подключите двухфакторную аутентификацию:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 14.57.58.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 14.57.58.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Войти как ученик
 
 В кабинете ученика отображаются все доступные курсы:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 12.52.47.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 12.52.47.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="success" %}
 Ученик может проходить ваш курс как через официальный сайт Salebot, так и в[ мобильном приложении Salebot](/broken/pages/-M1KtETEtCinTee6rRxn).&#x20;
@@ -300,4 +249,4 @@ documents@salebot.pro - почта для обращения в Salebot.&#x20;
 
 Также в личный кабинет ученика приходят различные уведомления:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 12.47.28.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 12.47.28.png" alt="" width="563"><figcaption></figcaption></figure></div>

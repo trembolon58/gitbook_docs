@@ -1,15 +1,16 @@
 # Table of contents
 
-## О нас
+## ОСНОВНОЕ <a href="#main" id="main"></a>
 
-* [Что мы умеем](README.md)
-* [Обработка и защита персональных данных](master/obrabotka-i-zashita-personalnykh-dannykh.md)
-* [О публичной оферте](o-nas/about_offer.md)
-* [Администрирование](o-nas/admin/README.md)
-  * [Аккаунт в Salebot](o-nas/admin/account.md)
-  * [Настройки проекта](o-nas/admin/settings.md)
-  * [🔐 Безопасность в проекте и доступы](o-nas/admin/access.md)
-  * [Сотрудники](o-nas/admin/employees.md)
+* [O нас](README.md)
+* [Обработка и защита персональных данных](main/privacy.md)
+* [О публичной оферте](main/about_offer.md)
+* [Администрирование](main/admin/README.md)
+  * [Аккаунт в Salebot](main/admin/account.md)
+  * [Как создать проект](main/admin/creating_project.md)
+  * [Настройки проекта](main/admin/settings.md)
+  * [🔐 Безопасность в проекте и доступы](main/admin/access.md)
+  * [Сотрудники](main/admin/employees.md)
   * [Бэкап](chatbots/builder/backup.md)
 
 ## Чат-боты <a href="#chatbots" id="chatbots"></a>

@@ -2,13 +2,13 @@
 
 В настройках проекта можно выбрать приходящие уведомления, настроить работу с воронками и ботом, установить переменные и константы, переименовать проект и многое другое.&#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-23 в 13.20.32.png" alt="" width="299"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-23 в 13.20.32.png" alt="" width="299"><figcaption></figcaption></figure></div>
 
 Как это сделать, рассказали ниже.
 
 ## Основные настройки
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-23 в 13.25.33.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-23 в 13.25.33.png" alt=""><figcaption></figcaption></figure></div>
 
 В основных настройках проекта пользователь может изменить:
 
@@ -17,7 +17,7 @@
 3. владельца проекта;
 4. установить домен для ссылок в боте:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-23 в 13.27.16.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-23 в 13.27.16.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Установка собственного домена понадобится в том случае, если необходимо, чтобы прокси ссылка была на вашем домене, а не на домене Salebot. Это необязательная настройка.
 
@@ -26,7 +26,7 @@
 
 А также в основных настройках проекта можно активировать чекбоксы:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 15.50.00.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 15.50.00.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 * Автоматически принимать лиды на первый этап воронки\
   Данный чекбокс будет сразу формировать карточки сделок на первом этапе воронки в SalebotCRM.
@@ -43,7 +43,7 @@
 
 В настройках проекта можно настроить, какие колбеки вы хотите получать в Salebot:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 15.38.56.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 15.38.56.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="success" %}
 Callback - это системное уведомление, которое поможет отслеживать события в Salebot, не проверяя каждый раз списки, метки и воронки в CRM, что значительно сэкономит ваше время.&#x20;
@@ -60,45 +60,45 @@ Callback - это системное уведомление, которое по
 
 Например, при создании задачи, привязанной к определенному клиенту, в разделе "Клиенты" с ним в диалоге будет появляться сообщение с текстом: new\_task\_added\_callback task\_id:#{[task.id](https://vk.com/away.php?to=http%3A%2F%2Ftask.id\&post=-155867893_10927\&cc_key=)}, task\_name:#{[task.name](https://vk.com/away.php?to=http%3A%2F%2Ftask.name\&post=-155867893_10927\&cc_key=)}
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.06.52.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.06.52.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 А при редактировании задачи, привязанной к определенному клиенту, в диалоге с клиентом будет появляться комментарий с текстом: "Задача была отредактирована #{current\_user.display\_name}: edit\_task\_callback task\_id:#{[task.id](https://vk.com/away.php?to=http%3A%2F%2Ftask.id\&post=-155867893_10927\&cc_key=)}, task\_name:#{[task.name](https://vk.com/away.php?to=http%3A%2F%2Ftask.name\&post=-155867893_10927\&cc_key=)}", где
 
-<figure><img src="../../.gitbook/assets/2023-12-28_11-54-44.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/2023-12-28_11-54-44.png" alt=""><figcaption></figcaption></figure></div>
 
 3. Изменение ответственного у клиента
 
 Колбек включает в себя ID сделки, а также имя ответственного, на которого сменили предыдущего вашего сотрудника:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.05.04.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.05.04.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 4. Удаление сделки
 
 Чтобы видеть все, что происходит в CRM, также наблюдайте за удалением сделок в ваших воронках, чтобы не пропустить ничего важного:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.09.41.png" alt="" width="365"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.09.41.png" alt="" width="365"><figcaption></figcaption></figure></div>
 
 5. Перемещение в сделки в системное состояние
 
-В SalebotCRM существуют системные состояния воронки, в которые можно переместить сделку:
+В CRM существуют системные состояния воронки, в которые можно переместить сделку:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.15.36.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.15.36.png" alt=""><figcaption></figcaption></figure></div>
 
 Можно установить отправку колбеков при перемещении сделок по состояниям: "удалить сделку", "сделка провалена", "успешная сделка", "в архив". Тогда в диалоге с клиентом будет приходить уведомление следующего вида:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.18.36.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.18.36.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Настройка колбеков при переходе между этапа CRM
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.20.03.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.20.03.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 При нажатии на "Настройку колбеков при переходе" откроется модальное окошко со всеми воронками, существующими в проекте:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.21.45.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.21.45.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Данная настройка поможет активировать бота при переходе клиента в определенное состояние воронки. Для этого достаточно выбрать либо всю воронку (тогда любое перемещение сделки клиента по воронке будет активировать бота) либо только переход в определенное состояние:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.24.11.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.24.11.png" alt=""><figcaption></figcaption></figure></div>
 
 Теперь при смене состояния сделки (в автоматическом или ручном режиме) из любого места на сайте сгенерируется уведомление, которое может запустить бота.
 
@@ -108,7 +108,7 @@ Callback - это системное уведомление, которое по
 
 Также в карточке клиента появится переменная **callback\_query\_id**, в которой будет сохранен идентификатор сделки, для которой отправлено уведомление:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.29.56.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.29.56.png" alt=""><figcaption></figcaption></figure></div>
 
 Чтобы запустить бота на это событие, необходимо указать текст уведомления в поле  Условие стрелки или любого блока с условием (блок первостепенной проверки условия, не состояние с условием).&#x20;
 
@@ -128,19 +128,19 @@ Callback - это системное уведомление, которое по
 
 Константа проекта - это постоянная неизменяемая переменная. Например, она может понадобится для работы с оплатами в боте.&#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.32.30.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.32.30.png" alt=""><figcaption></figcaption></figure></div>
 
 Чтобы добавить константы проекта, нажмите на иконку карандаша. Тогда откроется модальное окно, где вы сможете ввести название переменной и ее значение:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.32.38.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.32.38.png" alt=""><figcaption></figcaption></figure></div>
 
 Далее вам достаточно будет ввести переменную:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.39.02.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.39.02.png" alt=""><figcaption></figcaption></figure></div>
 
 Тогда в диалоге с клиентом бот вытащит значения именно из константы проекта:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.39.11.png" alt="" width="410"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.39.11.png" alt="" width="410"><figcaption></figcaption></figure></div>
 
 ## Переменные
 
@@ -156,9 +156,9 @@ Callback - это системное уведомление, которое по
 5. Значение константы не может превышать 5000 символов.
 {% endhint %}
 
-Назначенные переменные в настройках проекта также можно использовать внутри вашего чат-бота (в т.ч. [чат-бота с ИИ](/broken/pages/8a6l5HcDWyUuisBGtv1J)).&#x20;
+Назначенные переменные в настройках проекта также можно использовать внутри вашего чат-бота (в т.ч. [чат-бота с ИИ](../../chatbots/ai_assistant/)).&#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.42.14.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 16.42.14.png" alt=""><figcaption></figcaption></figure></div>
 
 Вы можете вручную вводить переменные в настройках проекта, а можете воспользоваться назначением переменной в боте.&#x20;
 
@@ -172,7 +172,7 @@ Callback - это системное уведомление, которое по
 {% endhint %}
 
 {% hint style="success" %}
-Наглядный пример работы с переменной через бота и конструкцию project. вы можете прочитать в статье "[Чат-бот с ИИ для онлайн-записи](/broken/pages/5Sy40v9I0JB04H9dIJ4V#konstruktore-voronok)".&#x20;
+Наглядный пример работы с переменной через бота и конструкцию project. вы можете прочитать в статье "[Чат-бот с ИИ для онлайн-записи](../../chatbots/ai_assistant/online_booking.md)".&#x20;
 {% endhint %}
 
 ### **Как правильно назначать переменные/константы в настройках проекта**
@@ -187,17 +187,17 @@ Callback - это системное уведомление, которое по
 
 <mark style="color:red;">**НЕПРАВИЛЬНО:**</mark>
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 17.50.28.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 17.50.28.png" alt=""><figcaption></figcaption></figure></div>
 
 <mark style="color:green;">**ПРАВИЛЬНО:**</mark>
 
 При назначении переменных в настройках проекта можно использовать различные значения:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 17.35.53.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 17.35.53.png" alt=""><figcaption></figcaption></figure></div>
 
 Например, переменные со скриншота выше были закешированы в проекте через бота с помощью блоков конструктора и установленных функций:
 
-<figure><img src="../../.gitbook/assets/image.avif" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image.avif" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Функция get\_info\_for\_booking() работает только при настроенном разделе "Услуги" для онлайн-записи и берет значения по доступным свободным слотам для записи.&#x20;
@@ -205,17 +205,17 @@ Callback - это системное уведомление, которое по
 
 Обращаем внимание, что переменная кешируется в настройки проекта через конструкцию "project.":
 
-<figure><img src="../../.gitbook/assets/image (1).avif" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (1).avif" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Также вы можете добавить переменную в настройках проекта, кликнув по иконке карандашика:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 17.41.46.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 17.41.46.png" alt=""><figcaption></figcaption></figure></div>
 
 Тогда откроется модальное окно с уже существующим списком переменных, где необходимо кликнуть на "Добавить переменную":
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 17.40.49.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 17.40.49.png" alt=""><figcaption></figcaption></figure></div>
 
-Причем название переменной вы можете задать по своему усмотрению, избегая наименования [системных переменных](/broken/pages/-LxpXZscJeU6Wb2MlqSH#vstroennye-peremennye):&#x20;
+Причем название переменной вы можете задать по своему усмотрению, избегая наименования [системных переменных:](../../chatbots/peremennye-i-funkcii/peremennye.md#sluzhebnye-peremennye)&#x20;
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 17.52.25.png" alt=""><figcaption></figcaption></figure>
 
@@ -225,15 +225,15 @@ Callback - это системное уведомление, которое по
 
 Чтобы собрать переменную по шаблону, кликните по одноименной кнопке:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 17.54.26.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 17.54.26.png" alt=""><figcaption></figcaption></figure></div>
 
 Вам откроется модальное окно, в котором вы увидите пустое поле для названия переменной и выпадающий список с типом:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 17.56.47.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 17.56.47.png" alt=""><figcaption></figcaption></figure></div>
 
 Если вы выбрали тип переменной "**Список**", то вы можете указать возможные значения для переменной:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 18.01.11.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 18.01.11.png" alt=""><figcaption></figcaption></figure></div>
 
 Чтобы добавить несколько значений:
 
@@ -243,19 +243,19 @@ Callback - это системное уведомление, которое по
 
 Шаг 3: нажмите на плюс в строке со значением: после того, как вы нажмете плюс для одного из значений переменной, появится плашка под полем с введенными вами данными для переменной:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 18.04.14.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 18.04.14.png" alt=""><figcaption></figcaption></figure></div>
 
 Шаг 4. Пропишите следующее значение переменной и снова нажмите плюс: кликать на плюс необходимо после каждого ввода одного из значений переменой.&#x20;
 
 Шаг 5. Кликните "Создать": тогда переменная добавится внизу модального окна:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 18.07.18.png" alt="" width="563"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-10-03 в 18.07.18.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ## Переписка
 
 Данный раздел закроет все необходимые моменты при работе с чат-ботами:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 17.08.47.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 17.08.47.png" alt=""><figcaption></figcaption></figure></div>
 
 1. Можно указать свой адрес/несколько адресов почты, чтобы получать заказы/заявки на свою почту, не пропуская ни одного события.
 2. При необходимости, существует настройка автоматического ответа на первое сообщение пользователя в окне онлайн-чата или мессенджере с кнопками.
@@ -271,7 +271,7 @@ Callback - это системное уведомление, которое по
 
 Также в настройках проекта в разделе Переписка можно установить дублирование сообщений на почту ваших учеников и клиентов:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-08 в 18.51.22.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-08 в 18.51.22.png" alt=""><figcaption></figcaption></figure></div>
 
 Как это работает?
 
@@ -282,23 +282,23 @@ Callback - это системное уведомление, которое по
 {% endhint %}
 
 {% hint style="info" %}
-Как подключить email-бот, рассказали в статье "[Email-рассылки](/broken/pages/X39FSkgsiesVT3fUqbAs)".
+Как подключить email-бот, рассказали в статье "[Email-рассылки](../../broadcasts/email/)".
 {% endhint %}
 
 &#x20;Чтобы дублирование сообщений на почту работало, необходимо установить интервал, через который непрочитанное учеником / клиентом сообщение будет продублировано на почту:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-08 в 18.55.03.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-08 в 18.55.03.png" alt=""><figcaption></figcaption></figure></div>
 
 Если в проекте подключено несколько email-ботов, то можно будет выбрать, от какого именно будет направляться продублированное сообщение:
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-08 в 18.57.23.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2025-01-08 в 18.57.23.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Интеграции
 
 В настройках проекта можно активировать два чекбокса для последующей интеграции двух сервисов для Аналитики:&#x20;
 
-<figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 17.19.35.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-09-25 в 17.19.35.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-Подробнее о настройках интеграции, читайте в статьях "[Loktar](/broken/pages/cl5eNeG0o61YkQoN7Qo7)", "[Втаргете](/broken/pages/-Mkmx_j8rnWq-PJM0fDW)".&#x20;
+Подробнее о настройках интеграции, читайте в статьях "[Lokta](../../analitika-dlya-biznesa/integracii-dlya-analitiki/loktar.md)r", "[Втаргете](../../analitika-dlya-biznesa/integracii-dlya-analitiki/vtargete.md)".&#x20;
 {% endhint %}
