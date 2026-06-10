@@ -10,7 +10,7 @@
 
 Обратите внимание, что последнее поле является переключателем хостинга API в зависимости от страны пользования: Беларусь или Россия.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Как сформировать ссылку на оплату
 

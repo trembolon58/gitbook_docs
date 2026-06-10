@@ -12,11 +12,11 @@ description: >-
 
 Эти данные можно получить в личном кабинете в разделе "Сайты"
 
-<figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption><p>Раздел "Сайты" CloudPayments</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption><p>Раздел "Сайты" CloudPayments</p></figcaption></figure>
 
 Для того чтобы бот получал уведомления об оплате, также необходимо установить **callback\_url**. Для этого в разделе "Сайты" CloudPayments открываем вкладку уведомления:
 
-<figure><img src="../../.gitbook/assets/image (69).png" alt=""><figcaption><p>Вкладка "Уведомления" в разделе "Сайты" CloudPayments</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (71).png" alt=""><figcaption><p>Вкладка "Уведомления" в разделе "Сайты" CloudPayments</p></figcaption></figure>
 
 Немного ниже в строке Pay и Recurrent (**ВАЖНО именно Pay и Recurrent** ) необходимо включить переключатель и установить:\
 **Адрес:** https://chatter.salebot.pro/cloudpayments\_callback/result\
@@ -24,15 +24,15 @@ description: >-
 **HTTP метод:** POST\
 **Форма запроса:** CloudPayments
 
-<figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption><p>Настройка уведомлений</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption><p>Настройка уведомлений</p></figcaption></figure>
 
 ## Как настроить Salebot.pro
 
 Теперь переходим в конструктор. Два значения, о которых мы говорили выше (Public ID и Пароль для API), необходимо указать в форме ниже. Форма находится в разделе "Эквайринг"
 
-<figure><img src="../../.gitbook/assets/image (71).png" alt=""><figcaption><p>Раздел "Эквайринг"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (73).png" alt=""><figcaption><p>Раздел "Эквайринг"</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (72).png" alt="" width="563"><figcaption><p>Настройка CloudPayments </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (74).png" alt="" width="563"><figcaption><p>Настройка CloudPayments </p></figcaption></figure>
 
 На этом подключение закончено. Теперь давайте разберемся, как использовать данный функционал.
 
@@ -43,7 +43,7 @@ description: >-
 
 **поле Система налогообложения (необязательный, если у вас одна система налогообложения )**
 
-<figure><img src="../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
 
 ## Как сформировать ссылку на оплату
 
@@ -69,7 +69,7 @@ description: >-
 
 Для формирования ссылки на оплату в настройках кнопки  необходимо указать  <mark style="color:green;">**обязательные параметры: Сумма  и Наименование товара.**</mark>
 
-<figure><img src="../../.gitbook/assets/image (74).png" alt="" width="551"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (76).png" alt="" width="551"><figcaption></figcaption></figure>
 
 **поле Сумма.**  В этом поле указываем стоимость товара в рублях
 
@@ -81,7 +81,7 @@ description: >-
 
 **чекбокс Автоплатеж.** Для подключения автоплатежа нужно перейти в раздел "Эквайринг" → открыть настройки "CloudPayments"  и включить автоплатежи
 
-<figure><img src="../../.gitbook/assets/image (75).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (77).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **меню Данные для формирования чека.** При клике откроется выпадающее меню с параметрами для формирования чека:&#x20;
 
@@ -112,7 +112,7 @@ description: >-
 
 При клике откроется выпадающее меню с параметрами для формирования чека:&#x20;
 
-<figure><img src="../../.gitbook/assets/image (76).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (78).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **поле Наименование товара или услуги (обязательный).**  В данном поле нужно указать название товара (не более 128 символов). Чем точнее указано название товара, тем лучше.&#x20;
 
@@ -138,7 +138,7 @@ description: >-
 
 При клике откроется выпадающее меню с дополнительными параметрами для формирования ссылки:&#x20;
 
-<figure><img src="../../.gitbook/assets/image (77).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (79).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **поле ФИО покупателя.** В этом поле указываем для юрлиц — название организации; для ИП и физического лица — ФИО.
 
@@ -199,7 +199,7 @@ ovg58keefc : первые 10 символов секретного ключа п
 Важно: выбор соответствия **Полное совпадение**  или **По наличию ключевых слов**: если используете **По наличию ключевых слов** в поле **Условие,** указывайте часть колбэка без суммы платежа:  10 символов секретного ключа\_\_success
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
 
 **Платеж с ошибкой**
 
@@ -321,13 +321,13 @@ Cloudpayments принимает платежи в нескольких валю
 
 Например, как на скрине ниже, чтобы указать валюту белорусского рубля, можно установить эту переменную в настройках проекта.
 
-<figure><img src="../../.gitbook/assets/image (79).png" alt=""><figcaption><p>Настройки проекта → Переменные → Редактирование общих переменных</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (81).png" alt=""><figcaption><p>Настройки проекта → Переменные → Редактирование общих переменных</p></figcaption></figure>
 
 ### **Как добавить описание платежа**
 
 Вы можете добавить описание платежа, оно будет отображаться в заголовке формы оплаты.
 
-<figure><img src="../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
 
 Описание берется из переменной **payment\_description**
 
@@ -363,13 +363,13 @@ ovg58keefc : первые первые 10 символов секретного 
 Эти коллбэки НЕ ВИДИТ пользователь, они отображаются только оператору.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (81).png" alt="" width="546"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (83).png" alt="" width="546"><figcaption></figcaption></figure>
 
 Также после успешной оплаты переменная **cloudpayments\_payment\_completed** устанавливается в **True.**
 
 Если же оплата была неуспешной, Вам придет коллбэк вида 1c00db20d8fc223bce1f407dc1925542db114a76ab62e5afa3714e8fff0cdc78\_fail.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (82).png" alt="" width="558"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (84).png" alt="" width="558"><figcaption></figcaption></figure>
 
 Для того чтобы узнать причину, обратите внимание на переменную **cloudpayments\_payment\_status**.&#x20;
 
@@ -393,13 +393,13 @@ ovg58keefc : первые первые 10 символов секретного 
 
 Пример схемы, которая позволит протестировать и быстро начать работу с Cloudpayments.
 
-<figure><img src="../../.gitbook/assets/image (83).png" alt="" width="218"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (85).png" alt="" width="218"><figcaption></figcaption></figure>
 
 На рисунке показан пример первого блока, в котором пользователя спрашивают сколько он хочет оплатить.
 
 Ниже настройки стрелки, в ней должен быть включен переключатель "Пользователь вводит данные" и в поле вписана переменная **payment\_sum.**
 
-<figure><img src="../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
 
 Ссылка на оплату содержится в переменной **#{cloudpayments\_pay\_url}**
 
@@ -448,7 +448,7 @@ ovg58keefc : первые первые 10 символов секретного 
 5-Патентная система налогообложения \
 Если не указать, поставит первую систему, указанную при фискализации. **cloudpayments\_calculation\_place** - Место осуществления расчёта, например, адрес сайта<br>
 
-<figure><img src="../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
 
 Пример данных для чека:
 
@@ -459,7 +459,7 @@ ovg58keefc : первые первые 10 символов секретного 
 
 **После определения переменных платежа, определяем переменную payment\_sum**, после которой сразу появится ссылка на оплату в переменной cloudpayments\_pay\_url.
 
-<figure><img src="../../.gitbook/assets/image (86).png" alt="" width="533"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (88).png" alt="" width="533"><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 Внимание! Общая стоимость всех товаров должна быть равной переменной payment\_sum.
@@ -467,13 +467,13 @@ ovg58keefc : первые первые 10 символов секретного 
 
 После оплаты на указанную почту клиенту придет квитанция об оплате, если был передан номер телефона, то на него придет сообщение со ссылкой на квитанцию.
 
-<figure><img src="../../.gitbook/assets/image (87).png" alt=""><figcaption><p>Тестовая квитанция об оплате</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (89).png" alt=""><figcaption><p>Тестовая квитанция об оплате</p></figcaption></figure>
 
 ## Как создать автоплатежи
 
 Для создания платежа с подпиской, достаточно перейти в раздел "Эквайринг" в Salebot и в настройках платежной системы включить эту возможность:
 
-<figure><img src="../../.gitbook/assets/image (88).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (90).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Теперь при переходе по ссылке на оплату покупателю выводится информация, что после проведение платежа создастся подписка.
 
@@ -481,7 +481,7 @@ ovg58keefc : первые первые 10 символов секретного 
 
 Вы можете задать период списания равный **одной неделе**, для этого перед первым (установочным) платежом дополнительно нужно задать переменную **cloudpayments\_subscription\_period** - со значением **week**<br>
 
-<figure><img src="../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure>
 
 ## Как создать автоплатежи
 
@@ -556,11 +556,11 @@ ovg58keefc : первые первые 10 символов секретного 
 Также стоит обратить внимание, что первый платеж по подписке Cloudpayments всегда создается на интервал раз в месяц или раз в неделю, поэтому первичное уведомление о платеже будет содержать вот такую приписку в платежной форме:
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
 
 Для того, чтобы узнать, прошло ли изменение параметров подписки, следует найти описание переменной с функцией cloudpayments\_update\_subscription в переменных клиента. В приведенном примере в переменной response записан ответ функции, среди параметров ответа можно увидеть новые период и интервал подписки.
 
-<figure><img src="../../.gitbook/assets/image (91).png" alt="" width="417"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (93).png" alt="" width="417"><figcaption></figcaption></figure>
 
 Пример ниже показывает использование нового описания подписки.&#x20;
 
@@ -568,7 +568,7 @@ ovg58keefc : первые первые 10 символов секретного 
 products\_for\_subscription\_receipt = \[{"description": "Название товара", "quantity": "1", "price": "10", "amount": "10", "vat\_code": "0"}, {"description": "Название товара 2", "quantity": "3", "price": "30", "amount": "90"}] \
 response = cloudpayments\_update\_subscription(100, "Новая подписка") products\_for\_subscription\_receipt - необязательная переменная, данные для чека (описание ниже)
 
-<figure><img src="../../.gitbook/assets/image (92).png" alt="" width="528"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (94).png" alt="" width="528"><figcaption></figcaption></figure>
 
 ### **Совершение обычного платежа при включенных подписках**
 
@@ -580,7 +580,7 @@ response = cloudpayments\_update\_subscription(100, "Новая подписка
 Важно! Не забывайте каждый раз обнулять переменную, после получения ссылки
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (93).png" alt="" width="528"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (95).png" alt="" width="528"><figcaption></figcaption></figure>
 
 ### **Как получить чеки для платежей по подписке**
 
@@ -598,13 +598,13 @@ response = cloudpayments\_update\_subscription(100, "Новая подписка
 
 Пример возвращаемых данных:
 
-<figure><img src="../../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
 
 ### Как отменить подписку
 
 Чтобы отменить подписку, достаточно вызвать функцию **cloudpayments\_remove\_subscription()**
 
-<figure><img src="../../.gitbook/assets/image (95).png" alt="" width="529"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (97).png" alt="" width="529"><figcaption></figcaption></figure>
 
 #### Как понять, что подписка отменена?&#x20;
 
@@ -622,9 +622,9 @@ response = cloudpayments\_update\_subscription(100, "Новая подписка
 На заметку! Статус платежа также записывается в переменную **cloudpayments\_payment\_status.**
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (97).png" alt="" width="235"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (99).png" alt="" width="235"><figcaption></figcaption></figure>
 
 ## Оплата по токену (рекарринг)
 

@@ -73,17 +73,17 @@ description: >-
 
 В карточке клиента SalebotCRM можно увидеть сколько задач по клиенту было создано
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (333).png" alt=""><figcaption><p>Какрточка клиента SalebotCRM. Красный значок - задачи</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (884).png" alt=""><figcaption><p>Какрточка клиента SalebotCRM. Красный значок - задачи</p></figcaption></figure></div>
 
 В клиентах можно создать/удалить задачу и посмотреть перечень задач этого клиента.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (334).png" alt="" width="563"><figcaption><p>Карточка Клиента - вкладка Задачи. Создание новой задачи</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (885).png" alt="" width="563"><figcaption><p>Карточка Клиента - вкладка Задачи. Создание новой задачи</p></figcaption></figure></div>
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (335).png" alt="" width="426"><figcaption><p>Карточка Клиента - вкладка Задачи</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (886).png" alt="" width="426"><figcaption><p>Карточка Клиента - вкладка Задачи</p></figcaption></figure></div>
 
 В меню проекта можно увидеть общее число незакрытых задач:
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (336).png" alt=""><figcaption><p>Меню проекта</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (887).png" alt=""><figcaption><p>Меню проекта</p></figcaption></figure></div>
 
 Также создать задачу можно, не входя в диалог прямо в CRM-системе в воронке в списке имеющихся сделок с клиентами:
 

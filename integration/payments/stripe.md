@@ -102,7 +102,7 @@ URL указываем - [https://chatter.salebot.pro/stripe\_callback/\<api\_ke
 * `charge.pending`
 * `charge.succeeded`
 
-<figure><img src="../../.gitbook/assets/image (126).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (128).png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 **Подробнее о каждом из типов вебхука:**
@@ -391,7 +391,7 @@ wechat\_pay zip
 На повторные коллбэка НЕ БУДЕТ. Контроль идет [через функцию](stripe.md#proverka-statusa-podpiski) и stripe\_customer\_id.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (127).png" alt="" width="371"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (129).png" alt="" width="371"><figcaption></figcaption></figure>
 
 ### Настройки для возврата к обычным платежам
 

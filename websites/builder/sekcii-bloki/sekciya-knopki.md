@@ -82,7 +82,7 @@
 
 При клике по кнопке на мобильных устройствах откроется окно для выбора приложения:
 
-<figure><img src="../../../.gitbook/assets/image (351).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (902).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Кнопка с функцией Почта
 

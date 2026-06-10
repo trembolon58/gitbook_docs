@@ -8,7 +8,7 @@
 * utm\_source
 * utm\_term
 
-<figure><img src="../../.gitbook/assets/для статьи (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/для статьи (3).png" alt=""><figcaption></figcaption></figure>
 
 Нажмите + , чтобы посмотреть с какими значениями пришли пользователи:
 

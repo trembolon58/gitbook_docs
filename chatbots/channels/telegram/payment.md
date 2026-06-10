@@ -8,9 +8,9 @@
 * перейти в настройки нужного бота и в меню выбрать Payments
 * следуя инструкциям, подключить доступную платежную систему и скопировать выданный токен
 
-<figure><img src="../../../.gitbook/assets/image (153) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (704).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (154) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (705).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## **Как выставить счет клиенту (invoice)**
 
@@ -26,7 +26,7 @@
 
 Пример:
 
-<figure><img src="../../../.gitbook/assets/image (155) (1).png" alt=""><figcaption><p>Настройка блока "Стартовое условие"</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (706).png" alt=""><figcaption><p>Настройка блока "Стартовое условие"</p></figcaption></figure>
 
 В результате в Телеграм чате выставится счет:
 
@@ -36,11 +36,11 @@
 
 Пример:
 
-<figure><img src="../../../.gitbook/assets/image (156) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (707).png" alt=""><figcaption></figcaption></figure>
 
 Результат: перед оплатой запрашиваются данные:
 
-<figure><img src="../../../.gitbook/assets/image (157) (1).png" alt="" width="432"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (708).png" alt="" width="432"><figcaption></figcaption></figure>
 
 ## Коллбэк об оплате
 
@@ -54,13 +54,13 @@ course\_pay 1372995196 120.75 RUB 2ff747b9-000f-5000-b000-16d7e3517aa9 **,** г�
 4. RUB - валюта;&#x20;
 5. 2ff747b9-000f-5000-b000-16d7e3517aa9 - ID платежа в системе мерчанта.
 
-<figure><img src="../../../.gitbook/assets/image (158) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (709).png" alt=""><figcaption></figcaption></figure>
 
 А также если запрашивали ввод имени, телефона и/или email, то у клиента пропишутся переменные:
 
 **tg\_payment\_name**, **tg\_payment\_phone** и **tg\_payment\_email**
 
-<figure><img src="../../../.gitbook/assets/image (159) (1).png" alt="" width="386"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (710).png" alt="" width="386"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 В случае успеха коллбэк об оплате будет отправлен в личные сообщения пользователю.\
@@ -89,11 +89,11 @@ result=tg\_send\_invoice('381764678:TEST:129736', platform\_id, 'Курс по �
 res=get(result,'result')\
 m\_id=get(res,'message\_id')
 
-<figure><img src="../../../.gitbook/assets/image (160) (1).png" alt="" width="383"><figcaption><p>Переменные сделки в разделе "Клиенты"</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (711).png" alt="" width="383"><figcaption><p>Переменные сделки в разделе "Клиенты"</p></figcaption></figure>
 
 Далее закрепляем сообщение: tg\_pin\_chat\_message(#{platform\_id}, #{m\_id}, 1)
 
-<figure><img src="../../../.gitbook/assets/image (161) (1).png" alt="" width="445"><figcaption><p>Закрепленное сообщение в Telegram</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (712).png" alt="" width="445"><figcaption><p>Закрепленное сообщение в Telegram</p></figcaption></figure>
 
 ### Пример с минимальным набором параметров
 
@@ -101,9 +101,9 @@ prices = \[\["супер-курс", 100]]
 
 result= tg\_send\_invoice('381764678:TEST:129736', platform\_id, 'SuperКурс по курсам', 'Создавать курсы - superлегко', 'RUB', prices)
 
-<figure><img src="../../../.gitbook/assets/image (162) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (713).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (163) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (714).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### **Пример с клавиатурой**
 
@@ -111,6 +111,6 @@ prices = \[\["курс", 100], \["НДС", 20.75]]
 
 tg\_send\_invoice('381764678:TEST:129736', platform\_id, 'Курс по курсам', 'Создавать курсы - легко', 'RUB', prices, 'https://salebot.pro/promo.png', 'course\_pay','0', '0', '1', '1', '1', '', '{"inline\_keyboard": \[\[{"text":"Оплатить", "pay":"True"}], \[{"text":"Еще кнопка", "callback\_data": "Еще кнопка"}]]}')
 
-<figure><img src="../../../.gitbook/assets/image (164) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (715).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (165) (1).png" alt="" width="503"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (716).png" alt="" width="503"><figcaption></figcaption></figure>

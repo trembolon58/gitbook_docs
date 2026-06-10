@@ -136,7 +136,7 @@ SSL-сертификат создается автоматически.
 
 Если вы видите эту ошибку, то переподключите домен.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Действия
 

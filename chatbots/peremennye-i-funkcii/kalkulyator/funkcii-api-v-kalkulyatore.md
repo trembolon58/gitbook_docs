@@ -36,11 +36,11 @@ Callback можно отправить только ДРУГОМУ клиент�
 
 Отправим колбек клиенту с client\_id=73704021
 
-<figure><img src="../../../.gitbook/assets/image (241) (1).png" alt=""><figcaption><p>Блок с условием - отправка колбека клиенту</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (792).png" alt=""><figcaption><p>Блок с условием - отправка колбека клиенту</p></figcaption></figure>
 
 Скрин карточки клиента:
 
-<figure><img src="../../../.gitbook/assets/image (242) (1).png" alt=""><figcaption><p>Полученный клиентом колбек</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (793).png" alt=""><figcaption><p>Полученный клиентом колбек</p></figcaption></figure>
 
 Далее просто настраиваем реакцию на данный колбек в блоке с условием.
 {% endtab %}
@@ -147,11 +147,11 @@ _Обратите внимание, если в функции message пере�
 {% tab title="Примеры" %}
 Простой пример отправки сообщения по client\_id:
 
-<figure><img src="../../../.gitbook/assets/image (243) (1).png" alt=""><figcaption><p>Отправка сообщения по client_id</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (794).png" alt=""><figcaption><p>Отправка сообщения по client_id</p></figcaption></figure>
 
 Разные варианты отправки сообщения по client\_id:
 
-<figure><img src="../../../.gitbook/assets/image (244) (1).png" alt=""><figcaption><p>Разные варианты отправки сообщения</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (795).png" alt=""><figcaption><p>Разные варианты отправки сообщения</p></figcaption></figure>
 
 Пример отправки сообщения через platform\_message():
 
@@ -394,7 +394,7 @@ get\_block\_name\_by\_id(block\_id)
 
 Ид состояния необходимо взять из исходников страницы AmoCRM:
 
-![](<../../../.gitbook/assets/image (245) (1).png>)
+![](<../../../.gitbook/assets/image (796).png>)
 
 ### Как получить информацию по сделке
 
@@ -521,7 +521,7 @@ _Как получить номер кастомного поля можно т�
 **lead\_id** — id сделки, для которой устанавливается бюджет(необязательный параметр, по умолчанию берется из переменной amo\_lea&#x64;_\__&#x69;d). Можно пропустить необязательный параметр, заменив его на **None.**\
 **text** — текст примечания
 
-![](<../../../.gitbook/assets/image (246) (1).png>)
+![](<../../../.gitbook/assets/image (797).png>)
 
 ### Как вставить примечание к контакту
 

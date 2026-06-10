@@ -128,25 +128,25 @@
 
 Вы можете самостоятельно указать свое значение или оставить по умолчанию.
 
-<figure><img src="../.gitbook/assets/image (310).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (861).png" alt=""><figcaption></figcaption></figure>
 
 #### **Надпись в мобильной версии**&#x20;
 
 По умолчанию установлен текст "Выберите удобный способ связи"
 
-<figure><img src="../.gitbook/assets/image (311).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (862).png" alt=""><figcaption></figcaption></figure>
 
 #### **Сообщение при назначении клиенту оператора**
 
 Если вставить в поле #{operatorName}, то будет показано имя оператора, указанное в разделе Сотрудники. Назначить оператора можно вручную: кликнуть в диалоге с клиентом кнопку "Взять клиента" или "Передать клиента". Или настроить автораспределение клиентов между операторами в разделе Сотрудники.&#x20;
 
-<figure><img src="../.gitbook/assets/image (312).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (863).png" alt=""><figcaption></figcaption></figure>
 
 #### **Сообщение при отсутствии операторов в сети**
 
 По умолчанию будет высвечивать следующее сообщение: "На данный момент операторов нет в сети. Оставьте нам сообщение и мы обязательно вам ответим в ближайшее время"&#x20;
 
-<figure><img src="../.gitbook/assets/image (313).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (864).png" alt=""><figcaption></figcaption></figure>
 
 Статус "В сети" бот получает из раздела "Сотрудники". Возможные статусы: В сети, Перерыв, Отсутствует.
 
@@ -162,17 +162,17 @@
 
 Можно выбрать русский или английский язык для служебных сообщений в чате, которые установлены по умолчанию
 
-<figure><img src="../.gitbook/assets/image (314).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (865).png" alt=""><figcaption></figcaption></figure>
 
 Пример сообщений по умолчанию из поля "Сообщение, когда операторов нет в сети" и "Сообщение, когда клиенту назначается оператор при включенном" при включенном английском языке в настройках онлайн-чата :
 
-<figure><img src="../.gitbook/assets/image (315).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (866).png" alt=""><figcaption></figcaption></figure>
 
 #### **Звуковые уведомления в чате.**&#x20;
 
 Данные настройки позволяют включить/выключить звуковые уведомления открытия чата и о новых сообщениях в онлайн-чате для клиентов на сайте:
 
-<figure><img src="../.gitbook/assets/image (316).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (867).png" alt=""><figcaption></figcaption></figure>
 
 #### **Отображение мессенджеров**&#x20;
 
@@ -182,13 +182,13 @@
 Кнопки мессенджеров появятся только после того, как эти мессенджеры будут подключены к конструктору.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (317).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (868).png" alt=""><figcaption></figcaption></figure>
 
 #### **Ползунок Отображать только мессенджеры.**&#x20;
 
 Если включить данный переключатель, то на сайте появятся только кнопки мессенджеров. Остальные функции онлайн-чата будут отключены.&#x20;
 
-<figure><img src="../.gitbook/assets/image (318).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (869).png" alt=""><figcaption></figcaption></figure>
 
 Пример отображения кнопок при включенном ползунке **Отображать только мессенджеры**
 
@@ -202,13 +202,13 @@
 
 По умолчанию "Написать в"&#x20;
 
-<figure><img src="../.gitbook/assets/image (319).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (870).png" alt=""><figcaption></figcaption></figure>
 
 #### **Начальное сообщение в Whatsapp**&#x20;
 
 Этот текст будет записан в поле ввода у пользователя в приложении Whatsapp при переходе по кнопке с сайта. Ему будет достаточно нажать "Отправить". Так же прописывайте этот текст в условии стартового блока цепочки сообщений.
 
-<figure><img src="../.gitbook/assets/image (320).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (871).png" alt=""><figcaption></figcaption></figure>
 
 #### **Свои ссылки**
 
@@ -248,7 +248,7 @@
 
 Чекбокс "Запрос на звонок" отображается в настройках онлайн-чата, если в проекте подключена Телефония.&#x20;
 
-<figure><img src="../.gitbook/assets/image (321).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (872).png" alt=""><figcaption></figcaption></figure>
 
 _Принцип работы:_
 
@@ -267,7 +267,7 @@ _Принцип работы:_
 
 Данный параметр по умолчанию отключен. При включенном ползунке при первом запуске онлайн-чата появится сообщение Даю согласие на обработку персональных данных  и кнопка **`Подтвердить`**
 
-<div align="center"><figure><img src="../.gitbook/assets/image (322).png" alt=""><figcaption><p>Настройка онлайн-чата</p></figcaption></figure></div>
+<div align="center"><figure><img src="../.gitbook/assets/image (873).png" alt=""><figcaption><p>Настройка онлайн-чата</p></figcaption></figure></div>
 
 Пример первого сообщения для получения разрешения на обработку персональных данных:
 
@@ -275,11 +275,11 @@ _Принцип работы:_
 
 #### Настройка начальных кнопок
 
-<div align="center"><figure><img src="../.gitbook/assets/image (323).png" alt=""><figcaption></figcaption></figure></div>
+<div align="center"><figure><img src="../.gitbook/assets/image (874).png" alt=""><figcaption></figcaption></figure></div>
 
 При клике по кнопке _**Добавить кнопку**_ откроется форма создания начальной кнопки:&#x20;
 
-<div align="center"><figure><img src="../.gitbook/assets/image (324).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="center"><figure><img src="../.gitbook/assets/image (875).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Кнопка может иметь одну из функций:
 
@@ -318,19 +318,19 @@ _Принцип работы:_
 
 **Кнопки в тексте будут отображаться в истории онлайн чата (Переключатель).** Включите его, чтобы кнопки в тексте из конструктора воронок отображались в истории онлайн -чата с клиентом
 
-<figure><img src="../.gitbook/assets/image (325).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (876).png" alt=""><figcaption></figcaption></figure>
 
 #### **Скрыть онлайн-чат**
 
 Необязательно удалять онлайн чат с сайта. Емо можно просто скрыть с помощью соответствующего переключателя:
 
-<div align="center"><figure><img src="../.gitbook/assets/image (326).png" alt=""><figcaption></figcaption></figure></div>
+<div align="center"><figure><img src="../.gitbook/assets/image (877).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Автоматические действия
 
 Принцип работы автоматических действий следующий: для того чтобы автоматическое действие сработало, необходимо установить определенный триггер для данного действия - условие.&#x20;
 
-<figure><img src="../.gitbook/assets/image (327).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (878).png" alt=""><figcaption></figcaption></figure>
 
 Сначала устанавливаем условия, в какой момент должно выполниться настраиваемое действие. Можно добавлять условия в зависимости от времени дня, страны посетителя, города, URL текущей страницы и т.п.&#x20;
 
@@ -358,7 +358,7 @@ _Принцип работы:_
 
 5. **URL текущей страницы**. Автоматическое действие будет срабатывать в зависимости от того, содержится/не содержится или равно/не равно URL ссылки.
 
-<figure><img src="../.gitbook/assets/image (328).png" alt=""><figcaption><p>Пример, как отключить онлайн-чат на некоторых страницах сайта</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (879).png" alt=""><figcaption><p>Пример, как отключить онлайн-чат на некоторых страницах сайта</p></figcaption></figure>
 
 5. **Сообщение пользователя**. Чтобы автоматическое действие сработало с таким условием, необходимо в поле вставить определенное слово от пользователя:
 
@@ -406,7 +406,7 @@ _Принцип работы:_
 
 В онлайн-чат также представлена функция отправления формы клиентам для сбора информации о пользователе, добавления его в систему для дальнейшей работы с ним:
 
-<figure><img src="../.gitbook/assets/image (329).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (880).png" alt=""><figcaption></figcaption></figure>
 
 Такая форма отправляется с помощью функции **online\_chat\_send\_form(),** где передаются параметры:
 
@@ -426,13 +426,13 @@ _Принцип работы:_
 _Пример записи в Калькуляторе:_ online\_chat\_send\_form("name,email,email\_group\_ID")
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (330).png" alt=""><figcaption><p>уведомление, которое придет в диалог после заполнения формы</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (881).png" alt=""><figcaption><p>уведомление, которое придет в диалог после заполнения формы</p></figcaption></figure>
 
 {% hint style="info" %}
 В карточке онлайн-клиента из отправленной формы **значения сохраняются в переменных клиента** (см. ниже)
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (331).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (882).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:red;">!</mark> online\_chat\_send\_form(arguments, texts)
 

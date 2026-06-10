@@ -139,7 +139,7 @@ description: Прием платежей через интернет-эквай�
 
 **чекбокс С уведомление о клике.** Для отслеживания перехода по ссылке для оплаты можно поставить галочку. В таком случае, при клике по кнопке в диалог с клиентом в Сейлбот придет уведомление о том, что был совершен переход по ссылке
 
-<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption><p>Рис. 9. Уведомление о клике</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption><p>Рис. 9. Уведомление о клике</p></figcaption></figure>
 
 На данное уведомление можно настраивать дальнейшую логику работы бота.&#x20;
 
@@ -582,7 +582,7 @@ _`expiration_date = "#{current_date} #{time}"`_
 
 Для создания ссылки на первый установочный платеж можно воспользоваться функцией `get_tinkoff_payment_url` в Калькуляторе блоке.
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption><p>Рис. 26. Настройка блока для оплаты</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption><p>Рис. 26. Настройка блока для оплаты</p></figcaption></figure>
 
 ```
 receipt = [{"name":"ТОВАР1","price":"1200","quantity":"1","amount":"1200","vat_code":"2","method":"full_payment","object":"commodity"}] 
@@ -605,7 +605,7 @@ link_tinkoff = get_tinkoff_payment_url(1200, 'Купи меня', '1', receipt, 
 &#x20;Будьте внимательны и настройте возможность отменить подписку,чтобы случайно не списать с карты пользователя все средства.&#x20;
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption><p>Рис. 27. Настройки блока для автосписания</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption><p>Рис. 27. Настройки блока для автосписания</p></figcaption></figure>
 
 Далее для проведения автоплатежа, нужно вызвать функцию:&#x20;
 
@@ -630,7 +630,7 @@ link_tinkoff = get_tinkoff_payment_url(1200, 'Купи меня', '1', receipt, 
 
 Для того, чтобы отменить автосписания настроим блок для удаления переменной `tinkoff_rebill_id`&#x20;
 
-<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption><p>Рис. 30. Отмена автоплатежа</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption><p>Рис. 30. Отмена автоплатежа</p></figcaption></figure>
 
 ### **Провести обычный платеж, если включены рекуррентные платежи.**
 

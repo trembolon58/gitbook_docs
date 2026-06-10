@@ -24,15 +24,15 @@
 
 &#x20;в данном конкретном случае идет обращение по ключу со значением a. То есть для того, чтобы получить значение словаря по конкретному ключу прописываем команду в формате: имя\_словаря\["ключ"]
 
-<figure><img src="../../../../.gitbook/assets/image (293).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (844).png" alt=""><figcaption></figcaption></figure>
 
 Ответ:
 
-<figure><img src="../../../../.gitbook/assets/image (294).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (845).png" alt=""><figcaption></figcaption></figure>
 
 На экран будет выведено&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (295).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (846).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
@@ -54,11 +54,11 @@ aa = dicts["a"]
 {% tab title="Примеры" %}
 **Пример:** Получим список всех ключей словаря
 
-<figure><img src="../../../../.gitbook/assets/image (296).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (847).png" alt=""><figcaption></figcaption></figure>
 
 **Ответ**:&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (297).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (848).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
@@ -126,11 +126,11 @@ result = get_values_by_key(data, key)
 
 Для замены значения конкретного элемента массива пишем обращение к нему _имя\_массива\[индекс] = значение или имя\__&#x441;ловаря\[ключ] = значение
 
-<figure><img src="../../../../.gitbook/assets/image (298).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (849).png" alt=""><figcaption></figcaption></figure>
 
 Ответ:&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (299).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (850).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
@@ -165,11 +165,11 @@ dicts['a'] = int('555')
 {% tab title="Примеры" %}
 Пример:
 
-<figure><img src="../../../../.gitbook/assets/image (300).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (851).png" alt=""><figcaption></figcaption></figure>
 
 Результат:
 
-<figure><img src="../../../../.gitbook/assets/image (301).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (852).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
@@ -198,7 +198,7 @@ dicts['m']=new
 {% tab title="Примеры" %}
 Пример использования:
 
-<figure><img src="../../../../.gitbook/assets/image (302).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (853).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
@@ -227,11 +227,11 @@ q = if(exist_key(s, 'q'), 'Найдено', 'Еще строка')
 {% tab title="Примеры" %}
 Пример использования:
 
-<figure><img src="../../../../.gitbook/assets/image (303).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (854).png" alt=""><figcaption></figcaption></figure>
 
 _Результат:_
 
-<figure><img src="../../../../.gitbook/assets/image (304).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (855).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
@@ -261,11 +261,11 @@ q = key_index(s, 'q')
 {% tab title="Примеры" %}
 Пример использования
 
-<figure><img src="../../../../.gitbook/assets/image (305).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (856).png" alt=""><figcaption></figcaption></figure>
 
 Ответ:&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (306).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (857).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
@@ -285,13 +285,13 @@ q = key_index(s, 'q')
 
 <figure><img src="../../../../.gitbook/assets/Снимок экрана 2025-08-29 в 10.31.23.png" alt=""><figcaption></figcaption></figure>
 
-![](<../../../../.gitbook/assets/image (307).png>)
+![](<../../../../.gitbook/assets/image (858).png>)
 
 Пример с массивом:&#x20;
 
 <figure><img src="../../../../.gitbook/assets/Снимок экрана 2025-08-29 в 10.38.37.png" alt=""><figcaption></figcaption></figure>
 
-![](<../../../../.gitbook/assets/image (308).png>)
+![](<../../../../.gitbook/assets/image (859).png>)
 
 {% hint style="warning" %}
 Если в качестве значений массива или словаря используются числа, то для удаления элемента пользуйтесь функцией remove()
@@ -314,7 +314,7 @@ q = key_index(s, 'q')
 {% tab title="Примеры" %}
 Разберем на примере:
 
-<figure><img src="../../../../.gitbook/assets/image (309).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (860).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
@@ -355,15 +355,15 @@ sort() | sort\_by\_value()
 {% tab title="Примеры" %}
 Пример сортировки массива по убыванию и словаря по возрастанию:
 
-<figure><img src="../../../../.gitbook/assets/image (282).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (833).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (283).png" alt=""><figcaption><p>Результат сортировки</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (834).png" alt=""><figcaption><p>Результат сортировки</p></figcaption></figure>
 
 Сортируем словарь по значениям:
 
-<figure><img src="../../../../.gitbook/assets/image (284).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (835).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (285).png" alt=""><figcaption><p>результат сортировки</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (836).png" alt=""><figcaption><p>результат сортировки</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -391,9 +391,9 @@ sort() | sort\_by\_value()
 
 Значения словаря в дальнейшем можно подставлять в поля в конструкторе:
 
-<figure><img src="../../../../.gitbook/assets/image (51) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (51) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (52) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (52) (1).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="background-color:blue;">**Получение значения словаря на основе выбора клиента**</mark>&#x20;
 
@@ -416,21 +416,21 @@ sort() | sort\_by\_value()
 
 1.Задаем массив и разбираем его на нумерованный список, кнопки и список возможных значений (для  мессенджеров без кнопок) при помощи функции tools\_make\_button\_str\_checker()
 
-<figure><img src="../../../../.gitbook/assets/image (286).png" alt=""><figcaption><p>Пример использования функции <strong>tools_make_button_str_checker()</strong></p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (837).png" alt=""><figcaption><p>Пример использования функции <strong>tools_make_button_str_checker()</strong></p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (287).png" alt=""><figcaption><p>Реузльтат выполнения функции <strong>tools_make_button_str_checker()</strong></p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (838).png" alt=""><figcaption><p>Реузльтат выполнения функции <strong>tools_make_button_str_checker()</strong></p></figcaption></figure>
 
 2.Используем полученные значения buttons, numbered\_list для организации возможности выбора товара:
 
-<figure><img src="../../../../.gitbook/assets/image (288).png" alt=""><figcaption><p>Пример использования функции <strong>tools_make_button_str_checker()</strong></p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (839).png" alt=""><figcaption><p>Пример использования функции <strong>tools_make_button_str_checker()</strong></p></figcaption></figure>
 
 3.А список возможных значений checker используем для проверки вводимых клиентом данных:
 
-<figure><img src="../../../../.gitbook/assets/image (289).png" alt=""><figcaption><p>Пример использования функции <strong>tools_make_button_str_checker()</strong></p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (840).png" alt=""><figcaption><p>Пример использования функции <strong>tools_make_button_str_checker()</strong></p></figcaption></figure>
 
 4.Осталось вывести клиенту цену выбранного товара. Это удобно сделать при помощи функции tools\_check\_user\_input()
 
-<figure><img src="../../../../.gitbook/assets/image (290).png" alt=""><figcaption><p>Пример использования функции <strong>tools_check_user_input()</strong></p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (841).png" alt=""><figcaption><p>Пример использования функции <strong>tools_check_user_input()</strong></p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}

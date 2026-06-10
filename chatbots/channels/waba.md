@@ -29,7 +29,7 @@ Salebot не призывает Пользователей к использов
 
 Для подключения WABA\* к проекту Вам необходимо перейти в раздел "Каналы" и выбрать кнопку Whatsapp\* Business API.
 
-<figure><img src="../../.gitbook/assets/image (408).png" alt=""><figcaption><p>Подключение Whatsapp* Business API</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (959).png" alt=""><figcaption><p>Подключение Whatsapp* Business API</p></figcaption></figure>
 
 В открывшемся окне необходимо ввести номер телефона, начиная с 7, и сгенерированный API ключ
 
@@ -130,7 +130,7 @@ WABA\* отвергает шаблоны, переполненные рекла�
 
 Доступно для выбора 3 типа шаблонов:
 
-<figure><img src="../../.gitbook/assets/image (409).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (960).png" alt=""><figcaption></figcaption></figure>
 
 К шаблону MARKETING  можно подкрепить изображение в форматах: svg, png, jpg и gif.
 
@@ -222,13 +222,13 @@ days\_from\_last\_message() == 0
 
 В блоке может быть не более 3 reply кнопок​
 
-<figure><img src="../../.gitbook/assets/image (410).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (961).png" alt=""><figcaption></figcaption></figure>
 
 ​
 
 Inline-кнопок можно создавать до 10 штук, и выглядят они так:​
 
-<figure><img src="../../.gitbook/assets/image (411).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (962).png" alt=""><figcaption></figcaption></figure>
 
 ​В кнопках без использования шаблонов может быть **только текст. Ссылки не поддерживаются!** \
 Кнопки вне шаблонов могут выполнять функционал только по переводу клиента из блока в блок.

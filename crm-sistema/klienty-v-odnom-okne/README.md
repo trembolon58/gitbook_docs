@@ -35,7 +35,7 @@ description: >-
 
 В разделе “Клиенты” при нажатии на три точки в правом верхнем углу меню можно выполнить ряд действий:
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/unnamed (9).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/unnamed (12).png" alt=""><figcaption></figcaption></figure></div>
 
 #### Пометить всё как прочитанное
 

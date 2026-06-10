@@ -32,7 +32,7 @@ Salebot поддерживает возможность создания кно�
 
 <mark style="color:red;">**Внимание!**</mark> Независимо от названия, указанного в настройках кнопки, во Вконтакте кнопка будет выглядеть только таким образом:
 
-<figure><img src="../../../.gitbook/assets/image (176) (1).png" alt=""><figcaption><p> Кнопка оплаты во ВКонтакте</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (727).png" alt=""><figcaption><p> Кнопка оплаты во ВКонтакте</p></figcaption></figure>
 
 ## VK Donut
 

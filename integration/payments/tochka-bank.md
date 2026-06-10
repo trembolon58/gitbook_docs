@@ -51,7 +51,7 @@
 
 В Salebot в разделе "Эквайринг" найдите Точка Банк и нажмите "Подключить":
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (2) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (5).png" alt=""><figcaption></figcaption></figure></div>
 
 В открывшемся окне укажите свои уникальные данные JWT токен, clientID, customerCode, merchantId в соответствующих полях:
 
@@ -75,11 +75,11 @@ get\_tochka\_bank\_payment\_url(amount, description, recurrent, products\_for\_r
 
 Пример формирования ссылки без чека:
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (4).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (7).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Пример формирования ссылки с чеком:
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (5).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (8).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ## Обработка результата
 

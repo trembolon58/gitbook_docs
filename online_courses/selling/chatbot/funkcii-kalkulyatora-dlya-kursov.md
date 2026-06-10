@@ -99,7 +99,7 @@ register\_customer\_on\_course(tariff\_id, email, email\_notification, period, r
 
 После выполнения функция возвращает True или False.
 
-<figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 Возможные ответы функции при ошибках:
@@ -138,7 +138,7 @@ register\_customer\_on\_course(tariff\_id, email, email\_notification, period, r
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
 | <mark style="color:red;">**!**</mark> **tariff\_id** - идентификатор id тарифа. Скопировать можно в браузерной строке в настройках тарифа или в разделе Тарифы. | **email** - необязательный параметр.  |
 
-<figure><img src="../../../.gitbook/assets/image (32).png" alt="" width="396"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (34).png" alt="" width="396"><figcaption></figcaption></figure>
 
 В ответ придет:
 
@@ -184,15 +184,15 @@ register\_customer\_on\_course(tariff\_id, email, email\_notification, period, r
 | <mark style="color:red;">**!**</mark> translation\_guid - идентификатор трансляции. Скопируйте значение поля _Название в ссылке_ _в настройках трансляции._ | after\_start\_time - время начала трансляции в формате: '2023-04-18 13:30:00'. |
 | <mark style="color:red;">**!**</mark> email - адрес электронной почты Ученика                                                                               |                                                                                |
 
-<figure><img src="../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
 **Пример**: answer2 = customer\_was\_on\_translation('ad654f52be33d55008e31ba9792140ab', 'test@mail.ru', '2023-04-18 13:30:00')
 
-<figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
 В переменную answer2 запишется результат выполнения функции. По значению этой переменной можно настраивать дальнейшую логику работы бота. Пример успешной проверки посещения вебинара:
 
-<figure><img src="../../../.gitbook/assets/image (35).png" alt="" width="425"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (37).png" alt="" width="425"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **Важно!** _Название переменной может быть любое удобное и понятное вам._ В случае ошибки в написании параметров функции в переменную запишется сообщение: wrong translation\_guid
@@ -222,7 +222,7 @@ get\_customer\_name() - возвращает имя ученика, связан
 
 В этом случае на выбранные действия в диалог ученика в боте будут приходить уведомления (callback). Текст этих уведомлений можно использовать как условие в стрелках и/или в блоках с условием для дальнейшего движения ученика по боту.
 
-<figure><img src="../../../.gitbook/assets/image (36).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (38).png" alt="" width="563"><figcaption></figcaption></figure>
 
 
 

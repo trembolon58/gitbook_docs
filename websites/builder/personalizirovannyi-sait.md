@@ -14,11 +14,11 @@
 
 1\. Скопировать id страницы сайта. Для этого перейдите в раздел "Сайты", выберите нужный сайт:
 
-<figure><img src="../../.gitbook/assets/image (352).png" alt=""><figcaption><p>Раздел "Сайты"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (903).png" alt=""><figcaption><p>Раздел "Сайты"</p></figcaption></figure>
 
 Наведите на страницу сайта и скопируйте id:
 
-<figure><img src="../../.gitbook/assets/image (353).png" alt=""><figcaption><p>Страницы сайта</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (904).png" alt=""><figcaption><p>Страницы сайта</p></figcaption></figure>
 
 &#x20;Далее по тексту mini\_landing\_page\_id
 
@@ -57,15 +57,15 @@
 {% endtab %}
 {% endtabs %}
 
-<figure><img src="../../.gitbook/assets/image (354).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (905).png" alt=""><figcaption></figcaption></figure>
 
 3\. Создать кнопку **Telegram Web Application** и указать в фигурных скобках с решеткой название переменной
 
-<figure><img src="../../.gitbook/assets/image (355).png" alt=""><figcaption><p>Настройки кнопки</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (906).png" alt=""><figcaption><p>Настройки кнопки</p></figcaption></figure>
 
 <mark style="color:red;">**Важно!**</mark> Проверьте, чтобы значение переменной правильно записалось в расширенные настройки:
 
-<figure><img src="../../.gitbook/assets/image (356).png" alt=""><figcaption><p>Расширенные настройки кнопки</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (907).png" alt=""><figcaption><p>Расширенные настройки кнопки</p></figcaption></figure>
 
 Если вы используете quiz\_link\_timeout для перехода клиента на страницу сайта, то вы можете пользоваться переменными клиента внутри описания и заголовка. Например, если у клиента есть переменная name со значением "Богдан" и в описании страницы сайта вы напишите "Привет #{name}, как твои дела ?", то вывод будет "Привет, Богдан, как твои дела ?". Однако, если такая переменная будет отсутствовать у клиента, то переменная будет взята из общих переменных проекта.
 

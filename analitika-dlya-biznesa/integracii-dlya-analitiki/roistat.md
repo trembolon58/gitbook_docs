@@ -12,17 +12,17 @@
 
 &#x20;В интерфейсе Salebot откройте раздел **Минилендинги** и перейдите к редактированию минилендинга:
 
-<figure><img src="../../.gitbook/assets/image (170).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (320).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (171).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (321).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;В разделе **CSS и JS** в  поле **Html-код body** вставьте код, скопированный в п.1:
 
-<figure><img src="../../.gitbook/assets/image (172).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (322).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;Ниже в настройках минилендинга - Аналитика -  найдите блок **Сохранение в переменные клиента значений из куки** и активируйте чекбокс **Roistat Visit Id (roistat\_visit)**:
 
-<figure><img src="../../.gitbook/assets/image (173).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (323).png" alt=""><figcaption></figcaption></figure>
 
 ### Как проверить подключение счетчика
 
@@ -34,7 +34,7 @@
 
 При переходе клиента с минилендинга в информации о данном клиенте должна появляться переменная **roistat\_visit**:
 
-<figure><img src="../../.gitbook/assets/image (175).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (325).png" alt=""><figcaption></figcaption></figure>
 
 ### Как подключить интеграцию Salebot
 
@@ -92,7 +92,7 @@
 
 Пример настроек блока:
 
-<figure><img src="../../.gitbook/assets/image (180).png" alt="" width="520"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (330).png" alt="" width="520"><figcaption></figcaption></figure>
 
 &#x20;Нажмите **Готово**, чтобы сохранить блок.
 

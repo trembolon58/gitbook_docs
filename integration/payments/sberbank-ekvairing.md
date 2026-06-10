@@ -27,7 +27,7 @@ HTTP-метод: **GET https://chatter.salebot.pro/sberbank\_callback/result** \
 В личном кабинете сбербанка настоятельно рекомендуем включить сумму платежа в уведомления об оплате.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (128).png" alt=""><figcaption><p>Рис. 3.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (130).png" alt=""><figcaption><p>Рис. 3.</p></figcaption></figure>
 
 Для генерации ссылки на оплату, вам необходимо установить значение переменной **payment\_sum** (например 150 или 100.55 (<mark style="color:red;">через точку!</mark>)), сразу после этого появится переменная **sberbank\_pay\_url**. Эту переменную можно вывести на экран ссылкой или разместить на кнопке с текстом "Оплатить".&#x20;
 
@@ -105,4 +105,4 @@ https://3dsec.sberbank.ru/payment/merchants/test/payment\_ru.html?mdOrder=70906e
 
 Бывает, техподдержка открывает доступ:
 
-<figure><img src="../../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure>

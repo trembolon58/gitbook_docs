@@ -2,7 +2,7 @@
 
 Данная вкладка необходима для настройки аналитики на сайте:
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (33) (1) (1).png" alt=""><figcaption><p>Настройки сайта → Аналитика</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (452).png" alt=""><figcaption><p>Настройки сайта → Аналитика</p></figcaption></figure></div>
 
 ## Аналитика маркетинга и продаж
 
@@ -12,7 +12,7 @@
 
 Пример настройки добавления клиентам метки и списка:
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (34) (1) (1).png" alt=""><figcaption><p>Настройки сайта</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (453).png" alt=""><figcaption><p>Настройки сайта</p></figcaption></figure></div>
 
 Где смотреть наличия у клиента меток и в какие списках состоит:
 
@@ -22,7 +22,7 @@
 
 Подключение к сайту сквозной аналитики через сервис CoMagic. Подробнее про настройку на стороне CoMagic можно найти на стороне сервиса. В настройках сайта достаточно указать Идентификатор сайта, полученный в  CoMagic
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (35) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (454).png" alt=""><figcaption></figcaption></figure></div>
 
 **Сохранение в переменные клиента значений из куки.** &#x20;
 
@@ -30,21 +30,21 @@
 \
 Доступные варианты:
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (36) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (455).png" alt=""><figcaption></figcaption></figure></div>
 
 Пример переменных клиента, который запустил бота с сайта:
 
-<div align="center" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (37) (1) (1).png" alt="" width="439"><figcaption><p>Пример переменных клиента в диалоге в разделе Клиенты</p></figcaption></figure></div>
+<div align="center" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (456).png" alt="" width="439"><figcaption><p>Пример переменных клиента в диалоге в разделе Клиенты</p></figcaption></figure></div>
 
 В переменные клиента записались данные из куки: Google Client ID, Yandex Client ID, Client IP address, User agent. Остальные сервисы к сайту не подключены.
 
 **Пиксель ВКонтакте.** К сайту также можно подключить пиксель ВКонтакте. В данном поле укажите код пикселя.&#x20;
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (38) (1) (1).png" alt=""><figcaption><p>Настройка сайта</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (457).png" alt=""><figcaption><p>Настройка сайта</p></figcaption></figure></div>
 
 **Пиксель Facebook\*.**  К сайту можно подключить пиксель Facebook. В данном поле укажите код пикселя. &#x20;
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (39) (1) (1).png" alt=""><figcaption><p>Настройка сайта</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (458).png" alt=""><figcaption><p>Настройка сайта</p></figcaption></figure></div>
 
 {% hint style="danger" %}
 \*Facebook принадлежит компании Meta Platform inc., деятельность которой признана экстремистской на территории РФ и запрещена.
@@ -56,7 +56,7 @@
 
 И дальше можно передавать значения из этих куки в системы сквозной аналитики. Например, в Roistat.
 
-<figure><img src="../../.gitbook/assets/image (40) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (459).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Описание доступных интеграций с сервисами аналитики и инструкции по их настройке можно узнать в разделе[ Интеграции - > Аналитика.](../../analitika-dlya-biznesa/integracii-dlya-analitiki/)
 
@@ -64,7 +64,7 @@
 
 К сервису, созданному в Salebot, можно подключить Google Аналитику. Для этого создайте поток данных с указанием домена вашего сайта в Google Аналитике, создайте событие-конверсию и укажите данные в настройках сайта:
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (41) (1) (1).png" alt=""><figcaption><p>Настройки сайта</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (460).png" alt=""><figcaption><p>Настройки сайта</p></figcaption></figure></div>
 
 {% hint style="info" %}
 [Подробнее о том как подключить и настроить Google Аналитику рассказано в статье.](../../analitika-dlya-biznesa/integracii-dlya-analitiki/google-analytics.md)
@@ -94,11 +94,11 @@ instagram\* - Instagram\*
 
 _<mark style="color:green;">Пример настроек Google Аналитики  на клики по кнопкам каждого мессенджера по отдельности:</mark>_
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (42) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (461).png" alt=""><figcaption></figcaption></figure></div>
 
 _Настройка конверсий на стороне Google Аналитики:_
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (43) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (462).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Пиксель ВКонтакте
 

@@ -100,11 +100,11 @@ TikTok API обмена сообщениями сейчас находится �
 
 tiktok\_client\_new\_comment \<video\_id>: \<comment\_text> - пользователь оставил комментарий под вашим видео.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (7).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (16).png" alt=""><figcaption></figcaption></figure></div>
 
 tiktok\_client\_share\_post \<shared\_video\_id> \<url> - пользователь отправил видео в личные сообщения подключенного аккаунта
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (8).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (17).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Сохраняемые переменные клиента
 

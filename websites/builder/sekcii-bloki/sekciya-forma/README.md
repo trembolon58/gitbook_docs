@@ -75,7 +75,7 @@
 
 В поле Переменная необходимо указать название переменной с учетом рекомендаций к их созданию. Ответ будет сохранен в переменную и передан в бота. &#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (337).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (888).png" alt=""><figcaption></figcaption></figure>
 
 #### тип поля Текстовое поле
 
@@ -83,7 +83,7 @@
 
 В поле Переменная необходимо указать название переменной с учетом рекомендаций к их созданию. Ответ будет сохранен в переменную и передан в бота. &#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (338).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (889).png" alt=""><figcaption></figcaption></figure>
 
 #### тип поля Выбор нескольких вариантов
 
@@ -93,7 +93,7 @@
 
 В поле Переменная необходимо указать название переменной с учетом рекомендаций к их созданию. Ответ будет сохранен в переменную и передан в бота. &#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (339).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (890).png" alt=""><figcaption></figcaption></figure>
 
 #### тип поля Выбор одного варианта
 
@@ -103,31 +103,31 @@
 
 В поле Переменная необходимо указать название переменной с учетом рекомендаций к их созданию. Ответ будет сохранен в переменную и передан в бота. &#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (340).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (891).png" alt=""><figcaption></figcaption></figure>
 
 #### тип поля: Имя
 
 В данное поле записывается имя пользователя. При переходе в бота имя с сайта запишется в переменную клиента **`name_from_ml`**
 
-<figure><img src="../../../../.gitbook/assets/image (341).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (892).png" alt=""><figcaption></figcaption></figure>
 
 **Надпись**. Если не заполнять данное поле,  то над полем ввода номеру будет указано по умолчанию _Имя._ Можно ввести своё описания для того, чтобы пользователь ввёл свои данные.
 
 Как отображается полученное на сайте имя клиента:
 
-![](<../../../../.gitbook/assets/image (342).png>)
+![](<../../../../.gitbook/assets/image (893).png>)
 
 #### тип поля: Email
 
 В данное поле записывается электронный адрес пользователя. При переходе в бота имя с сайта запишется в переменную клиента **`email`**
 
-<figure><img src="../../../../.gitbook/assets/image (343).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (894).png" alt=""><figcaption></figcaption></figure>
 
 **Надпись**. Если не заполнять данное поле,  то над полем ввода номеру будет указано по умолчанию _Email._ Можно ввести своё описания для того, чтобы пользователь ввёл свои данные.
 
 Как отображается полученные данные в боте при переходе с минилендинга:
 
-![](<../../../../.gitbook/assets/image (344).png>)
+![](<../../../../.gitbook/assets/image (895).png>)
 
 
 
@@ -135,19 +135,19 @@
 
 В данное поле записывается номер телефона пользователя. При переходе в бота телефон пользователя с сайта запишется в переменную клиента **`phone`**
 
-![](<../../../../.gitbook/assets/image (345).png>)
+![](<../../../../.gitbook/assets/image (896).png>)
 
 На минилендинге есть дополнительные настройки.
 
 **Кастомные телефоны**. Можно укажите какие коды стран показать для выбора при вводе номера телефона.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (346).png" alt=""><figcaption><p>Кастомные (настраиваемые) коды стран. </p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (897).png" alt=""><figcaption><p>Кастомные (настраиваемые) коды стран. </p></figcaption></figure>
 
 **Код страны по умолчанию** указан +7 Россия. в этом поле можно сменить этот код на другую страну при необходимости.
 
 Переключатель **Определение кода страны по ip адресу.**
 
-<figure><img src="../../../../.gitbook/assets/image (347).png" alt=""><figcaption><p>Определение кода страны по ip адресу</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (898).png" alt=""><figcaption><p>Определение кода страны по ip адресу</p></figcaption></figure>
 
 При включении переключателя "Определение кода страны по ip адресу" код страны определяется автоматически по номеру телефона из базы ip (поле 1 на скрине, "Кастомные телефоны"). Если код страны не найден, то ставится код, указанный в поле "Код страны по умолчанию" (поле 2 на скрине выше).&#x20;
 
@@ -161,7 +161,7 @@
 
 &#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (348).png" alt=""><figcaption><p>Пример настройки Надписи над номером телефона</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (899).png" alt=""><figcaption><p>Пример настройки Надписи над номером телефона</p></figcaption></figure>
 
 ## Как создать форму в кнопке
 
@@ -239,7 +239,7 @@
 Если подключены оба канала, создается клиент Whatsapp!
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/image (349).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (900).png" alt=""><figcaption></figcaption></figure>
 
 ## Обработка ПДн и Политика конфиденциальности
 
@@ -318,7 +318,7 @@
 
 Отображать кнопки только иконками мессенджеров (Только иконка) или добавить название мессенджера (Иконка с текстом).
 
-<figure><img src="../../../../.gitbook/assets/image (350).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (901).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Если выбрать тип кнопок Иконка с текстом, то можно [ изменить текст на кнопке.](https://docs.salebot.pro/minilendingi-v-socialnykh-setyakh/kak-sozdat-minilending#izmenit-tekst-knopki)

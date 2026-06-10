@@ -25,7 +25,7 @@
 
 ## Начало работы с приложением Salebot
 
-<figure><img src="../.gitbook/assets/image (31) (1) (1).png" alt=""><figcaption><p>Оставайтесь всегда на связи!</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (450).png" alt=""><figcaption><p>Оставайтесь всегда на связи!</p></figcaption></figure>
 
 ## Авторизация в приложении
 
@@ -294,11 +294,11 @@ _**Верхняя строка:**_\
 
 Чтобы открыть меню настроек списка/метки нажмите три точки в выбранном списке/метке.
 
-<div><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc3Eeu6HT24UXEiCKkdv8rJk3AZ1y15SLgou64Zzt5hWQakSyKXW08wmhLTewSZkxTO6UoBG2rfu4Wlydm028PjAhIPu3edFZC39RgyXAJmBir-TZWFMBcTwX8WzjdoT5sHdmE7?key=__8W36uwkQvOi2h-eABfFnQ_" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (6) (1).png" alt="" width="294"><figcaption></figcaption></figure></div>
+<div><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc3Eeu6HT24UXEiCKkdv8rJk3AZ1y15SLgou64Zzt5hWQakSyKXW08wmhLTewSZkxTO6UoBG2rfu4Wlydm028PjAhIPu3edFZC39RgyXAJmBir-TZWFMBcTwX8WzjdoT5sHdmE7?key=__8W36uwkQvOi2h-eABfFnQ_" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (9).png" alt="" width="294"><figcaption></figcaption></figure></div>
 
 Чтобы добавить новый список или метку нажмите на синий значок “+” в нижнем правом углу экрана.
 
-<div><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfH8ShfebUvoD_Sp5Mwt6E4BMczgenDNVGslZyL7qnh53zR5FT2AdN0W9dxb8kKlLko4ON7uLb1W9JXo_0VLhSsoOOGsI3_yuIdgOluL613m-hCj9pAmT6oudSLKcVvdv-FpjIMhQ?key=__8W36uwkQvOi2h-eABfFnQ_" alt="" width="375"><figcaption><p>Меню настроек списка</p></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (1) (1) (1).png" alt="" width="375"><figcaption><p>Меню настроек метки</p></figcaption></figure></div>
+<div><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfH8ShfebUvoD_Sp5Mwt6E4BMczgenDNVGslZyL7qnh53zR5FT2AdN0W9dxb8kKlLko4ON7uLb1W9JXo_0VLhSsoOOGsI3_yuIdgOluL613m-hCj9pAmT6oudSLKcVvdv-FpjIMhQ?key=__8W36uwkQvOi2h-eABfFnQ_" alt="" width="375"><figcaption><p>Меню настроек списка</p></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (1) (2).png" alt="" width="375"><figcaption><p>Меню настроек метки</p></figcaption></figure></div>
 
 ### Рассылки
 
@@ -406,7 +406,7 @@ _**Верхняя строка:**_\
 
 Также доступны настройки баннеров, чата и сценария.
 
-<div><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc4TFiW08ZL1McBOMgSRS0Xyt7YGk0gUtttxpfsEKGKnX1NwM89dp3m87fQb7hMS4gfV1ej3Tk7YDSUPRRbKHPErlpNUR2SiQJcUELeDInj8QnRFFKY-rvO_VRjAdRiYLcc8sNlEg?key=__8W36uwkQvOi2h-eABfFnQ_" alt="" width="375"><figcaption><p>Вкладка “Баннеры”</p></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (7) (1).png" alt="" width="381"><figcaption><p>Вкладка “Настройки чата”</p></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (1) (2).png" alt="" width="385"><figcaption><p>Вкладка “Сценарий”</p></figcaption></figure></div>
+<div><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc4TFiW08ZL1McBOMgSRS0Xyt7YGk0gUtttxpfsEKGKnX1NwM89dp3m87fQb7hMS4gfV1ej3Tk7YDSUPRRbKHPErlpNUR2SiQJcUELeDInj8QnRFFKY-rvO_VRjAdRiYLcc8sNlEg?key=__8W36uwkQvOi2h-eABfFnQ_" alt="" width="375"><figcaption><p>Вкладка “Баннеры”</p></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (10).png" alt="" width="381"><figcaption><p>Вкладка “Настройки чата”</p></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (1) (3).png" alt="" width="385"><figcaption><p>Вкладка “Сценарий”</p></figcaption></figure></div>
 
 С помощью переключателей выстройте удобные для онлайн-трансляции настройки, а также при необходимости отобразите тарифы вашего курса.
 
@@ -433,7 +433,7 @@ _**Верхняя строка:**_\
 \- Клиенты: количество клиентов по дням. Можно настроить фильтр по параметрам, чтобы получить аналитику по клиентам с заданными параметрами\
 \- Отслеживание переменной. Для выбранной переменной учитывается 3 параметра: всего клиентов с этой переменной; Из них: Подписанные на бота (количество) и Отписавшиеся (количество).
 
-<div><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfcoIvehKAVy2lZqPyKSQHQjrYnhPQvuYQ2SGz5y7TRibgRjE9IQqh72H3DEmhkuPiofj4mJXQn-GDUlyFZD2qQeVBWq0ObeVpbRXO7h-UU3ztYN4u-SP3wnFeFgrA1j9Op8xtN?key=__8W36uwkQvOi2h-eABfFnQ_" alt=""><figcaption><p>Вкладка Дашборд</p></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (2) (1) (1).png" alt=""><figcaption><p>Вкладка клиенты</p></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (3) (1) (1).png" alt=""><figcaption><p>Настройки фильтра</p></figcaption></figure></div>
+<div><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfcoIvehKAVy2lZqPyKSQHQjrYnhPQvuYQ2SGz5y7TRibgRjE9IQqh72H3DEmhkuPiofj4mJXQn-GDUlyFZD2qQeVBWq0ObeVpbRXO7h-UU3ztYN4u-SP3wnFeFgrA1j9Op8xtN?key=__8W36uwkQvOi2h-eABfFnQ_" alt=""><figcaption><p>Вкладка Дашборд</p></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (2) (2).png" alt=""><figcaption><p>Вкладка клиенты</p></figcaption></figure> <figure><img src="../.gitbook/assets/unnamed (3) (2).png" alt=""><figcaption><p>Настройки фильтра</p></figcaption></figure></div>
 
 {% hint style="success" %}
 Если Вы столкнетесь с какими-то проблемами, смело пишите в техподдержку личного кабинета! Мы стараемся устранять все возникшие неожиданности с максимально возможной скоростью.

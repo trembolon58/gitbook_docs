@@ -1,4 +1,4 @@
-# API \*\*stagram
+# API Instagram\*
 
 {% hint style="danger" %}
 <mark style="color:red;">**\***</mark>**На территории Российской Федерации&#x20;**<mark style="color:red;">**запрещена деятельность**</mark>**&#x20;социальных сетей&#x20;**<mark style="color:red;">**Facebook**</mark>**&#x20;и&#x20;**<mark style="color:red;">**Instagram**</mark>**, принадлежащих компании Meta Platforms Inc**., признанная экстремистской!
@@ -76,7 +76,7 @@ response = ig_set_persistent_menu('login', buttons)
 
 **response = ig\_delete\_persistent\_menu('login')**, где login - имя аккаунта
 
-<figure><img src="../../../.gitbook/assets/image (15) (1) (1) (1).png" alt=""><figcaption><p>login</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (566).png" alt=""><figcaption><p>login</p></figcaption></figure>
 
 В случае успешного исполнения функция возвращает:
 

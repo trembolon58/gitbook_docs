@@ -85,7 +85,7 @@ description: >-
 
 4. **поле Система налогообложения.** Можно выбрать систему налогообложения, которая будет передана в чеке. Необязательное поле, если у организации имеется только один тип налогообложения. (Данный параметр обязательно задается в личном кабинете магазина)
 
-<figure><img src="../../.gitbook/assets/image (65).png" alt="" width="563"><figcaption><p>Рис. 5. Выбор системы налогообложения для формирования чека об оплате</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (67).png" alt="" width="563"><figcaption><p>Рис. 5. Выбор системы налогообложения для формирования чека об оплате</p></figcaption></figure>
 
 На этом подключение закончено. Теперь давайте разберемся как использовать данный функционал.
 
@@ -674,7 +674,7 @@ response = robokassa\_recurrent\_payment(4800, 'Обучение в Лётной
 
 <mark style="color:red;">**Отключите**</mark> чекбокс "**Платежи в тестовом режиме**" (если он у вас активный), иначе переменная robokassa\_previous\_invoice\_id с идентификатором платежа не будет сформирована!&#x20;
 
-![](<../../.gitbook/assets/image (66).png>)
+![](<../../.gitbook/assets/image (68).png>)
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/2023-02-17_14-18-03.png" alt=""><figcaption><p>Пример формирования ссылки для обычного платежа</p></figcaption></figure>
@@ -759,7 +759,7 @@ _<mark style="color:blue;">Шаг 4. Планируем регулярные с�
 >
 > С уважением, ROBOKASSA.
 
-<figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption><p>Robokassa рекомендует</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (69).png" alt=""><figcaption><p>Robokassa рекомендует</p></figcaption></figure>
 
 ## Robokassa в Telegram
 

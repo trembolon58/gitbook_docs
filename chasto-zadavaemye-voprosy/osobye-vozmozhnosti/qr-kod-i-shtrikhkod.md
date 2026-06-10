@@ -10,7 +10,7 @@
 
 **api\_key** - ключ API из настроек проекта
 
-![Генерация ключа доступа в настройках проекта](<../../.gitbook/assets/image (393).png>)
+![Генерация ключа доступа в настройках проекта](<../../.gitbook/assets/image (944).png>)
 
 {% hint style="info" %}
 Замените #{api\_key} на токен из настроек проекта.
@@ -34,9 +34,9 @@ _qr\_image\_url->qr\_image\_url_
 
 Ответ: функция возвращает json с параметрами _status_ и _qr\_image\_url_
 
-![Содержимое qr\_image\_url](<../../.gitbook/assets/image (394).png>)
+![Содержимое qr\_image\_url](<../../.gitbook/assets/image (945).png>)
 
-![Полученный QR код](<../../.gitbook/assets/image (395).png>)
+![Полученный QR код](<../../.gitbook/assets/image (946).png>)
 
 ## Генерация штрихкода
 
@@ -48,7 +48,7 @@ _qr\_image\_url->qr\_image\_url_
 \
 &#xNAN;_**api\_key**_ - ключ апи из настроек проекта.
 
-![Генерация ключа API ](<../../.gitbook/assets/image (396).png>)
+![Генерация ключа API ](<../../.gitbook/assets/image (947).png>)
 
 _**class**_ - класс кода, который необходимо сгенерировать. По умолчанию ea13. Может принимать значения _'code39', 'code128', 'ean', 'ean13', 'ean8', 'gs1', 'gtin', 'isbn', 'isbn10', 'isbn13', 'issn', 'jan', 'pzn', 'upc', 'upca'_
 

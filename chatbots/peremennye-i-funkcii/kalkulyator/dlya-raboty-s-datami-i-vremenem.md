@@ -56,21 +56,21 @@ Salebot работает со следующими форматами ДАТЫ �
 {% tab title="Примеры" %}
 Пример - прибавим к дате некое количество лет:
 
-<figure><img src="../../../.gitbook/assets/image (123) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (542).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (124) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (543).png" alt=""><figcaption></figcaption></figure>
 
 Пример - прибавим к дате некое количество месяцев:
 
-<figure><img src="../../../.gitbook/assets/image (125) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (544).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (126) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (545).png" alt=""><figcaption></figcaption></figure>
 
 Пример использования простого математического действия - сложения даты и дней, времени и минут:
 
 <figure><img src="../../../.gitbook/assets/2023-11-28_14-42-00.png" alt="" width="351"><figcaption></figcaption></figure>
 
-![](<../../../.gitbook/assets/image (127) (1) (1).png>)
+![](<../../../.gitbook/assets/image (546).png>)
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}
@@ -111,11 +111,11 @@ y = addMonth('31.12.2020', -1*kol)
 
 Записываются условия сравнения в поле Переменная для сравнения
 
-<figure><img src="../../../.gitbook/assets/image (128) (1) (1).png" alt=""><figcaption><p>подраздел Условия в блоках с условиями и стрелках</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (547).png" alt=""><figcaption><p>подраздел Условия в блоках с условиями и стрелках</p></figcaption></figure>
 
 При указании условий сравнения в стрелке обязательно используйте задержки
 
-<figure><img src="../../../.gitbook/assets/image (129) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (548).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Примеры" %}
@@ -171,9 +171,9 @@ _`'11.10.2020' >=`_` ``current_date`
 
 а в поле Сообщение -  #{ответ}
 
-<figure><img src="../../../.gitbook/assets/image (130) (1) (1).png" alt="" width="514"><figcaption><p>Настройка блока на типовой автоответчик</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (549).png" alt="" width="514"><figcaption><p>Настройка блока на типовой автоответчик</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (131) (1) (1).png" alt=""><figcaption><p>Тестируем функцию timeinterval()</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (550).png" alt=""><figcaption><p>Тестируем функцию timeinterval()</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Пример кода для копирования" %}

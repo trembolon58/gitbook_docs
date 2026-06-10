@@ -22,21 +22,21 @@ description: >-
 
 **ShopID** можно увидеть в настройках магазина на ЮKassa
 
-<figure><img src="../../.gitbook/assets/image (98).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (100).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Либо в левом меню ЮKassa:
 
-<figure><img src="../../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
 
 **Секретный ключ** находится в разделе Интеграция  → Ключи API:
 
-<figure><img src="../../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
 
 Для того, чтобы бот получал уведомления об оплате, также необходимо установить на ЮKassa callback\_url [https://chatter.salebot.pro/yandex\_kassa\_callback/result](https://chatter.salebot.pro/yandex_kassa_callback/result)
 
 Для этого нужно перейти в раздел "Интеграция" → "HTTP-уведомления"
 
-<figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption><p>Настройки уведомлений</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (103).png" alt=""><figcaption><p>Настройки уведомлений</p></figcaption></figure>
 
 {% hint style="info" %}
 Не забудьте нажать на кнопку "Сохранить"
@@ -44,9 +44,9 @@ description: >-
 
 Теперь переходим в конструктор. Два значения, о которых мы говорили выше необходимо указать в форме ниже. Форма находится в разделе "Эквайринг"
 
-<figure><img src="../../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (104).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (103).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (105).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Далее выберите Ставку НДС и систему налогообложения.&#x20;
 
@@ -96,7 +96,7 @@ description: >-
 
 Для формирования ссылки на оплату в настройках кнопки  необходимо указать  <mark style="color:green;">**обязательные параметры: Сумма оплаты и Наименование товара.**</mark>
 
-<figure><img src="../../.gitbook/assets/image (104).png" alt="" width="551"><figcaption><p>Настройки кнопки</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (106).png" alt="" width="551"><figcaption><p>Настройки кнопки</p></figcaption></figure>
 
 **поле Текст.** Данный текст будет указан на кнопке с ссылкой на оплату в сообщении
 
@@ -150,7 +150,7 @@ description: >-
 
 При клике откроется выпадающее меню с параметрами для формирования чека:&#x20;
 
-<figure><img src="../../.gitbook/assets/image (105).png" alt="" width="549"><figcaption><p>Дополнительные настройки "Данные для формирования чека"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (107).png" alt="" width="549"><figcaption><p>Дополнительные настройки "Данные для формирования чека"</p></figcaption></figure>
 
 **поле Количество (обязательный).** В этом поле указывается количество или вес товара. Передать можно целое или дробное число через точку. Пример, 5 или 10.3
 
@@ -189,7 +189,7 @@ description: >-
 
 **поле Валюта(обязательный параметр).** В данном поле можно выбрать одну из доступных вариантов валюты платежа. По умолчанию: RUB
 
-<figure><img src="../../.gitbook/assets/image (106).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (108).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Переменные клиента, которые будут созданы автоматически при использовании кнопки с функцией Оплата
 
@@ -237,7 +237,7 @@ ovg58keefc : первые 10 символов секретного ключа п
 Важно: выбор соответствия Полное совпадение  или По наличию ключевых слов Если используете По наличию ключевых слов в поле Условие указывайте часть коллбэка без суммы платежа:  10СимволовСекретногоКлюча\_\_success
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (107).png" alt=""><figcaption><p>Коллбэк об успешной оплате в поле Условие блока</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (109).png" alt=""><figcaption><p>Коллбэк об успешной оплате в поле Условие блока</p></figcaption></figure>
 
 **Платеж с ошибкой**
 
@@ -279,7 +279,7 @@ ovg58keefc : первые 10 символов секретного ключа п
 
 **ПРИМЕР ссылки на оплату:**
 
-<figure><img src="../../.gitbook/assets/image (108).png" alt="" width="458"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (110).png" alt="" width="458"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Многие платежные системы поддерживают облачные онлайн-кассы, они необходимы по 54-ФЗ.\
@@ -306,7 +306,7 @@ ovg58keefc : первые 10 символов секретного ключа п
 
 Пример 3: Первый платёж для подключения автоплатежа
 
-<figure><img src="../../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
 
 {% endtab %}
@@ -456,11 +456,11 @@ _<mark style="color:blue;">Шаг 1. Включить автоплатежи в 
 
 Для подключения автоматических платежей в Salebot необходимо включить переключатель "Включить автоплатежи" для ЮKassa в разделе "Эквайринг":
 
-<figure><img src="../../.gitbook/assets/image (110).png" alt="" width="563"><figcaption><p>Чекбокс "Включить автоплатежи" в настройках ЮKassa в разделе "Эквайринг" Salebot</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (112).png" alt="" width="563"><figcaption><p>Чекбокс "Включить автоплатежи" в настройках ЮKassa в разделе "Эквайринг" Salebot</p></figcaption></figure>
 
 В этом случае при оплате сервис ЮKassa предложит разрешить автосписания:
 
-<figure><img src="../../.gitbook/assets/image (111).png" alt="" width="465"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (113).png" alt="" width="465"><figcaption></figcaption></figure>
 
 При переходе по ссылке ЮKassa объяснит[ как работают автосписания](https://yoomoney.ru/page?id=529482).
 
@@ -468,11 +468,11 @@ _<mark style="color:blue;">Шаг 2. Провести обычный платё�
 
 С помощью удобного способа сформировать ссылку на оплату.  Рекомендуем использовать в блоке [кнопку с функцией "Оплата"](../../chatbots/builder/message/buttons/type.md#kak-sdelat-knopku-oplata) или с помощью функции  `get_yookassa_payment_url`
 
-<figure><img src="../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
 
 После успешной оплаты у клиента появится переменная **yandex\_payment\_method\_id**. Эту переменную необходимо использовать при повторных платежах.
 
-<figure><img src="../../.gitbook/assets/image (113).png" alt="" width="499"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (115).png" alt="" width="499"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Переменная **yandex\_payment\_method\_id** обязательна для последующих платежей.\
@@ -484,7 +484,7 @@ _<mark style="color:blue;">Шаг 3. Планируем автосписание
 
 От блока Успешная оплата планируем стрелку с таймером к блоку с автоплатежом. Для примера запланируем следующий платеж через 30 дней.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
 
 _<mark style="color:blue;">Шаг 4. Планируем регулярные списания и настраиваем возможность отказаться от автосписаний.</mark>_
 
@@ -511,23 +511,23 @@ response -> yandex\_kassa\_payment\_id\
 
 `{"shop_id": "653775", "secret_key": "test_k4kyf6E00dpq5ft7vGHmxXCo23JKziwt729O-WcdL8s", "payment_sum": 200, "yandex_payment_method_id": "#{yandex_payment_method_id}", "order_id": "#{order_id}"}`
 
-<figure><img src="../../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Для тестирования платежа вам необходимо перейти по ссылке для оплаты, выбрать средство платежа и оплатить
 {% endhint %}
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (116).png" alt="" width="529"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/2025-07-01_15-29-52.png" alt="" width="558"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (118).png" alt="" width="529"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/2025-07-01_15-29-52.png" alt="" width="558"><figcaption></figcaption></figure></div>
 
 После успешной оплаты сможете посмотреть информацию о платеже:
 
-<figure><img src="../../.gitbook/assets/image (117).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (119).png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 При выполнении автоплатежа не должно быть ссылки на оплату ЮКассы и переменной **payment\_sum**!
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
 
 #### ОТМЕНИТЬ АВТОСПИСАНИЯ
 
@@ -535,7 +535,7 @@ response -> yandex\_kassa\_payment\_id\
 Автоматические платежи необходимо использовать аккуратно, необходимо предусмотреть возможность отписки от платежа. Также, не всегда требуется подтверждение при проведении платежа и вы можете, в случае ошибки, списать все деньги у человека. Будьте аккуратны.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
 
 ## **Как сформировать чеки ЮKassa**
 
@@ -579,11 +579,11 @@ response -> yandex\_kassa\_payment\_id\
 
 **full\_name** - для юрлица — название организации, для ИП и физического лица — ФИО
 
-<figure><img src="../../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
 
 После определения переменных платежа, определяем переменную payment\_sum, после которой сразу появится ссылка на оплату.
 
-<figure><img src="../../.gitbook/assets/image (121).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (123).png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Общая стоимость всех товаров должна быть равной переменной payment\_sum.
@@ -635,7 +635,7 @@ response -> yandex\_kassa\_payment\_id\
 **product\_description** - Наименование товара, если не передать будет иметь вид: 'Оплата счета 35342815-29200591'\
 **full\_name** - для юр/лица — название организации, для ИП и физического лица — ФИО
 
-<figure><img src="../../.gitbook/assets/image (122).png" alt=""><figcaption><p>Пример вызова функции автосписания</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption><p>Пример вызова функции автосписания</p></figcaption></figure>
 
 ### **Если списание сразу за несколько товаров**
 
@@ -682,7 +682,7 @@ response -> yandex\_kassa\_payment\_id\
 
 ![Объявление переменной](https://lh5.googleusercontent.com/EGh6yqnyunDmp_9bWm6yW8mtAbxr9ayhSWMkUcJb-N9ukK9mFq4eH6c6qSmtO8qas6w9jlIrONPFqYKF3mOq9iSl-_vQOeJk2aQmgUABj9Zpd_9UqRAFT2AeXYLjPGSIvXeFs5XY)
 
-<figure><img src="../../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
 
 Дополнительные параметры, передаваемые обязательно для формирования чека, выделены жирным: \
 {"shop\_id": "123456", "secret\_key": "#{secret\_key}", "payment\_sum": 13, "yandex\_payment\_method\_id": "#{yandex\_payment\_method\_id}", "order\_id": "#{order\_id}", **"vat\_code":"1", "tax\_system\_code":"#{tax\_system\_code}", "products\_for\_receipt": "#{for\_receipt}", "email": "#{email}"**}
@@ -730,7 +730,7 @@ response - идентификатор возврата платежа в ЮKassa
 
 `{"shop_id": "653775", "secret_key": "test_k4kyf6E00dpq5ft7vGHmxXCo23JKziwt729O-WcdL8s", "refund_sum": 100, "yandex_kassa_payment_id": "#{yandex_kassa_payment_id}"}`
 
-<figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
 
 ### **Частичный возврат**
 
@@ -802,4 +802,4 @@ response -> resp
 
 {"shop\_id": "769963", "secret\_key": "test\_fMZ0RqpghcoETJ9fhWXbZJsM66DKyvBgJN1rr65Ioz", "refund\_sum": 100, "yandex\_kassa\_payment\_id": "#{yandex\_kassa\_payment\_id}", "peace\_refund": 1, "full\_name": "Иванов Иван Иванович", "email": "example@gmail.com", "phone": "79000000000", "vat\_code": 1, "tax\_system\_code": 6, "refund\_products\_list": "\[{'description': 'Название товара', 'quantity': 'Количество товара', 'amount': 'Цена за единицу товара'}, {'description': 'Название товара 2', 'quantity': 'Количество товара 2', 'amount': 'Цена за единицу товара 2'}]"}
 
-<figure><img src="../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>

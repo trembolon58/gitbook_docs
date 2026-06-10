@@ -42,9 +42,9 @@
 1. **getcourse\_account\_name** - Account name
 2. **getcourse\_secret** - Ваш секретный ключ
 
-![](<../../.gitbook/assets/image (254).png>)
+![](<../../.gitbook/assets/image (404).png>)
 
-![](<../../.gitbook/assets/image (255).png>)
+![](<../../.gitbook/assets/image (405).png>)
 
 ## **Как создать в Getcourse дополнительное поле клиента (Salebot client\_id)**
 

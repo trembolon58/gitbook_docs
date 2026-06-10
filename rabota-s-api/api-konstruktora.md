@@ -131,7 +131,7 @@ https://chatter.salebot.pro /api/callback
 
 ## **Как получать сообщения на Webhook URL, указанный в настройках проекта**
 
-![Настройки проекта](<../.gitbook/assets/image (400).png>)
+![Настройки проекта](<../.gitbook/assets/image (951).png>)
 
 Каждое входящее или исходящее сообщение будет приходить следующим json POST запросом:
 
@@ -164,17 +164,17 @@ https://chatter.salebot.pro /api/callback
 
 Переходим в настройки блока, в котором у нас будет осуществляться запись данных  таблицу.&#x20;
 
-<figure><img src="../.gitbook/assets/image (44) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (194).png" alt=""><figcaption></figcaption></figure>
 
 1. Добавляем раздел API-запрос.
 2. Выбираем тип запроса POST-json
 3. Переходим к заполнению полей запроса:
 
-<figure><img src="../.gitbook/assets/image (45) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (195).png" alt=""><figcaption></figcaption></figure>
 
 **URL запроса** - путь к функции для выполнения запроса. Далее в документации всегда в первой строке, рядом с типом запроса:
 
-<figure><img src="../.gitbook/assets/image (401).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (952).png" alt=""><figcaption></figcaption></figure>
 
 **Сохраняемые значения** - перечень параметров ответа запроса с указанием имен переменных, в которые следует сохранить результат в формате:
 
@@ -196,7 +196,7 @@ https://chatter.salebot.pro /api/callback
 
 Для понимания в какой структуре запрос возвращает ответ,  напишите в поле Сообщение вывод значения переменной #{custom\_answer}. <br>
 
-<figure><img src="../.gitbook/assets/image (46) (1).png" alt=""><figcaption><p>Получение результата выполнения API-запроса в виде сообщения</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (196).png" alt=""><figcaption><p>Получение результата выполнения API-запроса в виде сообщения</p></figcaption></figure>
 
 Далее в документации допустимые параметры указаны в Body:&#x20;
 
@@ -1224,7 +1224,7 @@ recipient - Идентификатор диалога на сайте
 
 На сайте, где размещен онлайн чат "Salebot.pro" при помощи JS получите свойство **SaleBotPro.recipient\_id**
 
-<img src="../.gitbook/assets/image (402).png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (953).png" alt="" data-size="original">
 
 ```
 { "client_id": 36553 }

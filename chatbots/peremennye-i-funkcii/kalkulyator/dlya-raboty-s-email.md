@@ -27,22 +27,22 @@ mailing = send_email_from_bot('test_channel@test.com', 'test_client@yandex.ru', 
 {% tab title="Примеры" %}
 Для отправки email-сообщения:
 
-<figure><img src="../../../.gitbook/assets/image (223) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (774).png" alt=""><figcaption></figcaption></figure>
 
 После исполнения функции клиент получит письмо:
 
-<figure><img src="../../../.gitbook/assets/image (224) (1).png" alt="" width="563"><figcaption><p>Скрин полученного письма</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (775).png" alt="" width="563"><figcaption><p>Скрин полученного письма</p></figcaption></figure>
 
 Отправка через бот
 
-<figure><img src="../../../.gitbook/assets/image (225) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (776).png" alt=""><figcaption></figcaption></figure>
 
 Пример отправки ранее отправленного письма:&#x20;
 
 В списке писем для рассылок забираем переменную - id. \
 В примере - 483, это будущая mailing\_id:
 
-<figure><img src="../../../.gitbook/assets/image (226) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (777).png" alt=""><figcaption></figcaption></figure>
 
 Переходим в конструктор и вызываем функцию со следующими параметрами: \
 вариант 1 - указание параметров в явном виде:\
@@ -54,11 +54,11 @@ email\_bot =’ ’ \
 date = '09.08.2022 15:00' (на момент рассылки уже просроченная дата, следовательно, письмо придет в момент вызова функции)\
 e\_letter = send\_email\_template(mailing\_id ,client\_email , email\_bot, date)
 
-<figure><img src="../../../.gitbook/assets/image (227) (1).png" alt=""><figcaption><p>пример настроек для отправки письма</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (778).png" alt=""><figcaption><p>пример настроек для отправки письма</p></figcaption></figure>
 
 В итоге при вызове функции на почту test@mail.ru пришел шаблон уже заранее готового письм&#x430;**:**
 
-<figure><img src="../../../.gitbook/assets/image (228) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (779).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Описание" %}
@@ -146,7 +146,7 @@ e\_letter = send\_email\_template(mailing\_id ,client\_email , email\_bot, date)
 {% tab title="Пример" %}
 После того, как пользователь оставляет Вам email, отправьте письмо для верификации адреса.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (229) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (780).png" alt=""><figcaption></figcaption></figure>
 
 После подтверждения пользователем согласия на получение рассылок от компании  Вам будет добавлен новый email-клиент.&#x20;
 

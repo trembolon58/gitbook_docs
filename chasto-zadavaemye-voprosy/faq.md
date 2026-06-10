@@ -33,7 +33,7 @@ _Регулярные выражения_ — это условие, с помо
 {% hint style="danger" %}
 Убедитесь, что в условии стрелки перед регулярным выражением не стоит пробел!&#x20;
 
-<img src="../.gitbook/assets/image (358).png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (909).png" alt="" data-size="original">
 
 Иначе схема Чат-бота будет работать с ошибками.&#x20;
 {% endhint %}
@@ -46,11 +46,11 @@ _Регулярные выражения_ — это условие, с помо
 
 Создайте блок, где с помощью бота будете направлять сообщение клиенту с просьбой отправить номер телефона (или email) пользователю:
 
-<figure><img src="../.gitbook/assets/image (359).png" alt=""><figcaption><p>Блок с сообщением для получения номера телефона клиента</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (910).png" alt=""><figcaption><p>Блок с сообщением для получения номера телефона клиента</p></figcaption></figure>
 
 Далее протяните стрелку из этого блока, где в условии стрелки необходимо прописать соответствующее регулярное выражение.&#x20;
 
-<figure><img src="../.gitbook/assets/image (360).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (911).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Как отмечалось ранее, не забывайте устанавливать выбор соответствия "Регулярное выражение" во избежание ошибок работы Чат-бота.&#x20;
@@ -64,13 +64,13 @@ _Регулярные выражения_ — это условие, с помо
 
 Для этого из блока, где вы прописали сообщение для того, чтобы клиент отправил номер телефона, проведите вторую стрелку и в создавшемся блоке пропишите необходимое сообщение, например, "Это не номер телефона. Пожалуйста, напиши номер телефона!":
 
-<figure><img src="../.gitbook/assets/image (361).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (912).png" alt=""><figcaption></figcaption></figure>
 
 Выберите тип блока "Не состояние" (скриншот выше). У такого блока нет условия как в блоке "Состояние диалога", но в него нельзя перейти.&#x20;
 
 Применительно к нашей схеме блок "Не состояние" будет как нельзя кстати, поскольку тогда пользователь не будет переходить из предпоследнего блока, и для прохождения дальше по воронке ему нужно будет ввести номер телефона:
 
-<figure><img src="../.gitbook/assets/image (362).png" alt="" width="458"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (913).png" alt="" width="458"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Про различные функцию блока "[Не состояние](/broken/pages/-M1G0tS64N7tDTadS8Ao)" можно узнать в одноименной статье.&#x20;
@@ -224,7 +224,7 @@ _Регулярные выражения_ — это условие, с помо
 
 Если по каким-либо причинам вы отключили "Отменить сообщения с таймером" и при этом используете переход по таймеру при соблюдении некоего условия, то рекомендуем прописать в "Строки, на которые не отвечать" прописать #{question}
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (363).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (914).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Почему текст \&para, написанный в блоке, заменяется на ¶
 
@@ -473,7 +473,7 @@ message(187235469,'Задал вопрос https://salebot.pro/projects/#{projec
 
 &#x20;\#{substring(message(187235469,'Задал вопрос https://salebot.pro/projects/#{project\_id}/clients/#{client\_id}'),4)}.
 
-<figure><img src="../.gitbook/assets/image (364).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (915).png" alt=""><figcaption></figcaption></figure>
 
 Тогда на любое сообщение, на которое бот не знает ответ, ваш администратор проекта получит уведомление.
 
@@ -495,7 +495,7 @@ message(187235469,'Задал вопрос https://salebot.pro/projects/#{projec
 
 Запустите бота [@webpagebot](https://t.me/webpagebot) и отправьте нужную ссылку, далее сбросьте кеш, выбрав любую из команд \[**update …** ]
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (365).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (916).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### Facebook\*
 
@@ -507,15 +507,15 @@ message(187235469,'Задал вопрос https://salebot.pro/projects/#{projec
 
 Для **WhatsApp** ссылки обычно обновляются автоматически:
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (366).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (917).png" alt=""><figcaption></figcaption></figure></div>
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (367).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (918).png" alt=""><figcaption></figcaption></figure></div>
 
 #### VK
 
 Для VKontakte [воспользуйтесь сторонним сервисом](https://get-vk.ru/vk-clear-cache). Укажите ссылку, нажмите кнопку. Авторизация необязательна.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (368).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (919).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Как проверить состоит ли участник чата в определенном списке?
 

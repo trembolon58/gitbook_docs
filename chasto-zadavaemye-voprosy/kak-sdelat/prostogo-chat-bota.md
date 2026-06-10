@@ -20,7 +20,7 @@
 
 Можно выбрать следующий тип блока для старта работы Чат-бота: "Стартовое условие": &#x20;
 
-<figure><img src="../../.gitbook/assets/image (370).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (921).png" alt=""><figcaption></figcaption></figure>
 
 Из статьи "[Создание блоков и их типы](/broken/pages/-LxaF6DgPjVFl2Gjvs6m)" нам известно, что тип блока "Стартовое условие" имеет наивысший приоритет: с него может запускаться цепочка схемы блоков вашего Чат-бота.&#x20;
 
@@ -28,7 +28,7 @@
 
 В условиях блока необходимо прописать ключевое слово (например, Тег страницы сайта/сайта или иную фразу, необходимую для работы бота "Привет;здравствуйте через точку с запятой), на которое будет реагировать бот:
 
-<figure><img src="../../.gitbook/assets/image (371).png" alt=""><figcaption><p>Пример заполнения блока для Чат-бота</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (922).png" alt=""><figcaption><p>Пример заполнения блока для Чат-бота</p></figcaption></figure>
 
 Как видно на примере выше, в условии блока мы прописали тег страницы сайта, созданного на платформе Salebot, с которого будет происходить подписка, и в поле "Выбор соответствия" выбрали тип "Полное совпадение".&#x20;
 
@@ -46,11 +46,11 @@
 
 Для этого перейдите в настройки стрелки, где необходимо активизировать переключатель "Пользователь вводит данные", а также указать переменную, в которую Чат-бот сохранит данные клиента:
 
-<figure><img src="../../.gitbook/assets/image (372).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (923).png" alt=""><figcaption></figcaption></figure>
 
 После того как пользователь отправит свое имя в сообщении, бот запишет его в необходимую переменную:
 
-<figure><img src="../../.gitbook/assets/image (373).png" alt=""><figcaption><p>Карточка клиента с его данными</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (924).png" alt=""><figcaption><p>Карточка клиента с его данными</p></figcaption></figure>
 
 Во втором блоке схемы пропишем сообщение, которое будет запрашивать возраст вашего клиента. Для этого воспользуемся [регулярными выражениями](/broken/pages/-M0wjAtzg71YW7LB-2D8).&#x20;
 
@@ -64,7 +64,7 @@
 
 В поле сообщения второго блока схемы Чат-бота пропишите необходимый вопрос: например, "Сколько тебе лет?":
 
-<figure><img src="../../.gitbook/assets/image (374).png" alt=""><figcaption><p>Сообщение пользователю</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (925).png" alt=""><figcaption><p>Сообщение пользователю</p></figcaption></figure>
 
 Затем выполните следующие действия:
 
@@ -72,7 +72,7 @@
 
 Шаг 2. В настройках стрелки в условии пропишите регулярное выражение вида ^\[1-9]+\[0-9]\*$ и выберите тип соответствия "Регулярное выражение"
 
-<figure><img src="../../.gitbook/assets/image (375).png" alt=""><figcaption><p>Использование регулярного выражения</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (926).png" alt=""><figcaption><p>Использование регулярного выражения</p></figcaption></figure>
 
 {% hint style="warning" %}
 Помните, выбор соответствия при использовании регулярных выражений должен быть "Регулярное выражение", в противном случае схема чат-бота будет работать с ошибками!&#x20;
@@ -80,11 +80,11 @@
 
 Шаг 3. В настройках стрелки активизируйте переключатель "Пользователь вводит данные" и пропишите имя переменной, куда Чат-бот будет сохранять данные клиента:
 
-<figure><img src="../../.gitbook/assets/image (376).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (927).png" alt=""><figcaption></figcaption></figure>
 
 На скриншоте ниже видно, что Чат-бот записывает данные клиента в его карточку:
 
-<figure><img src="../../.gitbook/assets/image (377).png" alt=""><figcaption><p>Карточка клиента с его данными</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (928).png" alt=""><figcaption><p>Карточка клиента с его данными</p></figcaption></figure>
 
 ## Блок сбора данных клиента: номер телефона/email
 
@@ -99,7 +99,7 @@
 {% hint style="danger" %}
 Убедитесь, что в условии стрелки перед регулярным выражением не стоит пробел!&#x20;
 
-<img src="../../.gitbook/assets/image (358).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (909).png" alt="" data-size="original">
 
 Иначе схема Чат-бота будет работать с ошибками.&#x20;
 {% endhint %}
@@ -112,11 +112,11 @@
 
 Создайте блок, где с помощью бота будете направлять сообщение клиенту с просьбой отправить номер телефона (или email) пользователю:
 
-<figure><img src="../../.gitbook/assets/image (359).png" alt=""><figcaption><p>Блок с сообщением для получения номера телефона клиента</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (910).png" alt=""><figcaption><p>Блок с сообщением для получения номера телефона клиента</p></figcaption></figure>
 
 Далее протяните стрелку из этого блока, где в условии стрелки необходимо прописать соответствующее регулярное выражение.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (360).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (911).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Как отмечалось ранее, не забывайте устанавливать выбор соответствия "Регулярное выражение" во избежание ошибок работы Чат-бота.&#x20;
@@ -130,13 +130,13 @@
 
 Для этого из блока, где вы прописали сообщение для того, чтобы клиент отправил номер телефона, проведите вторую стрелку и в создавшемся блоке пропишите необходимое сообщение, например, "Это не номер телефона. Пожалуйста, напиши номер телефона!":
 
-<figure><img src="../../.gitbook/assets/image (361).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (912).png" alt=""><figcaption></figcaption></figure>
 
 Выберите тип блока "Не состояние" (скриншот выше). У такого блока нет условия как в блоке "Состояние диалога", но в него нельзя перейти.&#x20;
 
 Применительно к нашей схеме блок "Не состояние" будет как нельзя кстати, поскольку тогда пользователь не будет переходить из предпоследнего блока, и для прохождения дальше по воронке ему нужно будет ввести номер телефона:
 
-<figure><img src="../../.gitbook/assets/image (362).png" alt="" width="458"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (913).png" alt="" width="458"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Про различные функцию блока "[Не состояние](/broken/pages/-M1G0tS64N7tDTadS8Ao)" можно узнать в одноименной статье.&#x20;
@@ -148,11 +148,11 @@
 
 Для этого из блока, отмеченного красным на скриншоте ниже, протяните стрелку ниже, где в настройках можно поставить таймер:
 
-<figure><img src="../../.gitbook/assets/image (378).png" alt="" width="397"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (929).png" alt="" width="397"><figcaption></figcaption></figure>
 
 Чтобы поставить таймер, перейдите в настройки стрелки и выставьте необходимый временной промежуток, по прошествии которого Чат-бот направит сообщение клиенту:
 
-<figure><img src="../../.gitbook/assets/image (379).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (930).png" alt=""><figcaption></figcaption></figure>
 
 В следующем блоке добавим кнопку "Перезвоните мне сегодня" и "Перезвоните мне завтра".
 
@@ -166,11 +166,11 @@
 
 Для того чтобы добавить кнопки, которые Чат-бот будет отправлять клиенту, нажмите на "Кнопки" внутри настройки блока:
 
-<figure><img src="../../.gitbook/assets/image (380).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (931).png" alt=""><figcaption></figcaption></figure>
 
 Далее нажмите на "Добавить кнопку".&#x20;
 
-<figure><img src="../../.gitbook/assets/image (381).png" alt="" width="499"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (932).png" alt="" width="499"><figcaption></figcaption></figure>
 
 Далее откроется окно для добавления кнопки, где необходимо прописать название кнопки и настроить ее в соответствии со своими требованиями:
 
@@ -178,15 +178,15 @@
 
 Теперь данный блок будет направлять кнопки вашему клиенту, что позволит в последующем выявить момент (применительно к схеме, составляемой в данной статье), когда лучше будет связаться с ним:
 
-<figure><img src="../../.gitbook/assets/image (382).png" alt="" width="478"><figcaption><p>Диалог бота во вкладке с тестированием</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (933).png" alt="" width="478"><figcaption><p>Диалог бота во вкладке с тестированием</p></figcaption></figure>
 
 Диалог с клиентом будет отображаться во вкладке Клиенты, где вы можете проследить все изменения в диалогах с клиентами:
 
-<figure><img src="../../.gitbook/assets/image (383).png" alt=""><figcaption><p>Вид диалога во вкладке "Клиенты"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (934).png" alt=""><figcaption><p>Вид диалога во вкладке "Клиенты"</p></figcaption></figure>
 
 После того как клиент нажмет на определенную кнопку, в диалог во вкладке "Клиенты" придет соответствующее сообщение: например, "перезвоните мне сегодня":
 
-<figure><img src="../../.gitbook/assets/image (384).png" alt="" width="517"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (935).png" alt="" width="517"><figcaption></figcaption></figure>
 
 ### Блоки окончания диалога с клиентом
 
@@ -194,15 +194,15 @@
 
 Для этого создадим два блока со стрелками, идущими от блока с кнопками:
 
-<figure><img src="../../.gitbook/assets/image (385).png" alt=""><figcaption><p>Блоки завершения диалога</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (936).png" alt=""><figcaption><p>Блоки завершения диалога</p></figcaption></figure>
 
 Теперь в условиях каждой стрелки пропишем название каждой кнопки:
 
-<figure><img src="../../.gitbook/assets/image (386).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (937).png" alt=""><figcaption></figcaption></figure>
 
 В условиях созданных блоков пропишите необходимые сообщения, которые будет отправлять Чат-бот при нажатии клиентом кнопки:
 
-<figure><img src="../../.gitbook/assets/image (387).png" alt=""><figcaption><p>Блок чат-бота, завершающий диалог</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (938).png" alt=""><figcaption><p>Блок чат-бота, завершающий диалог</p></figcaption></figure>
 
 Теперь Чат-бот будет оповещать клиента о том, что его запрос принят.&#x20;
 
@@ -212,10 +212,10 @@
 
 Чтобы посмотреть данные, которые передал вам клиент, перейдите во вкладку "Клиенты":
 
-<figure><img src="../../.gitbook/assets/image (388).png" alt=""><figcaption><p>Где взять данные клиента</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (939).png" alt=""><figcaption><p>Где взять данные клиента</p></figcaption></figure>
 
 Итоговая схема Чат-бота выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/image (389).png" alt="" width="549"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (940).png" alt="" width="549"><figcaption></figcaption></figure>
 
 Таким образом, мы создали простого Чат-бота, состоящего всего из восьми блоков, который получает информацию о клиенте и записывает их в переменные в виде имени, возраста и номера телефона, а также когда вашему менеджеру лучше связаться с пользователем.&#x20;

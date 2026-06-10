@@ -292,7 +292,7 @@
 * [Аналитика Salebot](analitika-dlya-biznesa/analitika-salebot/README.md)
   * [Дашборды](analitika-dlya-biznesa/analitika-salebot/dashbordy.md)
   * [Аналитика клиентов](analitika-dlya-biznesa/analitika-salebot/analitika-klientov.md)
-  * [Аналитика рекламы](analitika-dlya-biznesa/analitika-salebot/analitika-reklamy.md)
+  * [Аналитика рекламы](analitika-dlya-biznesa/analitika-salebot/analitika-reklamy/README.md)
     * [Подключение рекламного кабинета ВКонтакте к Salebot](analitika-dlya-biznesa/integracii-dlya-analitiki/podklyuchenie-reklamnogo-kabineta-vkontakte-k-salebot.md)
   * [Аналитика курсов](analitika-dlya-biznesa/analitika-salebot/analitika-kursov.md)
   * [Аналитика сайта](analitika-dlya-biznesa/analitika-salebot/analitika-saita/README.md)

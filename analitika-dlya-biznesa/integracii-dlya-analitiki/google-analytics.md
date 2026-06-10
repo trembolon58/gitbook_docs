@@ -20,23 +20,23 @@
 
 Создайте аккаунт на [странице](https://analytics.google.com):&#x20;
 
-<figure><img src="../../.gitbook/assets/image (184).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (334).png" alt=""><figcaption></figcaption></figure>
 
 Укажите название аккаунта:
 
-<figure><img src="../../.gitbook/assets/image (185).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (335).png" alt=""><figcaption></figcaption></figure>
 
 Далее создаем Ресурс: для начала укажите своё название для Ресурса
 
-<figure><img src="../../.gitbook/assets/image (186).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (336).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;Заполните необходимую информацию о компании:
 
-<figure><img src="../../.gitbook/assets/image (187).png" alt="" width="505"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (337).png" alt="" width="505"><figcaption></figcaption></figure>
 
 Для создания аккаунта необходимо выставить галочки в чекбоксы о том, что принимаете "Условия обработки данных" и "защиты данных" и нажать кнопку "Принимаю".
 
-<figure><img src="../../.gitbook/assets/image (188).png" alt="" width="402"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (338).png" alt="" width="402"><figcaption></figcaption></figure>
 
 На этом создание РЕСУРСА закончено.
 
@@ -44,21 +44,21 @@
 
 Для этого переходим <mark style="color:orange;">**в панели Администратор**</mark> (по умолчанию после создания Ресурса вы попадаете в эту панель) откройте раздел <mark style="color:orange;">**Потоки данных**</mark> и выберите источник <mark style="color:orange;">**Веб**</mark> (для сбора данных с сайта)
 
-<figure><img src="../../.gitbook/assets/image (189).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (339).png" alt=""><figcaption></figcaption></figure>
 
 Далее <mark style="color:orange;">**указываем ссылку на сайт для сбора данных**</mark>. Можно использовать ссылку на минилендинг с доменом конструктора Salebot:&#x20;
 
 (пример https://salebot.site/md/<название\_&#x432;_\__&#x441;сылке>)&#x20;
 
-<figure><img src="../../.gitbook/assets/image (190).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (340).png" alt=""><figcaption></figcaption></figure>
 
 ИЛИ установить на минилендинг(сайт) свой домен (пример ниже):
 
-<figure><img src="../../.gitbook/assets/image (191).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (341).png" alt=""><figcaption></figcaption></figure>
 
 После клика <mark style="color:orange;">**по кнопке Создать**</mark> откроется вкладка "Сведения о веб-потоке":
 
-<figure><img src="../../.gitbook/assets/image (192).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (342).png" alt=""><figcaption></figcaption></figure>
 
 На изображении:
 
@@ -66,11 +66,11 @@
 
 Пример:&#x20;
 
-<figure><img src="../../.gitbook/assets/image (193).png" alt="" width="470"><figcaption><p>Идентификатор потока данных в настройках минилендинга:</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (343).png" alt="" width="470"><figcaption><p>Идентификатор потока данных в настройках минилендинга:</p></figcaption></figure>
 
 2 - <mark style="color:orange;">**Секретный ключ API.**</mark> Переходим в эту вкладку,  чтоб получить **ga4\_api\_secret:**
 
-<figure><img src="../../.gitbook/assets/image (194).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (344).png" alt=""><figcaption></figcaption></figure>
 
 Нажмите <mark style="color:orange;">**кнопку Создать**</mark>. Будет **сгенерирован Секретный ключ API**, который в дальнейшем потребуется для настройки передачи данных в бота. Скорируйте данный ключ.
 
@@ -78,19 +78,19 @@
 
 **ga4\_measurement\_id** - Идентификатор потока данных (пример G-LYXWRKECY4) **ga4\_api\_secret** - Секретный ключ API (пример ZSZ2IDt2Sd8JMAUW9WnJGA)
 
-<figure><img src="../../.gitbook/assets/image (195).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (345).png" alt=""><figcaption></figcaption></figure>
 
 На этом основные настройки на стороне Google.Аналитики выполнены.
 
 Для просмотра информации/отчётов по данному ресурсу или аккаунту перейдите на любую из вкладок меню в левой части экрана:
 
-<figure><img src="../../.gitbook/assets/image (196).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (346).png" alt=""><figcaption></figcaption></figure>
 
 #### Как перейти в панель АДМИНИСТРАТОР в Google.Аналитике из отчётов:&#x20;
 
 В нижней панели слева ВНИЗУ есть значок шестеренки. Нажмите на нее, чтобы зайти в настройки ресурса как Администратор:
 
-<figure><img src="../../.gitbook/assets/image (197).png" alt="" width="306"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (347).png" alt="" width="306"><figcaption></figcaption></figure>
 
 ## Установить счётчик на минилендинг
 
@@ -118,21 +118,21 @@
 
 Откройте минилендинг для редактирования:&#x20;
 
-<figure><img src="../../.gitbook/assets/image (198).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (348).png" alt=""><figcaption></figcaption></figure>
 
 Перейдите по кнопке Настройки в раздел Аналитика:
 
-<figure><img src="../../.gitbook/assets/image (199).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (349).png" alt=""><figcaption></figcaption></figure>
 
 В настройках минилендинга (раздел Аналитика) указываем Идентификатор потока данных и название события-конверсии:
 
-<figure><img src="../../.gitbook/assets/image (200).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (350).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:orange;">Как получить данные Идентификатор потока данных и название события-конверсии</mark>
 
 В настройках Потока данных Google Аналитики скопируйте "Идентификатор потока данных" . Его необходимо будет указать в настройках минилендинга.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (201).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (351).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Можно скопировать идентификатор в ранее созданном потоке данных или создать новый, как описано в разделе ["Регистрация аккаунта](google-analytics.md#registraciya-akkaunta-i-sozdanie-potoka-dannykh)
@@ -142,7 +142,7 @@
 
 Чтобы создать его перейдите в раздел Конверсии -> События-конверсии -> Создать событие-конверсию --> Напишите название для данного события.
 
-<figure><img src="../../.gitbook/assets/image (202).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (352).png" alt=""><figcaption></figcaption></figure>
 
 Имя события-конверсии может быть любым, его нужно передать в настройки минилединга. Например, click
 
@@ -170,7 +170,7 @@ click\_button\_instagram - для Инстаграма
 Если все установлено правильно, там появятся имена и количество конверсий.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (203).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (353).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Настройки минилендинга - > тег Goggle(CSS и JS)" %}
@@ -180,19 +180,19 @@ click\_button\_instagram - для Инстаграма
 
 Заходим в настройки потока данных Google  Аналитики:
 
-<figure><img src="../../.gitbook/assets/image (204).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (354).png" alt=""><figcaption></figcaption></figure>
 
 Переходим на вкладку "Просмотр инструкции тега":
 
-<figure><img src="../../.gitbook/assets/image (205).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (355).png" alt=""><figcaption></figcaption></figure>
 
 Открываем вкладку "Установить вручную", чтобы получить код тега для установки в минилендинг. Копируем код тега:
 
-<figure><img src="../../.gitbook/assets/image (206).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (356).png" alt=""><figcaption></figcaption></figure>
 
 Переходим в настройки минилендинга и в разделе "CSS и JS" в поле "HTML-код HEAD" устанавливаем скопированный тег Google:
 
-<figure><img src="../../.gitbook/assets/image (207).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (357).png" alt=""><figcaption></figcaption></figure>
 
 После этого нажимаем кнопку Сохранить, чтобы внесенные изменения применились.
 {% endtab %}
@@ -206,15 +206,15 @@ click\_button\_instagram - для Инстаграма
 
 **Шаг 1.** Зайдите в редактирование минилендинга. Верхняя строка поля конструктора минилендингов --> кнопка Настройки:
 
-<figure><img src="../../.gitbook/assets/image (208).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (358).png" alt=""><figcaption></figcaption></figure>
 
 **Шаг 2.** Откройте раздел Аналитика и поставьте галочку в чекбоксе Google Client ID(\_ga):&#x20;
 
-<figure><img src="../../.gitbook/assets/image (209).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (359).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Шаг 3.** При запуске бота с минилендинга  переменная **`_ga`** появится в информации о клиенте в правой части диалога:
 
-<figure><img src="../../.gitbook/assets/image (210).png" alt="" width="437"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (360).png" alt="" width="437"><figcaption></figcaption></figure>
 
 
 
@@ -497,4 +497,4 @@ ga\_transaction\_event('1244', '121.2', '1категория',  'действи�
 В документации Google нет описания передачи данного параметра. Когда будет добавлено, в функции можно будет передать UTM. \
 Поиск в интернете подтверждает, что на данный момент нет возможности передать UTM:
 
-<figure><img src="../../.gitbook/assets/image (211).png" alt="" width="552"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (361).png" alt="" width="552"><figcaption></figcaption></figure>

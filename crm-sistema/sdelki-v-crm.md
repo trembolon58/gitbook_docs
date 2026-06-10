@@ -299,7 +299,7 @@ ID состояния:
 
 При удалении сделки в CRM в бот клиенту приходит колбек об этом **crm\_lead\_removed**
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (332).png" alt=""><figcaption><p>Callback об удалении сделки</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (883).png" alt=""><figcaption><p>Callback об удалении сделки</p></figcaption></figure></div>
 
 ## Функции API Salebot
 

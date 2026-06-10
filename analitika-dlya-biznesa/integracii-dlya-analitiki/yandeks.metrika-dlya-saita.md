@@ -2,7 +2,7 @@
 
 К сайту, созданному в Salebot, можно подключить Яндекс.Метрику. Для этого создайте счётчик в Яндекс.Метрике, создайте цель и укажите данные в настройках сайта:
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (44) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (463).png" alt=""><figcaption></figcaption></figure></div>
 
 **ID Яндекс Метрики.** Укажите ID счётчика Я.Метрики&#x20;
 
@@ -36,7 +36,7 @@ _<mark style="color:green;">Пример как настроить на клик
 
 _Настройки на стороне Яндекс.Метрика:_
 
-<div align="center" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (45) (1) (1).png" alt=""><figcaption><p>Настройки в Яндекс.Метрике</p></figcaption></figure></div>
+<div align="center" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (464).png" alt=""><figcaption><p>Настройки в Яндекс.Метрике</p></figcaption></figure></div>
 
 ## Как подключить Яндекс Метрику
 
@@ -110,25 +110,25 @@ click\_button\_20 - по клику на MAX
 2. Адрес сайта - в примере ссылка на сайт Salebot (и далее пример будет построен на нем).
 3. Автоматические цели и Вебвизор, карта скроллинга и аналитика форм - рекомендуем включить обе галочки для сбора большего количества информации.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (47) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (466).png" alt=""><figcaption></figcaption></figure></div>
 
 После заполнения страницы жмем “Создать счетчик”. На открывшейся странице выбираете html-код и копируете весь код, появившийся внизу. Настройки для “Контентной аналитики” и “Электронной коммерции” устанавливайте на свое усмотрение, если они Вам необходимы. Копируем код и вставляем на сайт (см. чуть ниже). Затем нажимаем кнопку “Начать пользоваться”.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (48) (2).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (467).png" alt=""><figcaption></figcaption></figure></div>
 
 В настройках сайта, добавьте код во вкладке “Настройки” - “CSS и JS” - HTML-код head(или HTML-код body) и сохранить.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (49) (1) (1).png" alt=""><figcaption><p>Открыть Настройки</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (468).png" alt=""><figcaption><p>Открыть Настройки</p></figcaption></figure></div>
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (50) (1) (1).png" alt=""><figcaption><p>Перейти в раздел CSS и JS</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (469).png" alt=""><figcaption><p>Перейти в раздел CSS и JS</p></figcaption></figure></div>
 
 Далее нажмите "Сохранить".
 
 Перейдите в меню Метрики, где видим список созданных счетчиков. Забираем номер счетчика и записываем его  в переменную проекта ym\_counter\_id (настройки проекта - константы проекта)
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (51) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (470).png" alt=""><figcaption></figcaption></figure></div>
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (52) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (471).png" alt=""><figcaption></figcaption></figure></div>
 
 **2. Если у Вас есть аккаунт в Яндекс Метрике**, то следует зайти в счетчик, по которому Вы хотите собирать статистику и записать его номер в переменную проекта ym\_counter\_id (настройки проекта - константы проекта). Настраивать счетчик заново Вам не нужно, просто вносим переменную как показано на скриншоте выше и переходим сразу к следующему пункту.&#x20;
 
@@ -138,13 +138,13 @@ click\_button\_20 - по клику на MAX
 
 Итак, вы создали счетчик метрики.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (63) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (482).png" alt=""><figcaption></figcaption></figure></div>
 
 <mark style="color:orange;">**1.Ручное создание цели в Яндекс. Метрике**</mark>&#x20;
 
 Нажимаем создать цель - добавить цель.&#x20;
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (64) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (483).png" alt=""><figcaption></figcaption></figure></div>
 
 В меню настройки целей:
 
@@ -161,7 +161,7 @@ click\_button\_20 - по клику на MAX
 
 4\. По желанию, Вы можете указать доход с цели&#x20;
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (65) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (484).png" alt=""><figcaption></figcaption></figure></div>
 
 Нажимаем “добавить цель”.
 
@@ -183,11 +183,11 @@ click\_button\_20 - по клику на MAX
 Если клиента с номером, указанным в ya\_client\_id, не существует, то и статистика собираться не будет&#x20;
 {% endhint %}
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (73) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (492).png" alt=""><figcaption></figcaption></figure></div>
 
 Если посетитель с меткой \_ym\_uid прошел по этапам, статистика соберется и отправится в Яндекс Метрику, где потом будет обработана. Статус обработки до появления информации в статистике можно посмотреть в счетчике - настройки -загрузка данных.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (77) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (496).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 **Внимание!**

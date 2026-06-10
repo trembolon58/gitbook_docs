@@ -2,15 +2,15 @@
 
 Зарегистрировать [рекламный кабинет](https://ads.vk.com/) или перейти в уже существующий
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="348"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="348"><figcaption></figcaption></figure>
 
 Перейти в раздел "Сайты" и создать пиксель
 
-<figure><img src="../../.gitbook/assets/image (222).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (372).png" alt=""><figcaption></figcaption></figure>
 
 Добавить сайт, на который будет установлен пиксель
 
-<figure><img src="../../.gitbook/assets/image (223).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (373).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Пиксель может работать и на домене sbsite.pro  и на вашем личном домене, указанном в настройках страницы сайта!&#x20;
@@ -18,7 +18,7 @@
 
 Скопировать ID пикселя&#x20;
 
-<figure><img src="../../.gitbook/assets/image (224).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (374).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **ОБРАТИТЕ ВНИМАНИЕ!**\
@@ -31,7 +31,7 @@
 
 
 
-<figure><img src="../../.gitbook/assets/image (225).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (375).png" alt="" width="563"><figcaption></figcaption></figure>
 
 На этом подключение пикселя к странице сайта закончено!<br>
 
@@ -41,11 +41,11 @@
 
 Заходим в раздел Сайты - выбираем пиксель и создаем необходимые события:
 
-<figure><img src="../../.gitbook/assets/image (226).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (376).png" alt=""><figcaption></figcaption></figure>
 
 Нажимаем событие и заполняем основные поля:
 
-<figure><img src="../../.gitbook/assets/image (227).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (377).png" alt=""><figcaption></figcaption></figure>
 
 * Категория  -> **Просмотр информационных материалов**
 
@@ -84,23 +84,23 @@
 
 В настройках события пикселя ВК укажите цель - `page_view`
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (228).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (378).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Цель - отслеживать события конкретного минилендинга
 
 В настройках события пикселя ВК укажите цель - `page_view_N` ,  где N - номер минилендинга
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (229).png" alt="" width="503"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (379).png" alt="" width="503"><figcaption></figcaption></figure></div>
 
 Скопировать номер можно в списке минилендингов - раздел Минилендинги:
 
-<figure><img src="../../.gitbook/assets/image (230).png" alt="" width="383"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (380).png" alt="" width="383"><figcaption></figcaption></figure>
 
 ### Цель - клик по кнопке мессенджера
 
 &#x20;Выберите одну [из подходящих целей. ](podklyuchenie-reklamnogo-kabineta-vkontakte-k-salebot.md#celi-dlya-otslezhivaniya)Под каждую кнопку можно создать отдельное событие. В примере настройка клика по кнопке Telegram - `button_telegram`
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (231).png" alt="" width="539"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (381).png" alt="" width="539"><figcaption></figcaption></figure></div>
 
 ### Цель - клик по кастомной кнопке
 
@@ -108,15 +108,15 @@
 
 Выберите секцию "Кнопки":
 
-<figure><img src="../../.gitbook/assets/image (232).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (382).png" alt=""><figcaption></figcaption></figure>
 
 Создайте новую кнопку и укажите основные настройки.  В последнем поле  "CSS класс кнопки" укажите название цели, при клике по этой кнопке:
 
-<figure><img src="../../.gitbook/assets/image (233).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (383).png" alt=""><figcaption></figcaption></figure>
 
 Создайте в пикселе новое событие и укажите в поле Название цели этоже значение:
 
-<figure><img src="../../.gitbook/assets/image (234).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (384).png" alt=""><figcaption></figcaption></figure>
 
 Создайте событие. На этом настройка закончена. <br>
 
